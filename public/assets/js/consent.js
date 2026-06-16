@@ -33,6 +33,9 @@
         functionality_storage: "granted",
         personalization_storage: "granted",
       });
+      if (typeof window.lsLoadGTM === "function") {
+        window.lsLoadGTM();
+      }
     }
   }
 

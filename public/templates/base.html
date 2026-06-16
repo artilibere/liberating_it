@@ -6,7 +6,7 @@
   <link rel="icon" href="{{ 'favicon.ico' | site }}" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | site }}">
   <link rel="apple-touch-icon" href="{{ 'apple-touch-icon.png' | site }}">
-  {% include 'partials/tracking-head.html' %}
+  <style>{{ css_inline | safe }}</style>
   <meta name="theme-color" content="#496275" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#121a21" media="(prefers-color-scheme: dark)">
   <title>{{ page_title }}</title>
@@ -36,8 +36,6 @@
   {% if jsonld %}
   <script type="application/ld+json">{{ jsonld | safe }}</script>
   {% endif %}
-  <link rel="preload" href="{{ 'assets/css/site.css' | asset }}" as="style">
-  <link rel="stylesheet" href="{{ 'assets/css/site.css' | asset }}">
   {% block head_extra %}{% endblock %}
 </head>
 <body class="ls-page ls-page--{{ page_type }}{% if has_path_nav %} ls-has-path-nav{% endif %}">
@@ -50,6 +48,7 @@
   {% include 'partials/footer.html' %}
   {% include 'partials/drawer.html' %}
   {% include 'partials/cookie-consent.html' %}
+  {% include 'partials/tracking-deferred.html' %}
   <script src="{{ 'assets/js/nav.js' | asset }}" defer></script>
   {% if tracking.enabled and tracking.consent_default_denied %}
   <script src="{{ 'assets/js/consent.js' | asset }}" defer></script>

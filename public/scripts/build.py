@@ -1817,7 +1817,7 @@ def write_build_manifest(out_root: Path, manifest: dict[str, object]) -> None:
     )
 
 
-def bundle_css(out_root: Path) -> dict[str, str]:
+def bundle_css(out_root: Path) -> tuple[dict[str, str], str]:
     css_dir = out_root / "assets" / "css"
     parts = [(css_dir / name).read_text(encoding="utf-8") for name in CSS_BUNDLE_SOURCES]
     content = minify_css("\n".join(parts))
@@ -1830,7 +1830,7 @@ def bundle_css(out_root: Path) -> dict[str, str]:
             old.unlink(missing_ok=True)
     manifest: dict[str, object] = {"css": f"css/{bundle_name}"}
     write_build_manifest(out_root, manifest)
-    return manifest
+    return manifest, content
 
 
 def bundle_js(out_root: Path) -> None:
@@ -2847,7 +2847,8 @@ def main() -> None:
 
     clean_generated(out_root)
     sync_source_assets(out_root)
-    css_manifest = bundle_css(out_root)
+    css_manifest, css_inline = bundle_css(out_root)
+    env.globals["css_inline"] = css_inline
     bundle_js(out_root)
     ensure_og_png(out_root)
 

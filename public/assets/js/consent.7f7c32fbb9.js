@@ -29,6 +29,9 @@ analytics_storage: "granted",
 functionality_storage: "granted",
 personalization_storage: "granted",
 });
+if (typeof window.lsLoadGTM === "function") {
+window.lsLoadGTM();
+}
 }
 }
 function syncLayout() {

@@ -304,10 +304,11 @@ class SpeedTests(unittest.TestCase):
             css_dir.mkdir(parents=True)
             js_dir.mkdir(parents=True)
             for name in ("tokens.css", "base.css", "components.css"):
-                (css_dir / name).write_text(f"/* {name} */", encoding="utf-8")
+                (css_dir / name).write_text(f"body{{margin:0 /* {name} */}}", encoding="utf-8")
             (js_dir / "nav.js").write_text("(function () { return 1; })();\n", encoding="utf-8")
-            manifest = bundle_css(root)
+            manifest, css_inline = bundle_css(root)
             bundle_js(root)
+            self.assertTrue(css_inline)
             self.assertTrue((css_dir / Path(manifest["css"]).name).exists())
             self.assertTrue((root / "assets" / "build-manifest.json").exists())
             built = json.loads((root / "assets" / "build-manifest.json").read_text())
