@@ -103,6 +103,8 @@ FAVICON_PNG = "favicon-32x32.png"
 FAVICON_APPLE = "apple-touch-icon.png"
 FAVICON_SIZES = (16, 32, 48, 180)
 ORGANIZATION_SAME_AS = ("https://www.linkedin.com/in/carlogandolfo/",)
+ORGANIZATION_LEGAL_NAME = "Carlo Gandolfo"
+ORGANIZATION_EMAIL = "ciao@carlogandolfo.it"
 READING_WPM = 200
 TITLE_SUFFIX = " | Liberating.it"
 TITLE_MAX_LEN = 60
@@ -1048,8 +1050,10 @@ def build_organization_jsonld() -> dict:
     org = {
         "@type": "Organization",
         "@id": ORGANIZATION_ID,
-        "name": "Liberating.it",
+        "name": ORGANIZATION_LEGAL_NAME,
+        "alternateName": "Liberating.it",
         "url": f"{SITE_ORIGIN}/",
+        "email": ORGANIZATION_EMAIL,
         "description": (
             "Guida pratica in italiano alle Liberating Structures per riunioni, workshop e facilitazione."
         ),

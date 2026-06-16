@@ -16,13 +16,11 @@ Benvenuto su liberating.it (di seguito il "Sito"). I presenti Termini di Servizi
 
 ## 2. Uso Accettabile del Sito
 
+liberating.it e' un sito informativo statico: non offre registrazione, commenti, moduli di contatto ne' aree in cui gli utenti pubblicano contenuti.
+
 ### Comportamenti Vietati
 
-Quando utilizzi il Sito, si accetta di non violare alcuna legge, di non pubblicare contenuti offensivi, diffamatori o illegali, e di non utilizzare il Sito per scopi fraudolenti o dannosi.
-
-### Moderazione dei Contenuti
-
-Il Titolare si riserva il diritto di rimuovere contenuti in violazione dei presenti Termini. Non e' obbligato a monitorare continuamente, ma rimuovera' i contenuti illegali una volta acquisita conoscenza.
+Quando utilizzi il Sito, accetti di non violare alcuna legge, di non tentare accessi non autorizzati, di non sovraccaricare l'infrastruttura con richieste automatizzate abusive e di non utilizzare il Sito per scopi fraudolenti o dannosi.
 
 ## 3. Proprieta' Intellettuale
 
@@ -74,14 +72,14 @@ I presenti Termini sono disciplinati dalle leggi della Repubblica Italiana, con 
 
 Se una disposizione e' ritenuta invalida, sara' annullata senza affievolire le altre disposizioni.
 
-## 11. Contatti e Informazioni
+## 10. Contatti e Informazioni
 
 - Titolare: Carlo Gandolfo
 - Email: [ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it)
 - Sito: liberating.it
 - Sede: Milano, Lombardia, Italia
 
-## 12. Data di Entrata in Vigore
+## 11. Data di Entrata in Vigore
 
 I presenti Termini rimangono in vigore fino a revoca, modifica o sostituzione da parte del Titolare.
 

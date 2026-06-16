@@ -285,6 +285,46 @@ class LegalPageTests(unittest.TestCase):
             self.assertIn("ciao@carlogandolfo.it", text)
             self.assertNotIn("info@liberating.it", text)
 
+    def test_rendered_legal_pages_include_mailto_links(self) -> None:
+        import shutil
+        import tempfile
+
+        src_root = Path(__file__).resolve().parents[1]
+        pages_root = Path(__file__).resolve().parents[2] / "content/v1/pagine"
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            shutil.copytree(src_root / "templates", root / "templates")
+            env = make_env(root / "templates", root)
+            for slug in LEGAL_PAGES:
+                path = pages_root / f"{slug}.md"
+                if not path.exists():
+                    self.skipTest(f"{slug}.md not found")
+                legal = parse_legal_page(path)
+                out = root / slug / "index.html"
+                render(
+                    env,
+                    "legal.html",
+                    out,
+                    root,
+                    page_type="legal",
+                    page_title=f"{legal['h1']} | Liberating.it",
+                    meta_description=legal.get("lead", "Test"),
+                    canonical=f"https://liberating.it/{slug}/",
+                    llms_url="https://liberating.it/llms.txt",
+                    og_type="website",
+                    og_image="https://liberating.it/assets/images/og/default.png",
+                    og_image_width=1200,
+                    og_image_height=630,
+                    og_image_type="image/png",
+                    og_image_alt="Liberating.it",
+                    has_path_nav=False,
+                    jsonld=None,
+                    legal=legal,
+                )
+                html = out.read_text(encoding="utf-8")
+                self.assertIn('href="mailto:ciao@carlogandolfo.it"', html)
+                self.assertNotIn("info@liberating.it", html)
+
     def test_parse_privacy_policy_sections(self) -> None:
         path = Path(__file__).resolve().parents[2] / "content/v1/pagine/privacy-policy.md"
         if not path.exists():
@@ -563,6 +603,9 @@ class SocialTests(unittest.TestCase):
 
     def test_organization_jsonld_includes_same_as(self) -> None:
         org = build_organization_jsonld()
+        self.assertEqual(org["name"], "Carlo Gandolfo")
+        self.assertEqual(org["alternateName"], "Liberating.it")
+        self.assertEqual(org["email"], "ciao@carlogandolfo.it")
         self.assertIn("sameAs", org)
         self.assertIn("linkedin.com/in/carlogandolfo", org["sameAs"][0])
 
