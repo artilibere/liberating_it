@@ -1,6 +1,6 @@
 ---
 slug: wicked-questions
-title: "Wicked Questions: tensioni senza falsa scelta"
+title: "Wicked Questions: tensioni utili"
 meta_description: "Wicked Questions formula domande che tengono insieme due obiettivi in tensione. Passaggi chiari in 30 minuti per team e strategia."
 registro: manuale-operativo
 durata: "30 minuti"

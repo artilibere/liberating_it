@@ -1,7 +1,7 @@
 ---
 slug: conversation-cafe
-title: "Conversation Café: dialoghi profondi senza dibattito"
-meta_description: "Il Conversation Café è una struttura che permette di facilitare conversazioni profonde e costruttive, riducendo il dibattito e favorendo l'ascolto attivo a"
+title: "Conversation Cafe: dialoghi profondi"
+meta_description: "Conversation Cafe facilita dialoghi profondi senza dibattito, con ascolto attivo e turni strutturati. Passaggi in 45 minuti."
 registro: manuale-operativo
 durata: "variabile"
 difficolta: "Intermedia"

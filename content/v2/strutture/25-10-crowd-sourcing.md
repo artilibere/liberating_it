@@ -1,6 +1,6 @@
 ---
 slug: 25-10-crowd-sourcing
-title: "25/10 Crowd Sourcing: prioritizzare le idee del gruppo"
+title: "25/10 Crowd Sourcing: prioritizzare idee"
 meta_description: "25/10 Crowd Sourcing raccoglie e valuta idee in 30 minuti con voti da 1 a 5. Passaggi chiari per gruppi numerosi."
 registro: manuale-operativo
 durata: "30 minuti"

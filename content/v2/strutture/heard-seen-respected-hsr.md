@@ -1,6 +1,6 @@
 ---
 slug: heard-seen-respected-hsr
-title: "Heard, Seen, Respected (HSR): debriefing empatico"
+title: "HSR: debriefing empatico in gruppo"
 meta_description: "Tre round per ascoltare episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato. Passaggi chiari in 35 minuti."
 registro: manuale-operativo
 durata: "35 minuti"

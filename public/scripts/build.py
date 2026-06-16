@@ -744,7 +744,7 @@ PER_BISOGNO = {
     },
     "prendere-decisioni": {
         "title": "Prendere decisioni",
-        "page_title": "Liberating Structures per prendere decisioni",
+        "page_title": "Liberating Structures: prendere decisioni",
         "intro": "Per riunioni che non concludono.",
         "meta_description": (
             "Liberating Structures per prendere decisioni: Min Specs, WINFY e altre. "
@@ -773,7 +773,7 @@ PER_BISOGNO = {
     },
     "analizzare-problemi": {
         "title": "Analizzare problemi",
-        "page_title": "Liberating Structures per analizzare problemi",
+        "page_title": "Liberating Structures: analizzare problemi",
         "intro": "Per situazioni complesse e cause profonde.",
         "meta_description": (
             "Liberating Structures per analizzare problemi: 9 Whys, Ecocycle, DAD e altre. "

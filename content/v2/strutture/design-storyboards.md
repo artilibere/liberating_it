@@ -1,6 +1,6 @@
 ---
 slug: design-storyboards
-title: "Design StoryBoards: progettare workshop efficaci"
+title: "Design StoryBoards: workshop efficaci"
 meta_description: "Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo. Passaggi chiari in 45 minuti per manager e facilitatori."
 registro: manuale-operativo
 durata: "45 minuti"

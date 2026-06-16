@@ -1,6 +1,6 @@
 ---
 slug: social-network-webbing
-title: "Social Network Webbing: mappare reti informali"
+title: "Social Network Webbing: mappare reti"
 meta_description: "Social Network Webbing (webbing) mappa reti di influenza e relazioni informali. Passaggi chiari in 55 minuti per facilitatori."
 registro: manuale-operativo
 durata: "55 minuti"

@@ -1,7 +1,7 @@
 ---
 slug: talking-with-pixies
-title: "Talking with Pixies: dialogo con prospettive immaginarie"
-meta_description: "Portare alla luce le voci interiori contrastanti che influenzano il nostro percorso verso gli obiettivi, permettendo di riconoscere sia le resistenze che l"
+title: "Talking with Pixies: prospettive interiori"
+meta_description: "Talking with Pixies mette a dialogo prospettive interiori contrastanti. Riconosci resistenze e spinte al cambiamento in 20 minuti."
 registro: manuale-operativo
 durata: "20 minuti"
 difficolta: "Intermedia"

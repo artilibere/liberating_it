@@ -247,6 +247,13 @@ class HubSeoTests(unittest.TestCase):
         self.assertIn("Liberating Structures intermedie", title)
         self.assertLessEqual(len(title), 60)
 
+    def test_hub_page_titles_fit_serp_without_ellipsis(self) -> None:
+        for collection in (HUBS_COMPLESSITA, HUBS_DIFFICOLTA, HUBS_DURATA, HUBS_FASE, PER_BISOGNO):
+            for slug, hub in collection.items():
+                title = hub_page_title(hub)
+                self.assertLessEqual(len(title), 60, msg=f"{slug}: {title}")
+                self.assertNotIn("…", title, msg=f"{slug}: {title}")
+
     def test_intermedia_hub_faq_jsonld(self) -> None:
         faq_ld = build_faq_jsonld(HUBS_DIFFICOLTA["intermedia"]["faq"])
         self.assertIsNotNone(faq_ld)

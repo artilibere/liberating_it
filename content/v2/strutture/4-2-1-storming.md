@@ -1,7 +1,7 @@
 ---
 slug: 4-2-1-storming
 title: "4-2-1-Storming: idee profonde in 10 minuti"
-meta_description: "Facilitare una generazione di idee strutturata che parte dal gruppo per arrivare a intuizioni individuali profonde, utilizzando la scrittura silenziosa com"
+meta_description: "4-2-1 Storming genera idee dal gruppo fino all'intuizione individuale, con scrittura silenziosa. Passaggi in 20 minuti."
 registro: manuale-operativo
 durata: "10 minuti"
 difficolta: "Intermedia"

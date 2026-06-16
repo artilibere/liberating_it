@@ -1,6 +1,6 @@
 ---
 slug: appreciative-interviews-ai
-title: "Appreciative Interviews (AI): costruire sul successo"
+title: "Appreciative Interviews (AI): sul successo"
 meta_description: "Interviste a coppie sulle storie di successo del team. Passaggi chiari in 60 minuti."
 registro: manuale-operativo
 durata: "60 minuti"

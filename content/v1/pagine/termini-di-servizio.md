@@ -1,7 +1,7 @@
 ---
 slug: termini-di-servizio
 title: "Termini di Servizio"
-meta_description: "Termini di servizio del sito liberating.it. Condizioni d'uso, proprieta' intellettuale e limitazioni di responsabilita'."
+meta_description: "Termini di servizio di liberating.it: uso del sito statico, proprieta' intellettuale, limiti di responsabilita' e legge applicabile."
 registro: legale
 url: "https://liberating.it/termini-di-servizio/"
 ---
@@ -10,78 +10,62 @@ url: "https://liberating.it/termini-di-servizio/"
 
 > Termini di servizio del sito statico liberating.it (giugno 2026).
 
-## 1. Introduzione e Accettazione dei Termini
+## 1. Introduzione
 
-Benvenuto su liberating.it (di seguito il "Sito"). I presenti Termini di Servizio regolano l'accesso e l'utilizzo del Sito e di tutti i contenuti, i servizi e i prodotti disponibili attraverso il Sito. Utilizzando il Sito in qualunque modo, inclusa una semplice navigazione, accetti di essere vincolato dai presenti Termini.
+liberating.it e' un sito informativo gratuito sulle Liberating Structures. Navigando il sito accetti i presenti Termini di Servizio.
 
-## 2. Uso Accettabile del Sito
+Il sito non offre registrazione, commenti, moduli di contatto ne' aree in cui gli utenti pubblicano contenuti.
 
-liberating.it e' un sito informativo statico: non offre registrazione, commenti, moduli di contatto ne' aree in cui gli utenti pubblicano contenuti.
+## 2. Uso consentito
 
-### Comportamenti Vietati
+Puoi consultare e citare i contenuti per uso personale, formativo o professionale non commerciale, nel rispetto delle leggi applicabili.
 
-Quando utilizzi il Sito, accetti di non violare alcuna legge, di non tentare accessi non autorizzati, di non sovraccaricare l'infrastruttura con richieste automatizzate abusive e di non utilizzare il Sito per scopi fraudolenti o dannosi.
+Non e' consentito:
 
-## 3. Proprieta' Intellettuale
+- tentare accessi non autorizzati all'infrastruttura
+- sovraccaricare il sito con richieste automatizzate abusive
+- usare i contenuti in modo fraudolento, diffamatorio o lesivo di diritti altrui
 
-### Contenuti del Titolare
+## 3. Proprieta' intellettuale
 
-Tutti i contenuti sul Sito sono protetti dalle leggi sul diritto d'autore italiano e internazionale.
+I contenuti editoriali di liberating.it sono protetti dalle leggi sul diritto d'autore.
 
-### Licenza di Utilizzo
+Le Liberating Structures sono un metodo diffuso con licenza Creative Commons; su liberating.it trovi adattamenti e traduzioni in italiano. Per l'uso commerciale del metodo, consulta le condizioni ufficiali di liberatingstructures.com.
 
-Ti e' concessa una licenza limitata, non esclusiva per l'accesso personale e non commerciale.
+Sono consentite citazioni brevi con indicazione della fonte e link alla pagina citata.
 
-### Utilizzo Equo
+## 4. Contenuti informativi
 
-Sono consentite citazioni brevi per scopi di critica, insegnamento o ricerca, purché indicata la fonte.
+I testi descrivono formati di facilitazione a scopo informativo. Non costituiscono consulenza legale, psicologica, organizzativa o professionale.
 
-## 4. Esclusione di Responsabilita' e Limitazione dei Danni
+Il sito e' fornito "cosi' com'e'". Non garantiamo che sia sempre disponibile, privo di errori o aggiornato in tempo reale.
 
-### Esclusione di Garanzie
+## 5. Limitazione di responsabilita'
 
-Il Sito e' fornito "cosi' come e'" senza garanzie di alcun tipo. I Contenuti sono solo informativi e non costituiscono consulenza legale, medica o professionale.
+Nei limiti consentiti dalla legge, il Titolare non risponde di danni indiretti o consequenziali derivanti dall'uso del sito o dall'affidamento sui suoi contenuti.
 
-### Limitazione della Responsabilita'
+## 6. Privacy
 
-Il Titolare non e' responsabile per danni indiretti, incidentali, speciali o consequenziali derivanti dall'uso del Sito.
+Il trattamento dei dati personali e' descritto nella [Privacy Policy](/privacy-policy/), conforme al GDPR.
 
-## 5. Privacy e Protezione dei Dati Personali
+## 7. Link esterni
 
-Il trattamento dei dati personali e' disciplinato dalla nostra [Informativa Privacy](/privacy-policy/) separata, conforme al GDPR.
+Il sito puo' contenere link a risorse di terze parti. Non controlliamo quei siti e non ne rispondiamo dei contenuti.
 
-## 6. Link Esterni e Siti di Terzi
+## 8. Legge applicabile
 
-Il Titolare non e' responsabile per il contenuto di siti di terzi o per violazioni commesse attraverso link esterni.
+I presenti Termini sono regolati dalla legge italiana. Foro competente: Milano.
 
-## 7. Limitazioni di Accesso e Sospensione
-
-Il Titolare si riserva il diritto di sospendere o terminare l'accesso di utenti che violano i Termini.
-
-## 8. Indennizzo
-
-Accetti di indennizzare il Titolare da qualsiasi reclamo derivante dalla tua violazione dei Termini o delle leggi applicabili.
-
-## 9. Disposizioni Generali
-
-### Legge Applicabile
-
-I presenti Termini sono disciplinati dalle leggi della Repubblica Italiana, con giurisdizione dei tribunali di Milano.
-
-### Divisibilita'
-
-Se una disposizione e' ritenuta invalida, sara' annullata senza affievolire le altre disposizioni.
-
-## 10. Contatti e Informazioni
+## 9. Contatti
 
 - Titolare: Carlo Gandolfo
 - Email: [ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it)
 - Sito: liberating.it
 - Sede: Milano, Lombardia, Italia
 
-## 11. Data di Entrata in Vigore
+## 10. Aggiornamenti
 
-I presenti Termini rimangono in vigore fino a revoca, modifica o sostituzione da parte del Titolare.
+Il Titolare puo' modificare i presenti Termini. La data sotto indica l'ultima revisione.
 
 **Data di ultimo aggiornamento:** 17 giugno 2026  
 **Data di entrata in vigore:** 17 giugno 2026

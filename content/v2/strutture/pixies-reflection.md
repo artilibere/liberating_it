@@ -1,6 +1,6 @@
 ---
 slug: pixies-reflection
-title: "Pixie Reflection: quattro domande in profondita'"
+title: "Pixie Reflection: quattro domande guida"
 meta_description: "Pixie Reflection approfondisce obiettivi e resistenze con quattro domande guida in formato 1-2-4-all. Passaggi chiari in 30 minuti."
 registro: manuale-operativo
 durata: "30 minuti"

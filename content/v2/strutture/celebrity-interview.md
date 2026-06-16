@@ -1,6 +1,6 @@
 ---
 slug: celebrity-interview
-title: "Celebrity Interview: interviste che coinvolgono tutti"
+title: "Celebrity Interview: coinvolgere tutti"
 meta_description: "Trasforma una presentazione frontale in una conversazione guidata con il gruppo. Passaggi chiari in 45 minuti."
 registro: manuale-operativo
 durata: "45 minuti"

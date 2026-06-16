@@ -1,6 +1,6 @@
 ---
 slug: w3-what-so-what-now-what
-title: "What So What Now What (W³): debriefing in 3 domande"
+title: "W³: debriefing in 3 domande"
 meta_description: "What So What Now What (W³): debriefing in tre domande su fatti, significato e azioni. Passaggi chiari in 30 minuti."
 registro: manuale-operativo
 durata: "30 minuti"

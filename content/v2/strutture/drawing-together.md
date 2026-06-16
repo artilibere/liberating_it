@@ -1,6 +1,6 @@
 ---
 slug: drawing-together
-title: "Drawing Together: pensare insieme disegnando"
+title: "Drawing Together: pensare disegnando"
 meta_description: "Drawing Together usa il disegno per far emergere idee che le parole non esprimono. Passaggi chiari in 40 minuti, senza saper disegnare."
 registro: manuale-operativo
 durata: "40 minuti"

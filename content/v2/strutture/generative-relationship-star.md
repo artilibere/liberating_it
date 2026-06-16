@@ -1,7 +1,7 @@
 ---
 slug: generative-relationship-star
-title: "Generative Relationship STAR: mappare le relazioni che conta"
-meta_description: "La Generative Relationships STAR permette ai gruppi di lavoro di analizzare e migliorare le proprie dinamiche relazionali, identificando pattern che creano"
+title: "Generative STAR: relazioni che contano"
+meta_description: "Generative Relationship STAR analizza le dinamiche del team e migliora relazioni che contano. Passaggi chiari in 20 minuti."
 registro: manuale-operativo
 durata: "25 minuti"
 difficolta: "Avanzata"

@@ -413,6 +413,16 @@ partecipanti: "{s['participants']}"
 
 
 def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Generate structure markdown drafts from sitemap-enriched.json")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing files in content/v2/strutture/",
+    )
+    args = parser.parse_args()
+
     with open(SITEMAP, encoding="utf-8") as f:
         data = json.load(f)
 
@@ -425,18 +435,26 @@ def main() -> None:
         s = extract_structure(entry, title_map)
         DISPLAY_NAMES[s["slug"]] = s["title"]
 
+    written = 0
+    skipped = 0
     for entry in structures:
         slug = entry["slug"]
         if slug in SKIP_SLUGS:
             print(f"Skip {slug} (manual draft)")
+            skipped += 1
+            continue
+        out_path = OUT_DIR / f"{slug}.md"
+        if out_path.exists() and not args.force:
+            print(f"Skip {slug} (exists; use --force to overwrite)")
+            skipped += 1
             continue
         s = extract_structure(entry, title_map)
         md = render_markdown(s)
-        out_path = OUT_DIR / f"{slug}.md"
         out_path.write_text(md, encoding="utf-8")
         print(f"Wrote {out_path.name}")
+        written += 1
 
-    print(f"Done: {len(structures)} structures ({len(SKIP_SLUGS)} skipped)")
+    print(f"Done: {written} written, {skipped} skipped, {len(structures)} total")
 
 
 if __name__ == "__main__":

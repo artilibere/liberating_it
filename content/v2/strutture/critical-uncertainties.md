@@ -1,6 +1,6 @@
 ---
 slug: critical-uncertainties
-title: "Critical Uncertainties: pianificare scenari futuri"
+title: "Critical Uncertainties: scenari futuri"
 meta_description: "Esplora scenari futuri partendo dalle incertezze che non puoi controllare. Passaggi chiari in 120 minuti."
 registro: manuale-operativo
 durata: "120 minuti"

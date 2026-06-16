@@ -1,6 +1,6 @@
 ---
 slug: liquid-courage
-title: "Liquid Courage: lamentele che diventano azioni"
+title: "Liquid Courage: lamentele in azioni"
 meta_description: "Liquid Courage trasforma lamentele croniche in spunti di miglioramento con coppie rapide. Variante di Impromptu Networking in 15 minuti."
 registro: manuale-operativo
 durata: "15 minuti"

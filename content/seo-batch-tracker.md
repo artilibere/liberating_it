@@ -1,6 +1,6 @@
 # SEO batch tracker - liberating.it
 
-Stato contenuti statici (`content/v2/` + build `public/`). Aggiornato: 2026-06-16 (GEO batch 3).
+Stato contenuti statici (`content/v2/` + build `public/`). Aggiornato: 2026-06-17 (fix meta troncate, audit esteso, llms.txt).
 
 Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 
@@ -10,7 +10,7 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 |------|-------|------|
 | `content/v2/02-template.md` FAQ + JSON-LD | OK | Template scheda con FAQ |
 | `content/v2/02-template-hub.md` | OK | Template hub tassonomici |
-| `scripts/generate_structure_drafts.py` v2 | PARZ | Output ancora `content/strutture/` legacy |
+| `scripts/generate_structure_drafts.py` v2 | OK | Output `content/v2/strutture/`; skip file esistenti senza `--force` |
 | `scripts/audit_content_seo.py` | OK | Audit automatico v2 |
 | Quick win typo facilitazioni | OK | 10 schede v2 corrette |
 
@@ -64,9 +64,9 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 | spiral-journal | OK | Spirale + quadranti, 4 FAQ |
 | liquid-courage | OK | Variante Impromptu, 4 FAQ |
 | pixies-reflection | OK | 4 domande guida, link TRIZ/Pixies |
-| talking-with-pixies | PARZ | Meta troncata |
-| mad-love | PARZ | Meta troncata |
-| tiny-demons | PARZ | Meta troncata |
+| talking-with-pixies | OK | Meta e title SERP-friendly |
+| mad-love | OK | Meta riscritta |
+| tiny-demons | OK | Meta riscritta |
 
 ## Batch 5 - Restanti schede v2
 
@@ -89,7 +89,7 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 | `/` home | OK | Title "Liberating Structures in italiano", meta brand |
 | `/10-principi-fondamentali-liberating-structures/` | OK | FAQ generate in build |
 | `/privacy-policy/` | OK | Allineata sito statico + GTM |
-| `/termini-di-servizio/` | PARZ | Ancora copy WordPress |
+| `/termini-di-servizio/` | OK | Allineati a privacy policy (sito statico) |
 
 ## Asset
 
@@ -97,12 +97,15 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 |-------|-------|
 | Icone strutture | **41/41** |
 | OG strutture | 41/41 |
+| `sitemap-enriched.json` | OK | Refresh statico via `scripts/refresh_sitemap_enriched.py` |
 | Sitemap statica | 68 URL |
+| Title SERP (41 schede) | OK | `title` <= 43 char, no ellissi in build |
 
 ## Comandi utili
 
 ```bash
 python3 scripts/audit_content_seo.py
 python3 scripts/audit_content_seo.py --strict
+python3 scripts/refresh_sitemap_enriched.py
 cd public && python3 scripts/build.py --content ../content/v2 --out . && python3 scripts/test_build.py
 ```

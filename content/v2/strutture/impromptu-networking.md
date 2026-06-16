@@ -1,6 +1,6 @@
 ---
 slug: impromptu-networking
-title: "Impromptu Networking: rompere il ghiaccio in 20 minuti"
+title: "Impromptu Networking: rompere il ghiaccio"
 meta_description: "Impromptu Networking fa muovere le persone in coppie con domande brevi. Passaggi chiari in 20 minuti."
 registro: manuale-operativo
 durata: "20 minuti"

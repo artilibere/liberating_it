@@ -1,6 +1,6 @@
 ---
 slug: integrated-autonomy
-title: "Integrated Autonomy: autonomia e coordinamento insieme"
+title: "Integrated Autonomy: autonomia coordinata"
 meta_description: "Supera i falsi dilemmi tra autonomia e coordinamento: passaggi concreti in 90 minuti per gruppi e facilitatori."
 registro: manuale-operativo
 durata: "90 minuti"

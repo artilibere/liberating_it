@@ -2,7 +2,7 @@
   "structures": [
     {
       "slug": "impromptu-networking",
-      "title": "Impromptu Networking: rompere il ghiaccio in 20 minuti",
+      "title": "Impromptu Networking: rompere il ghiaccio",
       "brief": "Impromptu Networking fa muovere le persone in coppie con domande brevi. Rompe il ghiaccio e crea connessioni in pochi minuti.",
       "difficolta": "facile",
       "complessita": "iniziare-subito",
@@ -24,7 +24,7 @@
     },
     {
       "slug": "w3-what-so-what-now-what",
-      "title": "What So What Now What (W³): debriefing in 3 domande",
+      "title": "W³: debriefing in 3 domande",
       "brief": "What, So What, Now What (W³) e' una struttura di debriefing in tre domande: What (cosa e' successo), So What (cosa significa per noi), Now What (cosa fare adesso). In circa 30 minuti il gruppo passa dai fatti alle azioni senza saltare la riflessione.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
@@ -46,7 +46,7 @@
     },
     {
       "slug": "troika-consulting",
-      "title": "Troika Consulting: consiglio tra pari in tre",
+      "title": "Troika Consulting: consiglio tra pari",
       "brief": "Troika Consulting e' una Liberating Structure di consulenza tra pari in gruppi da tre: una persona porta una sfida (cliente), le altre due ascoltano e riflettono ad alta voce mentre il cliente gira le spalle. Poi ruotate i ruoli.",
       "difficolta": "facile",
       "complessita": "iniziare-subito",
@@ -79,7 +79,7 @@
     },
     {
       "slug": "heard-seen-respected-hsr",
-      "title": "Heard, Seen, Respected (HSR): debriefing empatico",
+      "title": "HSR: debriefing empatico in gruppo",
       "brief": "HSR sviluppa l'ascolto empatico: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata, e il gruppo ascolta senza giudicare.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
@@ -90,7 +90,7 @@
     },
     {
       "slug": "helping-heuristics",
-      "title": "Helping Heuristics: imparare ad aiutarsi a vicenda",
+      "title": "Helping Heuristics: aiutarsi a vicenda",
       "brief": "Le Helping Heuristics sono un metodo progressivo per migliorare il modo in cui diamo e riceviamo aiuto nelle organizzazioni, sperimentando diversi pattern di interazione e offrendo preziosi spunti per sviluppare relazioni di aiuto più efficaci.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
@@ -101,7 +101,7 @@
     },
     {
       "slug": "liquid-courage",
-      "title": "Liquid Courage: lamentele che diventano azioni",
+      "title": "Liquid Courage: lamentele in azioni",
       "brief": "Liquid Courage e' una variante di [Impromptu Networking](/structures/impromptu-networking/) per far emergere lamentele croniche in modo giocoso e sicuro. Ogni persona completa frasi tipo \"Sarebbe fantastico se...\" e \"La mia lamentela e'...\", poi ne parla in tre round veloci con partner diversi prima di cercare pattern in plenaria.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
@@ -112,7 +112,7 @@
     },
     {
       "slug": "25-10-crowd-sourcing",
-      "title": "25/10 Crowd Sourcing: prioritizzare le idee del gruppo",
+      "title": "25/10 Crowd Sourcing: prioritizzare idee",
       "brief": "25/10 Crowd Sourcing e' una Liberating Structure per raccogliere molte idee e farle valutare dal gruppo in circa 30 minuti. Ogni persona scrive una proposta su un cartoncino; i cartoncini girano e ricevono voti da 1 a 5 fino a emergere le migliori.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -123,7 +123,7 @@
     },
     {
       "slug": "appreciative-interviews-ai",
-      "title": "Appreciative Interviews (AI): costruire sul successo",
+      "title": "Appreciative Interviews (AI): sul successo",
       "brief": "Le Appreciative Interviews fanno emergere storie positive a coppie, per costruire su cio' che gia' funziona nel team.",
       "difficolta": "facile",
       "complessita": "team-rodati",
@@ -134,7 +134,7 @@
     },
     {
       "slug": "celebrity-interview",
-      "title": "Celebrity Interview: interviste che coinvolgono tutti",
+      "title": "Celebrity Interview: coinvolgere tutti",
       "brief": "Trasforma una presentazione frontale in una conversazione guidata con il gruppo.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -145,7 +145,7 @@
     },
     {
       "slug": "conversation-cafe",
-      "title": "Conversation Café: dialoghi profondi senza dibattito",
+      "title": "Conversation Cafe: dialoghi profondi",
       "brief": "Il Conversation Café è una struttura che permette di facilitare conversazioni profonde e costruttive, riducendo il dibattito e favorendo l'ascolto attivo attraverso un formato strutturato di dialogo.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -156,7 +156,7 @@
     },
     {
       "slug": "drawing-together",
-      "title": "Drawing Together: pensare insieme disegnando",
+      "title": "Drawing Together: pensare disegnando",
       "brief": "Drawing Together e' una Liberating Structure che usa cinque simboli base per far emergere idee e metafore che il linguaggio verbale fatica a catturare. Non serve saper disegnare: il gruppo legge le storie visive e ne trae insight condivisi.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -167,7 +167,7 @@
     },
     {
       "slug": "mad-tea",
-      "title": "Mad Tea: dialogo rapido a cerchi concentrici",
+      "title": "Mad Tea: dialogo a cerchi concentrici",
       "brief": "Mad Tea e' una Liberating Structure dinamica a due cerchi concentrici: le persone si affrontano a coppie e rispondono a domande brevi a turno; a ogni campanello il cerchio interno ruota. In pochi minuti attraversa tutto il gruppo con riflessioni rapide e autentiche.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -189,7 +189,7 @@
     },
     {
       "slug": "pixies-reflection",
-      "title": "Pixie Reflection: quattro domande in profondita'",
+      "title": "Pixie Reflection: quattro domande guida",
       "brief": "Pixie Reflection e' un adattamento di [1-2-4-All](/structures/1-2-4-all/) con quattro domande guida su ambizioni, resistenze e paure legate al cambiamento. Ogni persona riflette da sola, poi interviste a coppie e sintesi in quartetti prima della plenaria. Ispirato a Talking with Pixies e [TRIZ](/structures/triz/).",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -200,7 +200,7 @@
     },
     {
       "slug": "shift-share",
-      "title": "Shift & Share: condividere innovazioni in plenaria",
+      "title": "Shift & Share: innovazioni in plenaria",
       "brief": "Shift & Share (shift and share) e' una Liberating Structure a stazioni: ogni squadra presenta un'innovazione o una best practice in pochi minuti mentre gli altri gruppi ruotano. Serve a far emergere pratiche utili nascoste in organizzazioni grandi senza un plenario infinito.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -211,7 +211,7 @@
     },
     {
       "slug": "spiral-journal",
-      "title": "Spiral Journal: riflessione visiva a spirale",
+      "title": "Spiral Journal: riflessione a spirale",
       "brief": "Spiral Journal e' una Liberating Structure di riflessione individuale: ogni persona disegna una spirale su un foglio, risponde a domande guidate mentre la penna si muove dall'interno verso l'esterno, poi condivide insight in piccoli gruppi. Unisce scrittura, disegno e introspezione in 15 minuti.",
       "difficolta": "facile",
       "complessita": "team-rodati",
@@ -233,7 +233,7 @@
     },
     {
       "slug": "tiny-demons",
-      "title": "Tiny Demons: affrontare le resistenze nascoste",
+      "title": "Tiny Demons: resistenze nascoste",
       "brief": "Tiny Demons è una Liberating Structure creativa che aiuta i partecipanti a esternare e trasformare le proprie paure in modo giocoso e costruttivo.",
       "difficolta": "facile",
       "complessita": "team-rodati",
@@ -255,7 +255,7 @@
     },
     {
       "slug": "agreement-certainty-matrix",
-      "title": "Agreement & Certainty Matrix: scegliere il metodo giusto",
+      "title": "Agreement & Certainty: metodo giusto",
       "brief": "La matrice Agreement & Certainty aiuta a scegliere il metodo giusto, classificando la sfida come semplice, complicata, complessa o caotica.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -266,7 +266,7 @@
     },
     {
       "slug": "critical-uncertainties",
-      "title": "Critical Uncertainties: pianificare scenari futuri",
+      "title": "Critical Uncertainties: scenari futuri",
       "brief": "Esplora scenari futuri partendo dalle incertezze che non puoi controllare.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -276,19 +276,8 @@
       "sort_order": 999
     },
     {
-      "slug": "design-storyboards",
-      "title": "Design StoryBoards: progettare workshop efficaci",
-      "brief": "Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.",
-      "difficolta": "intermedia",
-      "complessita": "facilitazioni-complesse",
-      "durata": "breve",
-      "fase": "prototype",
-      "url": "/structures/design-storyboards/",
-      "sort_order": 999
-    },
-    {
       "slug": "discovery-action-dialogue-dad",
-      "title": "Discovery & Action Dialogue (DAD): come usarla",
+      "title": "DAD: analisi e azione in gruppo",
       "brief": "Il Discovery & Action Dialogue fa emergere pratiche che funzionano gia' nel gruppo, per risolvere problemi comuni con le risorse che avete.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -298,8 +287,19 @@
       "sort_order": 999
     },
     {
+      "slug": "design-storyboards",
+      "title": "Design StoryBoards: workshop efficaci",
+      "brief": "Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.",
+      "difficolta": "intermedia",
+      "complessita": "facilitazioni-complesse",
+      "durata": "breve",
+      "fase": "prototype",
+      "url": "/structures/design-storyboards/",
+      "sort_order": 999
+    },
+    {
       "slug": "ecocycle-planning",
-      "title": "Ecocycle Planning: ciclo di vita delle attivita'",
+      "title": "Ecocycle Planning: ciclo di vita attivita'",
       "brief": "Ecocycle Planning e' una Liberating Structure che mappa progetti e attivita' sul ciclo di vita Ecocycle: nascita, maturita', distruzione creativa e rinnovamento. Il gruppo decide cosa potenziare, cosa tagliare e cosa liberare per uscire dalle trappole del successo o della poverta'.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -310,7 +310,7 @@
     },
     {
       "slug": "improv-prototyping",
-      "title": "Improv Prototyping: testare idee con improvvisazione",
+      "title": "Improv Prototyping: testare idee veloce",
       "brief": "Improv Prototyping e' una Liberating Structure che testa soluzioni a sfide reali attraverso scene brevi improvvisate. Un piccolo gruppo recita uno scenario, gli altri osservano e danno feedback strutturato prima di iterare. Non serve teatro: serve una situazione concreta da provare.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -332,7 +332,7 @@
     },
     {
       "slug": "social-network-webbing",
-      "title": "Social Network Webbing: mappare reti informali",
+      "title": "Social Network Webbing: mappare reti",
       "brief": "Social Network Webbing e' una Liberating Structure che rende visibile la rete di relazioni informali dentro e fuori l'organizzazione. In circa 55 minuti mappi chi conosce chi, chi influenza il lavoro e quali connessioni mancano per raggiungere lo scopo comune.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -343,7 +343,7 @@
     },
     {
       "slug": "talking-with-pixies",
-      "title": "Talking with Pixies: dialogo con prospettive immaginarie",
+      "title": "Talking with Pixies: prospettive interiori",
       "brief": "Portare alla luce le voci interiori contrastanti che influenzano il nostro percorso verso gli obiettivi, permettendo di riconoscere sia le resistenze che le spinte al cambiamento.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -354,7 +354,7 @@
     },
     {
       "slug": "wicked-questions",
-      "title": "Wicked Questions: tensioni senza falsa scelta",
+      "title": "Wicked Questions: tensioni utili",
       "brief": "Wicked Questions e' una Liberating Structure che formula domande paradossali: tengono insieme due obiettivi in tensione invece di forzare una scelta binaria. Esempio: \"Come possiamo essere globalmente coerenti e localmente adattati allo stesso tempo?\" Serve in strategia e trasformazioni quando entrambe le polarita' sono vere.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
@@ -365,7 +365,7 @@
     },
     {
       "slug": "generative-relationship-star",
-      "title": "Generative Relationship STAR: mappare le relazioni che conta",
+      "title": "Generative STAR: relazioni che contano",
       "brief": "La Generative Relationships STAR permette ai gruppi di lavoro di analizzare e migliorare le proprie dinamiche relazionali, identificando pattern che creano valore o disfunzioni.",
       "difficolta": "avanzata",
       "complessita": "trasformazioni-organizzative",
@@ -376,7 +376,7 @@
     },
     {
       "slug": "integrated-autonomy",
-      "title": "Integrated Autonomy: autonomia e coordinamento insieme",
+      "title": "Integrated Autonomy: autonomia coordinata",
       "brief": "Aiutare i gruppi a superare i conflitti \"o questo o quello\" per arrivare a soluzioni \"sia questo che quello\", favorendo un pensiero strategico più acuto e una maggiore comprensione reciproca.",
       "difficolta": "avanzata",
       "complessita": "trasformazioni-organizzative",
@@ -387,7 +387,7 @@
     },
     {
       "slug": "open-space-technology-ost",
-      "title": "Open Space Technology (OST): workshop auto-organizzati",
+      "title": "OST: workshop auto-organizzati",
       "brief": "Open Space Technology (OST) e' un formato di workshop in cui i partecipanti propongono i temi, creano l'agenda e si auto-organizzano in sessioni parallele. Tu prepari lo spazio e le regole (inclusa la Legge dei due piedi), non i contenuti.",
       "difficolta": "intermedia",
       "complessita": "trasformazioni-organizzative",
@@ -420,7 +420,7 @@
     },
     {
       "slug": "simple-ethnography",
-      "title": "Simple Ethnography: osservare utenti sul campo",
+      "title": "Simple Ethnography: osservare sul campo",
       "brief": "Permettere ai partecipanti di trovare soluzioni innovative immergendosi nelle attività delle persone con esperienza diretta sul campo, come colleghi in prima linea o utilizzatori dei servizi.",
       "difficolta": "intermedia",
       "complessita": "trasformazioni-organizzative",
@@ -431,7 +431,7 @@
     },
     {
       "slug": "user-experience-fishbowl",
-      "title": "User Experience Fishbowl: feedback UX in fishbowl",
+      "title": "UX Fishbowl: feedback in plenaria",
       "brief": "User Experience Fishbowl permette a un piccolo gruppo di persone con esperienza diretta sul campo di condividere le proprie conoscenze con una comunità più ampia, favorendo comprensione, creatività e adozione di nuove pratiche.",
       "difficolta": "intermedia",
       "complessita": "trasformazioni-organizzative",

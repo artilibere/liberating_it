@@ -1,6 +1,6 @@
 ---
 slug: mad-tea
-title: "Mad Tea: dialogo rapido a cerchi concentrici"
+title: "Mad Tea: dialogo a cerchi concentrici"
 meta_description: "Mad Tea attiva il gruppo con domande rapide tra due cerchi concentrici. Passaggi chiari in 20 minuti per 10-30 persone."
 registro: manuale-operativo
 durata: "45 minuti"

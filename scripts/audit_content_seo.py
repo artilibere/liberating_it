@@ -13,8 +13,10 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_STRUCTURES = ROOT / "content" / "v2" / "strutture"
 TITLE_MAX = 60
+TITLE_SERP_BUDGET = 43  # max frontmatter title before " | Liberating.it" truncates in build
 META_MAX = 155
 FAQ_MIN = 3
+META_COMPLETE_RE = re.compile(r'[.!?…]$')
 
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
@@ -26,18 +28,33 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
     return yaml.safe_load(parts[1]) or {}, parts[2]
 
 
+def meta_description_issues(description: str) -> list[str]:
+    issues: list[str] = []
+    desc = (description or "").strip()
+    if not desc:
+        issues.append("missing meta_description")
+        return issues
+    if len(desc) > META_MAX:
+        issues.append(f"meta {len(desc)}>{META_MAX}")
+    if not META_COMPLETE_RE.search(desc):
+        issues.append("meta incomplete sentence")
+    if re.search(r" [a-z]$", desc):
+        issues.append("meta truncated mid-word")
+    return issues
+
+
 def audit_structure(path: Path) -> list[str]:
     issues: list[str] = []
-    meta, body = parse_frontmatter(path.read_text(encoding="utf-8"))
-    slug = meta.get("slug", path.stem)
+    raw = path.read_text(encoding="utf-8")
+    meta, body = parse_frontmatter(raw)
     title = meta.get("title", "")
-    description = meta.get("meta_description", "")
 
     if len(title) > TITLE_MAX:
         issues.append(f"title {len(title)}>{TITLE_MAX}")
-    if len(description) > META_MAX:
-        issues.append(f"meta {len(description)}>{META_MAX}")
-    if "faciltazioni" in path.read_text(encoding="utf-8"):
+    if len(title) > TITLE_SERP_BUDGET:
+        issues.append(f"title {len(title)}>{TITLE_SERP_BUDGET} (SERP truncate)")
+    issues.extend(meta_description_issues(meta.get("meta_description", "")))
+    if "faciltazioni" in raw:
         issues.append("typo faciltazioni")
     if not re.search(r"^#\s+", body, re.M):
         issues.append("missing H1")
@@ -64,12 +81,13 @@ def main() -> int:
         return 1
 
     rows: list[tuple[str, list[str]]] = []
-    for path in sorted(args.structures.glob("*.md")):
+    paths = sorted(args.structures.glob("*.md"))
+    for path in paths:
         issues = audit_structure(path)
         if issues:
             rows.append((path.stem, issues))
 
-    total = len(list(args.structures.glob("*.md")))
+    total = len(paths)
     clean = total - len(rows)
     print(f"Audited {total} structures: {clean} ok, {len(rows)} with issues")
     for slug, issues in rows:

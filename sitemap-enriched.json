@@ -1,28 +1,28 @@
 {
   "$schema": "https://liberating.it/sitemap-enriched.schema.json",
   "source": {
-    "sitemap_index": "https://liberating.it/sitemap_index.xml",
+    "sitemap": "https://liberating.it/sitemap.xml",
     "site": "https://liberating.it",
-    "generator": "Yoast SEO",
-    "generated_at": "2026-06-15T21:24:54.466956+00:00",
+    "generator": "liberating.it static build",
+    "generated_at": "2026-06-16T23:56:19.298676+00:00",
     "data_sources": [
-      "sitemap_index.xml",
-      "child sitemaps (urlset)",
-      "WordPress REST API (pages, taxonomies)",
-      "Yoast SEO REST API (get_head)",
-      "HTML parsing (structures CPT)"
+      "public/sitemap.xml",
+      "content/v2/strutture/*.md",
+      "content/v1/pagine/*.md",
+      "public/scripts/build.py hub definitions"
     ],
-    "legal_content_note": "Le pagine privacy-policy e termini-di-servizio in questo file sono uno snapshot WordPress. Testo vigente: content/v1/pagine/."
+    "legal_content_note": "Testo vigente pagine legali: content/v1/pagine/.",
+    "legacy_note": "Campi informative_summary e metadata.content restano dallo snapshot WordPress per compatibilita' con scripts/generate_structure_drafts.py."
   },
   "statistics": {
-    "sitemap_count": 6,
-    "url_count": 62,
+    "sitemap_count": 1,
+    "url_count": 68,
     "by_content_type": {
-      "page": 4,
-      "structure": 41,
-      "taxonomy": 17
+      "page": 5,
+      "taxonomy": 22,
+      "structure": 41
     },
-    "taxonomy_term_count": 17,
+    "taxonomy_term_count": 22,
     "structure_count": 41
   },
   "indexes": {
@@ -62,70 +62,62 @@
       {
         "slug": "home",
         "url": "https://liberating.it/",
-        "lastmod": "2024-12-26T00:21:28+00:00",
-        "name": "Cosa sono le Liberating Structures?",
-        "post_id": 2
+        "lastmod": "2026-06-16",
+        "name": "Liberating Structures in italiano"
       },
       {
         "slug": "10-principi-fondamentali-liberating-structures",
         "url": "https://liberating.it/10-principi-fondamentali-liberating-structures/",
-        "lastmod": "2024-12-26T00:17:09+00:00",
-        "name": "I 10 principi fondamentali delle Liberating Structures",
-        "post_id": 694
+        "lastmod": "2026-06-16",
+        "name": "10 principi per facilitare senza imporre"
       },
       {
         "slug": "privacy-policy",
         "url": "https://liberating.it/privacy-policy/",
-        "lastmod": "2025-11-06T18:59:23+00:00",
-        "name": "Privacy Policy",
-        "post_id": 3
+        "lastmod": "2026-06-16",
+        "name": "Privacy Policy"
       },
       {
         "slug": "termini-di-servizio",
         "url": "https://liberating.it/termini-di-servizio/",
-        "lastmod": "2025-11-06T18:48:36+00:00",
-        "name": "Termini di Servizio",
-        "post_id": 847
+        "lastmod": "2026-06-16",
+        "name": "Termini di Servizio"
       }
     ],
     "structures": [
       {
         "slug": "1-2-4-all",
         "url": "https://liberating.it/structures/1-2-4-all/",
-        "lastmod": "2024-12-24T12:01:11+00:00",
-        "name": "1-2-4-all",
+        "lastmod": "2026-06-16",
+        "name": "1-2-4-All",
         "post_id": 27,
         "taxonomies": {
           "complessita": [
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
               "slug": "facile",
               "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -237,12 +229,14 @@
               "Non mantenere la regola “una conversazione alla volta” nel gruppo allargato."
             ]
           }
-        }
+        },
+        "title": "1-2-4-All: far parlare tutti in 15 minuti",
+        "meta_description": "Fai emergere idee da tutti in quattro passaggi. Passaggi chiari in 15 minuti per manager e facilitatori."
       },
       {
         "slug": "15-solutions",
         "url": "https://liberating.it/structures/15-solutions/",
-        "lastmod": "2024-12-24T12:01:12+00:00",
+        "lastmod": "2026-06-16",
         "name": "15% Solutions",
         "post_id": 149,
         "taxonomies": {
@@ -250,32 +244,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
               "slug": "facile",
               "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -374,12 +364,14 @@
               "Mantenere il focus sulle azioni concrete e realizzabili."
             ]
           }
-        }
+        },
+        "title": "15% Solutions: agire subito senza permessi",
+        "meta_description": "15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai gia', senza chiedere permessi?. Passaggi chiari in 20 minuti."
       },
       {
         "slug": "25-10-crowd-sourcing",
         "url": "https://liberating.it/structures/25-10-crowd-sourcing/",
-        "lastmod": "2024-12-24T12:01:12+00:00",
+        "lastmod": "2026-06-17",
         "name": "25/10 Crowd Sourcing",
         "post_id": 168,
         "taxonomies": {
@@ -387,32 +379,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -536,12 +524,14 @@
               "Per gruppi numerosi, dare feedback chiari durante la dimostrazione."
             ]
           }
-        }
+        },
+        "title": "25/10 Crowd Sourcing: prioritizzare idee",
+        "meta_description": "25/10 Crowd Sourcing raccoglie e valuta idee in 30 minuti con voti da 1 a 5. Passaggi chiari per gruppi numerosi."
       },
       {
         "slug": "4-2-1-storming",
         "url": "https://liberating.it/structures/4-2-1-storming/",
-        "lastmod": "2024-12-24T12:01:13+00:00",
+        "lastmod": "2026-06-17",
         "name": "4-2-1-Storming",
         "post_id": 326,
         "taxonomies": {
@@ -549,32 +539,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
-              "slug": "facile",
-              "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -696,12 +682,14 @@
               "Nel caso di basso coinvolgimento riconoscere e valorizzare ogni contributo e mantenere un ritmo energico nelle transizioni."
             ]
           }
-        }
+        },
+        "title": "4-2-1-Storming: idee profonde in 10 minuti",
+        "meta_description": "4-2-1 Storming genera idee dal gruppo fino all'intuizione individuale, con scrittura silenziosa. Passaggi in 20 minuti."
       },
       {
         "slug": "9-whys",
         "url": "https://liberating.it/structures/9-whys/",
-        "lastmod": "2024-12-24T12:00:19+00:00",
+        "lastmod": "2026-06-17",
         "name": "9 Whys",
         "post_id": 124,
         "taxonomies": {
@@ -709,32 +697,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
               "slug": "facile",
               "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -853,45 +837,43 @@
               "Quando il processo si blocca cambiare leggermente la formulazione della domanda."
             ]
           }
-        }
+        },
+        "title": "9 Whys: scoprire il vero scopo del team",
+        "meta_description": "9 Whys usa domande a cascata per trovare il perche' profondo del lavoro del gruppo. Passaggi chiari in 20 minuti, anche online."
       },
       {
         "slug": "agreement-certainty-matrix",
         "url": "https://liberating.it/structures/agreement-certainty-matrix/",
-        "lastmod": "2024-12-27T13:09:13+00:00",
-        "name": "Agreement / Certainty Matrix",
+        "lastmod": "2026-06-17",
+        "name": "Agreement & Certainty Matrix",
         "post_id": 283,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -1018,12 +1000,14 @@
               "Mantenere il focus sulla comprensione piuttosto che sul giudizio."
             ]
           }
-        }
+        },
+        "title": "Agreement & Certainty: metodo giusto",
+        "meta_description": "Classifica la sfida come semplice, complicata, complessa o caotica e scegli il metodo giusto. Passaggi chiari in 45 minuti."
       },
       {
         "slug": "appreciative-interviews-ai",
         "url": "https://liberating.it/structures/appreciative-interviews-ai/",
-        "lastmod": "2024-12-24T11:59:22+00:00",
+        "lastmod": "2026-06-17",
         "name": "Appreciative Interviews (AI)",
         "post_id": 137,
         "taxonomies": {
@@ -1031,32 +1015,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
-              "slug": "intermedia",
-              "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "slug": "facile",
+              "name": "Facile",
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -1180,12 +1160,14 @@
               "Invitare i partecipanti a “lasciar andare” i giudizi quando emergono."
             ]
           }
-        }
+        },
+        "title": "Appreciative Interviews (AI): sul successo",
+        "meta_description": "Interviste a coppie sulle storie di successo del team. Passaggi chiari in 60 minuti."
       },
       {
         "slug": "celebrity-interview",
         "url": "https://liberating.it/structures/celebrity-interview/",
-        "lastmod": "2024-12-24T11:59:22+00:00",
+        "lastmod": "2026-06-17",
         "name": "Celebrity Interview",
         "post_id": 258,
         "taxonomies": {
@@ -1193,32 +1175,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -1339,12 +1317,14 @@
               "Alternare momenti di ascolto e partecipazione attiva."
             ]
           }
-        }
+        },
+        "title": "Celebrity Interview: coinvolgere tutti",
+        "meta_description": "Trasforma una presentazione frontale in una conversazione guidata con il gruppo. Passaggi chiari in 45 minuti."
       },
       {
         "slug": "conversation-cafe",
         "url": "https://liberating.it/structures/conversation-cafe/",
-        "lastmod": "2024-12-24T11:59:23+00:00",
+        "lastmod": "2026-06-17",
         "name": "Conversation Café",
         "post_id": 189,
         "taxonomies": {
@@ -1352,32 +1332,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "media",
               "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -1498,45 +1474,43 @@
               "Monitorare costantemente la dinamica dei gruppi e intervenire tempestivamente ai primi segnali di tensione."
             ]
           }
-        }
+        },
+        "title": "Conversation Cafe: dialoghi profondi",
+        "meta_description": "Conversation Cafe facilita dialoghi profondi senza dibattito, con ascolto attivo e turni strutturati. Passaggi in 45 minuti."
       },
       {
         "slug": "critical-uncertainties",
         "url": "https://liberating.it/structures/critical-uncertainties/",
-        "lastmod": "2024-12-27T13:09:40+00:00",
+        "lastmod": "2026-06-17",
         "name": "Critical Uncertainties",
         "post_id": 297,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "name": "120 minuti",
+              "url": "https://liberating.it/durata/estesa/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -1704,45 +1678,43 @@
               "Richiedere esempi concreti per supportare le previsioni ottimistiche."
             ]
           }
-        }
+        },
+        "title": "Critical Uncertainties: scenari futuri",
+        "meta_description": "Esplora scenari futuri partendo dalle incertezze che non puoi controllare. Passaggi chiari in 120 minuti."
       },
       {
         "slug": "design-storyboards",
         "url": "https://liberating.it/structures/design-storyboards/",
-        "lastmod": "2024-12-27T13:10:06+00:00",
+        "lastmod": "2026-06-17",
         "name": "Design StoryBoards",
         "post_id": 253,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "prototype",
               "name": "Prototype",
-              "url": "https://liberating.it/design-thinking/prototype/",
-              "term_id": 38
+              "url": "https://liberating.it/design-thinking/prototype/"
             }
           ]
         },
@@ -1881,45 +1853,43 @@
               "Mantenere la flessibilità per adattare il design in corso d’opera."
             ]
           }
-        }
+        },
+        "title": "Design StoryBoards: workshop efficaci",
+        "meta_description": "Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo. Passaggi chiari in 45 minuti per manager e facilitatori."
       },
       {
         "slug": "discovery-action-dialogue-dad",
         "url": "https://liberating.it/structures/discovery-action-dialogue-dad/",
-        "lastmod": "2024-12-27T13:10:31+00:00",
+        "lastmod": "2026-06-17",
         "name": "Discovery & Action Dialogue (DAD)",
         "post_id": 162,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -2027,12 +1997,14 @@
               "Utilizzare il disaccordo come opportunità di apprendimento."
             ]
           }
-        }
+        },
+        "title": "DAD: analisi e azione in gruppo",
+        "meta_description": "Il DAD fa emergere pratiche che funzionano gia' nel gruppo per risolvere problemi comuni con le risorse disponibili."
       },
       {
         "slug": "drawing-together",
         "url": "https://liberating.it/structures/drawing-together/",
-        "lastmod": "2024-12-24T12:01:13+00:00",
+        "lastmod": "2026-06-17",
         "name": "Drawing Together",
         "post_id": 250,
         "taxonomies": {
@@ -2040,32 +2012,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -2206,45 +2174,43 @@
               "Mantenere un ritmo costante tra le fasi."
             ]
           }
-        }
+        },
+        "title": "Drawing Together: pensare disegnando",
+        "meta_description": "Drawing Together usa il disegno per far emergere idee che le parole non esprimono. Passaggi chiari in 40 minuti, senza saper disegnare."
       },
       {
         "slug": "ecocycle-planning",
         "url": "https://liberating.it/structures/ecocycle-planning/",
-        "lastmod": "2024-12-27T13:10:56+00:00",
+        "lastmod": "2026-06-17",
         "name": "Ecocycle Planning",
         "post_id": 301,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "name": "100 minuti",
+              "url": "https://liberating.it/durata/estesa/"
             }
           ],
           "design-thinking": [
             {
-              "slug": "design-thinking-cycle",
+              "slug": "multi-fase",
               "name": "Multi fase",
-              "url": "https://liberating.it/design-thinking/design-thinking-cycle/",
-              "term_id": 40
+              "url": "https://liberating.it/design-thinking/multi-fase/"
             }
           ]
         },
@@ -2416,45 +2382,43 @@
               "Utilizzare in modalità virtuale con lavagne condivise."
             ]
           }
-        }
+        },
+        "title": "Ecocycle Planning: ciclo di vita attivita'",
+        "meta_description": "Ecocycle Planning mappa attivita' su nascita, maturita', rinnovo e release. Passaggi chiari in 100 minuti per team e portfolio."
       },
       {
         "slug": "generative-relationship-star",
         "url": "https://liberating.it/structures/generative-relationship-star/",
-        "lastmod": "2024-12-27T13:11:35+00:00",
-        "name": "Generative Relationships STAR",
+        "lastmod": "2026-06-17",
+        "name": "Generative Relationship STAR",
         "post_id": 280,
         "taxonomies": {
           "complessita": [
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
               "slug": "avanzata",
               "name": "Avanzata",
-              "url": "https://liberating.it/difficolta/avanzata/",
-              "term_id": 30
+              "url": "https://liberating.it/difficolta/avanzata/"
             }
           ],
           "durata": [
             {
-              "slug": "workshop",
-              "name": "Workshop (+1g)",
-              "url": "https://liberating.it/durata/workshop/",
-              "term_id": 33
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
-              "slug": "design-thinking-cycle",
+              "slug": "multi-fase",
               "name": "Multi fase",
-              "url": "https://liberating.it/design-thinking/design-thinking-cycle/",
-              "term_id": 40
+              "url": "https://liberating.it/design-thinking/multi-fase/"
             }
           ]
         },
@@ -2582,12 +2546,14 @@
               "Se il gruppo si blocca, fare una pausa e ripartire dall’elemento STAR più positivo."
             ]
           }
-        }
+        },
+        "title": "Generative STAR: relazioni che contano",
+        "meta_description": "Generative Relationship STAR analizza le dinamiche del team e migliora relazioni che contano. Passaggi chiari in 20 minuti."
       },
       {
         "slug": "heard-seen-respected-hsr",
         "url": "https://liberating.it/structures/heard-seen-respected-hsr/",
-        "lastmod": "2024-12-24T11:59:24+00:00",
+        "lastmod": "2026-06-17",
         "name": "Heard, Seen, Respected (HSR)",
         "post_id": 247,
         "taxonomies": {
@@ -2595,32 +2561,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
-              "slug": "facile",
-              "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -2732,12 +2694,14 @@
               "Ascoltare attivamente il proprio partner con approccio costruttivo e atteggiamento imparziale."
             ]
           }
-        }
+        },
+        "title": "HSR: debriefing empatico in gruppo",
+        "meta_description": "Tre round per ascoltare episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato. Passaggi chiari in 35 minuti."
       },
       {
         "slug": "helping-heuristics",
         "url": "https://liberating.it/structures/helping-heuristics/",
-        "lastmod": "2024-12-24T12:02:27+00:00",
+        "lastmod": "2026-06-17",
         "name": "Helping Heuristics",
         "post_id": 186,
         "taxonomies": {
@@ -2745,32 +2709,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
-              "slug": "facile",
-              "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "test",
               "name": "Test",
-              "url": "https://liberating.it/design-thinking/test/",
-              "term_id": 39
+              "url": "https://liberating.it/design-thinking/test/"
             }
           ]
         },
@@ -2902,12 +2862,14 @@
               "Debriefing immediato se emerge un blocco significativo."
             ]
           }
-        }
+        },
+        "title": "Helping Heuristics: aiutarsi a vicenda",
+        "meta_description": "Helping Heuristics migliora come diamo e riceviamo aiuto, sperimentando pattern concreti nel team. Passaggi chiari."
       },
       {
         "slug": "impromptu-networking",
         "url": "https://liberating.it/structures/impromptu-networking/",
-        "lastmod": "2024-12-24T11:59:24+00:00",
+        "lastmod": "2026-06-17",
         "name": "Impromptu Networking",
         "post_id": 122,
         "taxonomies": {
@@ -2915,32 +2877,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
               "slug": "facile",
               "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -3050,45 +3008,43 @@
               "Conversazioni che si prolungano: utilizzare segnali sonori chiari."
             ]
           }
-        }
+        },
+        "title": "Impromptu Networking: rompere il ghiaccio",
+        "meta_description": "Impromptu Networking fa muovere le persone in coppie con domande brevi. Passaggi chiari in 20 minuti."
       },
       {
         "slug": "improv-prototyping",
         "url": "https://liberating.it/structures/improv-prototyping/",
-        "lastmod": "2024-12-27T13:11:55+00:00",
+        "lastmod": "2026-06-17",
         "name": "Improv Prototyping",
         "post_id": 182,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "prototype",
               "name": "Prototype",
-              "url": "https://liberating.it/design-thinking/prototype/",
-              "term_id": 38
+              "url": "https://liberating.it/design-thinking/prototype/"
             }
           ]
         },
@@ -3217,12 +3173,14 @@
               "Utilizzare il debriefing per consolidare l’apprendimento."
             ]
           }
-        }
+        },
+        "title": "Improv Prototyping: testare idee veloce",
+        "meta_description": "Improv Prototyping testa soluzioni recitando scenari reali in gruppo. Passaggi chiari in 25 minuti, senza esperienza teatrale."
       },
       {
         "slug": "integrated-autonomy",
         "url": "https://liberating.it/structures/integrated-autonomy/",
-        "lastmod": "2024-12-27T13:12:31+00:00",
+        "lastmod": "2026-06-17",
         "name": "Integrated Autonomy",
         "post_id": 293,
         "taxonomies": {
@@ -3230,32 +3188,28 @@
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
               "slug": "avanzata",
               "name": "Avanzata",
-              "url": "https://liberating.it/difficolta/avanzata/",
-              "term_id": 30
+              "url": "https://liberating.it/difficolta/avanzata/"
             }
           ],
           "durata": [
             {
-              "slug": "workshop",
-              "name": "Workshop (+1g)",
-              "url": "https://liberating.it/durata/workshop/",
-              "term_id": 33
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
-              "slug": "design-thinking-cycle",
+              "slug": "multi-fase",
               "name": "Multi fase",
-              "url": "https://liberating.it/design-thinking/design-thinking-cycle/",
-              "term_id": 40
+              "url": "https://liberating.it/design-thinking/multi-fase/"
             }
           ]
         },
@@ -3408,12 +3362,14 @@
               "Non lasciare invisibile la tensione creativa tra centrale e locale."
             ]
           }
-        }
+        },
+        "title": "Integrated Autonomy: autonomia coordinata",
+        "meta_description": "Supera i falsi dilemmi tra autonomia e coordinamento: passaggi concreti in 90 minuti per gruppi e facilitatori."
       },
       {
         "slug": "liquid-courage",
         "url": "https://liberating.it/structures/liquid-courage/",
-        "lastmod": "2024-12-24T12:03:09+00:00",
+        "lastmod": "2026-06-17",
         "name": "Liquid Courage",
         "post_id": 330,
         "taxonomies": {
@@ -3421,32 +3377,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
-              "slug": "facile",
-              "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
-              "slug": "design-thinking-cycle",
+              "slug": "multi-fase",
               "name": "Multi fase",
-              "url": "https://liberating.it/design-thinking/design-thinking-cycle/",
-              "term_id": 40
+              "url": "https://liberating.it/design-thinking/multi-fase/"
             }
           ]
         },
@@ -3564,45 +3516,43 @@
               "Mantenere il focus sulla leggerezza dell’esercizio."
             ]
           }
-        }
+        },
+        "title": "Liquid Courage: lamentele in azioni",
+        "meta_description": "Liquid Courage trasforma lamentele croniche in spunti di miglioramento con coppie rapide. Variante di Impromptu Networking in 15 minuti."
       },
       {
         "slug": "mad-love",
         "url": "https://liberating.it/structures/mad-love/",
-        "lastmod": "2024-12-27T11:35:37+00:00",
+        "lastmod": "2026-06-17",
         "name": "Mad Love",
         "post_id": 708,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -3779,12 +3729,14 @@
               "Limitare il numero di partecipanti a 6-8 persone per garantire un’interazione efficace."
             ]
           }
-        }
+        },
+        "title": "Mad Love: celebrare cio' che funziona",
+        "meta_description": "Mad Love e' una variante intima di Mad Tea: domande personali per connessioni profonde in 45 minuti. Passaggi chiari."
       },
       {
         "slug": "mad-tea",
         "url": "https://liberating.it/structures/mad-tea/",
-        "lastmod": "2024-12-27T11:35:02+00:00",
+        "lastmod": "2026-06-17",
         "name": "Mad Tea",
         "post_id": 705,
         "taxonomies": {
@@ -3792,32 +3744,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -3955,12 +3903,14 @@
               "Utilizzare segnali sonori chiari per conversazioni che si prolungano."
             ]
           }
-        }
+        },
+        "title": "Mad Tea: dialogo a cerchi concentrici",
+        "meta_description": "Mad Tea attiva il gruppo con domande rapide tra due cerchi concentrici. Passaggi chiari in 20 minuti per 10-30 persone."
       },
       {
         "slug": "min-specs",
         "url": "https://liberating.it/structures/min-specs/",
-        "lastmod": "2024-12-24T12:01:14+00:00",
+        "lastmod": "2026-06-16",
         "name": "Min Specs",
         "post_id": 178,
         "taxonomies": {
@@ -3968,32 +3918,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -4099,12 +4045,14 @@
               "Adattare le Min Specs in base all’esperienza sul campo."
             ]
           }
-        }
+        },
+        "title": "Min Specs: regole minime per agire",
+        "meta_description": "Min Specs definisce le regole minime indispensabili per agire. Passaggi chiari in 35 minuti."
       },
       {
         "slug": "open-space-technology-ost",
         "url": "https://liberating.it/structures/open-space-technology-ost/",
-        "lastmod": "2024-12-27T13:12:51+00:00",
+        "lastmod": "2026-06-17",
         "name": "Open Space Technology (OST)",
         "post_id": 277,
         "taxonomies": {
@@ -4112,32 +4060,28 @@
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "workshop",
-              "name": "Workshop (+1g)",
-              "url": "https://liberating.it/durata/workshop/",
-              "term_id": 33
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
-              "slug": "design-thinking-cycle",
+              "slug": "multi-fase",
               "name": "Multi fase",
-              "url": "https://liberating.it/design-thinking/design-thinking-cycle/",
-              "term_id": 40
+              "url": "https://liberating.it/design-thinking/multi-fase/"
             }
           ]
         },
@@ -4277,12 +4221,14 @@
               "Richiamare ai principi quando necessario."
             ]
           }
-        }
+        },
+        "title": "OST: workshop auto-organizzati",
+        "meta_description": "Open Space Technology: il gruppo crea l'agenda e si auto-organizza. Passaggi chiari per facilitatori, da mezza giornata in su."
       },
       {
         "slug": "panarchy",
         "url": "https://liberating.it/structures/panarchy/",
-        "lastmod": "2024-12-25T20:17:25+00:00",
+        "lastmod": "2026-06-17",
         "name": "Panarchy",
         "post_id": 305,
         "taxonomies": {
@@ -4290,32 +4236,28 @@
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
-              "slug": "avanzata",
-              "name": "Avanzata",
-              "url": "https://liberating.it/difficolta/avanzata/",
-              "term_id": 30
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "workshop",
-              "name": "Workshop (+1g)",
-              "url": "https://liberating.it/durata/workshop/",
-              "term_id": 33
+              "slug": "estesa",
+              "name": "120 minuti",
+              "url": "https://liberating.it/durata/estesa/"
             }
           ],
           "design-thinking": [
             {
-              "slug": "design-thinking-cycle",
+              "slug": "multi-fase",
               "name": "Multi fase",
-              "url": "https://liberating.it/design-thinking/design-thinking-cycle/",
-              "term_id": 40
+              "url": "https://liberating.it/design-thinking/multi-fase/"
             }
           ]
         },
@@ -4525,12 +4467,14 @@
               "Incoraggiare la partecipazione di membri più riservati."
             ]
           }
-        }
+        },
+        "title": "Panarchy: sistemi complessi a piu' livelli",
+        "meta_description": "Panarchy mappa fattori micro, meso e macro che influenzano un cambiamento. Passaggi chiari in 120 minuti per team e trasformazioni."
       },
       {
         "slug": "pixies-reflection",
         "url": "https://liberating.it/structures/pixies-reflection/",
-        "lastmod": "2024-12-27T11:34:51+00:00",
+        "lastmod": "2026-06-17",
         "name": "Pixie Reflection",
         "post_id": 704,
         "taxonomies": {
@@ -4538,32 +4482,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -4688,12 +4628,14 @@
               "Riequilibrare le conversazioni quando un partecipante domina l’interazione."
             ]
           }
-        }
+        },
+        "title": "Pixie Reflection: quattro domande guida",
+        "meta_description": "Pixie Reflection approfondisce obiettivi e resistenze con quattro domande guida in formato 1-2-4-all. Passaggi chiari in 30 minuti."
       },
       {
         "slug": "purpose-to-practice-p2p",
         "url": "https://liberating.it/structures/purpose-to-practice-p2p/",
-        "lastmod": "2024-12-24T12:01:46+00:00",
+        "lastmod": "2026-06-17",
         "name": "Purpose to Practice (P2P)",
         "post_id": 309,
         "taxonomies": {
@@ -4701,32 +4643,28 @@
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
-              "slug": "avanzata",
-              "name": "Avanzata",
-              "url": "https://liberating.it/difficolta/avanzata/",
-              "term_id": 30
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "workshop",
-              "name": "Workshop (+1g)",
-              "url": "https://liberating.it/durata/workshop/",
-              "term_id": 33
+              "slug": "estesa",
+              "name": "120 minuti",
+              "url": "https://liberating.it/durata/estesa/"
             }
           ],
           "design-thinking": [
             {
               "slug": "prototype",
               "name": "Prototype",
-              "url": "https://liberating.it/design-thinking/prototype/",
-              "term_id": 38
+              "url": "https://liberating.it/design-thinking/prototype/"
             }
           ]
         },
@@ -4853,12 +4791,14 @@
               "Utilizzare la facilitazione grafica per mantenere il focus."
             ]
           }
-        }
+        },
+        "title": "Purpose to Practice (P2P): scopo e pratiche",
+        "meta_description": "Purpose to Practice allinea stakeholder su scopo, principi, persone, struttura e pratiche. Passaggi chiari in 120 minuti per nuove iniziative."
       },
       {
         "slug": "shift-share",
         "url": "https://liberating.it/structures/shift-share/",
-        "lastmod": "2024-12-24T12:01:46+00:00",
+        "lastmod": "2026-06-17",
         "name": "Shift & Share",
         "post_id": 165,
         "taxonomies": {
@@ -4866,32 +4806,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "media",
               "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "prototype",
               "name": "Prototype",
-              "url": "https://liberating.it/design-thinking/prototype/",
-              "term_id": 38
+              "url": "https://liberating.it/design-thinking/prototype/"
             }
           ]
         },
@@ -5013,12 +4949,14 @@
               "Se i gruppi sono numerosi è possibile sdoppiare le stazioni più popolari."
             ]
           }
-        }
+        },
+        "title": "Shift & Share: innovazioni in plenaria",
+        "meta_description": "Shift & Share fa ruotare i gruppi tra postazioni: ogni team presenta un'innovazione in pochi minuti. Passaggi chiari per 15-50 persone."
       },
       {
         "slug": "simple-ethnography",
         "url": "https://liberating.it/structures/simple-ethnography/",
-        "lastmod": "2024-12-24T11:59:25+00:00",
+        "lastmod": "2026-06-17",
         "name": "Simple Ethnography",
         "post_id": 289,
         "taxonomies": {
@@ -5026,32 +4964,28 @@
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "workshop",
-              "name": "Workshop (+1g)",
-              "url": "https://liberating.it/durata/workshop/",
-              "term_id": 33
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -5167,45 +5101,43 @@
               "Mantenere un atteggiamento aperto all’ambiguità."
             ]
           }
-        }
+        },
+        "title": "Simple Ethnography: osservare sul campo",
+        "meta_description": "Simple Ethnography immerge il gruppo nelle attivita' sul campo per trovare soluzioni innovative. Passaggi in 45 minuti."
       },
       {
         "slug": "social-network-webbing",
         "url": "https://liberating.it/structures/social-network-webbing/",
-        "lastmod": "2024-12-24T12:02:28+00:00",
+        "lastmod": "2026-06-17",
         "name": "Social Network Webbing",
         "post_id": 261,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
-              "slug": "avanzata",
-              "name": "Avanzata",
-              "url": "https://liberating.it/difficolta/avanzata/",
-              "term_id": 30
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "test",
               "name": "Test",
-              "url": "https://liberating.it/design-thinking/test/",
-              "term_id": 39
+              "url": "https://liberating.it/design-thinking/test/"
             }
           ]
         },
@@ -5347,12 +5279,14 @@
               "Se emerge confusione sui ruoli, fermarsi e rivedere la legenda."
             ]
           }
-        }
+        },
+        "title": "Social Network Webbing: mappare reti",
+        "meta_description": "Social Network Webbing (webbing) mappa reti di influenza e relazioni informali. Passaggi chiari in 55 minuti per facilitatori."
       },
       {
         "slug": "spiral-journal",
         "url": "https://liberating.it/structures/spiral-journal/",
-        "lastmod": "2024-12-27T11:35:12+00:00",
+        "lastmod": "2026-06-17",
         "name": "Spiral Journal",
         "post_id": 706,
         "taxonomies": {
@@ -5360,32 +5294,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "facile",
               "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -5523,45 +5453,43 @@
               "Riportare dolcemente l’attenzione al processo."
             ]
           }
-        }
+        },
+        "title": "Spiral Journal: riflessione a spirale",
+        "meta_description": "Spiral Journal guida la riflessione individuale con disegno a spirale e quattro domande. Passaggi chiari in 15 minuti."
       },
       {
         "slug": "talking-with-pixies",
         "url": "https://liberating.it/structures/talking-with-pixies/",
-        "lastmod": "2024-12-27T13:13:28+00:00",
+        "lastmod": "2026-06-17",
         "name": "Talking with Pixies",
         "post_id": 314,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -5703,12 +5631,14 @@
               "Se il gruppo è troppo grande, creare più sottogruppi che lavorano in parallelo."
             ]
           }
-        }
+        },
+        "title": "Talking with Pixies: prospettive interiori",
+        "meta_description": "Talking with Pixies mette a dialogo prospettive interiori contrastanti. Riconosci resistenze e spinte al cambiamento in 20 minuti."
       },
       {
         "slug": "tiny-demons",
         "url": "https://liberating.it/structures/tiny-demons/",
-        "lastmod": "2024-12-27T11:35:25+00:00",
+        "lastmod": "2026-06-17",
         "name": "Tiny Demons",
         "post_id": 707,
         "taxonomies": {
@@ -5716,32 +5646,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "facile",
               "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -5897,12 +5823,14 @@
               "Riportare gentilmente l’attenzione sull’aspetto ludico."
             ]
           }
-        }
+        },
+        "title": "Tiny Demons: resistenze nascoste",
+        "meta_description": "Tiny Demons esternalizza paure e resistenze in modo giocoso. Struttura facile da 25 minuti con passaggi chiari."
       },
       {
         "slug": "triz",
         "url": "https://liberating.it/structures/triz/",
-        "lastmod": "2024-12-24T12:00:21+00:00",
+        "lastmod": "2026-06-17",
         "name": "TRIZ",
         "post_id": 130,
         "taxonomies": {
@@ -5910,32 +5838,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -6050,12 +5974,14 @@
               "Se dovessero emergere conflitti non censurarli e usarne l’energia creativa, mantenendo il focus sulle pratiche e i comportamenti, mai sulle persone."
             ]
           }
-        }
+        },
+        "title": "TRIZ: superare i compromessi nel team",
+        "meta_description": "Inverti il problema con TRIZ: emergono le abitudini da interrompere. Passaggi chiari in 35 minuti."
       },
       {
         "slug": "troika-consulting",
         "url": "https://liberating.it/structures/troika-consulting/",
-        "lastmod": "2024-12-24T12:02:28+00:00",
+        "lastmod": "2026-06-17",
         "name": "Troika Consulting",
         "post_id": 152,
         "taxonomies": {
@@ -6063,32 +5989,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
               "slug": "facile",
               "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "url": "https://liberating.it/difficolta/facile/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "test",
               "name": "Test",
-              "url": "https://liberating.it/design-thinking/test/",
-              "term_id": 39
+              "url": "https://liberating.it/design-thinking/test/"
             }
           ]
         },
@@ -6213,12 +6135,14 @@
               "Riportare il focus sulla riflessione individuale iniziale."
             ]
           }
-        }
+        },
+        "title": "Troika Consulting: consiglio tra pari",
+        "meta_description": "Troika Consulting: consulenza tra pari in triadi. Un cliente, due consulenti che ascoltano. Passaggi chiari in 30 minuti."
       },
       {
         "slug": "user-experience-fishbowl",
         "url": "https://liberating.it/structures/user-experience-fishbowl/",
-        "lastmod": "2024-12-24T11:59:25+00:00",
+        "lastmod": "2026-06-17",
         "name": "User Experience Fishbowl",
         "post_id": 242,
         "taxonomies": {
@@ -6226,32 +6150,28 @@
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "empathize",
               "name": "Empathize",
-              "url": "https://liberating.it/design-thinking/empathize/",
-              "term_id": 35
+              "url": "https://liberating.it/design-thinking/empathize/"
             }
           ]
         },
@@ -6377,12 +6297,14 @@
               "In caso di domande aggressive o giudicanti, facilitare la formulazione di domande costruttive."
             ]
           }
-        }
+        },
+        "title": "UX Fishbowl: feedback in plenaria",
+        "meta_description": "User Experience Fishbowl: un gruppo al centro condivide esperienze dirette con la plenaria. Passaggi chiari in 45 minuti."
       },
       {
         "slug": "w3-what-so-what-now-what",
         "url": "https://liberating.it/structures/w3-what-so-what-now-what/",
-        "lastmod": "2024-12-24T12:00:22+00:00",
+        "lastmod": "2026-06-17",
         "name": "What, So What, Now What? (W³)",
         "post_id": 158,
         "taxonomies": {
@@ -6390,32 +6312,28 @@
             {
               "slug": "iniziare-subito",
               "name": "Per iniziare subito",
-              "url": "https://liberating.it/complessita/iniziare-subito/",
-              "term_id": 24
+              "url": "https://liberating.it/complessita/iniziare-subito/"
             }
           ],
           "difficolta": [
             {
-              "slug": "facile",
-              "name": "Facile",
-              "url": "https://liberating.it/difficolta/facile/",
-              "term_id": 28
+              "slug": "intermedia",
+              "name": "Intermedia",
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
               "slug": "breve",
               "name": "Breve (max 45 min)",
-              "url": "https://liberating.it/durata/breve/",
-              "term_id": 31
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -6510,12 +6428,14 @@
               "Riportare il focus sulla riflessione individuale iniziale."
             ]
           }
-        }
+        },
+        "title": "W³: debriefing in 3 domande",
+        "meta_description": "What So What Now What (W³): debriefing in tre domande su fatti, significato e azioni. Passaggi chiari in 30 minuti."
       },
       {
         "slug": "what-i-need-from-you-winfy",
         "url": "https://liberating.it/structures/what-i-need-from-you-winfy/",
-        "lastmod": "2024-12-27T13:13:47+00:00",
+        "lastmod": "2026-06-16",
         "name": "What I Need From You (WINFY)",
         "post_id": 264,
         "taxonomies": {
@@ -6523,32 +6443,28 @@
             {
               "slug": "trasformazioni-organizzative",
               "name": "Per trasformazioni organizzative",
-              "url": "https://liberating.it/complessita/trasformazioni-organizzative/",
-              "term_id": 27
+              "url": "https://liberating.it/complessita/trasformazioni-organizzative/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "estesa",
-              "name": "Estesa (max 4 h)",
-              "url": "https://liberating.it/durata/estesa/",
-              "term_id": 34
+              "slug": "media",
+              "name": "Media (max 90 min)",
+              "url": "https://liberating.it/durata/media/"
             }
           ],
           "design-thinking": [
             {
               "slug": "test",
               "name": "Test",
-              "url": "https://liberating.it/design-thinking/test/",
-              "term_id": 39
+              "url": "https://liberating.it/design-thinking/test/"
             }
           ]
         },
@@ -6686,45 +6602,43 @@
               "Utilizzare carte domanda-risposta per aiutare i gruppi a formulare meglio le richieste."
             ]
           }
-        }
+        },
+        "title": "WINFY: chiedere supporto con chiarezza",
+        "meta_description": "WINFY chiarisce cosa serve da altre funzioni o team con richieste concrete e strutturate."
       },
       {
         "slug": "wicked-questions",
         "url": "https://liberating.it/structures/wicked-questions/",
-        "lastmod": "2024-12-27T13:14:10+00:00",
+        "lastmod": "2026-06-17",
         "name": "Wicked Questions",
         "post_id": 135,
         "taxonomies": {
           "complessita": [
             {
               "slug": "facilitazioni-complesse",
-              "name": "Per faciltazioni complesse",
-              "url": "https://liberating.it/complessita/facilitazioni-complesse/",
-              "term_id": 26
+              "name": "Per facilitazioni complesse",
+              "url": "https://liberating.it/complessita/facilitazioni-complesse/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "define",
               "name": "Define",
-              "url": "https://liberating.it/design-thinking/define/",
-              "term_id": 36
+              "url": "https://liberating.it/design-thinking/define/"
             }
           ]
         },
@@ -6850,12 +6764,14 @@
               "Utilizzare l’esperienza sul campo chiedendo “Quando avete notato questi due aspetti essere veri contemporaneamente?”"
             ]
           }
-        }
+        },
+        "title": "Wicked Questions: tensioni utili",
+        "meta_description": "Wicked Questions formula domande che tengono insieme due obiettivi in tensione. Passaggi chiari in 30 minuti per team e strategia."
       },
       {
         "slug": "wise-crowds",
         "url": "https://liberating.it/structures/wise-crowds/",
-        "lastmod": "2024-12-24T12:01:15+00:00",
+        "lastmod": "2026-06-17",
         "name": "Wise Crowds",
         "post_id": 171,
         "taxonomies": {
@@ -6863,32 +6779,28 @@
             {
               "slug": "team-rodati",
               "name": "Per team già rodati",
-              "url": "https://liberating.it/complessita/team-rodati/",
-              "term_id": 25
+              "url": "https://liberating.it/complessita/team-rodati/"
             }
           ],
           "difficolta": [
             {
               "slug": "intermedia",
               "name": "Intermedia",
-              "url": "https://liberating.it/difficolta/intermedia/",
-              "term_id": 29
+              "url": "https://liberating.it/difficolta/intermedia/"
             }
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/",
-              "term_id": 32
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
             {
               "slug": "ideate",
               "name": "Ideate",
-              "url": "https://liberating.it/design-thinking/ideate/",
-              "term_id": 37
+              "url": "https://liberating.it/design-thinking/ideate/"
             }
           ]
         },
@@ -7006,7 +6918,9 @@
               "Intervenire se i consulenti danno consigli mascherati da domande."
             ]
           }
-        }
+        },
+        "title": "Wise Crowds: feedback da molte prospettive",
+        "meta_description": "Wise Crowds attiva l'intelligenza collettiva per risolvere sfide concrete dei singoli. Passaggi chiari in 25 minuti."
       }
     ],
     "taxonomies": [
@@ -8167,1029 +8081,207 @@
     ],
     "structures_by_taxonomy": {
       "complessita": {
-        "team-rodati": [
-          {
-            "slug": "25-10-crowd-sourcing",
-            "url": "https://liberating.it/structures/25-10-crowd-sourcing/",
-            "name": "25/10 Crowd Sourcing",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "appreciative-interviews-ai",
-            "url": "https://liberating.it/structures/appreciative-interviews-ai/",
-            "name": "Appreciative Interviews (AI)",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "celebrity-interview",
-            "url": "https://liberating.it/structures/celebrity-interview/",
-            "name": "Celebrity Interview",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "conversation-cafe",
-            "url": "https://liberating.it/structures/conversation-cafe/",
-            "name": "Conversation Café",
-            "lastmod": "2024-12-24T11:59:23+00:00"
-          },
-          {
-            "slug": "drawing-together",
-            "url": "https://liberating.it/structures/drawing-together/",
-            "name": "Drawing Together",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "mad-tea",
-            "url": "https://liberating.it/structures/mad-tea/",
-            "name": "Mad Tea",
-            "lastmod": "2024-12-27T11:35:02+00:00"
-          },
-          {
-            "slug": "min-specs",
-            "url": "https://liberating.it/structures/min-specs/",
-            "name": "Min Specs",
-            "lastmod": "2024-12-24T12:01:14+00:00"
-          },
-          {
-            "slug": "pixies-reflection",
-            "url": "https://liberating.it/structures/pixies-reflection/",
-            "name": "Pixie Reflection",
-            "lastmod": "2024-12-27T11:34:51+00:00"
-          },
-          {
-            "slug": "shift-share",
-            "url": "https://liberating.it/structures/shift-share/",
-            "name": "Shift & Share",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          },
-          {
-            "slug": "spiral-journal",
-            "url": "https://liberating.it/structures/spiral-journal/",
-            "name": "Spiral Journal",
-            "lastmod": "2024-12-27T11:35:12+00:00"
-          },
-          {
-            "slug": "tiny-demons",
-            "url": "https://liberating.it/structures/tiny-demons/",
-            "name": "Tiny Demons",
-            "lastmod": "2024-12-27T11:35:25+00:00"
-          },
-          {
-            "slug": "triz",
-            "url": "https://liberating.it/structures/triz/",
-            "name": "TRIZ",
-            "lastmod": "2024-12-24T12:00:21+00:00"
-          },
-          {
-            "slug": "wise-crowds",
-            "url": "https://liberating.it/structures/wise-crowds/",
-            "name": "Wise Crowds",
-            "lastmod": "2024-12-24T12:01:15+00:00"
-          }
-        ],
         "iniziare-subito": [
-          {
-            "slug": "1-2-4-all",
-            "url": "https://liberating.it/structures/1-2-4-all/",
-            "name": "1-2-4-all",
-            "lastmod": "2024-12-24T12:01:11+00:00"
-          },
-          {
-            "slug": "15-solutions",
-            "url": "https://liberating.it/structures/15-solutions/",
-            "name": "15% Solutions",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "4-2-1-storming",
-            "url": "https://liberating.it/structures/4-2-1-storming/",
-            "name": "4-2-1-Storming",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "9-whys",
-            "url": "https://liberating.it/structures/9-whys/",
-            "name": "9 Whys",
-            "lastmod": "2024-12-24T12:00:19+00:00"
-          },
-          {
-            "slug": "heard-seen-respected-hsr",
-            "url": "https://liberating.it/structures/heard-seen-respected-hsr/",
-            "name": "Heard, Seen, Respected (HSR)",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "helping-heuristics",
-            "url": "https://liberating.it/structures/helping-heuristics/",
-            "name": "Helping Heuristics",
-            "lastmod": "2024-12-24T12:02:27+00:00"
-          },
-          {
-            "slug": "impromptu-networking",
-            "url": "https://liberating.it/structures/impromptu-networking/",
-            "name": "Impromptu Networking",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "liquid-courage",
-            "url": "https://liberating.it/structures/liquid-courage/",
-            "name": "Liquid Courage",
-            "lastmod": "2024-12-24T12:03:09+00:00"
-          },
-          {
-            "slug": "troika-consulting",
-            "url": "https://liberating.it/structures/troika-consulting/",
-            "name": "Troika Consulting",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          },
-          {
-            "slug": "w3-what-so-what-now-what",
-            "url": "https://liberating.it/structures/w3-what-so-what-now-what/",
-            "name": "What, So What, Now What? (W³)",
-            "lastmod": "2024-12-24T12:00:22+00:00"
-          }
+          "1-2-4-all",
+          "15-solutions",
+          "4-2-1-storming",
+          "9-whys",
+          "heard-seen-respected-hsr",
+          "helping-heuristics",
+          "impromptu-networking",
+          "liquid-courage",
+          "troika-consulting",
+          "w3-what-so-what-now-what"
         ],
-        "trasformazioni-organizzative": [
-          {
-            "slug": "generative-relationship-star",
-            "url": "https://liberating.it/structures/generative-relationship-star/",
-            "name": "Generative Relationships STAR",
-            "lastmod": "2024-12-27T13:11:35+00:00"
-          },
-          {
-            "slug": "integrated-autonomy",
-            "url": "https://liberating.it/structures/integrated-autonomy/",
-            "name": "Integrated Autonomy",
-            "lastmod": "2024-12-27T13:12:31+00:00"
-          },
-          {
-            "slug": "open-space-technology-ost",
-            "url": "https://liberating.it/structures/open-space-technology-ost/",
-            "name": "Open Space Technology (OST)",
-            "lastmod": "2024-12-27T13:12:51+00:00"
-          },
-          {
-            "slug": "panarchy",
-            "url": "https://liberating.it/structures/panarchy/",
-            "name": "Panarchy",
-            "lastmod": "2024-12-25T20:17:25+00:00"
-          },
-          {
-            "slug": "purpose-to-practice-p2p",
-            "url": "https://liberating.it/structures/purpose-to-practice-p2p/",
-            "name": "Purpose to Practice (P2P)",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          },
-          {
-            "slug": "simple-ethnography",
-            "url": "https://liberating.it/structures/simple-ethnography/",
-            "name": "Simple Ethnography",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          },
-          {
-            "slug": "user-experience-fishbowl",
-            "url": "https://liberating.it/structures/user-experience-fishbowl/",
-            "name": "User Experience Fishbowl",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          },
-          {
-            "slug": "what-i-need-from-you-winfy",
-            "url": "https://liberating.it/structures/what-i-need-from-you-winfy/",
-            "name": "What I Need From You (WINFY)",
-            "lastmod": "2024-12-27T13:13:47+00:00"
-          }
+        "team-rodati": [
+          "25-10-crowd-sourcing",
+          "appreciative-interviews-ai",
+          "celebrity-interview",
+          "conversation-cafe",
+          "drawing-together",
+          "mad-tea",
+          "min-specs",
+          "pixies-reflection",
+          "shift-share",
+          "spiral-journal",
+          "tiny-demons",
+          "triz",
+          "wise-crowds"
         ],
         "facilitazioni-complesse": [
-          {
-            "slug": "agreement-certainty-matrix",
-            "url": "https://liberating.it/structures/agreement-certainty-matrix/",
-            "name": "Agreement / Certainty Matrix",
-            "lastmod": "2024-12-27T13:09:13+00:00"
-          },
-          {
-            "slug": "critical-uncertainties",
-            "url": "https://liberating.it/structures/critical-uncertainties/",
-            "name": "Critical Uncertainties",
-            "lastmod": "2024-12-27T13:09:40+00:00"
-          },
-          {
-            "slug": "design-storyboards",
-            "url": "https://liberating.it/structures/design-storyboards/",
-            "name": "Design StoryBoards",
-            "lastmod": "2024-12-27T13:10:06+00:00"
-          },
-          {
-            "slug": "discovery-action-dialogue-dad",
-            "url": "https://liberating.it/structures/discovery-action-dialogue-dad/",
-            "name": "Discovery & Action Dialogue (DAD)",
-            "lastmod": "2024-12-27T13:10:31+00:00"
-          },
-          {
-            "slug": "ecocycle-planning",
-            "url": "https://liberating.it/structures/ecocycle-planning/",
-            "name": "Ecocycle Planning",
-            "lastmod": "2024-12-27T13:10:56+00:00"
-          },
-          {
-            "slug": "improv-prototyping",
-            "url": "https://liberating.it/structures/improv-prototyping/",
-            "name": "Improv Prototyping",
-            "lastmod": "2024-12-27T13:11:55+00:00"
-          },
-          {
-            "slug": "mad-love",
-            "url": "https://liberating.it/structures/mad-love/",
-            "name": "Mad Love",
-            "lastmod": "2024-12-27T11:35:37+00:00"
-          },
-          {
-            "slug": "social-network-webbing",
-            "url": "https://liberating.it/structures/social-network-webbing/",
-            "name": "Social Network Webbing",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          },
-          {
-            "slug": "talking-with-pixies",
-            "url": "https://liberating.it/structures/talking-with-pixies/",
-            "name": "Talking with Pixies",
-            "lastmod": "2024-12-27T13:13:28+00:00"
-          },
-          {
-            "slug": "wicked-questions",
-            "url": "https://liberating.it/structures/wicked-questions/",
-            "name": "Wicked Questions",
-            "lastmod": "2024-12-27T13:14:10+00:00"
-          }
+          "agreement-certainty-matrix",
+          "critical-uncertainties",
+          "design-storyboards",
+          "discovery-action-dialogue-dad",
+          "ecocycle-planning",
+          "improv-prototyping",
+          "mad-love",
+          "social-network-webbing",
+          "talking-with-pixies",
+          "wicked-questions"
+        ],
+        "trasformazioni-organizzative": [
+          "generative-relationship-star",
+          "integrated-autonomy",
+          "open-space-technology-ost",
+          "panarchy",
+          "purpose-to-practice-p2p",
+          "simple-ethnography",
+          "user-experience-fishbowl",
+          "what-i-need-from-you-winfy"
         ]
       },
       "difficolta": {
-        "intermedia": [
-          {
-            "slug": "25-10-crowd-sourcing",
-            "url": "https://liberating.it/structures/25-10-crowd-sourcing/",
-            "name": "25/10 Crowd Sourcing",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "agreement-certainty-matrix",
-            "url": "https://liberating.it/structures/agreement-certainty-matrix/",
-            "name": "Agreement / Certainty Matrix",
-            "lastmod": "2024-12-27T13:09:13+00:00"
-          },
-          {
-            "slug": "appreciative-interviews-ai",
-            "url": "https://liberating.it/structures/appreciative-interviews-ai/",
-            "name": "Appreciative Interviews (AI)",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "celebrity-interview",
-            "url": "https://liberating.it/structures/celebrity-interview/",
-            "name": "Celebrity Interview",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "conversation-cafe",
-            "url": "https://liberating.it/structures/conversation-cafe/",
-            "name": "Conversation Café",
-            "lastmod": "2024-12-24T11:59:23+00:00"
-          },
-          {
-            "slug": "critical-uncertainties",
-            "url": "https://liberating.it/structures/critical-uncertainties/",
-            "name": "Critical Uncertainties",
-            "lastmod": "2024-12-27T13:09:40+00:00"
-          },
-          {
-            "slug": "design-storyboards",
-            "url": "https://liberating.it/structures/design-storyboards/",
-            "name": "Design StoryBoards",
-            "lastmod": "2024-12-27T13:10:06+00:00"
-          },
-          {
-            "slug": "discovery-action-dialogue-dad",
-            "url": "https://liberating.it/structures/discovery-action-dialogue-dad/",
-            "name": "Discovery & Action Dialogue (DAD)",
-            "lastmod": "2024-12-27T13:10:31+00:00"
-          },
-          {
-            "slug": "drawing-together",
-            "url": "https://liberating.it/structures/drawing-together/",
-            "name": "Drawing Together",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "ecocycle-planning",
-            "url": "https://liberating.it/structures/ecocycle-planning/",
-            "name": "Ecocycle Planning",
-            "lastmod": "2024-12-27T13:10:56+00:00"
-          },
-          {
-            "slug": "improv-prototyping",
-            "url": "https://liberating.it/structures/improv-prototyping/",
-            "name": "Improv Prototyping",
-            "lastmod": "2024-12-27T13:11:55+00:00"
-          },
-          {
-            "slug": "mad-love",
-            "url": "https://liberating.it/structures/mad-love/",
-            "name": "Mad Love",
-            "lastmod": "2024-12-27T11:35:37+00:00"
-          },
-          {
-            "slug": "mad-tea",
-            "url": "https://liberating.it/structures/mad-tea/",
-            "name": "Mad Tea",
-            "lastmod": "2024-12-27T11:35:02+00:00"
-          },
-          {
-            "slug": "min-specs",
-            "url": "https://liberating.it/structures/min-specs/",
-            "name": "Min Specs",
-            "lastmod": "2024-12-24T12:01:14+00:00"
-          },
-          {
-            "slug": "open-space-technology-ost",
-            "url": "https://liberating.it/structures/open-space-technology-ost/",
-            "name": "Open Space Technology (OST)",
-            "lastmod": "2024-12-27T13:12:51+00:00"
-          },
-          {
-            "slug": "pixies-reflection",
-            "url": "https://liberating.it/structures/pixies-reflection/",
-            "name": "Pixie Reflection",
-            "lastmod": "2024-12-27T11:34:51+00:00"
-          },
-          {
-            "slug": "shift-share",
-            "url": "https://liberating.it/structures/shift-share/",
-            "name": "Shift & Share",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          },
-          {
-            "slug": "simple-ethnography",
-            "url": "https://liberating.it/structures/simple-ethnography/",
-            "name": "Simple Ethnography",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          },
-          {
-            "slug": "talking-with-pixies",
-            "url": "https://liberating.it/structures/talking-with-pixies/",
-            "name": "Talking with Pixies",
-            "lastmod": "2024-12-27T13:13:28+00:00"
-          },
-          {
-            "slug": "triz",
-            "url": "https://liberating.it/structures/triz/",
-            "name": "TRIZ",
-            "lastmod": "2024-12-24T12:00:21+00:00"
-          },
-          {
-            "slug": "user-experience-fishbowl",
-            "url": "https://liberating.it/structures/user-experience-fishbowl/",
-            "name": "User Experience Fishbowl",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          },
-          {
-            "slug": "what-i-need-from-you-winfy",
-            "url": "https://liberating.it/structures/what-i-need-from-you-winfy/",
-            "name": "What I Need From You (WINFY)",
-            "lastmod": "2024-12-27T13:13:47+00:00"
-          },
-          {
-            "slug": "wicked-questions",
-            "url": "https://liberating.it/structures/wicked-questions/",
-            "name": "Wicked Questions",
-            "lastmod": "2024-12-27T13:14:10+00:00"
-          },
-          {
-            "slug": "wise-crowds",
-            "url": "https://liberating.it/structures/wise-crowds/",
-            "name": "Wise Crowds",
-            "lastmod": "2024-12-24T12:01:15+00:00"
-          }
-        ],
         "facile": [
-          {
-            "slug": "1-2-4-all",
-            "url": "https://liberating.it/structures/1-2-4-all/",
-            "name": "1-2-4-all",
-            "lastmod": "2024-12-24T12:01:11+00:00"
-          },
-          {
-            "slug": "15-solutions",
-            "url": "https://liberating.it/structures/15-solutions/",
-            "name": "15% Solutions",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "4-2-1-storming",
-            "url": "https://liberating.it/structures/4-2-1-storming/",
-            "name": "4-2-1-Storming",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "9-whys",
-            "url": "https://liberating.it/structures/9-whys/",
-            "name": "9 Whys",
-            "lastmod": "2024-12-24T12:00:19+00:00"
-          },
-          {
-            "slug": "heard-seen-respected-hsr",
-            "url": "https://liberating.it/structures/heard-seen-respected-hsr/",
-            "name": "Heard, Seen, Respected (HSR)",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "helping-heuristics",
-            "url": "https://liberating.it/structures/helping-heuristics/",
-            "name": "Helping Heuristics",
-            "lastmod": "2024-12-24T12:02:27+00:00"
-          },
-          {
-            "slug": "impromptu-networking",
-            "url": "https://liberating.it/structures/impromptu-networking/",
-            "name": "Impromptu Networking",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "liquid-courage",
-            "url": "https://liberating.it/structures/liquid-courage/",
-            "name": "Liquid Courage",
-            "lastmod": "2024-12-24T12:03:09+00:00"
-          },
-          {
-            "slug": "spiral-journal",
-            "url": "https://liberating.it/structures/spiral-journal/",
-            "name": "Spiral Journal",
-            "lastmod": "2024-12-27T11:35:12+00:00"
-          },
-          {
-            "slug": "tiny-demons",
-            "url": "https://liberating.it/structures/tiny-demons/",
-            "name": "Tiny Demons",
-            "lastmod": "2024-12-27T11:35:25+00:00"
-          },
-          {
-            "slug": "troika-consulting",
-            "url": "https://liberating.it/structures/troika-consulting/",
-            "name": "Troika Consulting",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          },
-          {
-            "slug": "w3-what-so-what-now-what",
-            "url": "https://liberating.it/structures/w3-what-so-what-now-what/",
-            "name": "What, So What, Now What? (W³)",
-            "lastmod": "2024-12-24T12:00:22+00:00"
-          }
+          "1-2-4-all",
+          "15-solutions",
+          "9-whys",
+          "appreciative-interviews-ai",
+          "impromptu-networking",
+          "spiral-journal",
+          "tiny-demons",
+          "troika-consulting"
+        ],
+        "intermedia": [
+          "25-10-crowd-sourcing",
+          "4-2-1-storming",
+          "agreement-certainty-matrix",
+          "celebrity-interview",
+          "conversation-cafe",
+          "critical-uncertainties",
+          "design-storyboards",
+          "discovery-action-dialogue-dad",
+          "drawing-together",
+          "ecocycle-planning",
+          "heard-seen-respected-hsr",
+          "helping-heuristics",
+          "improv-prototyping",
+          "liquid-courage",
+          "mad-love",
+          "mad-tea",
+          "min-specs",
+          "open-space-technology-ost",
+          "panarchy",
+          "pixies-reflection",
+          "purpose-to-practice-p2p",
+          "shift-share",
+          "simple-ethnography",
+          "social-network-webbing",
+          "talking-with-pixies",
+          "triz",
+          "user-experience-fishbowl",
+          "w3-what-so-what-now-what",
+          "what-i-need-from-you-winfy",
+          "wicked-questions",
+          "wise-crowds"
         ],
         "avanzata": [
-          {
-            "slug": "generative-relationship-star",
-            "url": "https://liberating.it/structures/generative-relationship-star/",
-            "name": "Generative Relationships STAR",
-            "lastmod": "2024-12-27T13:11:35+00:00"
-          },
-          {
-            "slug": "integrated-autonomy",
-            "url": "https://liberating.it/structures/integrated-autonomy/",
-            "name": "Integrated Autonomy",
-            "lastmod": "2024-12-27T13:12:31+00:00"
-          },
-          {
-            "slug": "panarchy",
-            "url": "https://liberating.it/structures/panarchy/",
-            "name": "Panarchy",
-            "lastmod": "2024-12-25T20:17:25+00:00"
-          },
-          {
-            "slug": "purpose-to-practice-p2p",
-            "url": "https://liberating.it/structures/purpose-to-practice-p2p/",
-            "name": "Purpose to Practice (P2P)",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          },
-          {
-            "slug": "social-network-webbing",
-            "url": "https://liberating.it/structures/social-network-webbing/",
-            "name": "Social Network Webbing",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          }
+          "generative-relationship-star",
+          "integrated-autonomy"
         ]
       },
       "durata": {
+        "breve": [
+          "1-2-4-all",
+          "15-solutions",
+          "25-10-crowd-sourcing",
+          "4-2-1-storming",
+          "9-whys",
+          "agreement-certainty-matrix",
+          "celebrity-interview",
+          "design-storyboards",
+          "drawing-together",
+          "generative-relationship-star",
+          "heard-seen-respected-hsr",
+          "helping-heuristics",
+          "impromptu-networking",
+          "liquid-courage",
+          "mad-love",
+          "mad-tea",
+          "min-specs",
+          "pixies-reflection",
+          "spiral-journal",
+          "talking-with-pixies",
+          "tiny-demons",
+          "triz",
+          "troika-consulting",
+          "w3-what-so-what-now-what",
+          "wicked-questions",
+          "wise-crowds"
+        ],
         "media": [
-          {
-            "slug": "25-10-crowd-sourcing",
-            "url": "https://liberating.it/structures/25-10-crowd-sourcing/",
-            "name": "25/10 Crowd Sourcing",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "celebrity-interview",
-            "url": "https://liberating.it/structures/celebrity-interview/",
-            "name": "Celebrity Interview",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "conversation-cafe",
-            "url": "https://liberating.it/structures/conversation-cafe/",
-            "name": "Conversation Café",
-            "lastmod": "2024-12-24T11:59:23+00:00"
-          },
-          {
-            "slug": "drawing-together",
-            "url": "https://liberating.it/structures/drawing-together/",
-            "name": "Drawing Together",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "heard-seen-respected-hsr",
-            "url": "https://liberating.it/structures/heard-seen-respected-hsr/",
-            "name": "Heard, Seen, Respected (HSR)",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "mad-love",
-            "url": "https://liberating.it/structures/mad-love/",
-            "name": "Mad Love",
-            "lastmod": "2024-12-27T11:35:37+00:00"
-          },
-          {
-            "slug": "mad-tea",
-            "url": "https://liberating.it/structures/mad-tea/",
-            "name": "Mad Tea",
-            "lastmod": "2024-12-27T11:35:02+00:00"
-          },
-          {
-            "slug": "min-specs",
-            "url": "https://liberating.it/structures/min-specs/",
-            "name": "Min Specs",
-            "lastmod": "2024-12-24T12:01:14+00:00"
-          },
-          {
-            "slug": "shift-share",
-            "url": "https://liberating.it/structures/shift-share/",
-            "name": "Shift & Share",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          },
-          {
-            "slug": "talking-with-pixies",
-            "url": "https://liberating.it/structures/talking-with-pixies/",
-            "name": "Talking with Pixies",
-            "lastmod": "2024-12-27T13:13:28+00:00"
-          },
-          {
-            "slug": "wicked-questions",
-            "url": "https://liberating.it/structures/wicked-questions/",
-            "name": "Wicked Questions",
-            "lastmod": "2024-12-27T13:14:10+00:00"
-          },
-          {
-            "slug": "wise-crowds",
-            "url": "https://liberating.it/structures/wise-crowds/",
-            "name": "Wise Crowds",
-            "lastmod": "2024-12-24T12:01:15+00:00"
-          }
+          "appreciative-interviews-ai",
+          "conversation-cafe",
+          "discovery-action-dialogue-dad",
+          "improv-prototyping",
+          "integrated-autonomy",
+          "open-space-technology-ost",
+          "shift-share",
+          "simple-ethnography",
+          "social-network-webbing",
+          "user-experience-fishbowl",
+          "what-i-need-from-you-winfy"
         ],
         "estesa": [
-          {
-            "slug": "agreement-certainty-matrix",
-            "url": "https://liberating.it/structures/agreement-certainty-matrix/",
-            "name": "Agreement / Certainty Matrix",
-            "lastmod": "2024-12-27T13:09:13+00:00"
-          },
-          {
-            "slug": "appreciative-interviews-ai",
-            "url": "https://liberating.it/structures/appreciative-interviews-ai/",
-            "name": "Appreciative Interviews (AI)",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "critical-uncertainties",
-            "url": "https://liberating.it/structures/critical-uncertainties/",
-            "name": "Critical Uncertainties",
-            "lastmod": "2024-12-27T13:09:40+00:00"
-          },
-          {
-            "slug": "design-storyboards",
-            "url": "https://liberating.it/structures/design-storyboards/",
-            "name": "Design StoryBoards",
-            "lastmod": "2024-12-27T13:10:06+00:00"
-          },
-          {
-            "slug": "discovery-action-dialogue-dad",
-            "url": "https://liberating.it/structures/discovery-action-dialogue-dad/",
-            "name": "Discovery & Action Dialogue (DAD)",
-            "lastmod": "2024-12-27T13:10:31+00:00"
-          },
-          {
-            "slug": "ecocycle-planning",
-            "url": "https://liberating.it/structures/ecocycle-planning/",
-            "name": "Ecocycle Planning",
-            "lastmod": "2024-12-27T13:10:56+00:00"
-          },
-          {
-            "slug": "improv-prototyping",
-            "url": "https://liberating.it/structures/improv-prototyping/",
-            "name": "Improv Prototyping",
-            "lastmod": "2024-12-27T13:11:55+00:00"
-          },
-          {
-            "slug": "social-network-webbing",
-            "url": "https://liberating.it/structures/social-network-webbing/",
-            "name": "Social Network Webbing",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          },
-          {
-            "slug": "user-experience-fishbowl",
-            "url": "https://liberating.it/structures/user-experience-fishbowl/",
-            "name": "User Experience Fishbowl",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          },
-          {
-            "slug": "what-i-need-from-you-winfy",
-            "url": "https://liberating.it/structures/what-i-need-from-you-winfy/",
-            "name": "What I Need From You (WINFY)",
-            "lastmod": "2024-12-27T13:13:47+00:00"
-          }
-        ],
-        "breve": [
-          {
-            "slug": "1-2-4-all",
-            "url": "https://liberating.it/structures/1-2-4-all/",
-            "name": "1-2-4-all",
-            "lastmod": "2024-12-24T12:01:11+00:00"
-          },
-          {
-            "slug": "15-solutions",
-            "url": "https://liberating.it/structures/15-solutions/",
-            "name": "15% Solutions",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "4-2-1-storming",
-            "url": "https://liberating.it/structures/4-2-1-storming/",
-            "name": "4-2-1-Storming",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "9-whys",
-            "url": "https://liberating.it/structures/9-whys/",
-            "name": "9 Whys",
-            "lastmod": "2024-12-24T12:00:19+00:00"
-          },
-          {
-            "slug": "helping-heuristics",
-            "url": "https://liberating.it/structures/helping-heuristics/",
-            "name": "Helping Heuristics",
-            "lastmod": "2024-12-24T12:02:27+00:00"
-          },
-          {
-            "slug": "impromptu-networking",
-            "url": "https://liberating.it/structures/impromptu-networking/",
-            "name": "Impromptu Networking",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "liquid-courage",
-            "url": "https://liberating.it/structures/liquid-courage/",
-            "name": "Liquid Courage",
-            "lastmod": "2024-12-24T12:03:09+00:00"
-          },
-          {
-            "slug": "pixies-reflection",
-            "url": "https://liberating.it/structures/pixies-reflection/",
-            "name": "Pixie Reflection",
-            "lastmod": "2024-12-27T11:34:51+00:00"
-          },
-          {
-            "slug": "spiral-journal",
-            "url": "https://liberating.it/structures/spiral-journal/",
-            "name": "Spiral Journal",
-            "lastmod": "2024-12-27T11:35:12+00:00"
-          },
-          {
-            "slug": "tiny-demons",
-            "url": "https://liberating.it/structures/tiny-demons/",
-            "name": "Tiny Demons",
-            "lastmod": "2024-12-27T11:35:25+00:00"
-          },
-          {
-            "slug": "triz",
-            "url": "https://liberating.it/structures/triz/",
-            "name": "TRIZ",
-            "lastmod": "2024-12-24T12:00:21+00:00"
-          },
-          {
-            "slug": "troika-consulting",
-            "url": "https://liberating.it/structures/troika-consulting/",
-            "name": "Troika Consulting",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          },
-          {
-            "slug": "w3-what-so-what-now-what",
-            "url": "https://liberating.it/structures/w3-what-so-what-now-what/",
-            "name": "What, So What, Now What? (W³)",
-            "lastmod": "2024-12-24T12:00:22+00:00"
-          }
-        ],
-        "workshop": [
-          {
-            "slug": "generative-relationship-star",
-            "url": "https://liberating.it/structures/generative-relationship-star/",
-            "name": "Generative Relationships STAR",
-            "lastmod": "2024-12-27T13:11:35+00:00"
-          },
-          {
-            "slug": "integrated-autonomy",
-            "url": "https://liberating.it/structures/integrated-autonomy/",
-            "name": "Integrated Autonomy",
-            "lastmod": "2024-12-27T13:12:31+00:00"
-          },
-          {
-            "slug": "open-space-technology-ost",
-            "url": "https://liberating.it/structures/open-space-technology-ost/",
-            "name": "Open Space Technology (OST)",
-            "lastmod": "2024-12-27T13:12:51+00:00"
-          },
-          {
-            "slug": "panarchy",
-            "url": "https://liberating.it/structures/panarchy/",
-            "name": "Panarchy",
-            "lastmod": "2024-12-25T20:17:25+00:00"
-          },
-          {
-            "slug": "purpose-to-practice-p2p",
-            "url": "https://liberating.it/structures/purpose-to-practice-p2p/",
-            "name": "Purpose to Practice (P2P)",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          },
-          {
-            "slug": "simple-ethnography",
-            "url": "https://liberating.it/structures/simple-ethnography/",
-            "name": "Simple Ethnography",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          }
+          "critical-uncertainties",
+          "ecocycle-planning",
+          "panarchy",
+          "purpose-to-practice-p2p"
         ]
       },
       "design-thinking": {
-        "empathize": [
-          {
-            "slug": "appreciative-interviews-ai",
-            "url": "https://liberating.it/structures/appreciative-interviews-ai/",
-            "name": "Appreciative Interviews (AI)",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "celebrity-interview",
-            "url": "https://liberating.it/structures/celebrity-interview/",
-            "name": "Celebrity Interview",
-            "lastmod": "2024-12-24T11:59:22+00:00"
-          },
-          {
-            "slug": "conversation-cafe",
-            "url": "https://liberating.it/structures/conversation-cafe/",
-            "name": "Conversation Café",
-            "lastmod": "2024-12-24T11:59:23+00:00"
-          },
-          {
-            "slug": "heard-seen-respected-hsr",
-            "url": "https://liberating.it/structures/heard-seen-respected-hsr/",
-            "name": "Heard, Seen, Respected (HSR)",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "impromptu-networking",
-            "url": "https://liberating.it/structures/impromptu-networking/",
-            "name": "Impromptu Networking",
-            "lastmod": "2024-12-24T11:59:24+00:00"
-          },
-          {
-            "slug": "mad-love",
-            "url": "https://liberating.it/structures/mad-love/",
-            "name": "Mad Love",
-            "lastmod": "2024-12-27T11:35:37+00:00"
-          },
-          {
-            "slug": "mad-tea",
-            "url": "https://liberating.it/structures/mad-tea/",
-            "name": "Mad Tea",
-            "lastmod": "2024-12-27T11:35:02+00:00"
-          },
-          {
-            "slug": "simple-ethnography",
-            "url": "https://liberating.it/structures/simple-ethnography/",
-            "name": "Simple Ethnography",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          },
-          {
-            "slug": "spiral-journal",
-            "url": "https://liberating.it/structures/spiral-journal/",
-            "name": "Spiral Journal",
-            "lastmod": "2024-12-27T11:35:12+00:00"
-          },
-          {
-            "slug": "tiny-demons",
-            "url": "https://liberating.it/structures/tiny-demons/",
-            "name": "Tiny Demons",
-            "lastmod": "2024-12-27T11:35:25+00:00"
-          },
-          {
-            "slug": "user-experience-fishbowl",
-            "url": "https://liberating.it/structures/user-experience-fishbowl/",
-            "name": "User Experience Fishbowl",
-            "lastmod": "2024-12-24T11:59:25+00:00"
-          }
+        "ideate": [
+          "1-2-4-all",
+          "15-solutions",
+          "25-10-crowd-sourcing",
+          "4-2-1-storming",
+          "drawing-together",
+          "min-specs",
+          "talking-with-pixies",
+          "wise-crowds"
         ],
         "define": [
-          {
-            "slug": "9-whys",
-            "url": "https://liberating.it/structures/9-whys/",
-            "name": "9 Whys",
-            "lastmod": "2024-12-24T12:00:19+00:00"
-          },
-          {
-            "slug": "agreement-certainty-matrix",
-            "url": "https://liberating.it/structures/agreement-certainty-matrix/",
-            "name": "Agreement / Certainty Matrix",
-            "lastmod": "2024-12-27T13:09:13+00:00"
-          },
-          {
-            "slug": "critical-uncertainties",
-            "url": "https://liberating.it/structures/critical-uncertainties/",
-            "name": "Critical Uncertainties",
-            "lastmod": "2024-12-27T13:09:40+00:00"
-          },
-          {
-            "slug": "discovery-action-dialogue-dad",
-            "url": "https://liberating.it/structures/discovery-action-dialogue-dad/",
-            "name": "Discovery & Action Dialogue (DAD)",
-            "lastmod": "2024-12-27T13:10:31+00:00"
-          },
-          {
-            "slug": "pixies-reflection",
-            "url": "https://liberating.it/structures/pixies-reflection/",
-            "name": "Pixie Reflection",
-            "lastmod": "2024-12-27T11:34:51+00:00"
-          },
-          {
-            "slug": "triz",
-            "url": "https://liberating.it/structures/triz/",
-            "name": "TRIZ",
-            "lastmod": "2024-12-24T12:00:21+00:00"
-          },
-          {
-            "slug": "w3-what-so-what-now-what",
-            "url": "https://liberating.it/structures/w3-what-so-what-now-what/",
-            "name": "What, So What, Now What? (W³)",
-            "lastmod": "2024-12-24T12:00:22+00:00"
-          },
-          {
-            "slug": "wicked-questions",
-            "url": "https://liberating.it/structures/wicked-questions/",
-            "name": "Wicked Questions",
-            "lastmod": "2024-12-27T13:14:10+00:00"
-          }
+          "9-whys",
+          "agreement-certainty-matrix",
+          "critical-uncertainties",
+          "discovery-action-dialogue-dad",
+          "pixies-reflection",
+          "triz",
+          "w3-what-so-what-now-what",
+          "wicked-questions"
         ],
-        "ideate": [
-          {
-            "slug": "1-2-4-all",
-            "url": "https://liberating.it/structures/1-2-4-all/",
-            "name": "1-2-4-all",
-            "lastmod": "2024-12-24T12:01:11+00:00"
-          },
-          {
-            "slug": "15-solutions",
-            "url": "https://liberating.it/structures/15-solutions/",
-            "name": "15% Solutions",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "25-10-crowd-sourcing",
-            "url": "https://liberating.it/structures/25-10-crowd-sourcing/",
-            "name": "25/10 Crowd Sourcing",
-            "lastmod": "2024-12-24T12:01:12+00:00"
-          },
-          {
-            "slug": "4-2-1-storming",
-            "url": "https://liberating.it/structures/4-2-1-storming/",
-            "name": "4-2-1-Storming",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "drawing-together",
-            "url": "https://liberating.it/structures/drawing-together/",
-            "name": "Drawing Together",
-            "lastmod": "2024-12-24T12:01:13+00:00"
-          },
-          {
-            "slug": "min-specs",
-            "url": "https://liberating.it/structures/min-specs/",
-            "name": "Min Specs",
-            "lastmod": "2024-12-24T12:01:14+00:00"
-          },
-          {
-            "slug": "talking-with-pixies",
-            "url": "https://liberating.it/structures/talking-with-pixies/",
-            "name": "Talking with Pixies",
-            "lastmod": "2024-12-27T13:13:28+00:00"
-          },
-          {
-            "slug": "wise-crowds",
-            "url": "https://liberating.it/structures/wise-crowds/",
-            "name": "Wise Crowds",
-            "lastmod": "2024-12-24T12:01:15+00:00"
-          }
+        "empathize": [
+          "appreciative-interviews-ai",
+          "celebrity-interview",
+          "conversation-cafe",
+          "heard-seen-respected-hsr",
+          "impromptu-networking",
+          "mad-love",
+          "mad-tea",
+          "simple-ethnography",
+          "spiral-journal",
+          "tiny-demons",
+          "user-experience-fishbowl"
         ],
         "prototype": [
-          {
-            "slug": "design-storyboards",
-            "url": "https://liberating.it/structures/design-storyboards/",
-            "name": "Design StoryBoards",
-            "lastmod": "2024-12-27T13:10:06+00:00"
-          },
-          {
-            "slug": "improv-prototyping",
-            "url": "https://liberating.it/structures/improv-prototyping/",
-            "name": "Improv Prototyping",
-            "lastmod": "2024-12-27T13:11:55+00:00"
-          },
-          {
-            "slug": "purpose-to-practice-p2p",
-            "url": "https://liberating.it/structures/purpose-to-practice-p2p/",
-            "name": "Purpose to Practice (P2P)",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          },
-          {
-            "slug": "shift-share",
-            "url": "https://liberating.it/structures/shift-share/",
-            "name": "Shift & Share",
-            "lastmod": "2024-12-24T12:01:46+00:00"
-          }
+          "design-storyboards",
+          "improv-prototyping",
+          "purpose-to-practice-p2p",
+          "shift-share"
+        ],
+        "multi-fase": [
+          "ecocycle-planning",
+          "generative-relationship-star",
+          "integrated-autonomy",
+          "liquid-courage",
+          "open-space-technology-ost",
+          "panarchy"
         ],
         "test": [
-          {
-            "slug": "helping-heuristics",
-            "url": "https://liberating.it/structures/helping-heuristics/",
-            "name": "Helping Heuristics",
-            "lastmod": "2024-12-24T12:02:27+00:00"
-          },
-          {
-            "slug": "social-network-webbing",
-            "url": "https://liberating.it/structures/social-network-webbing/",
-            "name": "Social Network Webbing",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          },
-          {
-            "slug": "troika-consulting",
-            "url": "https://liberating.it/structures/troika-consulting/",
-            "name": "Troika Consulting",
-            "lastmod": "2024-12-24T12:02:28+00:00"
-          },
-          {
-            "slug": "what-i-need-from-you-winfy",
-            "url": "https://liberating.it/structures/what-i-need-from-you-winfy/",
-            "name": "What I Need From You (WINFY)",
-            "lastmod": "2024-12-27T13:13:47+00:00"
-          }
-        ],
-        "design-thinking-cycle": [
-          {
-            "slug": "ecocycle-planning",
-            "url": "https://liberating.it/structures/ecocycle-planning/",
-            "name": "Ecocycle Planning",
-            "lastmod": "2024-12-27T13:10:56+00:00"
-          },
-          {
-            "slug": "generative-relationship-star",
-            "url": "https://liberating.it/structures/generative-relationship-star/",
-            "name": "Generative Relationships STAR",
-            "lastmod": "2024-12-27T13:11:35+00:00"
-          },
-          {
-            "slug": "integrated-autonomy",
-            "url": "https://liberating.it/structures/integrated-autonomy/",
-            "name": "Integrated Autonomy",
-            "lastmod": "2024-12-27T13:12:31+00:00"
-          },
-          {
-            "slug": "liquid-courage",
-            "url": "https://liberating.it/structures/liquid-courage/",
-            "name": "Liquid Courage",
-            "lastmod": "2024-12-24T12:03:09+00:00"
-          },
-          {
-            "slug": "open-space-technology-ost",
-            "url": "https://liberating.it/structures/open-space-technology-ost/",
-            "name": "Open Space Technology (OST)",
-            "lastmod": "2024-12-27T13:12:51+00:00"
-          },
-          {
-            "slug": "panarchy",
-            "url": "https://liberating.it/structures/panarchy/",
-            "name": "Panarchy",
-            "lastmod": "2024-12-25T20:17:25+00:00"
-          }
+          "helping-heuristics",
+          "social-network-webbing",
+          "troika-consulting",
+          "what-i-need-from-you-winfy"
         ]
       }
     }

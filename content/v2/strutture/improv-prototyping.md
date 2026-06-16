@@ -1,6 +1,6 @@
 ---
 slug: improv-prototyping
-title: "Improv Prototyping: testare idee con improvvisazione"
+title: "Improv Prototyping: testare idee veloce"
 meta_description: "Improv Prototyping testa soluzioni recitando scenari reali in gruppo. Passaggi chiari in 25 minuti, senza esperienza teatrale."
 registro: manuale-operativo
 durata: "variabile"

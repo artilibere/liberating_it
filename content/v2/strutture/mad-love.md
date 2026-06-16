@@ -1,7 +1,7 @@
 ---
 slug: mad-love
 title: "Mad Love: celebrare cio' che funziona"
-meta_description: "Mad Love è una variante potente e intima di Mad Tea, progettata per creare connessioni profonde tra i partecipanti attraverso domande personali. Passaggi c"
+meta_description: "Mad Love e' una variante intima di Mad Tea: domande personali per connessioni profonde in 45 minuti. Passaggi chiari."
 registro: manuale-operativo
 durata: "45 minuti"
 difficolta: "Intermedia"

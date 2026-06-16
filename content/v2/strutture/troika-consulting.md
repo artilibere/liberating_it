@@ -1,6 +1,6 @@
 ---
 slug: troika-consulting
-title: "Troika Consulting: consiglio tra pari in tre"
+title: "Troika Consulting: consiglio tra pari"
 meta_description: "Troika Consulting: consulenza tra pari in triadi. Un cliente, due consulenti che ascoltano. Passaggi chiari in 30 minuti."
 registro: manuale-operativo
 durata: "30 minuti"

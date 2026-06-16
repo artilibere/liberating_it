@@ -1,7 +1,7 @@
 ---
 slug: wise-crowds
 title: "Wise Crowds: feedback da molte prospettive"
-meta_description: "Wise Crowds permette di attivare rapidamente l'intelligenza collettiva di un gruppo per aiutare i singoli partecipanti a risolvere sfide concrete. Passaggi"
+meta_description: "Wise Crowds attiva l'intelligenza collettiva per risolvere sfide concrete dei singoli. Passaggi chiari in 25 minuti."
 registro: manuale-operativo
 durata: "20 minuti"
 difficolta: "Intermedia"

@@ -1,7 +1,7 @@
 ---
 slug: tiny-demons
-title: "Tiny Demons: affrontare le resistenze nascoste"
-meta_description: "Tiny Demons è una Liberating Structure creativa che aiuta i partecipanti a esternare e trasformare le proprie paure in modo giocoso e costruttivo. Passaggi"
+title: "Tiny Demons: resistenze nascoste"
+meta_description: "Tiny Demons esternalizza paure e resistenze in modo giocoso. Struttura facile da 25 minuti con passaggi chiari."
 registro: manuale-operativo
 durata: "25 minuti"
 difficolta: "Facile"

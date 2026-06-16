@@ -1,6 +1,6 @@
 ---
 slug: open-space-technology-ost
-title: "Open Space Technology (OST): workshop auto-organizzati"
+title: "OST: workshop auto-organizzati"
 meta_description: "Open Space Technology: il gruppo crea l'agenda e si auto-organizza. Passaggi chiari per facilitatori, da mezza giornata in su."
 registro: manuale-operativo
 durata: "variabile"

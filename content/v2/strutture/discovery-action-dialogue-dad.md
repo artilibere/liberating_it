@@ -1,6 +1,6 @@
 ---
 slug: discovery-action-dialogue-dad
-title: "Discovery & Action Dialogue (DAD): come usarla"
+title: "DAD: analisi e azione in gruppo"
 meta_description: "Il DAD fa emergere pratiche che funzionano gia' nel gruppo per risolvere problemi comuni con le risorse disponibili."
 registro: manuale-operativo
 durata: "variabile"

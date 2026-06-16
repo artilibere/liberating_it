@@ -1,6 +1,6 @@
 ---
 slug: spiral-journal
-title: "Spiral Journal: riflessione visiva a spirale"
+title: "Spiral Journal: riflessione a spirale"
 meta_description: "Spiral Journal guida la riflessione individuale con disegno a spirale e quattro domande. Passaggi chiari in 15 minuti."
 registro: manuale-operativo
 durata: "15 minuti"

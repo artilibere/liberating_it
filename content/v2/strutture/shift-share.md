@@ -1,6 +1,6 @@
 ---
 slug: shift-share
-title: "Shift & Share: condividere innovazioni in plenaria"
+title: "Shift & Share: innovazioni in plenaria"
 meta_description: "Shift & Share fa ruotare i gruppi tra postazioni: ogni team presenta un'innovazione in pochi minuti. Passaggi chiari per 15-50 persone."
 registro: manuale-operativo
 durata: "variabile"

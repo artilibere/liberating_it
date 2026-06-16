@@ -1,6 +1,6 @@
 ---
 slug: ecocycle-planning
-title: "Ecocycle Planning: ciclo di vita delle attivita'"
+title: "Ecocycle Planning: ciclo di vita attivita'"
 meta_description: "Ecocycle Planning mappa attivita' su nascita, maturita', rinnovo e release. Passaggi chiari in 100 minuti per team e portfolio."
 registro: manuale-operativo
 durata: "100 minuti"

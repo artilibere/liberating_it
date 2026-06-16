@@ -1,7 +1,7 @@
 ---
 slug: helping-heuristics
-title: "Helping Heuristics: imparare ad aiutarsi a vicenda"
-meta_description: "Le Helping Heuristics sono un metodo progressivo per migliorare il modo in cui diamo e riceviamo aiuto nelle organizzazioni, sperimentando diversi pattern "
+title: "Helping Heuristics: aiutarsi a vicenda"
+meta_description: "Helping Heuristics migliora come diamo e riceviamo aiuto, sperimentando pattern concreti nel team. Passaggi chiari."
 registro: manuale-operativo
 durata: "15 minuti"
 difficolta: "Intermedia"

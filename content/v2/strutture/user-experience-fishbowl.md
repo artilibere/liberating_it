@@ -1,7 +1,7 @@
 ---
 slug: user-experience-fishbowl
-title: "User Experience Fishbowl: feedback UX in fishbowl"
-meta_description: "User Experience Fishbowl permette a un piccolo gruppo di persone con esperienza diretta sul campo di condividere le proprie conoscenze con una comunità più"
+title: "UX Fishbowl: feedback in plenaria"
+meta_description: "User Experience Fishbowl: un gruppo al centro condivide esperienze dirette con la plenaria. Passaggi chiari in 45 minuti."
 registro: manuale-operativo
 durata: "variabile"
 difficolta: "Intermedia"

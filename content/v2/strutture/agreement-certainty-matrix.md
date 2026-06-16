@@ -1,6 +1,6 @@
 ---
 slug: agreement-certainty-matrix
-title: "Agreement & Certainty Matrix: scegliere il metodo giusto"
+title: "Agreement & Certainty: metodo giusto"
 meta_description: "Classifica la sfida come semplice, complicata, complessa o caotica e scegli il metodo giusto. Passaggi chiari in 45 minuti."
 registro: manuale-operativo
 durata: "45 minuti"

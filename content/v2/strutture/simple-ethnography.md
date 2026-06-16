@@ -1,7 +1,7 @@
 ---
 slug: simple-ethnography
-title: "Simple Ethnography: osservare utenti sul campo"
-meta_description: "Permettere ai partecipanti di trovare soluzioni innovative immergendosi nelle attività delle persone con esperienza diretta sul campo, come colleghi in pri"
+title: "Simple Ethnography: osservare sul campo"
+meta_description: "Simple Ethnography immerge il gruppo nelle attivita' sul campo per trovare soluzioni innovative. Passaggi in 45 minuti."
 registro: manuale-operativo
 durata: "variabile"
 difficolta: "Intermedia"
