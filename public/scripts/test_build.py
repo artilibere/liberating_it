@@ -43,6 +43,7 @@ from build import (  # noqa: E402
     build_organization_jsonld,
     build_share_links,
     md_block_to_html,
+    md_inline,
     parse_legal_page,
     merge_jsonld,
     minify_css,
@@ -267,6 +268,22 @@ class LegalPageTests(unittest.TestCase):
         html = md_block_to_html("- Primo\n- Secondo")
         self.assertIn("<ul>", html)
         self.assertIn("<li>Primo</li>", html)
+
+    def test_md_inline_mailto_links(self) -> None:
+        html = md_inline("Scrivi a [ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it)")
+        self.assertIn('href="mailto:ciao@carlogandolfo.it"', html)
+        self.assertIn("ciao@carlogandolfo.it</a>", html)
+
+    def test_legal_pages_contact_details(self) -> None:
+        root = Path(__file__).resolve().parents[2] / "content/v1/pagine"
+        for slug in LEGAL_PAGES:
+            path = root / f"{slug}.md"
+            if not path.exists():
+                self.skipTest(f"{slug}.md not found")
+            text = path.read_text(encoding="utf-8")
+            self.assertIn("Carlo Gandolfo", text)
+            self.assertIn("ciao@carlogandolfo.it", text)
+            self.assertNotIn("info@liberating.it", text)
 
     def test_parse_privacy_policy_sections(self) -> None:
         path = Path(__file__).resolve().parents[2] / "content/v1/pagine/privacy-policy.md"

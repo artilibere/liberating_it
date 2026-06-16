@@ -8,7 +8,7 @@ url: "https://liberating.it/termini-di-servizio/"
 
 # Termini di Servizio
 
-> Documento legale. Contenuto invariato rispetto alla versione pubblicata; solo riformattato in Markdown.
+> Termini di servizio del sito statico liberating.it (giugno 2026).
 
 ## 1. Introduzione e Accettazione dei Termini
 
@@ -76,10 +76,14 @@ Se una disposizione e' ritenuta invalida, sara' annullata senza affievolire le a
 
 ## 11. Contatti e Informazioni
 
-- Email: ciao@carlogandolfo.it
+- Titolare: Carlo Gandolfo
+- Email: [ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it)
 - Sito: liberating.it
 - Sede: Milano, Lombardia, Italia
 
 ## 12. Data di Entrata in Vigore
 
 I presenti Termini rimangono in vigore fino a revoca, modifica o sostituzione da parte del Titolare.
+
+**Data di ultimo aggiornamento:** 17 giugno 2026  
+**Data di entrata in vigore:** 17 giugno 2026

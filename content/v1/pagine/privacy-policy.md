@@ -26,7 +26,7 @@ Carlo Gandolfo
 
 ### Contatti
 
-- Email: ciao@carlogandolfo.it
+- Email: [ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it)
 - Sito: liberating.it
 - Sede: Milano, Lombardia, Italia
 
@@ -110,7 +110,7 @@ Per revocare il consenso all’analisi puoi usare **Preferenze cookie** nel foot
 
 ## 8. Come esercitare i diritti
 
-Invia una richiesta scritta a **ciao@carlogandolfo.it**, indicando il diritto che vuoi esercitare (es. accesso ai dati ai sensi dell’art. 15 GDPR).
+Invia una richiesta scritta a **[ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it)**, indicando il diritto che vuoi esercitare (es. accesso ai dati ai sensi dell’art. 15 GDPR).
 
 Risponderemo entro **30 giorni**. In casi complessi il termine può essere esteso a 60 giorni, con comunicazione preventiva.
 
@@ -158,7 +158,7 @@ Bloccare i cookie tecnici del sito può impedire di ricordare la preferenza e mo
 
 ## 11. Utenti minorenni
 
-Il sito non è rivolto a minori di 16 anni. Non raccogliamo consapevolmente dati di minori. Se un genitore o tutore ritiene che un minore ci abbia fornito dati, scriva a ciao@carlogandolfo.it.
+Il sito non è rivolto a minori di 16 anni. Non raccogliamo consapevolmente dati di minori. Se un genitore o tutore ritiene che un minore ci abbia fornito dati, scriva a [ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it).
 
 ## 12. Modifiche a questa informativa
 
@@ -166,7 +166,7 @@ Possiamo aggiornare questa pagina per adeguarla a cambi normativi o tecnici. La 
 
 ## 13. Contatti e ricorso
 
-**Titolare:** Carlo Gandolfo — ciao@carlogandolfo.it
+**Titolare:** Carlo Gandolfo — [ciao@carlogandolfo.it](mailto:ciao@carlogandolfo.it)
 
 **Garante per la protezione dei dati personali**
 

@@ -1357,6 +1357,11 @@ def md_inline(text: str) -> str:
         text,
     )
     text = re.sub(r"\[([^\]]+)\]\((/[^)]+)/?\)", r'<a href="\2/">\1</a>', text)
+    text = re.sub(
+        r"\[([^\]]+)\]\((mailto:[^)]+)\)",
+        r'<a href="\2">\1</a>',
+        text,
+    )
     text = re.sub(r"\[([^\]]+)\]\([^/)][^)]*\)", r"\1", text)
     text = re.sub(
         r"(?<!\w)(https?://[^\s<]+)",
