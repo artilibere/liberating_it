@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include 'partials/breadcrumb.html' %}
+
+<header class="ls-page-header">
+  <h1>Per bisogno</h1>
+  <p class="ls-page-header__intro">Trova la Liberating Structure giusta per il tuo obiettivo: generare idee, decidere, analizzare o fare strategia.</p>
+</header>
+
+<section class="ls-hub-grid" aria-labelledby="per-bisogno-hubs-heading">
+  <h2 id="per-bisogno-hubs-heading" class="ls-hub-grid__heading">Scegli il tuo obiettivo</h2>
+  <div class="ls-grid ls-grid--2">
+  {% for hub in hubs %}
+  <a href="{{ hub.url | site }}" class="ls-card ls-card--hub ls-card--outlined">
+    <h3 class="ls-card__title">{{ hub.title }}</h3>
+    <p class="ls-card__brief">{{ hub.intro }}</p>
+    <ul class="ls-card__examples">
+      {% for ex in hub.examples %}
+      <li>{{ ex }}</li>
+      {% endfor %}
+    </ul>
+  </a>
+  {% endfor %}
+  </div>
+</section>
+
+{% if faq %}
+<section class="ls-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Domande frequenti</h2>
+  {% for item in faq %}
+  <details class="ls-faq__item">
+    <summary class="ls-faq__question">{{ item.question }}</summary>
+    <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock %}

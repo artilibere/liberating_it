@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Panoramica per crawler AI: https://liberating.it/llms.txt
+
+Sitemap: https://liberating.it/sitemap.xml

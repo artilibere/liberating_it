@@ -1,0 +1,26 @@
+{% if share %}
+<nav class="ls-share" aria-label="Condividi questa pagina">
+  <span class="ls-share__label">Condividi</span>
+  <ul class="ls-share__list">
+    <li>
+      <a class="ls-share__link" href="{{ share.linkedin }}" rel="noopener noreferrer" target="_blank" aria-label="Condividi su LinkedIn (si apre in una nuova scheda)">
+        LinkedIn
+      </a>
+    </li>
+    <li>
+      <a class="ls-share__link" href="{{ share.x }}" rel="noopener noreferrer" target="_blank" aria-label="Condividi su X (si apre in una nuova scheda)">
+        X
+      </a>
+    </li>
+    <li>
+      <a class="ls-share__link" href="{{ share.facebook }}" rel="noopener noreferrer" target="_blank" aria-label="Condividi su Facebook (si apre in una nuova scheda)">
+        Facebook
+      </a>
+    </li>
+    <li>
+      <button type="button" class="ls-share__copy" data-url="{{ share.url }}" aria-describedby="ls-share-status">Copia link</button>
+    </li>
+  </ul>
+  <span id="ls-share-status" class="visually-hidden" aria-live="polite"></span>
+</nav>
+{% endif %}

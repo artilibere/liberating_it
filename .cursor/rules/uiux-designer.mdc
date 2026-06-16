@@ -1,0 +1,42 @@
+---
+description: Attiva UI/UX Designer per frontend statico liberating.it (HTML, CSS, JS, Cloudflare Pages)
+globs:
+  - "**/liberating-it-site/**"
+  - "**/site/**/*.html"
+  - "**/site/**/*.css"
+  - "**/site/**/*.js"
+  - "assets/css/**"
+  - "assets/js/**"
+  - "dist/**"
+alwaysApply: false
+---
+
+# Frontend liberating.it: UI/UX Designer
+
+Quando crei o modifichi il frontend statico del sito liberating.it (HTML, CSS, JS, wireframe, catalogo, deploy Cloudflare Pages, repo site separato), applica la skill **[uiux-designer](../skills/uiux-designer/SKILL.md)**.
+
+## Quando usare
+
+- Layout schede struttura (modello 3 zone Cap / Fare / Naviga)
+- Design system, token CSS Material 3, componenti `ls-*`
+- Catalogo filtrabile, hub tassonomia, hub Per bisogno
+- Build script Markdown → HTML
+- Configurazione `_headers`, `_redirects`, GitHub Actions, Cloudflare Pages
+
+## Prima di implementare
+
+1. Leggi [content/v2/01-architettura.md](../../content/v2/01-architettura.md) e [content/v2/02-template.md](../../content/v2/02-template.md)
+2. Consulta i file di riferimento nella skill: `design-system.md`, `componenti.md`, `template-pagine.md`, `mapping-contenuti.md`, `cloudflare-pages.md`
+3. Per microcopy UI: [liberating-tone-of-voice](../skills/liberating-tone-of-voice/SKILL.md)
+4. Per meta e JSON-LD: [seo-geo-specialist](../skills/seo-geo-specialist/SKILL.md)
+
+## Regola di conflitto
+
+Accessibilita' e leggibilita' > decorazione. Tone-of-voice > copy marketing UI. Una sola CTA per pagina.
+
+## Cosa fare sempre
+
+- Vanilla HTML+CSS+JS; token M3 in `tokens.css`; no Bootstrap/Tailwind
+- Pagina HTML statica per ogni URL indicizzabile (no SPA router)
+- No emoji negli heading; layout 3 zone, non WP legacy
+- Chiudi con la checklist in SKILL.md

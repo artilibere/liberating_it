@@ -1,0 +1,15 @@
+{% if tracking.enabled and tracking.consent_default_denied %}
+<div id="ls-cookie-consent" class="ls-cookie-consent" role="dialog" aria-labelledby="ls-cookie-consent-title" aria-describedby="ls-cookie-consent-desc" aria-modal="false" hidden>
+  <div class="ls-cookie-consent__inner">
+    <p id="ls-cookie-consent-title" class="ls-cookie-consent__title">Cookie e analisi del traffico</p>
+    <p id="ls-cookie-consent-desc" class="ls-cookie-consent__text">
+      Usiamo cookie tecnici e, solo se acconsenti, Google Tag Manager per capire come viene usato il sito.
+      <a href="{{ '/privacy-policy/' | site }}">Leggi la privacy policy</a>
+    </p>
+    <div class="ls-cookie-consent__actions">
+      <button type="button" class="ls-cookie-consent__btn ls-cookie-consent__btn--primary" data-consent="granted">Accetta</button>
+      <button type="button" class="ls-cookie-consent__btn" data-consent="denied">Solo necessari</button>
+    </div>
+  </div>
+</div>
+{% endif %}

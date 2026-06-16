@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="ls-article"
+  data-slug="{{ structure.slug }}"
+  data-difficolta="{{ structure.difficolta_slug }}"
+  data-complessita="{{ structure.complessita_slug }}"
+  data-durata="{{ structure.durata_slug }}"
+  data-fase="{{ structure.fase_slug }}">
+
+  {% include 'partials/breadcrumb.html' %}
+
+  <header class="ls-article__header">
+    <img class="ls-structure-icon" src="{{ (structure.icon or default_structure_icon) | asset }}" alt="" width="80" height="120" decoding="async" fetchpriority="high" aria-hidden="true">
+    <div class="ls-article__header-text">
+      <h1>{{ structure.h1 }}</h1>
+      {% include 'partials/share.html' %}
+    </div>
+  </header>
+
+  <nav class="ls-mininav" aria-label="Sezioni della scheda">
+    <ul class="ls-mininav__list">
+      <li><a href="#cap" class="ls-mininav__link ls-mininav__link--active" aria-current="location">Panoramica</a></li>
+      <li><a href="#fare" class="ls-mininav__link">Come fare</a></li>
+      <li><a href="#naviga" class="ls-mininav__link">Approfondisci</a></li>
+    </ul>
+  </nav>
+
+  <section id="cap" class="ls-cap ls-zone" aria-label="Panoramica">
+    {% if structure.brief %}
+    <p class="ls-cap__brief ls-definition">{{ structure.brief | safe }}</p>
+    {% endif %}
+    <dl class="ls-quick-info">
+      <div class="ls-quick-info__row">
+        <dt class="ls-quick-info__label">Durata</dt>
+        <dd class="ls-quick-info__value">{{ structure.durata }}</dd>
+      </div>
+      <div class="ls-quick-info__row">
+        <dt class="ls-quick-info__label">Difficoltà</dt>
+        <dd class="ls-quick-info__value">{{ structure.difficolta }}</dd>
+      </div>
+      <div class="ls-quick-info__row">
+        <dt class="ls-quick-info__label">Gruppo</dt>
+        <dd class="ls-quick-info__value">{{ structure.partecipanti }}</dd>
+      </div>
+      <div class="ls-quick-info__row">
+        <dt class="ls-quick-info__label">Fase</dt>
+        <dd class="ls-quick-info__value">{{ structure.fase_label }}</dd>
+      </div>
+    </dl>
+    {% if structure.chips %}
+    <ul class="ls-chips" aria-label="Filtri tassonomia">
+      {% for chip in structure.chips %}
+      <li><a href="{{ chip.url | site }}" class="ls-chip">{{ chip.label }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+
+  <section id="fare" class="ls-zone" aria-label="Come fare">
+    {% if structure.domanda_items %}
+    <h2>Domanda da portare</h2>
+    <ul>
+      {% for item in structure.domanda_items %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if structure.prep_items %}
+    <h2>Cosa ti serve</h2>
+    <ul>
+      {% for item in structure.prep_items %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if structure.steps %}
+    <h2>I passaggi</h2>
+    <ol class="ls-step-list">
+      {% for step in structure.steps %}
+      <li class="ls-step">
+        <span class="ls-step__number" aria-hidden="true">{{ loop.index }}</span>
+        <div class="ls-step__content">
+          <p class="ls-step__action">{{ step.action }}</p>
+          {% if step.time %}<span class="ls-step__time">{{ step.time }}</span>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+  </section>
+
+  <section id="naviga" class="ls-zone" aria-label="Approfondisci">
+    {% if structure.quando_items %}
+    <h2>Quando usarla</h2>
+    <ul>
+      {% for item in structure.quando_items %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if structure.consiglio %}
+    <aside class="ls-callout" aria-label="Consiglio del facilitatore">
+      <h2 class="ls-callout__title">Il consiglio del facilitatore</h2>
+      <p class="ls-callout__text">{{ structure.consiglio }}</p>
+    </aside>
+    {% endif %}
+
+    {% if structure.errori_items %}
+    <h2>Errori da evitare</h2>
+    <ul>
+      {% for item in structure.errori_items %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if structure.faq %}
+    <section class="ls-faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Domande frequenti</h2>
+      {% for item in structure.faq %}
+      <details class="ls-faq__item">
+        <summary class="ls-faq__question">{{ item.question }}</summary>
+        <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+      </details>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    <aside class="ls-related" aria-labelledby="related-heading">
+      <h2 id="related-heading" class="visually-hidden">Strutture correlate</h2>
+
+      {% if structure.prima_items or structure.dopo_items %}
+      <div class="ls-related__group">
+        <h3 class="ls-related__title">Prima e dopo</h3>
+        <ul class="ls-related__list">
+          {% for link in structure.prima_items %}
+          <li>
+            <a href="{{ link.url | site }}" class="ls-card ls-card--outlined ls-related__link">
+              <span class="ls-related__name">Prima: {{ link.name }}</span>
+              <span class="ls-related__reason">{{ link.reason }}</span>
+            </a>
+          </li>
+          {% endfor %}
+          {% for link in structure.dopo_items %}
+          <li>
+            <a href="{{ link.url | site }}" class="ls-card ls-card--outlined ls-related__link">
+              <span class="ls-related__name">Dopo: {{ link.name }}</span>
+              <span class="ls-related__reason">{{ link.reason }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if structure.simili_items %}
+      <div class="ls-related__group">
+        <h3 class="ls-related__title">Strutture simili</h3>
+        <ul class="ls-related__list">
+          {% for link in structure.simili_items %}
+          <li>
+            <a href="{{ link.url | site }}" class="ls-card ls-card--outlined ls-related__link">
+              <span class="ls-related__name">{{ link.name }}</span>
+              <span class="ls-related__reason">{{ link.reason }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      <div class="ls-related__back">
+        <a href="{{ '/structures/' | site }}" class="ls-btn ls-btn--outlined">Esplora tutte le strutture</a>
+        {% if structure.catalogo_extra %}
+        {% set extra = structure.catalogo_extra[0] %}
+        <p class="ls-related__also">Vedi anche <a href="{{ extra.url | site }}">{{ extra.name }}</a> — {{ extra.reason }}</p>
+        {% endif %}
+      </div>
+    </aside>
+  </section>
+</article>
+
+{% if structure.path_prev or structure.path_next %}
+<nav class="ls-path-nav" aria-label="Percorso guidato">
+  {% if structure.path_prev %}
+  <a href="{{ structure.path_prev.url | site }}" class="ls-path-nav__prev" aria-label="Struttura precedente: {{ structure.path_prev.name }}">
+    <span class="ls-path-nav__label">Precedente</span>
+    <span class="ls-path-nav__title">{{ structure.path_prev.name }}</span>
+  </a>
+  {% else %}
+  <span aria-hidden="true"></span>
+  {% endif %}
+  {% if structure.path_next %}
+  <a href="{{ structure.path_next.url | site }}" class="ls-path-nav__next" aria-label="Struttura successiva: {{ structure.path_next.name }}">
+    <span class="ls-path-nav__label">Successiva</span>
+    <span class="ls-path-nav__title">{{ structure.path_next.name }}</span>
+  </a>
+  {% endif %}
+</nav>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ 'assets/js/scroll-spy.js' | asset }}" defer></script>
+<script src="{{ 'assets/js/share.js' | asset }}" defer></script>
+{% endblock %}

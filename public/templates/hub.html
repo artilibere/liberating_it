@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include 'partials/breadcrumb.html' %}
+
+<header class="ls-page-header">
+  <h1>{{ hub.title }}</h1>
+  <p class="ls-page-header__intro">{{ hub.intro }}</p>
+  <p class="ls-page-header__count">{{ structures | length }} {{ 'struttura' if structures | length == 1 else 'strutture' }}</p>
+</header>
+
+{% if hub.path_list %}
+<section class="ls-path-section" aria-labelledby="path-heading">
+  <h2 id="path-heading" class="ls-path-section__title">Percorso guidato</h2>
+  <ol class="ls-path-list">
+  {% for item in hub.path_list %}
+  <li><a href="{{ ('/structures/' ~ item.slug ~ '/') | site }}">{{ item.name }}</a></li>
+  {% endfor %}
+</ol>
+</section>
+{% endif %}
+
+<section class="ls-hub-grid" aria-labelledby="hub-structures-heading">
+  <h2 id="hub-structures-heading" class="ls-hub-grid__heading">Strutture in questo percorso</h2>
+  <div class="ls-grid ls-grid--cards">
+  {% for s in structures %}
+  <article class="ls-card ls-card--interactive" aria-labelledby="card-{{ s.slug }}">
+    <img class="ls-card__icon" src="{{ (s.icon or default_structure_icon) | asset }}" alt="" width="48" height="72" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true">
+    <h3 class="ls-card__title" id="card-{{ s.slug }}"><a href="{{ ('/structures/' ~ s.slug ~ '/') | site }}">{{ s.title }}</a></h3>
+    <p class="ls-card__brief">{{ s.brief }}</p>
+    <div class="ls-chips ls-card__chips">
+      <a href="{{ ('/difficolta/' ~ s.difficolta_slug ~ '/') | site }}" class="ls-chip">{{ s.difficolta }}</a>
+      <a href="{{ ('/durata/' ~ s.durata_slug ~ '/') | site }}" class="ls-chip">{{ s.durata }}</a>
+    </div>
+  </article>
+  {% endfor %}
+  </div>
+</section>
+
+{% if hub.faq %}
+<section class="ls-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Domande frequenti</h2>
+  {% for item in hub.faq %}
+  <details class="ls-faq__item">
+    <summary class="ls-faq__question">{{ item.question }}</summary>
+    <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+
+<p class="ls-page-actions">
+  <a href="{{ '/structures/' | site }}" class="ls-btn ls-btn--outlined">Vedi tutte le strutture</a>
+</p>
+{% endblock %}

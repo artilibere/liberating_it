@@ -1,0 +1,28 @@
+<header class="ls-header" role="banner">
+  <div class="ls-header__inner">
+    <a href="{{ '/' | site }}" class="ls-header__logo" aria-label="Liberating.it - Home">
+      <span class="ls-header__logo-text">Liberating.it</span>
+    </a>
+    <button type="button" class="ls-header__menu-btn" aria-expanded="false" aria-controls="ls-nav-drawer" aria-label="Apri menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+    <nav class="ls-header__nav" aria-label="Navigazione principale">
+      <ul class="ls-header__nav-list">
+        <li><a href="{{ '/structures/' | site }}"{% if active_nav == 'structures' %} aria-current="page"{% endif %}>Le strutture</a></li>
+        <li class="ls-header__nav-item--has-submenu">
+          <button type="button" aria-expanded="false" aria-controls="ls-submenu-bisogno" aria-haspopup="true">Per bisogno</button>
+          <ul id="ls-submenu-bisogno" class="ls-header__submenu" hidden>
+            <li><a href="{{ '/per-bisogno/generare-idee/' | site }}"{% if active_per_bisogno == 'generare-idee' %} aria-current="page"{% endif %}>Generare idee</a></li>
+            <li><a href="{{ '/per-bisogno/prendere-decisioni/' | site }}"{% if active_per_bisogno == 'prendere-decisioni' %} aria-current="page"{% endif %}>Prendere decisioni</a></li>
+            <li><a href="{{ '/per-bisogno/analizzare-problemi/' | site }}"{% if active_per_bisogno == 'analizzare-problemi' %} aria-current="page"{% endif %}>Analizzare problemi</a></li>
+            <li><a href="{{ '/per-bisogno/fare-strategia/' | site }}"{% if active_per_bisogno == 'fare-strategia' %} aria-current="page"{% endif %}>Fare strategia</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ '/10-principi-fondamentali-liberating-structures/' | site }}"{% if active_nav == 'principles' %} aria-current="page"{% endif %}>I 10 principi</a></li>
+        <li><a href="{{ '/per-bisogno/' | site }}"{% if active_nav == 'per-bisogno' %} aria-current="page"{% endif %}>Percorsi</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

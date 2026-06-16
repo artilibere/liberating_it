@@ -1,0 +1,23 @@
+---
+description: Attiva ottimizzazione SEO/GEO e tono di voce su ogni contenuto in content/
+globs: content/**/*.md
+alwaysApply: false
+---
+
+# Contenuti liberating.it: tone-of-voice + SEO/GEO
+
+Quando crei o riscrivi un file in `content/`, applica **entrambe** le skill in questo ordine:
+
+1. **[liberating-tone-of-voice](../skills/liberating-tone-of-voice/SKILL.md)** — stile, registro, scrittura naturale, link interni, CTA.
+2. **[seo-geo-specialist](../skills/seo-geo-specialist/SKILL.md)** — keyword da SeoZoom, title/meta, FAQ GEO, citabilita' per AI.
+
+## Regola di conflitto
+
+Se una scelta SEO/GEO contraddice il tono di voce (parole vietate, frasi artificiali, keyword stuffing), **vince il tono di voce**. Preferisci la variante naturale della keyword.
+
+## Cosa fare sempre
+
+- Leggi il CSV SeoZoom per-URL (da `url` nel frontmatter) prima di riscrivere.
+- Aggiorna `title` e `meta_description` nel frontmatter con dati reali.
+- Aggiungi sezione FAQ se SERP Features o `questions_liberatingstructures.txt` lo richiedono.
+- Chiudi con la checklist di entrambe le skill.

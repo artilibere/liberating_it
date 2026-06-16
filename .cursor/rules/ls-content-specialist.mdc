@@ -1,0 +1,30 @@
+---
+description: Attiva LS Content Specialist e tono di voce su schede strutture e contenuti LS in content/
+globs: content/**/*.md
+alwaysApply: false
+---
+
+# Contenuti LS: Content Specialist + tono di voce
+
+Quando crei o modifichi un file in `content/` (schede strutture, hub, risorse, pagine editoriali sulle Liberating Structures), applica **entrambe** le skill in questo ordine:
+
+1. **[ls-content-specialist](../skills/ls-content-specialist/SKILL.md)** — repertorio LS, adattamento per settore e mercato italiano, semplificazione, string, tassonomie.
+2. **[liberating-tone-of-voice](../skills/liberating-tone-of-voice/SKILL.md)** — stile, registro, scrittura naturale, link interni, CTA.
+
+## Quando usare ls-content-specialist
+
+- Nuova scheda in `content/strutture/`
+- Adattare una struttura ufficiale assente dal sito (vedi `strutture-nuove.md`)
+- Semplificare passaggi, domande o casi d'uso per un settore
+- Proporre string (Prima/Dopo/Simili) o hub "Per bisogno"
+
+## Regola di conflitto
+
+Se un adattamento LS (dettaglio operativo, passaggi, tempi) contraddice il tono di voce (parole vietate, frasi artificiali), **vince il tono di voce**. Mantieni pero' specificita' e tempi: semplifica il linguaggio, non i passaggi.
+
+## Cosa fare sempre
+
+- Consulta `strutture-sintesi.md` o `strutture-nuove.md` prima di scrivere o riscrivere una struttura.
+- Segui il template a 3 zone in [content/02-template.md](../../content/02-template.md).
+- Applica le 4 lenti: semplicita', specificita', settore, mercato IT.
+- Chiudi con la checklist di entrambe le skill.

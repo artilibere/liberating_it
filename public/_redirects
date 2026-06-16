@@ -1,0 +1,29 @@
+# Trailing slash (no extension)
+/structures/:slug  /structures/:slug/  301
+/complessita/:slug  /complessita/:slug/  301
+/difficolta/:slug  /difficolta/:slug/  301
+/durata/:slug  /durata/:slug/  301
+/design-thinking/:slug  /design-thinking/:slug/  301
+/per-bisogno/:slug  /per-bisogno/:slug/  301
+/per-bisogno  /per-bisogno/  301
+
+# Strip index.html / index.htm from URLs
+/structures/index.html  /structures/  301
+/structures/:slug/index.html  /structures/:slug/  301
+/complessita/:slug/index.html  /complessita/:slug/  301
+/difficolta/:slug/index.html  /difficolta/:slug/  301
+/durata/:slug/index.html  /durata/:slug/  301
+/design-thinking/:slug/index.html  /design-thinking/:slug/  301
+/per-bisogno/index.html  /per-bisogno/  301
+/per-bisogno/:slug/index.html  /per-bisogno/:slug/  301
+/10-principi-fondamentali-liberating-structures/index.html  /10-principi-fondamentali-liberating-structures/  301
+/index.html  /  301
+/index.htm  /  301
+
+# Legacy WordPress pagination
+/difficolta/intermedia/page/2  /difficolta/intermedia/  301
+/difficolta/intermedia/page/2/  /difficolta/intermedia/  301
+
+# Legacy WordPress patterns
+/struttura/:slug  /structures/:slug/  301
+/strutture/:slug  /structures/:slug/  301

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include 'partials/breadcrumb.html' %}
+
+<header class="ls-page-header">
+  <h1>Le strutture</h1>
+  <p class="ls-page-header__intro">Trova lo strumento giusto per il tuo bisogno. Filtra per difficoltà, durata, fase o percorso.</p>
+</header>
+
+<button type="button" class="ls-btn ls-btn--outlined ls-filters-toggle" aria-expanded="false" aria-controls="catalog-filters">Filtra</button>
+
+<div class="ls-catalog-layout">
+  <aside id="catalog-filters" class="ls-filters" aria-label="Filtra strutture">
+    <p class="ls-filters__status" hidden aria-live="polite" role="status"></p>
+    <fieldset class="ls-filters__group">
+      <legend>Difficoltà</legend>
+      <div class="ls-chips">
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="difficolta" data-value="facile" aria-pressed="false">Facile</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="difficolta" data-value="intermedia" aria-pressed="false">Intermedia</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="difficolta" data-value="avanzata" aria-pressed="false">Avanzata</button>
+      </div>
+    </fieldset>
+    <fieldset class="ls-filters__group">
+      <legend>Percorso</legend>
+      <div class="ls-chips">
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="complessita" data-value="iniziare-subito" aria-pressed="false">Per iniziare subito</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="complessita" data-value="team-rodati" aria-pressed="false">Team rodati</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="complessita" data-value="facilitazioni-complesse" aria-pressed="false">Facilitazioni complesse</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="complessita" data-value="trasformazioni-organizzative" aria-pressed="false">Trasformazioni</button>
+      </div>
+    </fieldset>
+    <fieldset class="ls-filters__group">
+      <legend>Durata</legend>
+      <div class="ls-chips">
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="durata" data-value="breve" aria-pressed="false">Breve</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="durata" data-value="media" aria-pressed="false">Media</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="durata" data-value="estesa" aria-pressed="false">Estesa</button>
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="durata" data-value="workshop" aria-pressed="false">Workshop</button>
+      </div>
+    </fieldset>
+    <fieldset class="ls-filters__group">
+      <legend>Fase design thinking</legend>
+      <div class="ls-chips">
+        {% for slug, label in fase_filters %}
+        <button type="button" class="ls-chip ls-chip--filter" data-filter="fase" data-value="{{ slug }}" aria-pressed="false">{{ label }}</button>
+        {% endfor %}
+      </div>
+    </fieldset>
+    <button type="button" class="ls-filters__clear">Rimuovi filtri</button>
+  </aside>
+
+  <div class="ls-catalog">
+    <p class="ls-catalog__count" role="status" aria-live="polite">{{ structures | length }} strutture</p>
+    <section aria-labelledby="catalog-grid-heading">
+      <h2 id="catalog-grid-heading" class="visually-hidden">Elenco strutture</h2>
+      <div class="ls-grid ls-grid--cards" id="structure-grid">
+      {% for s in structures %}
+      <article class="ls-card ls-card--interactive"
+        aria-labelledby="card-{{ s.slug }}"
+        data-slug="{{ s.slug }}"
+        data-difficolta="{{ s.difficolta_slug }}"
+        data-complessita="{{ s.complessita_slug }}"
+        data-durata="{{ s.durata_slug }}"
+        data-fase="{{ s.fase_slug }}">
+        <div class="ls-card__header">
+        <img class="ls-card__icon" src="{{ (s.icon or default_structure_icon) | asset }}" alt="" width="48" height="72" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true">
+        <h3 class="ls-card__title" id="card-{{ s.slug }}"><a href="{{ ('/structures/' ~ s.slug ~ '/') | site }}">{{ s.title }}</a></h3>
+        </div>
+        <p class="ls-card__brief">{{ s.brief }}</p>
+        <div class="ls-chips ls-card__chips">
+          <a href="{{ ('/difficolta/' ~ s.difficolta_slug ~ '/') | site }}" class="ls-chip">{{ s.difficolta }}</a>
+          <a href="{{ ('/durata/' ~ s.durata_slug ~ '/') | site }}" class="ls-chip">{{ s.durata }}</a>
+        </div>
+      </article>
+      {% endfor %}
+      </div>
+    </section>
+    <p class="ls-catalog__empty" hidden role="status">Nessuna struttura corrisponde ai filtri selezionati.</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ 'assets/js/filters-panel.js' | asset }}" defer></script>
+<script src="{{ 'assets/js/filters.js' | asset }}" defer></script>
+{% endblock %}

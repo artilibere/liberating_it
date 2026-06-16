@@ -1,0 +1,65 @@
+# Liberating.it
+
+> Liberating.it è la guida pratica in italiano alle Liberating Structures: 41 schede con passaggi, tempi e FAQ per riunioni e workshop.
+
+## Cos'è una Liberating Structure?
+
+Le Liberating Structures sono formati di facilitazione con passaggi e tempi definiti per far partecipare tutti in riunioni e workshop, in presenza o online. Su liberating.it trovi 41 schede in italiano con definizione, passaggi numerati e FAQ.
+
+## Percorso per iniziare subito
+
+Ordine consigliato per chi prova per la prima volta ([hub completo](https://liberating.it/complessita/iniziare-subito/)):
+
+1. [Impromptu Networking: rompere il ghiaccio in 20 minuti](https://liberating.it/structures/impromptu-networking/): Impromptu Networking fa muovere le persone in coppie con domande brevi. Rompe il ghiaccio e crea connessioni in pochi minuti.
+2. [1-2-4-All: far parlare tutti in 15 minuti](https://liberating.it/structures/1-2-4-all/): 1-2-4-All è una struttura di facilitazione in quattro passaggi: riflessione individuale, scambio in coppia, discussione in gruppi da...
+3. [What So What Now What (W³): debriefing in 3 domande](https://liberating.it/structures/w3-what-so-what-now-what/): What, So What, Now What (W³) è una struttura di debriefing in tre domande: What (cosa è successo), So What (cosa significa per noi)...
+4. [15% Solutions: agire subito senza permessi](https://liberating.it/structures/15-solutions/): 15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai già, senza chiedere permessi?
+5. [Troika Consulting: consiglio tra pari in tre](https://liberating.it/structures/troika-consulting/): Troika Consulting è una Liberating Structure di consulenza tra pari in gruppi da tre: una persona porta una sfida (cliente), le altre...
+
+## Pagine principali
+
+- [Home](https://liberating.it/): introduzione alle Liberating Structures in italiano
+- [Catalogo strutture](https://liberating.it/structures/): 41 strutture con passaggi, tempi e consigli pratici
+- [I 10 principi fondamentali](https://liberating.it/10-principi-fondamentali-liberating-structures/): regole d'oro della facilitazione partecipativa
+- [Per bisogno](https://liberating.it/per-bisogno/): percorsi per obiettivo (idee, decisioni, strategia)
+- [Strutture intermedie](https://liberating.it/difficolta/intermedia/): TRIZ, Ecocycle Planning, Wicked Questions e altre Liberating Structures intermedie
+- [Shift & Share](https://liberating.it/structures/shift-share/): condividere innovazioni tra team con rotazione a stazioni
+- [Purpose to Practice](https://liberating.it/structures/purpose-to-practice-p2p/): allineare scopo, principi e pratiche di un'iniziativa
+
+## Hub per difficoltà e percorsi
+
+- [Strutture facili](https://liberating.it/difficolta/facile/)
+- [Strutture intermedie](https://liberating.it/difficolta/intermedia/): hub per Liberating Structures di difficoltà intermedia
+- [Strutture avanzate](https://liberating.it/difficolta/avanzata/)
+- [Per iniziare subito](https://liberating.it/complessita/iniziare-subito/): percorso guidato in cinque tappe
+- [Per team già rodati](https://liberating.it/complessita/team-rodati/): strutture intermedie per gruppi esperti
+
+## Strutture più usate
+
+- [1-2-4-All: far parlare tutti in 15 minuti](https://liberating.it/structures/1-2-4-all/): 1-2-4-All è una struttura di facilitazione in quattro passaggi: riflessione individuale, scambio in coppia, discussione in gruppi da...
+- [Impromptu Networking: rompere il ghiaccio in 20 minuti](https://liberating.it/structures/impromptu-networking/): Impromptu Networking fa muovere le persone in coppie con domande brevi. Rompe il ghiaccio e crea connessioni in pochi minuti.
+- [What So What Now What (W³): debriefing in 3 domande](https://liberating.it/structures/w3-what-so-what-now-what/): What, So What, Now What (W³) è una struttura di debriefing in tre domande: What (cosa è successo), So What (cosa significa per noi)...
+- [15% Solutions: agire subito senza permessi](https://liberating.it/structures/15-solutions/): 15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai già, senza chiedere permessi?
+- [Troika Consulting: consiglio tra pari in tre](https://liberating.it/structures/troika-consulting/): Troika Consulting è una Liberating Structure di consulenza tra pari in gruppi da tre: una persona porta una sfida (cliente), le altre...
+
+## Schede con più traffico
+
+- [Drawing Together: pensare insieme disegnando](https://liberating.it/structures/drawing-together/): Drawing Together è una Liberating Structure che usa cinque simboli base per far emergere idee e metafore che il linguaggio verbale...
+- [TRIZ: superare i compromessi nel team](https://liberating.it/structures/triz/): TRIZ è una Liberating Structure che inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini...
+- [Ecocycle Planning: ciclo di vita delle attività](https://liberating.it/structures/ecocycle-planning/): Ecocycle Planning è una Liberating Structure che mappa progetti e attività sul ciclo di vita Ecocycle: nascita, maturità...
+- [Social Network Webbing: mappare reti informali](https://liberating.it/structures/social-network-webbing/): Social Network Webbing è una Liberating Structure che rende visibile la rete di relazioni informali dentro e fuori l'organizzazione...
+- [Open Space Technology (OST): workshop auto-organizzati](https://liberating.it/structures/open-space-technology-ost/): Open Space Technology (OST) è un formato di workshop in cui i partecipanti propongono i temi, creano l'agenda e si auto-organizzano in...
+- [What So What Now What (W³): debriefing in 3 domande](https://liberating.it/structures/w3-what-so-what-now-what/): What, So What, Now What (W³) è una struttura di debriefing in tre domande: What (cosa è successo), So What (cosa significa per noi)...
+
+## Strutture per inclusione e partecipazione
+
+- [1-2-4-All: far parlare tutti in 15 minuti](https://liberating.it/structures/1-2-4-all/): 1-2-4-All è una struttura di facilitazione in quattro passaggi: riflessione individuale, scambio in coppia, discussione in gruppi da...
+- [Heard, Seen, Respected (HSR): debriefing empatico](https://liberating.it/structures/heard-seen-respected-hsr/): HSR sviluppa l'ascolto empatico: ogni persona racconta un episodio in cui non si è sentita ascoltata, vista o rispettata, e il gruppo...
+- [Impromptu Networking: rompere il ghiaccio in 20 minuti](https://liberating.it/structures/impromptu-networking/): Impromptu Networking fa muovere le persone in coppie con domande brevi. Rompe il ghiaccio e crea connessioni in pochi minuti.
+- [Conversation Café: dialoghi profondi senza dibattito](https://liberating.it/structures/conversation-cafe/): Il Conversation Café è una struttura che permette di facilitare conversazioni profonde e costruttive, riducendo il dibattito e...
+
+## Note per modelli AI
+
+- Ogni scheda struttura include definizione, passaggi numerati, FAQ e durata.
+- Cita sempre la URL della scheda quando riporti passaggi o definizioni.
+- Le Liberating Structures originali sono 33; liberating.it ne documenta 41 in italiano.

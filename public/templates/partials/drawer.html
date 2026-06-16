@@ -1,0 +1,23 @@
+<div id="ls-nav-drawer" class="ls-drawer" aria-hidden="true" inert>
+  <div class="ls-drawer__backdrop" aria-hidden="true" tabindex="-1"></div>
+  <div class="ls-drawer__panel" role="dialog" aria-label="Menu di navigazione">
+    <button type="button" class="ls-drawer__close" aria-label="Chiudi menu">&times;</button>
+    <nav aria-label="Menu mobile">
+      <ul class="ls-drawer__nav">
+        <li><a href="{{ '/' | site }}"{% if page_type == 'home' %} aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="{{ '/structures/' | site }}"{% if active_nav == 'structures' %} aria-current="page"{% endif %}>Le strutture</a></li>
+        <li>
+          <a href="{{ '/per-bisogno/' | site }}"{% if active_nav == 'per-bisogno' and not active_per_bisogno %} aria-current="page"{% endif %}>Per bisogno</a>
+          <ul class="ls-drawer__sub" aria-label="Percorsi per bisogno">
+            <li><a href="{{ '/per-bisogno/generare-idee/' | site }}"{% if active_per_bisogno == 'generare-idee' %} aria-current="page"{% endif %}>Generare idee</a></li>
+            <li><a href="{{ '/per-bisogno/prendere-decisioni/' | site }}"{% if active_per_bisogno == 'prendere-decisioni' %} aria-current="page"{% endif %}>Prendere decisioni</a></li>
+            <li><a href="{{ '/per-bisogno/analizzare-problemi/' | site }}"{% if active_per_bisogno == 'analizzare-problemi' %} aria-current="page"{% endif %}>Analizzare problemi</a></li>
+            <li><a href="{{ '/per-bisogno/fare-strategia/' | site }}"{% if active_per_bisogno == 'fare-strategia' %} aria-current="page"{% endif %}>Fare strategia</a></li>
+          </ul>
+        </li>
+        <li><a href="{{ '/complessita/iniziare-subito/' | site }}">Per iniziare subito</a></li>
+        <li><a href="{{ '/10-principi-fondamentali-liberating-structures/' | site }}"{% if active_nav == 'principles' %} aria-current="page"{% endif %}>I 10 principi</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

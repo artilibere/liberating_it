@@ -1,0 +1,84 @@
+:root {
+  /* PANTONE 18-4218 TCX Blue Fusion — #496275 rgb(73, 98, 117) */
+  --ls-color-blue-fusion: #496275;
+
+  --md-sys-color-primary: #496275;
+  --md-sys-color-on-primary: #ffffff;
+  --md-sys-color-primary-container: #d4e0e8;
+  --md-sys-color-on-primary-container: #1a2a36;
+
+  --md-sys-color-secondary: #3d5566;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #e2eaf0;
+  --md-sys-color-on-secondary-container: #15232d;
+
+  --md-sys-color-surface: #f8fafb;
+  --md-sys-color-on-surface: #1a2329;
+  --md-sys-color-surface-variant: #e8eef2;
+  --md-sys-color-on-surface-variant: #3f4f5c;
+
+  --md-sys-color-outline: #6b7c8a;
+  --md-sys-color-outline-variant: #b8c5cf;
+
+  --md-sys-color-error: #ba1a1a;
+  --md-sys-color-on-error: #ffffff;
+
+  --md-sys-typescale-display-large: 700 2.25rem/1.2 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-headline-large: 600 1.75rem/1.3 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-headline-medium: 600 1.375rem/1.35 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-title-large: 600 1.125rem/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-title-medium: 600 1rem/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-body-large: 400 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-body-medium: 400 1rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-label-large: 500 0.875rem/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+  --md-sys-typescale-label-medium: 500 0.75rem/1.3 system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --ls-font-serif: Georgia, "Times New Roman", serif;
+
+  --md-sys-shape-corner-extra-small: 4px;
+  --md-sys-shape-corner-small: 8px;
+  --md-sys-shape-corner-medium: 12px;
+  --md-sys-shape-corner-full: 9999px;
+
+  --md-sys-elevation-0: none;
+  --md-sys-elevation-1: 0 1px 2px rgba(26, 35, 41, 0.06), 0 1px 3px rgba(26, 35, 41, 0.1);
+  --md-sys-elevation-2: 0 2px 6px rgba(26, 35, 41, 0.08), 0 4px 12px rgba(26, 35, 41, 0.06);
+
+  --md-sys-motion-duration-short: 150ms;
+  --md-sys-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+
+  --ls-content-max-width: 72ch;
+  --ls-page-max-width: 1200px;
+  --ls-spacing-1: 4px;
+  --ls-spacing-2: 8px;
+  --ls-spacing-3: 16px;
+  --ls-spacing-4: 24px;
+  --ls-spacing-5: 32px;
+  --ls-spacing-6: 48px;
+  --ls-spacing-7: 64px;
+
+  --ls-header-height: 64px;
+  --ls-mininav-height: 48px;
+  --ls-pathnav-height: 72px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --md-sys-color-primary: #9bb4c8;
+    --md-sys-color-on-primary: #0d1820;
+    --md-sys-color-primary-container: #2f4656;
+    --md-sys-color-on-primary-container: #d4e2ec;
+
+    --md-sys-color-secondary: #a3b1bc;
+    --md-sys-color-on-secondary: #0f1a22;
+    --md-sys-color-secondary-container: #354552;
+    --md-sys-color-on-secondary-container: #d8e4ec;
+
+    --md-sys-color-surface: #121a21;
+    --md-sys-color-on-surface: #e4e9ed;
+    --md-sys-color-surface-variant: #1e2a33;
+    --md-sys-color-on-surface-variant: #b8c4ce;
+    --md-sys-color-outline: #8899a6;
+    --md-sys-color-outline-variant: #3d4f5c;
+  }
+}

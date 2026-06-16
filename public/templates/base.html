@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  {% include 'partials/tracking-head.html' %}
+  <meta name="theme-color" content="#496275" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121a21" media="(prefers-color-scheme: dark)">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ meta_description }}">
+  <link rel="canonical" href="{{ canonical }}">
+  <link rel="alternate" type="text/plain" href="{{ llms_url }}" title="Panoramica per crawler AI (llms.txt)">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ meta_description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:type" content="{{ og_type }}">
+  <meta property="og:site_name" content="Liberating.it">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:width" content="{{ og_image_width }}">
+  <meta property="og:image:height" content="{{ og_image_height }}">
+  <meta property="og:image:type" content="{{ og_image_type }}">
+  <meta property="og:image:alt" content="{{ og_image_alt }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ meta_description }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  <meta name="twitter:image:alt" content="{{ og_image_alt }}">
+  {% if reading_time_label %}
+  <meta name="twitter:label1" content="Tempo di lettura stimato">
+  <meta name="twitter:data1" content="{{ reading_time_label }}">
+  {% endif %}
+  {% if jsonld %}
+  <script type="application/ld+json">{{ jsonld | safe }}</script>
+  {% endif %}
+  <link rel="preload" href="{{ 'assets/css/site.css' | asset }}" as="style">
+  <link rel="stylesheet" href="{{ 'assets/css/site.css' | asset }}">
+  {% block head_extra %}{% endblock %}
+</head>
+<body class="ls-page ls-page--{{ page_type }}{% if has_path_nav %} ls-has-path-nav{% endif %}">
+  {% include 'partials/tracking-body.html' %}
+  <a href="#main" class="ls-skip-link">Vai al contenuto</a>
+  {% include 'partials/header.html' %}
+  <main id="main" class="ls-main ls-main--{{ page_type }}" tabindex="-1">
+    {% block content %}{% endblock %}
+  </main>
+  {% include 'partials/footer.html' %}
+  {% include 'partials/drawer.html' %}
+  {% include 'partials/cookie-consent.html' %}
+  <script src="{{ 'assets/js/nav.js' | asset }}" defer></script>
+  {% if tracking.enabled and tracking.consent_default_denied %}
+  <script src="{{ 'assets/js/consent.js' | asset }}" defer></script>
+  {% endif %}
+  {% block scripts %}{% endblock %}
+</body>
+</html>

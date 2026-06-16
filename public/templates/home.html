@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="ls-hero">
+  <h1 class="ls-hero__title">{{ home.h1 }}</h1>
+  <p class="ls-hero__subtitle">{{ home.hero_subtitle }}</p>
+  {% if home.definition %}
+  <p class="ls-definition">{{ home.definition }}</p>
+  {% endif %}
+  <a href="{{ '/structures/' | site }}" class="ls-btn ls-btn--filled">Scegli una struttura da provare domani</a>
+</section>
+
+{% if home.toc_items %}
+<aside class="ls-toc-inline" aria-label="Cosa trovi qui">
+  <p><strong>Cosa trovi qui</strong></p>
+  <ul>
+    {% for item in home.toc_items %}
+    <li>{% if item.url %}<a href="{{ item.url | site }}">{{ item.text }}</a>{% else %}{{ item.text }}{% endif %}</li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}
+
+{% for section in home.sections %}
+<section class="ls-section" aria-labelledby="section-{{ loop.index }}">
+  <h2 id="section-{{ loop.index }}">{{ section.title }}</h2>
+  {% if section.get('bullets') %}
+  <ul class="ls-list ls-list--scan">
+    {% for item in section.bullets %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if section.features %}
+  <div class="ls-grid ls-grid--3">
+    {% for f in section.features %}
+    <article class="ls-feature">
+      <h3>{{ f.title }}</h3>
+      <p>{% if f.link %}{{ f.prefix }} <a href="{{ f.link.url | site }}">{{ f.link.label }}</a> {{ f.body }}{% else %}{{ f.body }}{% endif %}</p>
+    </article>
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% if section.body %}
+  <p>{{ section.body }}</p>
+  {% endif %}
+</section>
+{% endfor %}
+
+{% if home.start_links %}
+<section class="ls-section" aria-labelledby="iniziare-heading">
+  <h2 id="iniziare-heading">Per iniziare domani</h2>
+  <ul class="ls-list ls-list--scan">
+    {% for link in home.start_links %}
+    <li><a href="{{ link.url | site }}">{{ link.name }}</a> - {{ link.reason }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if home.leggi_anche %}
+<section class="ls-section" aria-labelledby="leggi-heading">
+  <h2 id="leggi-heading">Leggi anche</h2>
+  <ul>
+    {% for link in home.leggi_anche %}
+    <li><a href="{{ link.url | site }}">{{ link.name }}</a> - {{ link.reason }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if home_faq %}
+<section class="ls-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Domande frequenti</h2>
+  {% for item in home_faq %}
+  <details class="ls-faq__item">
+    <summary class="ls-faq__question">{{ item.question }}</summary>
+    <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+
+<section class="ls-cta" aria-labelledby="cta-heading">
+  <h2 id="cta-heading" class="ls-cta__title">E adesso?</h2>
+  <p class="ls-cta__text">{{ home.cta_text }}</p>
+  <a href="{{ home.cta_url | site }}" class="ls-btn ls-btn--filled">{{ home.cta_label }}</a>
+</section>
+{% endblock %}

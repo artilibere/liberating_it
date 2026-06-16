@@ -1,0 +1,18 @@
+<footer class="ls-footer" role="contentinfo">
+  <div class="ls-footer__inner">
+    <nav aria-label="Link footer">
+      <ul class="ls-footer__nav">
+        <li><a href="{{ '/structures/' | site }}">Catalogo strutture</a></li>
+        <li><a href="{{ '/complessita/iniziare-subito/' | site }}">Per iniziare subito</a></li>
+        <li><a href="{{ '/10-principi-fondamentali-liberating-structures/' | site }}">I 10 principi</a></li>
+        <li><a href="{{ '/per-bisogno/' | site }}">Per bisogno</a></li>
+        <li><a href="{{ '/privacy-policy/' | site }}">Privacy</a></li>
+        {% if tracking.enabled and tracking.consent_default_denied %}
+        <li><button type="button" class="ls-footer__cookie-btn" data-action="cookie-preferences">Preferenze cookie</button></li>
+        {% endif %}
+        <li><a href="{{ '/termini-di-servizio/' | site }}">Termini di servizio</a></li>
+      </ul>
+    </nav>
+    <p class="ls-footer__copy">Liberating.it - risorsa gratuita sulle Liberating Structures a cura di <a href="https://www.linkedin.com/in/carlogandolfo/" rel="noopener noreferrer">Carlo Gandolfo</a></p>
+  </div>
+</footer>

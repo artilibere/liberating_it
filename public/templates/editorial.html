@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include 'partials/breadcrumb.html' %}
+
+<article class="ls-article ls-article--editorial">
+  <h1>{{ editorial.h1 }}</h1>
+  <p class="ls-lead">{{ editorial.lead }}</p>
+
+  {% for section in editorial.sections %}
+  <section aria-labelledby="ed-{{ loop.index }}">
+    <h2 id="ed-{{ loop.index }}">{{ section.title }}</h2>
+    <p>{{ section.body | safe }}</p>
+  </section>
+  {% endfor %}
+
+  {% if editorial.faq %}
+  <section class="ls-faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Domande frequenti</h2>
+    {% for item in editorial.faq %}
+    <details class="ls-faq__item">
+      <summary class="ls-faq__question">{{ item.question }}</summary>
+      <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+    </details>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if editorial.leggi_anche %}
+  <section aria-labelledby="leggi-heading">
+    <h2 id="leggi-heading">Leggi anche</h2>
+    <ul>
+      {% for link in editorial.leggi_anche %}
+      <li><a href="{{ link.url | site }}">{{ link.name }}</a>{% if link.reason %} - {{ link.reason }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="ls-cta" aria-labelledby="cta-heading">
+    <h2 id="cta-heading" class="ls-cta__title">E adesso?</h2>
+    {% if editorial.cta_text %}
+    <p class="ls-cta__text">{{ editorial.cta_text }}</p>
+    {% endif %}
+    <a href="{{ editorial.cta_url | site }}" class="ls-btn ls-btn--filled">{{ editorial.cta_label }}</a>
+  </section>
+</article>
+{% endblock %}

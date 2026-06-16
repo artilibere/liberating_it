@@ -1,0 +1,14 @@
+<nav class="ls-breadcrumb" aria-label="Breadcrumb">
+  <ol class="ls-breadcrumb__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+    {% for crumb in breadcrumbs %}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"{% if loop.last %} aria-current="page"{% endif %}>
+      {% if crumb.url and not loop.last %}
+      <a href="{{ crumb.url | site }}" itemprop="item"><span itemprop="name">{{ crumb.name }}</span></a>
+      {% else %}
+      <span itemprop="name">{{ crumb.name }}</span>
+      {% endif %}
+      <meta itemprop="position" content="{{ loop.index }}">
+    </li>
+    {% endfor %}
+  </ol>
+</nav>
