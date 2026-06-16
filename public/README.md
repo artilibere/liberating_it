@@ -9,7 +9,7 @@ I contenuti Markdown sono in `../content/v2/`. Il build genera HTML navigabile i
 Dopo il build, apri direttamente nel browser:
 
 ```
-/var/www/liberating.it/public/index.htm
+/var/www/liberating.it/public/index.html
 ```
 
 Tutti i link usano percorsi relativi: funziona aprendo il file da disco (`file://`) senza server.
@@ -28,7 +28,7 @@ Per test rapido senza server:
 python3 -m http.server 8080 --directory /var/www/liberating.it/public
 ```
 
-Apri http://localhost:8080/index.htm
+Apri http://localhost:8080/
 
 ## Build
 
@@ -48,7 +48,7 @@ python3 scripts/fetch_ls_icons.py
 python3 scripts/build.py --content ../content/v2 --out .
 ```
 
-Output principale: `index.htm`, `structures/`, hub tassonomia, `per-bisogno/`, `assets/`.
+Output principale: `index.html`, `structures/`, hub tassonomia, `per-bisogno/`, `assets/`.
 
 Per build in sottocartella `dist/` (deploy Cloudflare):
 
@@ -59,7 +59,7 @@ python scripts/build.py --content ../content/v2 --out dist
 ## Struttura
 
 ```
-index.htm              Home (entry point locale)
+index.html             Home (entry point)
 structures/            Catalogo + 41 schede
 complessita/           Hub percorso
 difficolta/            Hub difficolta'

@@ -79,7 +79,7 @@ GENERATED_DIRS = (
     "privacy-policy",
     "termini-di-servizio",
 )
-GENERATED_FILES = ("index.htm", "index.html")
+GENERATED_FILES = ("index.html",)
 
 LEGAL_PAGES = ("privacy-policy", "termini-di-servizio")
 
@@ -1711,7 +1711,7 @@ def resolve_url(target: str, from_file: Path, out_root: Path) -> str:
     """Absolute site path -> relative directory URL (trailing slash, no index.html)."""
     target = (target or "/").strip()
     if target in ("/", ""):
-        dest = out_root / "index.htm"
+        dest = out_root / "index.html"
     elif target.startswith("assets/") or target.lstrip("/").startswith("assets/"):
         dest = out_root / target.lstrip("/")
     elif target.endswith((".css", ".js", ".json", ".htm", ".html", ".ico", ".png", ".svg", ".webp")):
@@ -2212,14 +2212,7 @@ def build_home(env: Environment, content_root: Path, out_root: Path, structure_c
         ),
         "home_faq": home_faq,
     }
-    render(env, "home.html", out_root / "index.htm", out_root, **ctx)
-
-
-def ensure_root_index_html(out_root: Path) -> None:
-    """Cloudflare Pages and most hosts resolve index.html at /, not index.htm."""
-    src = out_root / "index.htm"
-    if src.exists():
-        shutil.copy2(src, out_root / "index.html")
+    render(env, "home.html", out_root / "index.html", out_root, **ctx)
 
 
 def build_principles(env: Environment, content_root: Path, out_root: Path, structure_count: int) -> None:
@@ -2861,7 +2854,6 @@ def main() -> None:
     env.globals["default_structure_icon"] = default_icon
 
     build_home(env, args.content, out_root, len(structures))
-    ensure_root_index_html(out_root)
     build_principles(env, args.content, out_root, len(structures))
     build_legal_pages(env, args.content, out_root)
     build_catalog(env, structures, out_root, display_icons, default_icon)
@@ -2877,7 +2869,7 @@ def main() -> None:
 
     print(f"Built {len(structures)} structures -> {out_root}")
     print(f"CSS bundle: assets/{css_manifest['css']}")
-    print(f"Open: {out_root / 'index.htm'}")
+    print(f"Open: {out_root / 'index.html'}")
 
 
 if __name__ == "__main__":
