@@ -1,4 +1,6 @@
 .env
+public/README.md
+public/requirements.txt
 public/dist/
 public/.venv/
 public/.wrangler/
