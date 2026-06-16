@@ -76,7 +76,7 @@ Se una disposizione e' ritenuta invalida, sara' annullata senza affievolire le a
 
 ## 11. Contatti e Informazioni
 
-- Email: info@liberating.it
+- Email: ciao@carlogandolfo.it
 - Sito: liberating.it
 - Sede: Milano, Lombardia, Italia
 

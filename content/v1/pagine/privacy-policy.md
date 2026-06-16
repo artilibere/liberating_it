@@ -22,11 +22,11 @@ Indirizzo web: https://liberating.it
 
 ### Titolare del trattamento
 
-Liberating Structures - Facilitazione e Sviluppo Organizzativo
+Carlo Gandolfo
 
 ### Contatti
 
-- Email: info@liberating.it
+- Email: ciao@carlogandolfo.it
 - Sito: liberating.it
 - Sede: Milano, Lombardia, Italia
 
@@ -110,7 +110,7 @@ Per revocare il consenso all’analisi puoi usare **Preferenze cookie** nel foot
 
 ## 8. Come esercitare i diritti
 
-Invia una richiesta scritta a **info@liberating.it**, indicando il diritto che vuoi esercitare (es. accesso ai dati ai sensi dell’art. 15 GDPR).
+Invia una richiesta scritta a **ciao@carlogandolfo.it**, indicando il diritto che vuoi esercitare (es. accesso ai dati ai sensi dell’art. 15 GDPR).
 
 Risponderemo entro **30 giorni**. In casi complessi il termine può essere esteso a 60 giorni, con comunicazione preventiva.
 
@@ -158,7 +158,7 @@ Bloccare i cookie tecnici del sito può impedire di ricordare la preferenza e mo
 
 ## 11. Utenti minorenni
 
-Il sito non è rivolto a minori di 16 anni. Non raccogliamo consapevolmente dati di minori. Se un genitore o tutore ritiene che un minore ci abbia fornito dati, scriva a info@liberating.it.
+Il sito non è rivolto a minori di 16 anni. Non raccogliamo consapevolmente dati di minori. Se un genitore o tutore ritiene che un minore ci abbia fornito dati, scriva a ciao@carlogandolfo.it.
 
 ## 12. Modifiche a questa informativa
 
@@ -166,7 +166,7 @@ Possiamo aggiornare questa pagina per adeguarla a cambi normativi o tecnici. La 
 
 ## 13. Contatti e ricorso
 
-**Titolare:** info@liberating.it
+**Titolare:** Carlo Gandolfo — ciao@carlogandolfo.it
 
 **Garante per la protezione dei dati personali**
 
@@ -179,5 +179,5 @@ Hai anche il diritto di proporre reclamo al Garante o di adire l’autorità giu
 
 Il sito contiene link a siti di terze parti (es. LinkedIn, liberatingstructures.com). Non controlliamo le loro informative privacy: consultale prima di inviare dati personali.
 
-**Data di ultimo aggiornamento:** 16 giugno 2026  
-**Data di entrata in vigore:** 16 giugno 2026
+**Data di ultimo aggiornamento:** 17 giugno 2026  
+**Data di entrata in vigore:** 17 giugno 2026
