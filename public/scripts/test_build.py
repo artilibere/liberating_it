@@ -20,6 +20,7 @@ from build import (  # noqa: E402
     clean_orphan_og_images,
     build_display_icons,
     ensure_icon_thumbs,
+    ensure_favicon,
     ensure_og_png,
     fase_label_it,
     format_meta_description,
@@ -50,6 +51,9 @@ from build import (  # noqa: E402
     OG_IMAGE_HEIGHT,
     OG_IMAGE_REL,
     OG_IMAGE_WIDTH,
+    FAVICON_APPLE,
+    FAVICON_ICO,
+    FAVICON_PNG,
     parse_duration_iso,
     parse_editorial_page,
     parse_faq,
@@ -614,6 +618,25 @@ class SocialTests(unittest.TestCase):
 
             with Image.open(png) as img:
                 self.assertEqual(img.size, (OG_IMAGE_WIDTH, OG_IMAGE_HEIGHT))
+
+    def test_ensure_favicon_from_ls_menu_icon(self) -> None:
+        import tempfile
+
+        from generate_adaptation_icons import ensure_ls_menu_icon
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ensure_ls_menu_icon(root)
+            ensure_favicon(root)
+            self.assertTrue((root / FAVICON_ICO).exists())
+            self.assertTrue((root / FAVICON_PNG).exists())
+            self.assertTrue((root / FAVICON_APPLE).exists())
+            from PIL import Image
+
+            with Image.open(root / FAVICON_PNG) as img:
+                self.assertEqual(img.size, (32, 32))
+            with Image.open(root / FAVICON_APPLE) as img:
+                self.assertEqual(img.size, (180, 180))
 
     def test_structure_og_image_composites_icon(self) -> None:
         import shutil

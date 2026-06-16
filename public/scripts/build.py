@@ -98,6 +98,10 @@ OG_IMAGE_REL = "assets/images/og.png"
 OG_IMAGE_WIDTH = 1200
 OG_IMAGE_HEIGHT = 630
 OG_DEFAULT_ALT = "Liberating.it — formati pratici per riunioni e workshop"
+FAVICON_ICO = "favicon.ico"
+FAVICON_PNG = "favicon-32x32.png"
+FAVICON_APPLE = "apple-touch-icon.png"
+FAVICON_SIZES = (16, 32, 48, 180)
 ORGANIZATION_SAME_AS = ("https://www.linkedin.com/in/carlogandolfo/",)
 READING_WPM = 200
 TITLE_SUFFIX = " | Liberating.it"
@@ -1710,7 +1714,7 @@ def resolve_url(target: str, from_file: Path, out_root: Path) -> str:
         dest = out_root / "index.htm"
     elif target.startswith("assets/") or target.lstrip("/").startswith("assets/"):
         dest = out_root / target.lstrip("/")
-    elif target.endswith((".css", ".js", ".json", ".htm", ".html")):
+    elif target.endswith((".css", ".js", ".json", ".htm", ".html", ".ico", ".png", ".svg", ".webp")):
         dest = out_root / target.lstrip("/")
     else:
         dest = out_root / target.strip("/") / "index.html"
@@ -1939,6 +1943,54 @@ def ensure_og_png(out_root: Path) -> None:
         anchor="ls",
     )
     img.save(png_path, "PNG", optimize=True)
+
+
+def _square_ls_menu_icon(img, size: int):
+    """Center the LS Menu card on a white square and scale to size."""
+    from PIL import Image
+
+    width, height = img.size
+    side = max(width, height)
+    square = Image.new("RGB", (side, side), "#ffffff")
+    square.paste(img.convert("RGB"), ((side - width) // 2, (side - height) // 2))
+    return square.resize((size, size), Image.Resampling.LANCZOS)
+
+
+def ensure_favicon(out_root: Path) -> None:
+    """Rasterize favicons from the LS Menu structure icon."""
+    from generate_adaptation_icons import LS_MENU_ICON_REL
+
+    from PIL import Image
+
+    source = out_root / LS_MENU_ICON_REL
+    if not source.exists():
+        raise SystemExit(f"LS Menu icon not found: {source}")
+
+    ico_path = out_root / FAVICON_ICO
+    png_path = out_root / FAVICON_PNG
+    apple_path = out_root / FAVICON_APPLE
+    sources_mtime = source.stat().st_mtime
+    if (
+        ico_path.exists()
+        and png_path.exists()
+        and apple_path.exists()
+        and ico_path.stat().st_mtime >= sources_mtime
+        and png_path.stat().st_mtime >= sources_mtime
+        and apple_path.stat().st_mtime >= sources_mtime
+    ):
+        return
+
+    with Image.open(source) as card:
+        ico_sizes = [(size, size) for size in FAVICON_SIZES[:3]]
+        ico_images = [_square_ls_menu_icon(card, size) for size in FAVICON_SIZES[:3]]
+        ico_images[0].save(
+            ico_path,
+            format="ICO",
+            sizes=ico_sizes,
+            append_images=ico_images[1:],
+        )
+        _square_ls_menu_icon(card, 32).save(png_path, "PNG", optimize=True)
+        _square_ls_menu_icon(card, FAVICON_SIZES[3]).save(apple_path, "PNG", optimize=True)
 
 
 def _wrap_og_text(text: str, font, draw, max_width: int, max_lines: int = 3) -> list[str]:
@@ -2802,6 +2854,7 @@ def main() -> None:
     from generate_adaptation_icons import ensure_adaptation_icons
 
     ensure_adaptation_icons(out_root)
+    ensure_favicon(out_root)
     icons_full = load_icon_manifest(out_root)
     display_icons, default_icon, default_icon_full = build_display_icons(out_root, icons_full)
     env.globals["default_structure_icon"] = default_icon
