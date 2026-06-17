@@ -1,6 +1,6 @@
 # SEO batch tracker - liberating.it
 
-Stato contenuti statici (`content/v2/` + build `public/`). Aggiornato: 2026-06-17 (fix meta troncate, audit esteso, llms.txt).
+Stato contenuti statici (`content/v2/` + build `public/`). Aggiornato: 2026-06-17 (low/verylow: skill paths, validate CI, --force generatori).
 
 Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 
@@ -10,7 +10,10 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 |------|-------|------|
 | `content/v2/02-template.md` FAQ + JSON-LD | OK | Template scheda con FAQ |
 | `content/v2/02-template-hub.md` | OK | Template hub tassonomici |
-| `scripts/generate_structure_drafts.py` v2 | OK | Output `content/v2/strutture/`; skip file esistenti senza `--force` |
+| `scripts/generate_structure_drafts.py` | OK | Output v2; skip esistenti senza `--force` |
+| `scripts/generate_structure_drafts.py` | OK | Output v2; skip esistenti senza `--force` |
+| `scripts/generate_structure_v2.py` | OK | Output v2; skip esistenti senza `--force` |
+| `scripts/validate_sitemap_enriched.py` | OK | CI: allinea enriched vs sitemap.xml |
 | `scripts/audit_content_seo.py` | OK | Audit automatico v2 |
 | Quick win typo facilitazioni | OK | 10 schede v2 corrette |
 
@@ -70,7 +73,7 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 
 ## Batch 5 - Restanti schede v2
 
-41/41 schede presenti. Meta da rifinire su adattamenti con copy legacy (mad-tea, spiral-journal, ecc.).
+41/41 schede presenti, audit SEO `--strict` OK (title, meta, FAQ).
 
 ## Hub tassonomici (17)
 
@@ -100,6 +103,7 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 | `sitemap-enriched.json` | OK | Refresh statico via `scripts/refresh_sitemap_enriched.py` |
 | Sitemap statica | 68 URL |
 | Title SERP (41 schede) | OK | `title` <= 43 char, no ellissi in build |
+| Title SERP (hub) | OK | Tutti gli hub <= 60 char nel build |
 
 ## Comandi utili
 
@@ -107,5 +111,6 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 python3 scripts/audit_content_seo.py
 python3 scripts/audit_content_seo.py --strict
 python3 scripts/refresh_sitemap_enriched.py
+python3 scripts/validate_sitemap_enriched.py
 cd public && python3 scripts/build.py --content ../content/v2 --out . && python3 scripts/test_build.py
 ```

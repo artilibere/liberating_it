@@ -13,7 +13,7 @@ Quando crei o modifichi un file in `content/` (schede strutture, hub, risorse, p
 
 ## Quando usare ls-content-specialist
 
-- Nuova scheda in `content/strutture/`
+- Nuova scheda in `content/v2/strutture/`
 - Adattare una struttura ufficiale assente dal sito (vedi `strutture-nuove.md`)
 - Semplificare passaggi, domande o casi d'uso per un settore
 - Proporre string (Prima/Dopo/Simili) o hub "Per bisogno"

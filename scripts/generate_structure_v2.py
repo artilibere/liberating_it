@@ -862,7 +862,17 @@ partecipanti: "{s['participants']}"
 
 
 def main() -> None:
+    import argparse
+
     global SINTESI_DATA
+    parser = argparse.ArgumentParser(description="Generate v2 structure markdown with FAQ and SEO")
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite existing files in content/v2/strutture/",
+    )
+    args = parser.parse_args()
+
     SINTESI_DATA = parse_sintesi(SINTESI)
 
     with open(SITEMAP, encoding="utf-8") as f:
@@ -877,15 +887,22 @@ def main() -> None:
         s = extract_structure(entry, title_map)
         DISPLAY_NAMES[s["slug"]] = s["title"]
 
+    written = 0
+    skipped = 0
     for entry in structures:
         slug = entry["slug"]
+        out_path = OUT_DIR / f"{slug}.md"
+        if out_path.exists() and not args.force:
+            print(f"Skip {slug} (exists; use --force to overwrite)")
+            skipped += 1
+            continue
         s = extract_structure(entry, title_map)
         md = render_markdown(s)
-        out_path = OUT_DIR / f"{slug}.md"
         out_path.write_text(md, encoding="utf-8")
         print(f"Wrote {out_path.name}")
+        written += 1
 
-    print(f"Done: {len(structures)} structures -> {OUT_DIR}")
+    print(f"Done: {written} written, {skipped} skipped -> {OUT_DIR}")
 
 
 if __name__ == "__main__":

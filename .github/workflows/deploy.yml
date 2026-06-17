@@ -6,6 +6,8 @@ on:
     paths:
       - "content/**"
       - "public/**"
+      - "scripts/**"
+      - "sitemap-enriched.json"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
@@ -31,11 +33,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Audit content SEO
+        run: python ../scripts/audit_content_seo.py --strict
+
       - name: Test
         run: python -m unittest scripts/test_build.py -v
 
       - name: Build
         run: python scripts/build.py --content ../content/v2 --out dist
+
+      - name: Validate sitemap-enriched.json
+        run: python ../scripts/validate_sitemap_enriched.py --sitemap dist/sitemap.xml
 
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@v1

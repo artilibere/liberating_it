@@ -13,7 +13,7 @@ Cartella: [seo/](../../../seo/). Export SeoZoom aggiornati a giugno 2026. Legger
 | `https://liberating.it/difficolta/{livello}/` | `https___liberating.it_difficolta_{livello}__all_keywords.csv` |
 | `https://liberating.it/durata/{tipo}/` | `https___liberating.it_durata_{tipo}__all_keywords.csv` |
 
-**Nota:** non tutte le schede in `content/strutture/` hanno un CSV dedicato. In assenza, usa i file globali.
+**Nota:** non tutte le schede in `content/v2/strutture/` hanno un CSV dedicato. In assenza, usa i file globali.
 
 ---
 

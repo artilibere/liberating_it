@@ -1,6 +1,6 @@
 # Strutture LS - sintesi adattata (repo liberating.it)
 
-Base di conoscenza per le 41 schede in `content/strutture/`. Per strutture ufficiali assenti dal sito vedi [strutture-nuove.md](strutture-nuove.md).
+Base di conoscenza per le 41 schede in `content/v2/strutture/`. Per strutture ufficiali assenti dal sito vedi [strutture-nuove.md](strutture-nuove.md).
 
 Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presente su liberating.it ma non sul menu ufficiale LS.
 

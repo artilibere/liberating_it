@@ -161,8 +161,8 @@ Le colonne `Menzioni AI` in MainPages, NewEntry, PagesWithPotential indicano qua
 
 | Tipo | File | SEO focus | GEO focus |
 |------|------|-----------|-----------|
-| Scheda struttura | `content/strutture/*.md` | keyword nome struttura + varianti (es. "1 2 4 all") | definizione, FAQ metodo, HowTo |
-| Pagina editoriale | `content/pagine/*.md` | keyword brand ("liberating structures") + tema pagina | FAQ principi, definizioni, entita' |
+| Scheda struttura | `content/v2/strutture/*.md` | keyword nome struttura + varianti (es. "1 2 4 all") | definizione, FAQ metodo, HowTo |
+| Pagina editoriale | `content/v1/pagine/*.md` | keyword brand ("liberating structures") + tema pagina | FAQ principi, definizioni, entita' |
 | Hub tassonomia | (se presenti) | keyword cluster da `clusters_keyword.csv` | panoramica answer-first |
 
 ## Conflitti con tone-of-voice
@@ -178,7 +178,7 @@ Se una keyword ottimale suona artificiale o viola le regole del brand:
 
 - [ ] CSV per-URL letto (o file globali se assente)
 - [ ] Keyword primaria + 2-4 secondarie scelte con dati reali
-- [ ] title <= 60 caratteri, meta_description <= 155 caratteri
+- [ ] title <= 43 caratteri (TITLE_SERP_BUDGET in build.py), meta_description <= 155 caratteri
 - [ ] Keyword primaria in H1 e primo paragrafo
 - [ ] Nessuna cannibalizzazione con altre pagine del sito
 - [ ] Sezione FAQ presente se SERP Features lo richiede o se domande pertinenti esistono in questions_liberatingstructures.txt

@@ -1,10 +1,10 @@
 # Strutture LS ufficiali assenti da liberating.it
 
-Sintesi adattate per le strutture presenti sul [menu ufficiale LS](https://www.liberatingstructures.com/ls-menu-1) ma non ancora in `content/strutture/`.
+Sintesi adattate per le strutture presenti sul [menu ufficiale LS](https://www.liberatingstructures.com/ls-menu-1) ma non ancora in `content/v2/strutture/`.
 
 **Nota su "A Door Opens":** sul sito ufficiale aggiornato, `/a-door-opens` e' il blog "A Door Opens", non una Liberating Structure. Le 7 schede sotto sono strutture LS reali mancanti dal repo.
 
-Ogni voce ha flag **scheda da creare** e slug proposto per `content/strutture/{slug}.md`.
+Ogni voce ha flag **scheda da creare** e slug proposto per `content/v2/strutture/{slug}.md`.
 
 ---
 

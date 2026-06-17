@@ -27,6 +27,8 @@ from build import (  # noqa: E402
     format_page_title,
     hub_meta_description,
     hub_page_title,
+    TITLE_SERP_BUDGET,
+    TITLE_SUFFIX,
     italian_typography,
     italian_typography_ctx,
     load_tracking_config,
@@ -217,6 +219,11 @@ class FormatPageTitleTests(unittest.TestCase):
 
     def test_empty_title_fallback(self) -> None:
         self.assertEqual(format_page_title(""), "Liberating.it")
+
+    def test_serp_budget_matches_suffix(self) -> None:
+        self.assertEqual(TITLE_SERP_BUDGET, 60 - len(TITLE_SUFFIX))
+        title = "x" * TITLE_SERP_BUDGET
+        self.assertEqual(format_page_title(title), f"{title}{TITLE_SUFFIX}")
 
 
 class FormatMetaDescriptionTests(unittest.TestCase):

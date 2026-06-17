@@ -1,6 +1,6 @@
 ---
 name: ls-content-specialist
-description: Padroneggia le Liberating Structures (menu ufficiale e adattamenti liberating.it), le semplifica e le rende applicabili per settore e mercato italiano. Usare quando si creano o adattano schede strutture, string, casi d'uso, hub "Per bisogno", contenuti in content/strutture/, o quando l'utente chiede di semplificare/adattare una LS.
+description: Padroneggia le Liberating Structures (menu ufficiale e adattamenti liberating.it), le semplifica e le rende applicabili per settore e mercato italiano. Usare quando si creano o adattano schede strutture, string, casi d'uso, hub "Per bisogno", contenuti in content/v2/strutture/, o quando l'utente chiede di semplificare/adattare una LS.
 ---
 
 # LS Content Specialist
@@ -57,7 +57,7 @@ Task Progress:
 
 1. Parti da [strutture-nuove.md](strutture-nuove.md) (passaggi ufficiali semplificati).
 2. Proponi slug, tassonomie (complessita, difficolta, durata, fase) coerenti con [01-architettura.md](../../../content/01-architettura.md).
-3. Scrivi la scheda completa in `content/strutture/{slug}.md`.
+3. Scrivi la scheda completa in `content/v2/strutture/{slug}.md`.
 4. Aggiorna correlazioni (Prima/Dopo/Simili) con strutture gia' presenti.
 
 ### Semplificare una struttura esistente
@@ -91,5 +91,5 @@ Task Progress:
 ## Risorse aggiuntive
 
 - Menu ufficiale: https://www.liberatingstructures.com/ls-menu-1
-- Schede esistenti: `content/strutture/*.md`
+- Schede esistenti: `content/v2/strutture/*.md`
 - Script generazione bozze: `scripts/generate_structure_drafts.py`

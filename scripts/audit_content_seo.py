@@ -12,11 +12,11 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_STRUCTURES = ROOT / "content" / "v2" / "strutture"
-TITLE_MAX = 60
-TITLE_SERP_BUDGET = 43  # max frontmatter title before " | Liberating.it" truncates in build
-META_MAX = 155
+sys.path.insert(0, str(ROOT / "public" / "scripts"))
+from build import META_MAX_LEN as META_MAX, TITLE_MAX_LEN as TITLE_MAX, TITLE_SERP_BUDGET  # noqa: E402
+
 FAQ_MIN = 3
-META_COMPLETE_RE = re.compile(r'[.!?…]$')
+META_COMPLETE_RE = re.compile(r"[.!?…]$")
 
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
