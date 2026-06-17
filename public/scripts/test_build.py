@@ -288,6 +288,16 @@ class LegalPageTests(unittest.TestCase):
         self.assertIn('href="mailto:ciao@carlogandolfo.it"', html)
         self.assertIn("ciao@carlogandolfo.it</a>", html)
 
+    def test_extract_brief_converts_internal_links(self) -> None:
+        from build import extract_brief
+
+        preamble = (
+            "**In breve** - Liquid Courage e' una variante di "
+            "[Impromptu Networking](/structures/impromptu-networking/) per far emergere lamentele."
+        )
+        html = extract_brief(preamble)
+        self.assertIn('<a href="/structures/impromptu-networking/">Impromptu Networking</a>', html)
+
     def test_legal_pages_contact_details(self) -> None:
         root = Path(__file__).resolve().parents[2] / "content/v1/pagine"
         for slug in LEGAL_PAGES:

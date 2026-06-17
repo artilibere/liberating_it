@@ -62,7 +62,7 @@
     <h2>Domanda da portare</h2>
     <ul>
       {% for item in structure.domanda_items %}
-      <li>{{ item }}</li>
+      <li>{{ item | safe }}</li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -71,7 +71,7 @@
     <h2>Cosa ti serve</h2>
     <ul>
       {% for item in structure.prep_items %}
-      <li>{{ item }}</li>
+      <li>{{ item | safe }}</li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -83,7 +83,7 @@
       <li class="ls-step">
         <span class="ls-step__number" aria-hidden="true">{{ loop.index }}</span>
         <div class="ls-step__content">
-          <p class="ls-step__action">{{ step.action }}</p>
+          <p class="ls-step__action">{{ step.action | safe }}</p>
           {% if step.time %}<span class="ls-step__time">{{ step.time }}</span>{% endif %}
         </div>
       </li>
@@ -97,7 +97,7 @@
     <h2>Quando usarla</h2>
     <ul>
       {% for item in structure.quando_items %}
-      <li>{{ item }}</li>
+      <li>{{ item | safe }}</li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -105,7 +105,7 @@
     {% if structure.consiglio %}
     <aside class="ls-callout" aria-label="Consiglio del facilitatore">
       <h2 class="ls-callout__title">Il consiglio del facilitatore</h2>
-      <p class="ls-callout__text">{{ structure.consiglio }}</p>
+      <p class="ls-callout__text">{{ structure.consiglio | safe }}</p>
     </aside>
     {% endif %}
 
@@ -113,7 +113,7 @@
     <h2>Errori da evitare</h2>
     <ul>
       {% for item in structure.errori_items %}
-      <li>{{ item }}</li>
+      <li>{{ item | safe }}</li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -124,7 +124,7 @@
       {% for item in structure.faq %}
       <details class="ls-faq__item">
         <summary class="ls-faq__question">{{ item.question }}</summary>
-        <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+        <div class="ls-faq__answer"><p>{{ item.answer | safe }}</p></div>
       </details>
       {% endfor %}
     </section>

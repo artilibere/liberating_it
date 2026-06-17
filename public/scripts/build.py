@@ -914,10 +914,23 @@ def parse_steps(text: str) -> list[dict[str, str]]:
     for line in text.splitlines():
         m = re.match(r"^\d+\.\s+(.+?)\s+-\s+(.+)$", line.strip())
         if m:
-            steps.append({"action": m.group(1).strip(), "time": m.group(2).strip()})
+            action = m.group(1).strip()
+            steps.append(
+                {
+                    "action": md_inline(action),
+                    "action_plain": strip_md_to_plain(action),
+                    "time": m.group(2).strip(),
+                }
+            )
         elif re.match(r"^\d+\.", line.strip()):
             rest = re.sub(r"^\d+\.\s*", "", line.strip())
-            steps.append({"action": rest, "time": ""})
+            steps.append(
+                {
+                    "action": md_inline(rest),
+                    "action_plain": strip_md_to_plain(rest),
+                    "time": "",
+                }
+            )
     return steps
 
 
@@ -935,7 +948,13 @@ def parse_faq(text: str) -> list[dict[str, str]]:
         q = re.sub(r"^#+\s*", "", lines[0].strip())
         a = lines[1].strip() if len(lines) > 1 else ""
         if q:
-            items.append({"question": q, "answer": a})
+            items.append(
+                {
+                    "question": q,
+                    "answer": md_inline(a),
+                    "answer_plain": strip_md_to_plain(a),
+                }
+            )
     return items
 
 
@@ -1011,10 +1030,47 @@ def parse_breadcrumb_from_preamble(preamble: str) -> list[dict[str, str]]:
     return crumbs
 
 
+def md_inline(text: str) -> str:
+    text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(
+        r"\[([^\]]+)\]\((https?://[^)]+)\)",
+        r'<a href="\2" rel="noopener noreferrer">\1</a>',
+        text,
+    )
+    text = re.sub(
+        r"\[([^\]]+)\]\((/[^)]+)\)",
+        lambda m: f'<a href="{m.group(2).rstrip("/")}/">{m.group(1)}</a>',
+        text,
+    )
+    text = re.sub(
+        r"\[([^\]]+)\]\((mailto:[^)]+)\)",
+        r'<a href="\2">\1</a>',
+        text,
+    )
+    text = re.sub(r"\[([^\]]+)\]\([^/)][^)]*\)", r"\1", text)
+    text = re.sub(
+        r"(?<!\w)(https?://[^\s<]+)",
+        r'<a href="\1" rel="noopener noreferrer">\1</a>',
+        text,
+    )
+    return text
+
+
+def strip_md_to_plain(text: str) -> str:
+    text = re.sub(r"\*\*([^*]+)\*\*", r"\1", text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    return text
+
+
+def html_to_plain(text: str) -> str:
+    return re.sub(r"<[^>]+>", "", text)
+
+
 def extract_brief(preamble: str) -> str:
     m = re.search(r"\*\*In breve\*\*\s*-\s*(.+)$", preamble, re.M)
     if m:
-        return f"<strong>In breve</strong> - {m.group(1).strip()}"
+        body = md_inline(m.group(1).strip())
+        return f"<strong>In breve</strong> - {body}"
     return ""
 
 
@@ -1084,7 +1140,7 @@ def structure_reading_minutes(structure: dict, *, wpm: int = READING_WPM) -> int
     for step in structure.get("steps") or []:
         chunks.append(step.get("action", ""))
     for item in structure.get("faq") or []:
-        chunks.extend([item.get("question", ""), item.get("answer", "")])
+        chunks.extend([item.get("question", ""), item.get("answer_plain", item.get("answer", ""))])
     words = len(re.findall(r"\w+", " ".join(chunks), re.UNICODE))
     return max(1, round(words / wpm))
 
@@ -1133,7 +1189,10 @@ def build_faq_jsonld(faq: list[dict[str, str]]) -> dict | None:
             {
                 "@type": "Question",
                 "name": item["question"],
-                "acceptedAnswer": {"@type": "Answer", "text": item["answer"]},
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": item.get("answer_plain", item["answer"]),
+                },
             }
             for item in faq
         ],
@@ -1162,11 +1221,12 @@ def build_howto_jsonld(structure: dict) -> dict | None:
     if prep:
         howto["supply"] = [{"@type": "HowToSupply", "name": item} for item in prep]
     for index, step in enumerate(steps, start=1):
+        step_text = step.get("action_plain", step["action"])
         entry: dict = {
             "@type": "HowToStep",
             "position": index,
-            "name": step["action"],
-            "text": step["action"],
+            "name": step_text,
+            "text": step_text,
         }
         if step.get("time"):
             step_time = parse_duration_iso(step["time"])
@@ -1352,28 +1412,6 @@ def page_jsonld(
     if breadcrumbs:
         nodes.append(build_breadcrumb_jsonld(breadcrumbs, canonical))
     return merge_jsonld(*nodes)
-
-
-def md_inline(text: str) -> str:
-    text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
-    text = re.sub(
-        r"\[([^\]]+)\]\((https?://[^)]+)\)",
-        r'<a href="\2" rel="noopener noreferrer">\1</a>',
-        text,
-    )
-    text = re.sub(r"\[([^\]]+)\]\((/[^)]+)/?\)", r'<a href="\2/">\1</a>', text)
-    text = re.sub(
-        r"\[([^\]]+)\]\((mailto:[^)]+)\)",
-        r'<a href="\2">\1</a>',
-        text,
-    )
-    text = re.sub(r"\[([^\]]+)\]\([^/)][^)]*\)", r"\1", text)
-    text = re.sub(
-        r"(?<!\w)(https?://[^\s<]+)",
-        r'<a href="\1" rel="noopener noreferrer">\1</a>',
-        text,
-    )
-    return text
 
 
 def md_block_to_html(text: str) -> str:
@@ -1653,7 +1691,7 @@ def parse_structure(path: Path) -> dict:
         "url": meta.get("url", f"https://liberating.it/structures/{slug}/"),
         "h1": h1,
         "brief": brief_raw,
-        "brief_plain": re.sub(r"<[^>]+>", "", brief_raw).replace("In breve - ", ""),
+        "brief_plain": html_to_plain(brief_raw).replace("In breve - ", ""),
         "durata": durata,
         "durata_slug": durata_bucket(durata),
         "difficolta": difficolta,
@@ -1666,10 +1704,14 @@ def parse_structure(path: Path) -> dict:
         "complessita_slug": COMPLESSITA_MAP.get(complessita, complessita.lower().replace(" ", "-")),
         "chips": parse_chips_line(chips_text),
         "domanda_items": parse_bullet_list(sections.get("Domanda da portare", "")),
-        "prep_items": parse_bullet_list(sections.get("Cosa ti serve", "")),
+        "prep_items": [
+            md_inline(item) for item in parse_bullet_list(sections.get("Cosa ti serve", ""))
+        ],
         "steps": parse_steps(sections.get("I passaggi", "")),
-        "quando_items": parse_bullet_list(sections.get("Quando usarla", "")),
-        "consiglio": sections.get("Il consiglio del facilitatore", "").strip(),
+        "quando_items": [
+            md_inline(item) for item in parse_bullet_list(sections.get("Quando usarla", ""))
+        ],
+        "consiglio": md_inline(sections.get("Il consiglio del facilitatore", "").strip()),
         "errori_items": parse_bullet_list(sections.get("Errori da evitare", "")),
         "faq": faq,
         "prima_items": prima,
