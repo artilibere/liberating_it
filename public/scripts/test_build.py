@@ -62,7 +62,6 @@ from build import (  # noqa: E402
     parse_faq,
     parse_frontmatter,
     parse_steps,
-    strip_md_to_plain,
     structure_og_image_url,
     structure_reading_minutes,
     format_reading_time_label,
@@ -157,7 +156,10 @@ class ParseFaqTests(unittest.TestCase):
             "Puoi collegare le lamentele a [15% Solutions](/structures/15-solutions/)."
         )
         items = parse_faq(text)
-        self.assertIn('<a href="/structures/15-solutions/">15% Solutions</a>', items[0]["answer"])
+        self.assertIn(
+            '<a href="/structures/15-solutions/" rel="noopener noreferrer">15% Solutions</a>',
+            items[0]["answer"],
+        )
         self.assertEqual(items[0]["answer_plain"], "Puoi collegare le lamentele a 15% Solutions.")
 
     def test_faq_jsonld_uses_plain_answer(self) -> None:
@@ -175,7 +177,10 @@ class ParseStepsTests(unittest.TestCase):
     def test_step_action_converts_internal_links(self) -> None:
         text = "4. Debrief con [1-2-4-All](/structures/1-2-4-all/) - 10 min"
         steps = parse_steps(text)
-        self.assertIn('<a href="/structures/1-2-4-all/">1-2-4-All</a>', steps[0]["action"])
+        self.assertIn(
+            '<a href="/structures/1-2-4-all/" rel="noopener noreferrer">1-2-4-All</a>',
+            steps[0]["action"],
+        )
         self.assertEqual(steps[0]["action_plain"], "Debrief con 1-2-4-All")
 
     def test_howto_jsonld_uses_plain_step_text(self) -> None:
@@ -324,6 +329,11 @@ class LegalPageTests(unittest.TestCase):
         self.assertIn('href="mailto:ciao@carlogandolfo.it"', html)
         self.assertIn("ciao@carlogandolfo.it</a>", html)
 
+    def test_md_inline_internal_links_have_rel(self) -> None:
+        html = md_inline("Vedi [TRIZ](/structures/triz/)")
+        self.assertIn('href="/structures/triz/"', html)
+        self.assertIn('rel="noopener noreferrer"', html)
+
     def test_extract_brief_converts_internal_links(self) -> None:
         from build import extract_brief
 
@@ -332,7 +342,10 @@ class LegalPageTests(unittest.TestCase):
             "[Impromptu Networking](/structures/impromptu-networking/) per far emergere lamentele."
         )
         html = extract_brief(preamble)
-        self.assertIn('<a href="/structures/impromptu-networking/">Impromptu Networking</a>', html)
+        self.assertIn(
+            '<a href="/structures/impromptu-networking/" rel="noopener noreferrer">Impromptu Networking</a>',
+            html,
+        )
 
     def test_legal_pages_contact_details(self) -> None:
         root = Path(__file__).resolve().parents[2] / "content/v1/pagine"
@@ -651,6 +664,22 @@ class SocialTests(unittest.TestCase):
         self.assertEqual(structure_reading_minutes(structure), 2)
         self.assertEqual(format_reading_time_label(1), "1 minuto")
         self.assertEqual(format_reading_time_label(3), "3 minuti")
+
+    def test_structure_reading_minutes_uses_plain_inline_text(self) -> None:
+        plain = {
+            "consiglio": "Impromptu Networking consiglio.",
+            "steps": [{"action": "1-2-4-All step", "action_plain": "1-2-4-All step"}],
+        }
+        html = {
+            "consiglio": '<a href="/structures/foo/" rel="noopener noreferrer">Impromptu Networking</a> consiglio.',
+            "steps": [
+                {
+                    "action": '<a href="/structures/1-2-4-all/" rel="noopener noreferrer">1-2-4-All</a> step',
+                    "action_plain": "1-2-4-All step",
+                }
+            ],
+        }
+        self.assertEqual(structure_reading_minutes(plain), structure_reading_minutes(html))
 
     def test_build_share_links_match_wordpress_networks(self) -> None:
         links = build_share_links(

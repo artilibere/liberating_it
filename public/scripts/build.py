@@ -1043,7 +1043,9 @@ def md_inline(text: str) -> str:
     )
     text = re.sub(
         r"\[([^\]]+)\]\((/[^)]+)\)",
-        lambda m: f'<a href="{m.group(2).rstrip("/")}/">{m.group(1)}</a>',
+        lambda m: (
+            f'<a href="{m.group(2).rstrip("/")}/" rel="noopener noreferrer">{m.group(1)}</a>'
+        ),
         text,
     )
     text = re.sub(
