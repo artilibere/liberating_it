@@ -67,6 +67,9 @@ Utilizzare sempre l'oggetto parlante.
 ### Cos'e' Conversation Cafe?
 Conversation Cafe facilita conversazioni profonde in tavoli da quattro, con turni strutturati e un debrief condiviso.
 
+### Cos'e' conversation cafe nelle Liberating Structures?
+E' la versione italiana del Conversation Cafe ufficiale: dialoghi profondi senza dibattito, con host al tavolo e turni di ascolto. Fa parte del menu LS in fase Empathize.
+
 ### Quando conviene usare Conversation Cafe?
 Quando serve dare senso a un tema complesso senza finire in dibattito polarizzato.
 

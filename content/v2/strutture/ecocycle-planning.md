@@ -21,7 +21,7 @@ url: "https://liberating.it/structures/ecocycle-planning/"
 |--------|-------------|--------|------|
 | 100 minuti | Intermedia | illimitati | Multi fase |
 
-**Filtri:** [Per facilitazioni complesse](/complessita/facilitazioni-complesse/) · [Intermedia](/difficolta/intermedia/) · [Estesa (max 4 h)](/durata/estesa/) · [Multi fase](/design-thinking/design-thinking-cycle/)
+**Filtri:** [Per facilitazioni complesse](/complessita/facilitazioni-complesse/) · [Intermedia](/difficolta/intermedia/) · [Estesa (max 4 h)](/durata/estesa/) · [Multi fase](/design-thinking/multi-fase/)
 
 ## Domanda da portare
 

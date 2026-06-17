@@ -79,6 +79,18 @@
     <p class="ls-catalog__empty" hidden role="status">Nessuna struttura corrisponde ai filtri selezionati.</p>
   </div>
 </div>
+
+{% if catalog_faq %}
+<section class="ls-faq" aria-labelledby="catalog-faq-heading">
+  <h2 id="catalog-faq-heading">Domande frequenti</h2>
+  {% for item in catalog_faq %}
+  <details class="ls-faq__item">
+    <summary class="ls-faq__question">{{ item.question }}</summary>
+    <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
 {% endblock %}
 
 {% block scripts %}

@@ -66,6 +66,9 @@ Selezionare partecipanti con esperienza diretta per il cerchio interno.
 ### Cos'e' User Experience Fishbowl?
 Un piccolo gruppo con esperienza diretta parla al centro; gli altri ascoltano e fanno domande dal bordo, come in un acquario.
 
+### Cos'e' fishbowl nelle Liberating Structures?
+User Experience Fishbowl e' la struttura LS nota come fishbowl: chi ha vissuto il tema parla al centro, la plenaria ascolta e poi fa domande. Serve a trasferire esperienza sul campo senza slide.
+
 ### Quando conviene usare User Experience Fishbowl?
 Quando devi trasferire conoscenza pratica da chi lavora sul campo al resto dell'organizzazione.
 

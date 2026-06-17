@@ -21,7 +21,7 @@ url: "https://liberating.it/structures/open-space-technology-ost/"
 |--------|-------------|--------|------|
 | variabile | Intermedia | da 10 persone in su | Multi fase |
 
-**Filtri:** [Per trasformazioni organizzative](https://liberating.it/complessita/trasformazioni-organizzative/) · [Intermedia](https://liberating.it/difficolta/intermedia/) · [Workshop (+1g)](https://liberating.it/durata/workshop/) · [Multi fase](https://liberating.it/design-thinking/design-thinking-cycle/)
+**Filtri:** [Per trasformazioni organizzative](https://liberating.it/complessita/trasformazioni-organizzative/) · [Intermedia](https://liberating.it/difficolta/intermedia/) · [Workshop (+1g)](https://liberating.it/durata/workshop/) · [Multi fase](https://liberating.it/design-thinking/multi-fase/)
 
 ## Domanda da portare
 

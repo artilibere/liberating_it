@@ -50,7 +50,9 @@ from build import (  # noqa: E402
     merge_jsonld,
     minify_css,
     minify_html,
+    normalize_internal_url,
     normalize_structure_count_text,
+    resolve_url,
     OG_IMAGE_HEIGHT,
     OG_IMAGE_REL,
     OG_IMAGE_WIDTH,
@@ -244,6 +246,34 @@ class FrontmatterTests(unittest.TestCase):
         self.assertIn("# Body", body)
 
 
+class NormalizeInternalUrlTests(unittest.TestCase):
+    def test_legacy_design_thinking_cycle_maps_to_multi_fase(self) -> None:
+        self.assertEqual(
+            normalize_internal_url("/design-thinking/design-thinking-cycle/"),
+            "/design-thinking/multi-fase/",
+        )
+
+    def test_nested_legacy_path_maps_to_canonical(self) -> None:
+        self.assertEqual(
+            normalize_internal_url("/design-thinking/design-thinking-cycle/structures/1-2-4-all/"),
+            "/structures/1-2-4-all/",
+        )
+
+
+class ResolveUrlTests(unittest.TestCase):
+    def test_page_urls_are_root_absolute(self) -> None:
+        out = Path("/tmp/site/structures/1-2-4-all/index.html")
+        self.assertEqual(resolve_url("/per-bisogno/", out, out.parent.parent.parent), "/per-bisogno/")
+        self.assertEqual(resolve_url("/", out, out.parent.parent.parent), "/")
+
+    def test_asset_urls_are_root_absolute(self) -> None:
+        out = Path("/tmp/site/structures/1-2-4-all/index.html")
+        self.assertEqual(
+            resolve_url("/assets/js/filters.js", out, out.parent.parent.parent),
+            "/assets/js/filters.js",
+        )
+
+
 class FormatPageTitleTests(unittest.TestCase):
     def test_short_title_unchanged(self) -> None:
         self.assertEqual(
@@ -251,11 +281,11 @@ class FormatPageTitleTests(unittest.TestCase):
             "1-2-4-All: far parlare tutti | Liberating.it",
         )
 
-    def test_long_title_truncated_to_sixty(self) -> None:
+    def test_long_title_truncated_to_serp_budget(self) -> None:
         title = format_page_title(
             "Open Space Technology (OST): workshop auto-organizzati"
         )
-        self.assertLessEqual(len(title), 60)
+        self.assertLessEqual(len(title), TITLE_SERP_BUDGET + len(TITLE_SUFFIX))
         self.assertTrue(title.endswith("| Liberating.it"))
 
     def test_empty_title_fallback(self) -> None:
@@ -307,7 +337,7 @@ class HubSeoTests(unittest.TestCase):
         self.assertIsNotNone(faq_ld)
         assert faq_ld is not None
         self.assertEqual(faq_ld["@type"], "FAQPage")
-        self.assertEqual(len(faq_ld["mainEntity"]), 4)
+        self.assertEqual(len(faq_ld["mainEntity"]), 5)
 
 
 class AllHubsHaveFaqTests(unittest.TestCase):

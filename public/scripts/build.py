@@ -111,18 +111,68 @@ TITLE_MAX_LEN = 60
 TITLE_SERP_BUDGET = TITLE_MAX_LEN - len(TITLE_SUFFIX)
 META_MAX_LEN = 155
 
+LEGACY_INTERNAL_PATHS = {
+    "/design-thinking/design-thinking-cycle/": "/design-thinking/multi-fase/",
+}
 
-def format_page_title(title: str, suffix: str = TITLE_SUFFIX, max_len: int = TITLE_MAX_LEN) -> str:
-    """Keep the document title within SERP-friendly length."""
+CATALOG_FAQ = [
+    {
+        "question": "Quante Liberating Structures ci sono?",
+        "answer": (
+            "Il catalogo ne elenca 41, tutte in italiano con passaggi pronti. "
+            "Puoi filtrarle per difficolta', durata, fase del design thinking o percorso guidato."
+        ),
+    },
+    {
+        "question": "Da quale Liberating Structure iniziare?",
+        "answer": (
+            "1-2-4-All e Impromptu Networking sono le piu' usate per iniziare: "
+            "durano pochi minuti e funzionano anche con chi non ha mai facilitato. "
+            "Vedi il percorso Per iniziare subito."
+        ),
+    },
+    {
+        "question": "Come scegliere la struttura giusta per una riunione?",
+        "answer": (
+            "Parti dal bisogno: generare idee, prendere decisioni, analizzare un problema o fare strategia. "
+            "Poi controlla difficolta' e durata disponibili nel team."
+        ),
+    },
+]
+
+
+def normalize_internal_url(path: str) -> str:
+    """Normalize legacy paths and ensure trailing slash on directory URLs."""
+    path = (path or "/").strip()
+    if not path.startswith("/"):
+        path = "/" + path
+    legacy = "/design-thinking/design-thinking-cycle/"
+    if path == legacy:
+        path = "/design-thinking/multi-fase/"
+    elif path.startswith(legacy):
+        remainder = path[len(legacy) :].lstrip("/")
+        path = f"/{remainder}" if remainder else "/design-thinking/multi-fase/"
+    if path != "/" and not path.endswith("/") and not re.search(r"\.\w+$", path):
+        path = path.rstrip("/") + "/"
+    return path
+
+
+def format_page_title(
+    title: str,
+    suffix: str = TITLE_SUFFIX,
+    max_title_len: int = TITLE_SERP_BUDGET,
+) -> str:
+    """Keep the document title within SERP-friendly length (title + suffix)."""
     title = (title or "").strip()
     if not title:
-        return "Liberating.it"[:max_len]
+        return "Liberating.it"
     full = f"{title}{suffix}"
-    if len(full) <= max_len:
+    max_full = max_title_len + len(suffix)
+    if len(full) <= max_full:
         return full
-    budget = max_len - len(suffix)
+    budget = max_title_len
     if budget < 8:
-        return full[:max_len]
+        return full[:max_full]
     if len(title) <= budget:
         return full
     trimmed = title[: budget - 1].rstrip(" -–—:|,")
@@ -207,8 +257,8 @@ HUBS_COMPLESSITA = {
         "page_title": "Liberating Structures per iniziare subito",
         "intro": "Strutture facili per provare le Liberating Structures senza esperienza precedente.",
         "meta_description": (
-            "Percorso Liberating Structures per iniziare subito: Impromptu Networking, 1-2-4-All, "
-            "W³, 15% Solutions e Troika. Passaggi pronti per la prima riunione."
+            "Liberating Structures per riunioni efficaci, anche online: Impromptu Networking, "
+            "1-2-4-All, W³, 15% Solutions e Troika. Passaggi pronti per la prima riunione."
         ),
         "filter": ("complessita", "iniziare-subito"),
         "path_list": True,
@@ -241,6 +291,14 @@ HUBS_COMPLESSITA = {
                 "answer": (
                     "Le cinque strutture del percorso richiedono da 10 a 30 minuti ciascuna. "
                     "Puoi usarne una sola in una riunione o concatenarle in un workshop breve."
+                ),
+            },
+            {
+                "question": "Quali Liberating Structures per riunioni online efficaci?",
+                "answer": (
+                    "1-2-4-All e Impromptu Networking funzionano bene anche in videochiamata: "
+                    "turni chiari, tempi brevi, tutti partecipano senza sovrapporsi. "
+                    "What So What Now What? chiude con azioni condivise."
                 ),
             },
         ],
@@ -419,6 +477,14 @@ HUBS_DIFFICOLTA = {
                     "Ecocycle Planning mappa attivita' e progetti sul ciclo di vita del team per decidere cosa potenziare o tagliare."
                 ),
             },
+            {
+                "question": "Esiste una checklist per facilitare con Liberating Structures?",
+                "answer": (
+                    "Non c'e' un unico foglio: ogni scheda struttura ha passaggi, tempi e cosa ti serve. "
+                    "Per le prime volte usa il percorso Per iniziare subito; "
+                    "per strutture con piu' passaggi, parti da TRIZ o What So What Now What? in questa sezione."
+                ),
+            },
         ],
     },
     "avanzata": {
@@ -559,6 +625,7 @@ HUBS_DURATA = {
 HUBS_FASE = {
     "empathize": {
         "title": "Empatizzare",
+        "page_title": "Empatizzare con Liberating Structures",
         "intro": "Strutture per la fase di empatia nel design thinking.",
         "meta_description": (
             "Liberating Structures per empatizzare nel design thinking: "
@@ -585,6 +652,7 @@ HUBS_FASE = {
     },
     "define": {
         "title": "Definire",
+        "page_title": "Definire con Liberating Structures",
         "intro": "Strutture per definire il problema.",
         "meta_description": (
             "Liberating Structures per definire il problema: TRIZ, 9 Whys, Wicked Questions "
@@ -611,6 +679,7 @@ HUBS_FASE = {
     },
     "ideate": {
         "title": "Ideare",
+        "page_title": "Ideare con Liberating Structures",
         "intro": "Strutture per generare idee.",
         "meta_description": (
             "Liberating Structures per ideare: 1-2-4-All, 25/10 e altre "
@@ -637,6 +706,7 @@ HUBS_FASE = {
     },
     "prototype": {
         "title": "Prototipare",
+        "page_title": "Prototipare con Liberating Structures",
         "intro": "Strutture per prototipare soluzioni.",
         "meta_description": (
             "Liberating Structures per prototipare: Improv Prototyping, "
@@ -663,6 +733,7 @@ HUBS_FASE = {
     },
     "test": {
         "title": "Testare",
+        "page_title": "Testare con Liberating Structures",
         "intro": "Strutture per testare e validare.",
         "meta_description": (
             "Liberating Structures per testare: formati per validare ipotesi "
@@ -688,6 +759,7 @@ HUBS_FASE = {
     },
     "multi-fase": {
         "title": "Multi fase",
+        "page_title": "Liberating Structures multi-fase",
         "intro": "Strutture utilizzabili in piu' fasi.",
         "meta_description": (
             "Liberating Structures multi-fase: formati utilizzabili in piu' fasi "
@@ -996,7 +1068,12 @@ def parse_path_nav(text: str) -> tuple[dict | None, dict | None]:
 def parse_chips_line(text: str) -> list[dict[str, str]]:
     chips = []
     for m in re.finditer(r"\[([^\]]+)\]\((/[^)]+)/?\)", text):
-        chips.append({"label": m.group(1), "url": m.group(2).rstrip("/") + "/"})
+        chips.append(
+            {
+                "label": m.group(1),
+                "url": normalize_internal_url(m.group(2).rstrip("/") + "/"),
+            }
+        )
     return chips
 
 
@@ -1021,7 +1098,12 @@ def parse_breadcrumb_from_preamble(preamble: str) -> list[dict[str, str]]:
         for m in re.finditer(r"\[([^\]]+)\]\((/[^)]+)/?\)", bc_line):
             name = m.group(1)
             if name != "Home":
-                crumbs.append({"name": name, "url": m.group(2).rstrip("/") + "/"})
+                crumbs.append(
+                    {
+                        "name": name,
+                        "url": normalize_internal_url(m.group(2).rstrip("/") + "/"),
+                    }
+                )
         tail = re.sub(r"\[[^\]]+\]\([^)]+\)", "", bc_line)
         tail = tail.replace(">", " ").strip()
         if tail:
@@ -1044,7 +1126,8 @@ def md_inline(text: str) -> str:
     text = re.sub(
         r"\[([^\]]+)\]\((/[^)]+)\)",
         lambda m: (
-            f'<a href="{m.group(2).rstrip("/")}/" rel="noopener noreferrer">{m.group(1)}</a>'
+            f'<a href="{normalize_internal_url(m.group(2).rstrip("/") + "/")}" '
+            f'rel="noopener noreferrer">{m.group(1)}</a>'
         ),
         text,
     )
@@ -1763,26 +1846,13 @@ def load_tracking_config(path: Path | None = None) -> dict:
 
 
 def resolve_url(target: str, from_file: Path, out_root: Path) -> str:
-    """Absolute site path -> relative directory URL (trailing slash, no index.html)."""
-    target = (target or "/").strip()
+    """Absolute site path -> root-relative URL (leading slash, trailing slash for pages)."""
+    target = normalize_internal_url((target or "/").strip())
     if target in ("/", ""):
-        dest = out_root / "index.html"
-    elif target.startswith("assets/") or target.lstrip("/").startswith("assets/"):
-        dest = out_root / target.lstrip("/")
-    elif target.endswith((".css", ".js", ".json", ".htm", ".html", ".ico", ".png", ".svg", ".webp")):
-        dest = out_root / target.lstrip("/")
-    else:
-        dest = out_root / target.strip("/") / "index.html"
-
-    if dest.name in ("index.html", "index.htm"):
-        link_dest = dest.parent
-        rel = Path(os.path.relpath(link_dest, from_file.parent))
-        if rel == Path("."):
-            return "./"
-        return rel.as_posix() + "/"
-
-    rel = Path(os.path.relpath(dest, from_file.parent))
-    return rel.as_posix()
+        return "/"
+    if target.endswith((".css", ".js", ".json", ".htm", ".html", ".ico", ".png", ".svg", ".webp")):
+        return target if target.startswith("/") else f"/{target.lstrip('/')}"
+    return target if target.endswith("/") else f"{target.rstrip('/')}/"
 
 
 def load_icon_manifest(out_root: Path) -> dict[str, str]:
@@ -2388,6 +2458,7 @@ def build_catalog(env: Environment, structures: list[dict], out_root: Path, disp
         {"name": "Le strutture", "url": None},
     ]
     canonical = "https://liberating.it/structures/"
+    catalog_faq = CATALOG_FAQ
     ctx = {
         "page_type": "catalog",
         "page_title": format_page_title("Le strutture"),
@@ -2398,6 +2469,7 @@ def build_catalog(env: Environment, structures: list[dict], out_root: Path, disp
         "breadcrumbs": breadcrumbs,
         "structures": cards,
         "fase_filters": FASE_FILTER_OPTIONS,
+        "catalog_faq": catalog_faq,
         "jsonld": page_jsonld(
             breadcrumbs,
             canonical,
@@ -2408,6 +2480,7 @@ def build_catalog(env: Environment, structures: list[dict], out_root: Path, disp
                 len(cards),
             ),
             build_item_list_jsonld("Catalogo Liberating Structures", cards, canonical),
+            build_faq_jsonld(catalog_faq),
         ),
     }
     render(env, "catalog.html", out_root / "structures" / "index.html", out_root, **ctx)

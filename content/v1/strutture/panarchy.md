@@ -21,7 +21,7 @@ url: "https://liberating.it/structures/panarchy/"
 |--------|-------------|--------|------|
 | 120 minuti | Intermedia | da 10 a 50 persone | Multi fase |
 
-**Filtri:** [Per trasformazioni organizzative](https://liberating.it/complessita/trasformazioni-organizzative/) · [Avanzata](https://liberating.it/difficolta/avanzata/) · [Workshop (+1g)](https://liberating.it/durata/workshop/) · [Multi fase](https://liberating.it/design-thinking/design-thinking-cycle/)
+**Filtri:** [Per trasformazioni organizzative](https://liberating.it/complessita/trasformazioni-organizzative/) · [Avanzata](https://liberating.it/difficolta/avanzata/) · [Workshop (+1g)](https://liberating.it/durata/workshop/) · [Multi fase](https://liberating.it/design-thinking/multi-fase/)
 
 ## Domanda da portare
 

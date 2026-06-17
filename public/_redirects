@@ -1,3 +1,7 @@
+# Legacy design-thinking-cycle (phantom URL tree from relative links)
+/design-thinking/design-thinking-cycle/  /design-thinking/multi-fase/  301
+/design-thinking/design-thinking-cycle/*  /:splat  301
+
 # Trailing slash (no extension)
 /structures/:slug  /structures/:slug/  301
 /complessita/:slug  /complessita/:slug/  301

@@ -21,7 +21,7 @@ url: "https://liberating.it/structures/liquid-courage/"
 |--------|-------------|--------|------|
 | 15 minuti | Intermedia | da 6 a 30 persone | Multi fase |
 
-**Filtri:** [Per iniziare subito](/complessita/iniziare-subito/) · [Facile](/difficolta/facile/) · [Breve (max 45 min)](/durata/breve/) · [Multi fase](/design-thinking/design-thinking-cycle/)
+**Filtri:** [Per iniziare subito](/complessita/iniziare-subito/) · [Facile](/difficolta/facile/) · [Breve (max 45 min)](/durata/breve/) · [Multi fase](/design-thinking/multi-fase/)
 
 ## Domanda da portare
 
