@@ -909,6 +909,10 @@ def parse_bullet_list(text: str) -> list[str]:
     return items
 
 
+def parse_inline_bullet_list(text: str) -> list[str]:
+    return [md_inline(item) for item in parse_bullet_list(text)]
+
+
 def parse_steps(text: str) -> list[dict[str, str]]:
     steps = []
     for line in text.splitlines():
@@ -1132,13 +1136,14 @@ def structure_reading_minutes(structure: dict, *, wpm: int = READING_WPM) -> int
     """Estimate reading time for structure pages (Yoast-style Twitter card)."""
     chunks: list[str] = [
         structure.get("brief_plain", ""),
-        structure.get("consiglio", ""),
+        html_to_plain(structure.get("consiglio", "")),
         structure.get("meta_description", ""),
     ]
     for key in ("domanda_items", "prep_items", "quando_items", "errori_items"):
-        chunks.extend(structure.get(key) or [])
+        for item in structure.get(key) or []:
+            chunks.append(html_to_plain(item))
     for step in structure.get("steps") or []:
-        chunks.append(step.get("action", ""))
+        chunks.append(step.get("action_plain", html_to_plain(step.get("action", ""))))
     for item in structure.get("faq") or []:
         chunks.extend([item.get("question", ""), item.get("answer_plain", item.get("answer", ""))])
     words = len(re.findall(r"\w+", " ".join(chunks), re.UNICODE))
@@ -1703,16 +1708,12 @@ def parse_structure(path: Path) -> dict:
         "complessita": complessita,
         "complessita_slug": COMPLESSITA_MAP.get(complessita, complessita.lower().replace(" ", "-")),
         "chips": parse_chips_line(chips_text),
-        "domanda_items": parse_bullet_list(sections.get("Domanda da portare", "")),
-        "prep_items": [
-            md_inline(item) for item in parse_bullet_list(sections.get("Cosa ti serve", ""))
-        ],
+        "domanda_items": parse_inline_bullet_list(sections.get("Domanda da portare", "")),
+        "prep_items": parse_inline_bullet_list(sections.get("Cosa ti serve", "")),
         "steps": parse_steps(sections.get("I passaggi", "")),
-        "quando_items": [
-            md_inline(item) for item in parse_bullet_list(sections.get("Quando usarla", ""))
-        ],
+        "quando_items": parse_inline_bullet_list(sections.get("Quando usarla", "")),
         "consiglio": md_inline(sections.get("Il consiglio del facilitatore", "").strip()),
-        "errori_items": parse_bullet_list(sections.get("Errori da evitare", "")),
+        "errori_items": parse_inline_bullet_list(sections.get("Errori da evitare", "")),
         "faq": faq,
         "prima_items": prima,
         "dopo_items": dopo,

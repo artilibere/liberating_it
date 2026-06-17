@@ -61,6 +61,8 @@ from build import (  # noqa: E402
     parse_editorial_page,
     parse_faq,
     parse_frontmatter,
+    parse_steps,
+    strip_md_to_plain,
     structure_og_image_url,
     structure_reading_minutes,
     format_reading_time_label,
@@ -148,6 +150,40 @@ class ParseFaqTests(unittest.TestCase):
         text = "### Prima?\nUno.\n\n### Seconda?\nDue."
         items = parse_faq(text)
         self.assertEqual(len(items), 2)
+
+    def test_faq_answer_converts_internal_links(self) -> None:
+        text = (
+            "### Quanto dura?\n"
+            "Puoi collegare le lamentele a [15% Solutions](/structures/15-solutions/)."
+        )
+        items = parse_faq(text)
+        self.assertIn('<a href="/structures/15-solutions/">15% Solutions</a>', items[0]["answer"])
+        self.assertEqual(items[0]["answer_plain"], "Puoi collegare le lamentele a 15% Solutions.")
+
+    def test_faq_jsonld_uses_plain_answer(self) -> None:
+        faq = parse_faq(
+            "### Differenza?\n"
+            "Vedi [Impromptu Networking](/structures/impromptu-networking/) per il formato base."
+        )
+        jsonld = build_faq_jsonld(faq)
+        answer_text = jsonld["mainEntity"][0]["acceptedAnswer"]["text"]
+        self.assertNotIn("[Impromptu Networking]", answer_text)
+        self.assertIn("Impromptu Networking", answer_text)
+
+
+class ParseStepsTests(unittest.TestCase):
+    def test_step_action_converts_internal_links(self) -> None:
+        text = "4. Debrief con [1-2-4-All](/structures/1-2-4-all/) - 10 min"
+        steps = parse_steps(text)
+        self.assertIn('<a href="/structures/1-2-4-all/">1-2-4-All</a>', steps[0]["action"])
+        self.assertEqual(steps[0]["action_plain"], "Debrief con 1-2-4-All")
+
+    def test_howto_jsonld_uses_plain_step_text(self) -> None:
+        steps = parse_steps("4. Debrief con [1-2-4-All](/structures/1-2-4-all/) - 10 min")
+        howto = build_howto_jsonld({"steps": steps, "h1": "Test", "url": "https://example.test/x/"})
+        step_text = howto["step"][0]["text"]
+        self.assertNotIn("[1-2-4-All]", step_text)
+        self.assertIn("1-2-4-All", step_text)
 
 
 class DurationTests(unittest.TestCase):
