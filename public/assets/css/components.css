@@ -1077,6 +1077,10 @@
   margin: 0;
 }
 
+.ls-footer__copy + .ls-footer__copy {
+  margin-top: var(--ls-spacing-2);
+}
+
 .ls-footer__copy a {
   color: inherit;
   text-decoration-thickness: 1px;
