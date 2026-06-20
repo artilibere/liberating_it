@@ -92,7 +92,7 @@ class ItalianTypographyTests(unittest.TestCase):
     def test_html_text_nodes(self) -> None:
         ctx = {
             "page_type": "catalog",
-            "page_title": "Le strutture | Liberating.it",
+            "page_title": "Catalogo Liberating Structures | Liberating.it",
             "meta_description": "Filtra per difficolta', durata e fase.",
             "canonical": "https://liberating.it/structures/",
             "active_nav": "structures",
@@ -122,7 +122,7 @@ class RenderTypographyTests(unittest.TestCase):
                 out_path,
                 root,
                 page_type="catalog",
-                page_title="Le strutture | Liberating.it",
+                page_title="Catalogo Liberating Structures | Liberating.it",
                 meta_description="Catalogo: filtra per difficolta', durata e fase.",
                 canonical="https://liberating.it/structures/",
                 active_nav="structures",

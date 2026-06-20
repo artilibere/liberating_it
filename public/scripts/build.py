@@ -2461,7 +2461,7 @@ def build_catalog(env: Environment, structures: list[dict], out_root: Path, disp
     catalog_faq = CATALOG_FAQ
     ctx = {
         "page_type": "catalog",
-        "page_title": format_page_title("Le strutture"),
+        "page_title": format_page_title("Catalogo Liberating Structures"),
         "meta_description": "Catalogo delle Liberating Structures: filtra per difficoltà, durata, fase e percorso.",
         "canonical": canonical,
         "active_nav": "structures",
@@ -2697,7 +2697,7 @@ def build_per_bisogno(
 
     ctx = {
         "page_type": "per-bisogno",
-        "page_title": format_page_title("Per bisogno"),
+        "page_title": format_page_title("Liberating Structures per obiettivo"),
         "meta_description": PER_BISOGNO_INDEX_META,
         "canonical": "https://liberating.it/per-bisogno/",
         "active_nav": "per-bisogno",
