@@ -31,7 +31,7 @@ url: "https://liberating.it/structures/ecocycle-planning/"
 
 ## Cosa ti serve
 
-- Mappa Ecocycle vuota per ogni partecipante e una versione grande su poster.
+- Mappa Ecocycle vuota per ogni partecipante e una versione grande su poster (4 fasi: nascita, maturita', release creativa, rinnovo).
 - Post-it o pennarelli per posizionare le attivita'.
 - Spazio per lavoro in quartetti e plenaria.
 - Esempi concreti di attivita' nel vostro contesto (prima del workshop).
@@ -88,3 +88,45 @@ Ecocycle Planning guarda il ciclo di vita delle singole attivita'. [Panarchy](/s
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Ecocycle Planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ecocycle Planning e' una Liberating Structure che posiziona attivita' e progetti sul ciclo Ecocycle (nascita, maturita', release, rinnovamento). Il team decide insieme cosa coltivare e cosa lasciare andare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' il modello Ecocycle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il modello Ecocycle descrive come sistemi e iniziative evolvono tra crescita, stabilita', crisi creativa e rinnovamento. Nelle LS si usa per rendere visibili le fasi e sbloccare decisioni di portfolio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Ecocycle Planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 100 minuti con lavoro individuale, quartetti e plenaria. Per portfolio ampi o gruppi numerosi prevedi due ore."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Ecocycle Planning e Panarchy: differenza?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ecocycle Planning guarda il ciclo di vita delle singole attivita'. [Panarchy](/structures/panarchy/) mappa fattori su livelli micro, meso e macro di sistema. Si complementano su trasformazioni lunghe."
+      }
+    }
+  ]
+}
+</script>
+-->

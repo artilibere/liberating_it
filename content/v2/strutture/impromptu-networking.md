@@ -31,35 +31,35 @@ url: "https://liberating.it/structures/impromptu-networking/"
 
 ## Cosa ti serve
 
-- Spazio aperto senza ostacoli.
-- I partecipanti devono potersi muovere liberamente.
-- Disposizione: in piedi, senza sedie o tavoli.
+- Spazio aperto senza ostacoli: i partecipanti stanno in piedi e si muovono.
 - Campanello o timer per segnare i turni.
 - Badge nominativi (opzionali).
+- In remoto: breakout room da 2 con assegnazione casuale; timer visibile a tutti; tre round con partner diversi.
 
 ## I passaggi
 
-1. Fase di apertura Presentare le domande. - 2 min
-2. Spiegare il formato delle interazioni.
-3. Tre turni di conversazione Ogni round: 4-5 minuti totali. - 15 min
-4. 2 minuti per persona.
-5. Cambio partner ad ogni round.
-6. Chiusura Breve riflessione individuale. - 3 min
+1. Presenta la domanda e spiega il formato: 2 minuti a persona, poi si cambia partner - 2 min
+2. Primo round: ognuno trova un partner e risponde alla domanda a turno - 4 min
+3. Campanello: cambio partner obbligatorio, secondo round con la stessa domanda - 4 min
+4. Terzo round: nuovo partner, stessa domanda o una variante - 4 min
+5. Breve riflessione individuale: cosa hai scoperto di utile? - 3 min
+6. Opzionale: 2-3 condivisioni in plenaria su pattern emersi - 3 min
 
 ## Quando usarla
 
-- Quando all'inizio di workshop o riunioni.
-- Per rompere il ghiaccio in modo produttivo.
-- Quando serve attivare rapidamente l'energia del gruppo.
+- All'inizio di workshop o riunioni, quando le persone non si conoscono o sono distratte.
+- Per rompere il ghiaccio in modo produttivo, non con chiacchiere casuali.
+- Quando serve attivare rapidamente l'energia del gruppo prima di un lavoro piu' profondo.
 
 ## Il consiglio del facilitatore
 
-Dai un segnale chiaro per cambiare partner (campanello o countdown). In remoto usa breakout room con timer automatico.
+Dai un segnale chiaro per cambiare partner (campanello o countdown). Incoraggia incontri tra persone che non si conoscono. In remoto usa breakout room con timer automatico e riassegna i partner a ogni round.
 
 ## Errori da evitare
 
-- Usare domande aperte ma non troppo ampie.
-- Incoraggiare l'incontro tra persone che non si conoscono.
+- Usare domande troppo ampie ("Com'e' andata la settimana?") invece di domande legate al tema dell'incontro.
+- Lasciare che le coppie restino sempre le stesse: il valore sta nel cambio partner.
+- Saltare la riflessione finale: anche 2 minuti da soli consolidano quanto emerso.
 
 ## Domande frequenti
 
@@ -67,10 +67,10 @@ Dai un segnale chiaro per cambiare partner (campanello o countdown). In remoto u
 Impromptu Networking fa muovere le persone in coppie con domande brevi. Rompe il ghiaccio e crea connessioni in pochi minuti.
 
 ### Quanto dura Impromptu Networking?
-Di solito 20 minuti. I passaggi prevedono tempi fissi (2 min, 15 min, 3 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 20 minuti: tre round da 4 minuti in coppia, piu' apertura e chiusura.
 
 ### Quando conviene usare Impromptu Networking?
-Quando all'inizio di workshop o riunioni.
+All'inizio di workshop o riunioni, quando serve far parlare tutti prima di passare a strutture piu' strutturate come [1-2-4-All](/structures/1-2-4-all/).
 
 ## Prima e dopo
 
@@ -88,3 +88,37 @@ Quando all'inizio di workshop o riunioni.
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Impromptu Networking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Impromptu Networking fa muovere le persone in coppie con domande brevi. Rompe il ghiaccio e crea connessioni in pochi minuti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Impromptu Networking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 20 minuti: tre round da 4 minuti in coppia, piu' apertura e chiusura."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Impromptu Networking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All'inizio di workshop o riunioni, quando serve far parlare tutti prima di passare a strutture piu' strutturate come [1-2-4-All](/structures/1-2-4-all/)."
+      }
+    }
+  ]
+}
+</script>
+-->

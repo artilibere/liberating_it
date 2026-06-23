@@ -32,7 +32,10 @@ url: "https://liberating.it/structures/spiral-journal/"
 ## Cosa ti serve
 
 - Foglio A4 e penna per ogni partecipante.
-- Domande preparate (3-4) proiettate una alla volta.
+- Domande preparate (3-4) proiettate una alla volta:
+  - "Cosa ti ha sorpreso di piu' nell'ultimo periodo?"
+  - "Quale passo piccolo potresti fare la prossima settimana?"
+  - "Cosa vorresti lasciare andare per andare avanti?"
 - Ambiente silenzioso per la fase individuale.
 - Opzione: chi non vuole disegnare puo' usare linee ondulate al posto della spirale.
 
@@ -86,3 +89,45 @@ Di solito 15 minuti: circa 10 minuti individuali e 4-5 di condivisione. Puoi agg
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Spiral Journal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Spiral Journal e' una struttura di riflessione individuale in cui disegni una spirale e rispondi a domande guidate mentre scrivi dal centro verso l'esterno. Chiude con scambio breve in piccoli gruppi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Serve saper disegnare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. La spirale e' un percorso visivo per ancorare l'attenzione, non un'opera d'arte. Linee semplici bastano."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Spiral Journal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 15 minuti: circa 10 minuti individuali e 4-5 di condivisione. Puoi aggiungere una domanda se hai 20 minuti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Spiral Journal e Drawing Together: differenza?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Drawing Together](/structures/drawing-together/) usa simboli condivisi per metafore di gruppo. Spiral Journal e' riflessione personale prima di un breve scambio."
+      }
+    }
+  ]
+}
+</script>
+-->

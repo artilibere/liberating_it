@@ -33,7 +33,7 @@ url: "https://liberating.it/structures/drawing-together/"
 
 - Spazio con parete libera o lavagne a fogli mobili.
 - Pennarelli o pastelli colorati per tutti.
-- Un poster con i 5 simboli base e un esempio di combinazione.
+- Poster con i 5 simboli base: cerchio (unita'), rettangolo (struttura), triangolo (obiettivo), stella (visione), freccia (movimento).
 
 ## I passaggi
 
@@ -86,3 +86,45 @@ Quando il team e' bloccato nel linguaggio verbale o deve esplorare metafore su c
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Drawing Together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drawing Together e' una Liberating Structure che usa cinque simboli visivi per raccontare situazioni complesse. Il gruppo interpreta i disegni senza parole dell'autore e ne trae insight condivisi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Serve saper disegnare per Drawing Together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. I simboli sono elementari (cerchi, frecce, forme base). L'obiettivo e' comunicare un'idea, non produrre illustrazioni."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Drawing Together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 40 minuti in cinque passaggi. Puoi accorciare le bozze individuali se il gruppo e' numeroso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Drawing Together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando il team e' bloccato nel linguaggio verbale o deve esplorare metafore su cambiamento, strategia o dinamiche di gruppo."
+      }
+    }
+  ]
+}
+</script>
+-->

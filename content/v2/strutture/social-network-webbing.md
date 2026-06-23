@@ -38,7 +38,7 @@ url: "https://liberating.it/structures/social-network-webbing/"
 
 ## I passaggi
 
-1. Crea una legenda: identifica fino a 10 gruppi o funzioni chiave e assegna un colore a ciascuno - 5 min
+1. Crea una legenda: fino a 10 gruppi o funzioni (es. vendite=blu, IT=verde, HR=giallo) - 5 min
 2. Ogni partecipante scrive il proprio nome su un Post-it e lo posiziona al centro della mappa (core team) - 5 min
 3. Mappa le connessioni attuali: aggiungi persone gia' attive e collega i Post-it per gradi di separazione - 10 min
 4. Mappa le connessioni future: brainstorming su chi coinvolgere e crea la periferia della rete - 10 min
@@ -77,14 +77,56 @@ Quando devi superare silos, diffondere competenze o coinvolgere persone fuori da
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - capire cosa fare dopo la mappa
+- **Prima:** [Impromptu Networking](/structures/impromptu-networking/) - far emergere connessioni informali
+- **Dopo:** [Open Space Technology (OST)](/structures/open-space-technology-ost/) - auto-organizzazione sulla rete mappata
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce per far emergere connessioni
-- [Open Space Technology (OST)](/structures/open-space-technology-ost/) - auto-organizzazione su larga scala
+- [Open Space Technology (OST)](/structures/open-space-technology-ost/) - workshop auto-organizzato su larga scala
+- [WINFY](/structures/what-i-need-from-you-winfy/) - chiarire richieste tra funzioni collegate
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [Open Space Technology (OST)](/structures/open-space-technology-ost/) - mobilizzare la rete
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Social Network Webbing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Social Network Webbing e' una Liberating Structure che mappa le relazioni informali e le reti di influenza dentro e fuori l'organizzazione. Produce una mappa visiva di chi conosce chi e di quali connessioni servono per raggiungere uno scopo comune."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' il webbing nelle Liberating Structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Webbing e' il nome breve di Social Network Webbing. Serve a rendere visibili risorse nascoste nella rete di relazioni esistenti e a pianificare nuovi collegamenti, non a disegnare l'organigramma formale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Social Network Webbing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 55 minuti, divisi in sei blocchi da 5 a 15 minuti. In workshop piu' lunghi puoi approfondire l'analisi delle connessioni."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Social Network Webbing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando devi superare silos, diffondere competenze o coinvolgere persone fuori dal team senza partire da zero nelle relazioni."
+      }
+    }
+  ]
+}
+</script>
+-->

@@ -31,16 +31,16 @@ url: "https://liberating.it/structures/25-10-crowd-sourcing/"
 
 ## Cosa ti serve
 
-- Spazio aperto: i partecipanti stanno in piedi e si muovono.
+- Spazio aperto: partecipanti in piedi in cerchio.
 - Un cartoncino A6 per persona (piu' il 10% di scorta).
-- Su un lato: idea audace e primo passo concreto. Sull'altro: cinque caselle numerate per i voti (1-5).
+- Su un lato: idea audace e primo passo. Sull'altro: cinque caselle per i voti (1-5).
 
 ## I passaggi
 
 1. Spiega il processo: scrivere, passare, votare in silenzio - 5 min
 2. Fai una dimostrazione rapida di come si passa e si vota un cartoncino
 3. Ognuno scrive la propria idea e il primo passo sul cartoncino - 5 min
-4. Fase "gira e passa": i cartoncini circolano; ogni persona legge e assegna un voto da 1 a 5 - 15 min
+4. Fase "gira e passa" in cerchio: leggi, vota in silenzio (1-5), passa al vicino. Niente discussioni durante il giro - 15 min
 5. Raccogli i cartoncini e somma i punteggi; leggi ad alta voce le dieci idee con voto piu' alto - 5 min
 
 ## Quando usarla
@@ -86,3 +86,45 @@ Con gruppi numerosi quando serve una prioritizzazione rapida e trasparente dopo 
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' 25/10 Crowd Sourcing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "25/10 Crowd Sourcing e' una Liberating Structure in cui ogni partecipante scrive un'idea, i cartoncini girano nel gruppo e ricevono voti da 1 a 5. In circa 30 minuti emergono le proposte con punteggio piu' alto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Perche' si chiama 25/10?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il nome richiama il meccanismo di valutazione collettiva su molte idee in poco tempo (variante documentata nel menu Liberating Structures). L'importante e' il giro di voti anonimi sui cartoncini, non un numero fisso di idee."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura 25/10 Crowd Sourcing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 30 minuti: 5 per spiegare, 5 per scrivere, 15 per votare in circolo, 5 per la lettura della top ten."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare 25/10 Crowd Sourcing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con gruppi numerosi quando serve una prioritizzazione rapida e trasparente dopo una fase di generazione idee."
+      }
+    }
+  ]
+}
+</script>
+-->

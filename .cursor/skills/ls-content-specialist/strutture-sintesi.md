@@ -19,11 +19,11 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   2. Ognuno riflette in silenzio e annota le proprie idee - 1 min
   3. In coppia, condividete e migliorate le idee - 2 min
   4. Due coppie si uniscono in un gruppo da quattro e selezionano le idee piu' forti - 4 min
-  5. Ogni gruppo da quattro condivide un'idea in plenaria (una conversazione alla volta) - 5 min
+  5. Ogni gruppo da quattro condivide un'idea in plenaria: una conversazione alla volta, niente interruzioni parallele - 5 min
 - **Domanda esempio:** "Quali opportunita' vedi per far progredire questo progetto?"
 - **Settori forti:** Universale; porta d'ingresso ovunque
 - **Nota mercato IT:** Ideale per 'rompere' riunioni italiane troppo centralizzate; spiega il minuto di silenzio.
-- **String:** Prima: Impromptu Networking (rompe il ghiaccio prima di raccogliere idee) | Dopo: What, So What, Now What? (W³) (capire cosa fare delle idee emerse) | Simili: 4-2-1-Storming
+- **String:** Prima: [Impromptu Networking](/structures/impromptu-networking/) - rompe il ghiaccio prima di raccogliere idee | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - capire cosa fare delle idee emerse | Simili: [4-2-1-Storming](/structures/4-2-1-storming/) - stessa difficolta', converge su un impegno; [25/10 Crowd Sourcing](/structures/25-10-crowd-sourcing/) - prioritizza molte idee in poco tempo
 - **Scheda:** [/structures/1-2-4-all/](/structures/1-2-4-all/)
 
 ## 15% Solutions
@@ -37,15 +37,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Pianificazione di iniziative dal basso.
   - Superamento di situazioni di stallo o negatività.
 - **Passaggi essenziali:**
-  1. Fase individuale: Ogni partecipante genera la propria lista di soluzioni da 15% . - 5 min
-  2. [ 3 min/persona ] Condivisione Condivisione delle idee in piccoli gruppi.
-  3. Un partecipante alla volta.
-  4. [ 5/7 min/persona ] Consultazione I membri del gruppo pongono domande di chiarimento.
-  5. Offrono suggerimenti e consigli.
+  1. Spiega il concetto di 15%: la parte del problema che puoi influenzare con le risorse e l'autonomia che hai gia' - 2 min
+  2. Ognuno scrive almeno una azione concreta nel proprio 15% - 5 min
+  3. In gruppi da 2-4, un partecipante alla volta presenta la propria azione - 3 min a persona
+  4. Il gruppo fa solo domande di chiarimento: niente consigli, niente "dovresti fare cosi'" - 5-7 min a persona
+  5. Breve chiusura: ognuno conferma l'azione che fara' davvero entro una settimana - 3 min
 - **Domanda esempio:** "Qual è il tuo 15%? Dove hai discrezionalità e libertà d’azione? Cosa puoi fare senza ulteriori risorse o autorizzazioni?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (generare idee prima di scegliere cosa fare) | Dopo: Troika Consulting (chiedere consiglio su come procedere) | Simili: Min Specs
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - generare idee prima di scegliere cosa fare | Dopo: [Troika Consulting](/structures/troika-consulting/) - chiedere consiglio su come procedere | Simili: [Min Specs](/structures/min-specs/) - definire regole minime per agire; [4-2-1-Storming](/structures/4-2-1-storming/) - impegno personale concreto
 - **Scheda:** [/structures/15-solutions/](/structures/15-solutions/)
 
 ## 25/10 Crowd Sourcing
@@ -59,16 +59,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Identificare le 10 migliori proposte secondo il giudizio del gruppo.
   - Stimolare il pensiero creativo e l’innovazione.
 - **Passaggi essenziali:**
-  1. Fase iniziale spiegazione del processo. - 5 min
-  2. Dimostrazione pratica dello scambio e valutazione.
-  3. Generazione delle idee scrittura delle idee sui cartoncini. - 5 min
-  4. 5 round di scambio: e valutazione “gira e passa” per scambiare i cartoncini - 15 min
-  5. “leggi e valuta” per assegnare un punteggio da 1 a 5
-  6. Conclusione conteggio: finale e identificazione delle prime 10 idee. - 10 min
+  1. Spiega il processo: scrivere, passare, votare in silenzio - 5 min
+  2. Fai una dimostrazione rapida di come si passa e si vota un cartoncino
+  3. Ognuno scrive la propria idea e il primo passo sul cartoncino - 5 min
+  4. Fase "gira e passa" in cerchio: leggi, vota in silenzio (1-5), passa al vicino. Niente discussioni durante il giro - 15 min
+  5. Raccogli i cartoncini e somma i punteggi; leggi ad alta voce le dieci idee con voto piu' alto - 5 min
 - **Domanda esempio:** "Se fossi 10 volte più coraggioso, quale grande idea proporresti? Quale primo passo faresti per iniziare?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - generare idee prima di votarle | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - capire cosa fare con le idee scelte | Simili: [1-2-4-All](/structures/1-2-4-all/) - far emergere idee in gruppi piccoli; [TRIZ](/structures/triz/) - capire cosa smettere di fare prima di aggiungere
 - **Scheda:** [/structures/25-10-crowd-sourcing/](/structures/25-10-crowd-sourcing/)
 
 ## 4-2-1-Storming
@@ -82,16 +81,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Quando emergono conflitti costruttivi nel team.
   - Durante le fasi di storming dei gruppi di lavoro.
 - **Passaggi essenziali:**
-  1. Brainwriting in gruppo formare gruppi di 4 persone. - 8 min
-  2. Ogni persona scrive silenziosamente 3 idee su post-it.
-  3. Passare i post-it in senso orario ogni 2 minuti.
-  4. Ogni partecipante costruisce sulle idee ricevute.
-  5. Sintesi in coppia dividere i gruppi in coppie. - 4 min
-  6. Analizzare insieme le idee generate.
+  1. Forma gruppi da quattro e spiega: silenzio durante il brainwriting - 2 min
+  2. Ognuno scrive 3 idee su post-it in silenzio - 2 min
+  3. Passate i post-it in senso orario; ognuno costruisce sulle idee ricevute ogni 2 minuti - 8 min
+  4. Dividete in coppie e analizzate le idee emerse - 4 min
+  5. Individuale: ognuno scrive un impegno personale ("1") da portare via - 4 min
 - **Domanda esempio:** "Cosa hai notato/osservato riguardo a X?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - raccogliere osservazioni condivise | Dopo: [15% Solutions](/structures/15-solutions/) - tradurre l'impegno in azione nel proprio 15% | Simili: [1-2-4-All](/structures/1-2-4-all/) - formato ufficiale per far emergere idee; [25/10 Crowd Sourcing](/structures/25-10-crowd-sourcing/) - prioritizzare molte idee
 - **Scheda:** [/structures/4-2-1-storming/](/structures/4-2-1-storming/)
 
 ## 9 Whys
@@ -105,16 +103,13 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Rivelare quando manca un obiettivo convincente.
   - Creare maggiore libertà e responsabilità attraverso uno scopo condiviso.
 - **Passaggi essenziali:**
-  1. Lavoro a coppie Interviste a coppie, 5 minuti per persona. - 10 min
-  2. L’intervistatore pone ripetutamente la domanda “Perché è importante per te?”.
-  3. Lavoro in piccoli: gruppi Le coppie si uniscono in gruppi da quattro. - 5 min
-  4. Condivisione delle esperienze e degli insight emersi.
-  5. Riflessione plenaria Riflessione con tutto il gruppo - 5 min
-  6. Discussione su come gli scopi emersi influenzano i prossimi passi.
+  1. A coppie: solo la domanda "Perche' e' importante per te?" (niente soluzioni, niente consigli) - 10 min
+  2. Le coppie si uniscono in gruppi da quattro e condividono gli insight - 5 min
+  3. Plenaria: pattern comuni e implicazioni per i prossimi passi - 5 min
 - **Domanda esempio:** "Cosa fai quando lavori su…?"
 - **Settori forti:** Allineamento scopo, team bloccati
 - **Nota mercato IT:** Evita tono investigativo; e' esplorazione, non interrogatorio.
-- **String:** Prima: Wicked Questions (esplorare tensioni prima di scavare in profondita') | Dopo: TRIZ (invertire il problema una volta trovata la causa) | Simili: Min Specs
+- **String:** Prima: [Wicked Questions](/structures/wicked-questions/) - esplorare tensioni prima di scavare nel perche' | Dopo: [TRIZ](/structures/triz/) - invertire il problema una volta trovata la causa | Simili: [Min Specs](/structures/min-specs/) - stessa fase Define, regole minime; [Discovery & Action Dialogue (DAD)](/structures/discovery-action-dialogue-dad/) - analisi problemi sul campo
 - **Scheda:** [/structures/9-whys/](/structures/9-whys/)
 
 ## Agreement & Certainty Matrix
@@ -128,15 +123,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Selezione di metodologie di cambiamento all’inizio di un progetto.
   - Superamento della “paralisi da analisi” in fase di pianificazione.
 - **Passaggi essenziali:**
-  1. Fase individuale: ognuno scrive su post-it le sfide che ha in mente e le posiziona nella matrice personale. - 10 min
-  2. Fase di confronto: prima ci si confronta in coppie e poi in gruppi di 4/6 persone. - 15 min
-  3. Fase collettiva: si posizionano i post-it sulla matrice comune. - 20 min
-  4. In piccoli gruppi si riflette sui pattern emersi.
-  5. In plenaria si converge sui prossimi passi.
+  1. Spiega i due assi e i quattro quadranti con un esempio concreto - 5 min
+  2. Individuale: ognuno scrive le sfide su post-it e le posiziona sulla matrice personale - 10 min
+  3. In coppie, poi in gruppi da 4-6: confrontate i posizionamenti - 15 min
+  4. Collocate i post-it sulla matrice comune in plenaria - 10 min
+  5. In piccoli gruppi: quali metodi servono per ogni quadrante? - 10 min
+  6. Plenaria: prossimi passi per le sfide prioritarie - 5 min
 - **Domanda esempio:** "Qual è il grado di accordo tra i partecipanti riguardo alla sfida e al modo migliore per affrontarla? Qual è il grado di certezza e prevedibilità sui risultati delle soluzioni proposte?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - far emergere le sfide dal gruppo | Dopo: [Critical Uncertainties](/structures/critical-uncertainties/) - esplorare scenari per sfide complesse | Simili: [Critical Uncertainties](/structures/critical-uncertainties/) - scenari sotto incertezza; [Ecocycle Planning](/structures/ecocycle-planning/) - portfolio di attivita'
 - **Scheda:** [/structures/agreement-certainty-matrix/](/structures/agreement-certainty-matrix/)
 
 ## Appreciative Interviews
@@ -150,16 +146,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - All’inizio di nuovi progetti strategici.
   - Per rivitalizzare team demotivati o stanchi.
 - **Passaggi essenziali:**
-  1. Introduzione Spiegazione del processo e del tema. - 3 min
-  2. [ 15/20 min ] Interviste a coppia A turno, ogni persona intervista e racconta.
-  3. 7-10 minuti per persona.
-  4. Condivisione di: pattern in gruppi da 4 Ogni persona racconta la storia del proprio partner. - 15 min
-  5. Il gruppo identifica pattern nei fattori di successo.
-  6. [ 10/15 min ] Raccolta collettiva Registrazione di intuizioni e pattern sulla lavagna.
+  1. Presenta il tema e il formato: interviste apprezzative, non problem-solving - 3 min
+  2. In coppie: a turno, ognuno intervista l'altro per 7-10 minuti con la domanda guida - 20 min
+  3. Forma gruppi da quattro: ognuno racconta la storia del proprio partner (non la propria) - 15 min
+  4. Ogni gruppo identifica pattern nei fattori di successo - 10 min
+  5. Plenaria: raccogli pattern e intuizioni sulla lavagna - 12 min
 - **Domanda esempio:** "Raccontami una storia di quando hai lavorato su una sfida con altri e sei orgogliosa/o di ciò che avete realizzato. Qual è la storia e cosa ha reso possibile il successo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Impromptu Networking](/structures/impromptu-networking/) - creare connessioni prima delle interviste | Dopo: [1-2-4-All](/structures/1-2-4-all/) - generare idee su come amplificare i pattern di successo | Simili: [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - ascolto empatico su episodi difficili; [Conversation Café](/structures/conversation-cafe/) - dialogo profondo su un tema
 - **Scheda:** [/structures/appreciative-interviews-ai/](/structures/appreciative-interviews-ai/)
 
 ## Celebrity Interview
@@ -173,15 +168,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Trasforma presentazioni potenzialmente noiose in narrazioni coinvolgenti.
   - Stimola l’azione collettiva attraverso il coinvolgimento diretto.
 - **Passaggi essenziali:**
-  1. Introduzione dell’ospite e del tema. - 5 min
-  2. Intervista con domande significative. - 15 min
-  3. Generazione delle domande usando 1-2-4-all . - 10 min
-  4. Far selezionare le domande dall’ospite . - 10 min
-  5. Chiusura e debriefing. - 5 min
+  1. Presenta ospite e tema; l'intervistatore apre con 2-3 domande preparate - 15 min
+  2. Il gruppo usa [1-2-4-All](/structures/1-2-4-all/) per generare domande per l'ospite - 10 min
+  3. Raccogli le domande su cartoncini; l'ospite ne sceglie 3-5 da approfondire - 5 min
+  4. Secondo round di intervista sulle domande scelte - 10 min
+  5. Chiusura: cosa portate via? Un insight ciascuno - 5 min
 - **Domanda esempio:** "Cosa ti ha ispirato in questo lavoro?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Sostituisce la presentazione del capo; il capo risponde, non monologa.
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Impromptu Networking](/structures/impromptu-networking/) - creare energia prima dell'ospite | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - cosa fare con quanto emerso | Simili: [User Experience Fishbowl](/structures/user-experience-fishbowl/) - piu' persone al centro con la platea; [Conversation Café](/structures/conversation-cafe/) - dialogo profondo senza ospite unico
 - **Scheda:** [/structures/celebrity-interview/](/structures/celebrity-interview/)
 
 ## Conversation Cafe
@@ -195,16 +190,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Generare nuove idee e slancio per l’innovazione.
   - Costruire comprensione condivisa tra diverse prospettive.
 - **Passaggi essenziali:**
-  1. Introduzione presentazione del tema. - 5 min
-  2. Spiegazione delle quattro fasi.
-  3. Distribuzione oggetti parlanti.
-  4. Lettura degli accordi di base.
-  5. [ 1 min / persona ] Round 1 , condivisione condivisione iniziale di pensieri ed emozioni sul tema
-  6. Utilizzo dell’oggetto parlante.
+  1. Presenta il tema e gli accordi del café; assegna un host a ogni tavolo - 5 min
+  2. **Round 1:** ognuno condivide pensieri ed emozioni sul tema (circa 1 min a persona, oggetto parlante) - 10 min
+  3. **Round 2:** silenzio di 2 minuti per riflettere su quanto emerso - 2 min
+  4. **Round 3:** riprendi la conversazione con nuove intuizioni - 15 min
+  5. **Round 4:** "Cosa resta senza dire?" - 10 min
+  6. Plenaria opzionale: ogni host condivide un insight dal proprio tavolo - 10 min
 - **Domanda esempio:** "Come possiamo interpretare questo cambiamento organizzativo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Impromptu Networking](/structures/impromptu-networking/) - creare connessioni prima del dialogo profondo | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - tradurre intuizioni in azioni | Simili: [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - ascolto empatico in coppia; [Appreciative Interviews](/structures/appreciative-interviews-ai/) - storie di successo condivise
 - **Scheda:** [/structures/conversation-cafe/](/structures/conversation-cafe/)
 
 ## Critical Uncertainties
@@ -218,16 +213,17 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Lancio di nuovi prodotti o servizi.
   - Gestione di cambiamenti organizzativi complessi.
 - **Passaggi essenziali:**
-  1. Fase di apertura introduzione della microstruttura. - 10 min
-  2. Spiegazione chiara degli obiettivi.
-  3. Formazione dei 4 gruppi di lavoro.
-  4. Esplorazione delle: incertezze riflessione individuale sulle incertezze critiche. - 15 min
-  5. Condivisione in coppia delle incertezze identificate.
-  6. Selezione delle incertezze più significative in gruppo di quattro.
+  1. Introduci obiettivo e formato: da incertezze a scenari - 10 min
+  2. Individuale: ognuno elenca incertezze critiche (fattori fuori dal vostro controllo) - 15 min
+  3. In coppia: condividete e selezionate le incertezze piu' rilevanti - 10 min
+  4. In gruppi da quattro: scegliete le 2 incertezze piu' significative per gli assi della matrice - 15 min
+  5. Plenaria: definite i due assi (es. "domanda del mercato" x "velocita' regolamentare") e i quattro quadranti - 15 min
+  6. Quattro gruppi: ognuno sviluppa uno scenario nel proprio quadrante (cosa succede, implicazioni, segnali) - 30 min
+  7. Plenaria: ogni gruppo presenta il proprio scenario; discutete implicazioni strategiche - 25 min
 - **Domanda esempio:** "Nel vostro ambiente operativo, quali fattori sono impossibili da prevedere o controllare nella loro direzione?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: Agreement / Certainty Matrix (mappare certezze prima degli scenari) | Dopo: Design StoryBoards (progettare il workshop che segue) | Simili: Open Space Technology (OST)
+- **String:** Prima: [Agreement & Certainty Matrix](/structures/agreement-certainty-matrix/) - mappare certezze prima degli scenari | Dopo: [Design StoryBoards](/structures/design-storyboards/) - progettare il workshop che segue | Simili: [Open Space Technology (OST)](/structures/open-space-technology-ost/) - workshop lungo per strategia; [Ecocycle Planning](/structures/ecocycle-planning/) - pianificazione del portfolio
 - **Scheda:** [/structures/critical-uncertainties/](/structures/critical-uncertainties/)
 
 ## Design StoryBoards
@@ -241,16 +237,17 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Riunioni settimanali che hanno perso efficacia.
   - Meeting periodici che necessitano di una nuova energia.
 - **Passaggi essenziali:**
-  1. Illustrare lo scopo del lavoro. - 5 min
-  2. Descrivere l’approccio: standard e valutarne efficacia/inefficacia. - 5 min
-  3. Riesaminare e rafforzare la dichiarazione dello scopo . - 3 min
-  4. Decidere chi deve partecipare . - 2 min
-  5. Fare brainstorming: sulle possibili microstrutture da utilizzare . - 5 min
-  6. Scegliere le microstrutture più adatte. - 10 min
+  1. Scrivi lo scopo dell'incontro in una frase chiara - 5 min
+  2. Descrivi l'approccio attuale e valutatene efficacia e inefficacia - 5 min
+  3. Rivedete e rafforzate la dichiarazione di scopo - 3 min
+  4. Decidete chi deve partecipare e con quale ruolo - 5 min
+  5. Brainstorming sulle microstrutture LS da usare (es. [1-2-4-All](/structures/1-2-4-all/), [Troika Consulting](/structures/troika-consulting/)) - 10 min
+  6. Selezionate le microstrutture e costruite lo storyboard visuale con sequenza e tempi - 15 min
+  7. Testate il flusso: "Ha senso? Manca qualcosa? I tempi sono realistici?" - 5 min
 - **Domanda esempio:** "Come possiamo strutturare questo incontro/iniziativa per raggiungere il nostro scopo in modo efficace e coinvolgente?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Critical Uncertainties](/structures/critical-uncertainties/) - chiarire scenari prima di progettare il workshop | Dopo: facilita l'incontro progettato, poi [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) per il debrief | Simili: [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare scopo e pratiche su iniziative lunghe; [Open Space Technology (OST)](/structures/open-space-technology-ost/) - quando il formato e' auto-organizzato
 - **Scheda:** [/structures/design-storyboards/](/structures/design-storyboards/)
 
 ## Discovery & Action Dialogue
@@ -264,16 +261,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Risolvere problemi cronici sfruttando l’intelligenza collettiva.
   - Generazione di soluzioni sostenibili scoperte dalle persone che svolgono il lavoro.
 - **Passaggi essenziali:**
-  1. Apertura presentazione dello scopo. - 5 min
-  2. Brevissimo giro di presentazioni dei partecipanti.
-  3. [ 15/60 min ] Dialogo strutturato analizzare le 7 domande in sequenza.
-  4. Giro di parola per dare voce a tutti.
-  5. Insights e idee operative vengono registrate sulla lavagna a fogli mobili.
-  6. Chiusura riepilogo: degli insights principali e delle azioni proposte. - 5 min
+  1. Presenta lo scopo: scoprire soluzioni che gia' funzionano sul campo, non imporre best practice - 5 min
+  2. Breve giro di presentazioni: nome e ruolo - 5 min
+  3. Attraversa le 7 domande in sequenza: giro di parola, una persona alla volta - 60-90 min
+  4. Registra insight e azioni sulla lavagna man mano che emergono - durante tutto il dialogo
+  5. Chiudi con riepilogo: insight principali, azioni proposte, volontari - 10 min
 - **Domanda esempio:** "Come possiamo scoprire e diffondere le soluzioni già presenti nel nostro gruppo per risolvere [problema specifico]?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Simple Ethnography](/structures/simple-ethnography/) - osservare prima cosa funziona sul campo | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - decidere i prossimi passi sulle azioni emerse | Simili: [9 Whys](/structures/9-whys/) - andare alla radice personale del problema; [15% Solutions](/structures/15-solutions/) - tradurre insight in azioni immediate
 - **Scheda:** [/structures/discovery-action-dialogue-dad/](/structures/discovery-action-dialogue-dad/)
 
 ## Drawing Together
@@ -287,16 +283,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Sviluppare una comprensione condivisa più profonda di visioni o dinamiche complesse.
   - Creare connessioni più strette tra i membri del gruppo.
 - **Passaggi essenziali:**
-  1. Introduzione presentare i 5 simboli e il loro significato. - 5 min
-  2. Pratica far esercitare: i partecipanti nel disegnare i simboli. - 5 min
-  3. Prima bozza creazione: individuale della storia attraverso i simboli . - 10 min
-  4. Seconda bozza raffinamento: della storia variando dimensioni, posizione e colori dei simboli . - 10 min
-  5. Interpretazione: condivisione in piccoli gruppi senza che l’autore parli . - 5 min
-  6. Conclusione Discussione: plenaria su “Cosa rivelano insieme i disegni?” - 5 min
+  1. Presenta i 5 simboli e il loro significato; fai provare a disegnarli - 5 min
+  2. Ognuno crea una prima bozza della propria storia usando i simboli - 10 min
+  3. Raffinamento: ridisegna variando dimensioni, posizione e colori - 10 min
+  4. In piccoli gruppi, gli altri interpretano il disegno senza che l'autore parli - 5 min
+  5. In plenaria: "Cosa rivelano insieme i disegni?" e quali pattern emergono - 5 min
 - **Domanda esempio:** "Qual è il viaggio che state facendo per innovare il vostro team?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - raccogliere idee prima di disegnare | Dopo: [Improv Prototyping](/structures/improv-prototyping/) - testare le metafore emerse | Simili: [Design StoryBoards](/structures/design-storyboards/) - visualizzare scenari nel tempo; [Spiral Journal](/structures/spiral-journal/) - riflessione visiva personale
 - **Scheda:** [/structures/drawing-together/](/structures/drawing-together/)
 
 ## Ecocycle Planning
@@ -310,16 +305,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Stabilire priorità strategiche con il coinvolgimento di tutti.
   - Bilanciare il portfolio di attività attraverso le diverse fasi di sviluppo .
 - **Passaggi essenziali:**
-  1. Introduzione all’Ecocycle: presentare il concetto di Ecocycle e le quattro fasi. - 10 min
-  2. Spiegare il significato di ogni quadrante della mappa.
-  3. Mostrare esempi concreti di attività in ogni fase.
-  4. Distribuire materiali e template.
-  5. Riflessione individuale: ogni partecipante elenca 10-15 attività/iniziative attuali. - 10 min
-  6. Identificazione delle attività “bloccate” nella trappola della povertà o del successo.
+  1. Introduci le quattro fasi Ecocycle con esempi dal vostro settore - 10 min
+  2. Individuale: ogni persona elenca 10-15 attivita' o iniziative attuali - 10 min
+  3. Posiziona ogni attivita' sulla mappa personale (nascita, maturita', release, rinnovo) - 15 min
+  4. In quartetti: confrontate le mappe e segnate attivita' "bloccate" - 25 min
+  5. Plenaria con 1-2-4-All: quali decisioni di taglio o investimento emergono? - 30 min
+  6. Sintesi: 3-5 azioni concrete su cosa potenziare e cosa liberare - 10 min
 - **Domanda esempio:** "Come possiamo organizzare e prioritizzare le nostre attività attuali considerando le quattro fasi di sviluppo: nascita, maturità, distruzione creativa e rinnovamento?"
 - **Settori forti:** Portfolio, team maturi, fine ciclo
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Agreement & Certainty Matrix](/structures/agreement-certainty-matrix/) - chiarire la natura della sfida | Dopo: [Min Specs](/structures/min-specs/) - tradurre le decisioni in regole minime operative | Simili: [Panarchy](/structures/panarchy/) - sistemi complessi a piu' livelli; [Critical Uncertainties](/structures/critical-uncertainties/) - scenari sotto incertezza
 - **Scheda:** [/structures/ecocycle-planning/](/structures/ecocycle-planning/)
 
 ## Generative Relationships STAR
@@ -333,16 +328,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Sviluppare l’autonomia del gruppo.
   - Definire meglio scopo e identità collettiva.
 - **Passaggi essenziali:**
-  1. Valutazione individuale: dei 4 elementi STAR separateness = diversità di prospettive. - 5 min
-  2. Tuning = livello di ascolto reciproco.
-  3. Action = opportunità di azione comune.
-  4. Reason = benefici della collaborazione.
-  5. Confronto in piccoli: gruppi i partecipanti condividono le loro valutazioni usando il formato 1-2-4 . - 5 min
-  6. Analisi dei pattern: e azioni di miglioramento i gruppi identificano i risultati generati dai pattern di interazione emersi . - 10 min
+  1. Presenta i quattro elementi STAR con un esempio concreto dal vostro team - 5 min
+  2. Individuale: ognuno valuta il team su ogni asse (es. scala 1-5) sulla bussola - 5 min
+  3. In gruppi da quattro: condividete le valutazioni con [1-2-4-All](/structures/1-2-4-all/) - 10 min
+  4. Identificate pattern: quali combinazioni generano valore? Quali creano disfunzione? - 10 min
+  5. Definite 2-3 azioni concrete per migliorare le relazioni generative - 10 min
+  6. Plenaria: condividete azioni e pattern comuni - 5 min
 - **Domanda esempio:** "Come lavoriamo insieme e quali cambiamenti possiamo implementare per migliorare le nostre performance di gruppo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - se c'e' tensione relazionale da nominare | Dopo: [Min Specs](/structures/min-specs/) - tradurre accordi relazionali in regole minime | Simili: [Integrated Autonomy](/structures/integrated-autonomy/) - paradossi tra autonomia e coordinamento; [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare scopo e pratiche
 - **Scheda:** [/structures/generative-relationship-star/](/structures/generative-relationship-star/)
 
 ## Heard, Seen, Respected
@@ -356,16 +351,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - In periodi di transizione organizzativa.
   - Dopo situazioni di perdita o difficoltà nel team.
 - **Passaggi essenziali:**
-  1. Introduzione spiegare: lo scopo: praticare l’ascolto senza giudicare o cercare soluzioni. - 5 min
-  2. Condivisione delle: storie 7 minuti a persona per raccontare la propria storia. - 15 min
-  3. Il partner ascolta senza interruzioni.
-  4. Riflessione in coppia: condivisione delle sensazioni provate come narratore e ascoltatore. - 5 min
-  5. Discussione in quartetti: identificazione dei pattern emersi dalle storie e analisi del loro significato. - 5 min
-  6. Conclusione riflessione finale in plenaria. - 5 min
+  1. Spiega lo scopo: praticare l'ascolto senza giudicare, interrompere o dare consigli - 5 min
+  2. **Round Heard:** a turno, 3 min a persona per raccontare; il partner ascolta in silenzio - 7 min
+  3. **Round Seen:** stesso formato con il secondo prompt - 7 min
+  4. **Round Respected:** stesso formato con il terzo prompt - 7 min
+  5. In coppia: condividete come vi siete sentiti come narratore e come ascoltatore - 5 min
+  6. Plenaria: pattern emersi e cosa significano per il gruppo - 5 min
 - **Domanda esempio:** "Qual e' la sfida piu' urgente su cui lavorare adesso?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Conversation Café](/structures/conversation-cafe/) - dialogo profondo su un tema condiviso | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - cosa fare con quanto emerso | Simili: [Appreciative Interviews](/structures/appreciative-interviews-ai/) - storie positive invece di episodi difficili; [Conversation Café](/structures/conversation-cafe/) - dialogo profondo su un tema condiviso
 - **Scheda:** [/structures/heard-seen-respected-hsr/](/structures/heard-seen-respected-hsr/)
 
 ## Helping Heuristics
@@ -379,16 +374,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Modificare pattern disfunzionali nell’offrire e ricevere supporto.
   - Sviluppare maggiore consapevolezza delle proprie abitudini relazionali .
 - **Passaggi essenziali:**
-  1. Round 1 , Quiet: Presence il coach pratica l’ascolto compassionevole. - 2 min
-  2. Accetta tutte le offerte del cliente senza intervenire.
-  3. Round 2 , Guided: Discovery il coach guida attraverso domande. - 2 min
-  4. Focus sulla scoperta reciproca.
-  5. Round 3 , Loving Provocation il coach offre consigli mirati. - 2 min
-  6. Interviene quando nota elementi non visti dal cliente.
+  1. Forma triadi e assegna ruoli: cliente, coach, osservatore - 2 min
+  2. **Round 1 Presence:** il coach ascolta con presenza, senza intervenire - 3 min
+  3. **Round 2 Discovery:** il coach fa domande di scoperta, non da consigli - 3 min
+  4. **Round 3 Loving Provocation:** il coach offre consigli mirati e provocazioni gentili - 3 min
+  5. Breve debrief nella triade: cosa ha funzionato? Cosa e' stato diverso? - 2 min
+  6. Ruota i ruoli e ripeti con una nuova sfida - resto del tempo
 - **Domanda esempio:** "Come possiamo migliorare il modo in cui offriamo e riceviamo aiuto per creare soluzioni più efficaci?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - allenare l'ascolto prima di allenare l'aiuto | Dopo: [Troika Consulting](/structures/troika-consulting/) - consulenza tra pari su sfide concrete | Simili: [Troika Consulting](/structures/troika-consulting/) - consulenza tra pari; [Wise Crowds](/structures/wise-crowds/) - feedback da piu' prospettive
 - **Scheda:** [/structures/helping-heuristics/](/structures/helping-heuristics/)
 
 ## Impromptu Networking
@@ -402,16 +397,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Per rompere il ghiaccio in modo produttivo.
   - Quando serve attivare rapidamente l’energia del gruppo.
 - **Passaggi essenziali:**
-  1. Fase di apertura Presentare le domande. - 2 min
-  2. Spiegare il formato delle interazioni.
-  3. Tre turni di conversazione Ogni round: 4-5 minuti totali. - 15 min
-  4. 2 minuti per persona.
-  5. Cambio partner ad ogni round.
-  6. Chiusura Breve riflessione individuale. - 3 min
+  1. Presenta la domanda e spiega il formato: 2 minuti a persona, poi si cambia partner - 2 min
+  2. Primo round: ognuno trova un partner e risponde alla domanda a turno - 4 min
+  3. Campanello: cambio partner obbligatorio, secondo round con la stessa domanda - 4 min
+  4. Terzo round: nuovo partner, stessa domanda o una variante - 4 min
+  5. Breve riflessione individuale: cosa hai scoperto di utile? - 3 min
+  6. Opzionale: 2-3 condivisioni in plenaria su pattern emersi - 3 min
 - **Domanda esempio:** "Quale grande sfida porti a questo incontro? Cosa speri di ricevere e dare a questo gruppo?"
 - **Settori forti:** Eventi, team nuovi, conferenze
 - **Nota mercato IT:** Funziona bene all'inizio di riunioni lunghe; chiedi di alzarsi se F2F.
-- **String:** Dopo: 1-2-4-all (approfondire i temi emersi dal networking) | Simili: Conversation Café
+- **String:** Dopo: [1-2-4-All](/structures/1-2-4-all/) - approfondire i temi emersi dal networking | Simili: [Conversation Café](/structures/conversation-cafe/) - altro formato per far parlare tutti; [Liquid Courage](/structures/liquid-courage/) - breve, rompe il ghiaccio
 - **Scheda:** [/structures/impromptu-networking/](/structures/impromptu-networking/)
 
 ## Improv Prototyping
@@ -425,15 +420,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Per sperimentare nuovi comportamenti in modo sicuro.
   - Per superare resistenze al cambiamento.
 - **Passaggi essenziali:**
-  1. Spiegazione dell’attività - 2 min
-  2. Descrizione dello scenario e assegnazione dei ruoli - 3 min
-  3. Rappresentazione della scena - 5 min
-  4. Debriefing nei gruppi di osservatori usando 1-2-4-all - 10 min
-  5. Creazione e prova di nuovi prototipi nei sottogruppi - 5 min
+  1. Spiega le regole della scena: si' e... (accetta e costruisci), niente critiche durante la rappresentazione, resta nel personaggio - 2 min
+  2. Descrivi lo scenario e assegna i ruoli agli attori - 3 min
+  3. Prima rappresentazione (max 5 min), senza interruzioni - 5 min
+  4. Debrief nei gruppi di osservatori con [1-2-4-All](/structures/1-2-4-all/) - 10 min
+  5. Nuova versione della scena con comportamenti diversi - 5 min
+  6. Plenaria: cosa abbiamo imparato? Cosa proviamo davvero? - 5 min
 - **Domanda esempio:** "Come gestiresti un cliente particolarmente difficile?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - raccogliere scenari candidati dal gruppo | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - decidere cosa implementare | Simili: [Design StoryBoards](/structures/design-storyboards/) - mappare scenari nel tempo; [UX Fishbowl](/structures/user-experience-fishbowl/) - osservare un'esperienza dal vivo
 - **Scheda:** [/structures/improv-prototyping/](/structures/improv-prototyping/)
 
 ## Integrated Autonomy
@@ -447,16 +443,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Nella gestione di team distribuiti su più sedi.
   - Quando si devono armonizzare processi tra diverse divisioni.
 - **Passaggi essenziali:**
-  1. Introduzione e setup: presentare il paradosso centrale (es. integrazione vs autonomia). - 10 min
-  2. Distribuire i worksheet individuali.
-  3. Formare gruppi di 4 persone.
-  4. Spiegare il processo complessivo e gli obiettivi.
-  5. Esplorazione individuale: chiedere ad ogni partecipante di identifica 3-4 attività chiave del proprio lavoro, analizzando gli aspetti dal punto di vista del paradosso scelto (integrazione/autonomia, standardizzazione/personalizzazione) - 15 min
-  6. Condivisione in coppie condividere le proprie analisi. - 15 min
+  1. Presenta il paradosso scelto (es. integrazione vs autonomia, standardizzazione vs personalizzazione) - 10 min
+  2. Distribuisci i worksheet e forma gruppi da quattro - 5 min
+  3. Individuale: ognuno elenca 3-4 attivita' chiave e le analizza sul paradosso (piu' A, piu' B, o entrambi?) - 15 min
+  4. In coppie: condividete le analisi e cercate pattern - 15 min
+  5. In gruppi da quattro: per ogni attivita' "bloccata", cercate soluzioni "sia... sia" - 25 min
+  6. Plenaria: condividete le soluzioni piu' promettenti e definite 3-5 azioni - 20 min
 - **Domanda esempio:** "Come possiamo avere contemporaneamente maggiore integrazione e maggiore autonomia?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Wicked Questions](/structures/wicked-questions/) - formulare il paradosso in una domanda | Dopo: [Min Specs](/structures/min-specs/) - regole minime che onorano entrambi i poli | Simili: [Wicked Questions](/structures/wicked-questions/) - tenere insieme strategie opposte; [Generative Relationship STAR](/structures/generative-relationship-star/) - dinamiche relazionali del team
 - **Scheda:** [/structures/integrated-autonomy/](/structures/integrated-autonomy/)
 
 ## Liquid Courage
@@ -470,16 +466,14 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - All’inizio di processi di cambiamento organizzativo.
   - Quando si percepisce tensione o resistenza nel gruppo.
 - **Passaggi essenziali:**
-  1. Fase di apertura presentare le frasi da completare. - 2 min
-  2. Spiegazione delle regole.
-  3. Individualmente: si abbozza la propria lamentela usando il formato condiviso. - 2 min
-  4. Tre turni di conversazione ogni round: 2 minuti totali. - 6 min
-  5. Cambio partner ad ogni round.
-  6. Riflessione collettiva: in plenaria si identificano pattern comuni. - 5 min
+  1. Presenta le frasi da completare e le regole (ascolto, niente consigli non richiesti) - 2 min
+  2. Ognuno abbozza la propria lamentela e un "sarebbe fantastico se" - 2 min
+  3. Tre round da 2 minuti ciascuno con partner diversi - 6 min
+  4. Plenaria: quali pattern di lamentele emergono? Quali azioni al 15%? - 5 min
 - **Domanda esempio:** "Qual e' la sfida piu' urgente su cui lavorare adesso?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - se serve prima ascolto empatico | Dopo: [15% Solutions](/structures/15-solutions/) - trovare azioni nel proprio ambito di controllo | Simili: [Impromptu Networking](/structures/impromptu-networking/) - formato base a coppie; [TRIZ](/structures/triz/) - smettere comportamenti che peggiorano il problema
 - **Scheda:** [/structures/liquid-courage/](/structures/liquid-courage/)
 
 ## Mad Love
@@ -493,16 +487,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Sessioni di sviluppo della leadership.
   - Incontri per rafforzare le relazioni nel team.
 - **Passaggi essenziali:**
-  1. Setup formare due cerchi concentrici. - 5 min
-  2. Spiegare il processo e le regole.
-  3. Verificare che tutti abbiano un partner di fronte.
-  4. Dialogo accelerato proiettare o condividere una domanda. - 30 min
-  5. 1 minuto per persona per rispondere.
-  6. Suonare il campanello per il cambio
+  1. Forma cerchio esterno e interno; verifica che ognuno abbia un partner - 5 min
+  2. Spiega le regole: una domanda alla volta, 1 minuto a persona, poi ruota il cerchio interno - 2 min
+  3. Proietta la prima domanda; alternanza rapida di risposte - 8 min
+  4. Ruota il cerchio interno di una persona; seconda domanda - 8 min
+  5. Ripeti con 4-6 domande totali, ruotando ogni volta - 20 min
+  6. Breve chiusura in silenzio o con una parola che porti via - 2 min
 - **Domanda esempio:** "Se potessi scegliere chiunque al mondo, chi vorresti come ospite a cena?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Mad Tea](/structures/mad-tea/) - iniziare con domande piu' leggere sul lavoro | Dopo: [Conversation Café](/structures/conversation-cafe/) - dialogo profondo su un tema condiviso | Simili: [Mad Tea](/structures/mad-tea/) - versione ufficiale piu' leggera; [Liquid Courage](/structures/liquid-courage/) - altra variante di networking
 - **Scheda:** [/structures/mad-love/](/structures/mad-love/)
 
 ## Mad Tea
@@ -516,16 +510,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Retrospettive che ci portano a riflettere sul come lavoriamo.
   - Esplorazione di sfide complesse.
 - **Passaggi essenziali:**
-  1. Setup formare due cerchi concentrici. - 5 min
-  2. Spiegare il processo e le regole.
-  3. Verificare che tutti abbiano un partner di fronte.
-  4. Dialogo accelerato proiettare o condividere una domanda. - 30 min
-  5. 30 secondi per persona per rispondere.
-  6. Suonare il campanello per il cambio
+  1. Forma cerchio esterno e interno, faccia a faccia - 3 min
+  2. Spiega le regole: una domanda, 30 secondi ciascuno, poi ruota il cerchio interno - 2 min
+  3. Proietta la prima domanda; alternanza rapida di risposte - 5 min
+  4. Ruota il cerchio interno di una persona; seconda domanda - 5 min
+  5. Ripeti con 3-4 domande totali, ruotando ogni volta - 15 min
+  6. Breve debrief in plenaria: pattern emersi - 5 min
 - **Domanda esempio:** "Cosa vedo/sento/percepisco rispetto a [tema specifico] che mi fa pensare che [tipo di cambiamento/opportunità] sia possibile?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Impromptu Networking](/structures/impromptu-networking/) - riscaldare il gruppo con coppie piu' lunghe | Dopo: [1-2-4-All](/structures/1-2-4-all/) - approfondire le idee emerse | Simili: [Liquid Courage](/structures/liquid-courage/) - altra variante dinamica su lamentele e miglioramento; [Conversation Cafe](/structures/conversation-cafe/) - dialogo piu' lento e profondo
 - **Scheda:** [/structures/mad-tea/](/structures/mad-tea/)
 
 ## Min Specs
@@ -539,16 +533,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Semplificare processi e strategie eliminando regole non essenziali:.
   - Ridurre il micromanagement e aumentare l’autonomia dei team.
 - **Passaggi essenziali:**
-  1. Creazione della: lista Max Specs fase individuale per generare la lista completa di “do’s” e “don’ts”. - 10 min
-  2. In piccoli gruppi confrontiamo ed espandiamo le liste.
-  3. Riduzione della: lista Min Specs ogni gruppo esamina ogni specifica confrontandola con l’obiettivo. - 15 min
-  4. Eliminare le regole non assolutamente necessarie .
-  5. Fase di consolidamento confronto tra gruppi. - 10 min
-  6. Creazione della lista finale più breve possibile.
+  1. Scrivi lo scopo dell'iniziativa in modo chiaro e visibile a tutti - 2 min
+  2. Individuale: ognuno elenca tutte le regole (do's e don'ts) che conosce: Max Specs - 10 min
+  3. In gruppi da 4-7: confrontate e ampliate le liste Max Specs - 5 min
+  4. Per ogni regola, fate le due domande-test: "Se la violassimo, raggiungeremmo comunque lo scopo?" e "Se seguissimo tutte tranne questa, raggiungeremmo comunque lo scopo?" - 15 min
+  5. Eliminate le regole che superano entrambi i test: restano solo le Min Specs - durante il passo 4
+  6. Confronto tra gruppi e creazione della lista finale condivisa, la piu' breve possibile - 10 min
 - **Domanda esempio:** "Se violassimo questa regola, potremmo comunque raggiungere il nostro obiettivo?"
 - **Settori forti:** Governance, PA, team che complicano le regole
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Ecocycle Planning](/structures/ecocycle-planning/) - decidere cosa tagliare prima di definire le regole | Dopo: [15% Solutions](/structures/15-solutions/) - agire subito nel nuovo spazio di liberta' | Simili: [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare scopo e pratiche; [Agreement & Certainty Matrix](/structures/agreement-certainty-matrix/) - capire la natura della sfida
 - **Scheda:** [/structures/min-specs/](/structures/min-specs/)
 
 ## Open Space Technology
@@ -562,16 +556,11 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Per coinvolgere gruppi diversificati con prospettive multiple.
   - In situazioni che richiedono innovazione e impegno collettivo.
 - **Passaggi essenziali:**
-  1. Apertura del cerchio: accoglienza e presentazione del tema centrale. - 15 min
-  2. Spiegazione dei principi e della “Legge dei due piedi”.
-  3. Creazione dell’agenda: i partecipanti propongono sessioni parallele attorno al tema centrale. - 30 min
-  4. Organizzazione degli slot temporali e degli spazi.
-  5. Sessioni di lavoro i gruppi si auto-organizzano. - 30 min
-  6. Il lavoro dei gruppi viene documentato.
+  1. Apri il cerchio: accoglienza, tema centrale e i quattro principi OST - 15 min
 - **Domanda esempio:** "Come possiamo [obiettivo desiderato] attraverso [approccio/risorsa] per [beneficio atteso]?"
 - **Settori forti:** Assemblee, trasformazioni, comunita'
 - **Nota mercato IT:** Spiega 'Legge dei due piedi' con esempio concreto.
-- **String:** Prima: Shift & Share (condividere output prima di un Open Space) | Dopo: Purpose to Practice (P2P) (allineare scopo e pratica dopo) | Simili: Social Network Webbing
+- **String:** Prima: [Shift & Share](/structures/shift-share/) - condividere output prima di un Open Space | Dopo: [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare scopo e pratica dopo | Simili: [Social Network Webbing](/structures/social-network-webbing/) - mappare reti prima di un cambiamento ampio; [Critical Uncertainties](/structures/critical-uncertainties/) - preparare scenari futuri
 - **Scheda:** [/structures/open-space-technology-ost/](/structures/open-space-technology-ost/)
 
 ## Panarchy
@@ -585,16 +574,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Visualizzare le interdipendenze tra sistemi e come queste influenzano il cambiamento.
   - Per comprendere l’impatto di innovazioni su diversi reparti e funzioni.
 - **Passaggi essenziali:**
-  1. Introduzione presentare: il concetto di Panarchy con un esempio concreto. - 5 min
-  2. Distribuire i grafici vuoti a ogni partecipante.
-  3. Spiegare brevemente l’ Ecocycle se necessario.
-  4. Identificazione: dei livelli ogni partecipante elenca i fattori che influenzano il successo. - 5 min
-  5. Focus su tre categorie: micro (individui, team), meso (organizzazioni), macro (cultura, politica).
-  6. Utilizzo di post-it per ogni fattore identificato.
+  1. Introduci Panarchy con un esempio concreto sui tre livelli - 5 min
+  2. Individuale: ogni persona elenca fattori micro, meso e macro su post-it - 10 min
+  3. In gruppi: clusterizzate i fattori e disegnate connessioni tra livelli - 25 min
+  4. Con [1-2-4-All](/structures/1-2-4-all/): quali leve hanno piu' impatto? - 20 min
+  5. Plenaria: mappa condivisa e decisioni su dove intervenire - 20 min
+  6. Prossimi passi: chi fa cosa su quale livello - 10 min
 - **Domanda esempio:** "Quali sono i fattori che influenzano il nostro successo, dal più piccolo al più grande? Come possiamo sfruttare le interconnessioni tra questi livelli per facilitare il cambiamento?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Ecocycle Planning](/structures/ecocycle-planning/) - capire in che fase e' l'iniziativa | Dopo: [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - tradurre le leve in pratiche | Simili: [Critical Uncertainties](/structures/critical-uncertainties/) - scenari sotto incertezza; [Open Space Technology (OST)](/structures/open-space-technology-ost/) - far emergere temi da molti livelli
 - **Scheda:** [/structures/panarchy/](/structures/panarchy/)
 
 ## Pixie Reflection
@@ -608,16 +597,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Programmi di sviluppo della leadership manageriale.
   - Avvio di nuovi progetti strategici.
 - **Passaggi essenziali:**
-  1. Riflessione individuale: ogni partecipante risponde individualmente alle quattro domande guida. - 8 min
-  2. Enfatizzare l’importanza della sincerità nelle risposte.
-  3. Intervista a coppie formazione delle prime coppie. - 4 min
-  4. Intervista reciproca sulle risposte.
-  5. Seconda intervista: in coppia in una nuova coppia focalizzatevi su similitudini e differenze tra le conversazioni. - 8 min
-  6. Riflessione collettiva condivisione dei pattern emersi. - 5 min
+  1. Riflessione individuale sulle quattro domande guida - 8 min
+  2. Intervista a coppie: esplorate le risposte a turno - 4 min
+  3. Due coppie si uniscono: confrontate similitudini e differenze - 8 min
+  4. Plenaria: pattern su resistenze e ambizioni condivise - 5 min
+  5. Chiusura: un insight o un passo che ognuno porta via - 5 min
 - **Domanda esempio:** "Qual è il tuo obiettivo o ambizione più elevata?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Talking with Pixies](/structures/talking-with-pixies/) - esplorare le voci interiori | Dopo: [TRIZ](/structures/triz/) - invertire comportamenti che ostacolano l'obiettivo | Simili: [9 Whys](/structures/9-whys/) - scavare nel perche' profondo; [Appreciative Interviews (AI)](/structures/appreciative-interviews-ai/) - interviste su successi passati
 - **Scheda:** [/structures/pixies-reflection/](/structures/pixies-reflection/)
 
 ## Purpose to Practice
@@ -631,16 +619,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Riprogettare processi organizzativi esistenti.
   - Allineare diversi gruppi di stakeholder.
 - **Passaggi essenziali:**
-  1. Introduzione presentare i cinque elementi di P2P. - 5 min
-  2. Distribuire i fogli di lavoro.
-  3. Sviluppo del Purpose riflessione individuale. - 30 min
-  4. Condivisione in coppie.
-  5. Discussione in gruppi di quattro.
-  6. Integrazione con il gruppo intero.
+  1. Presenta i cinque elementi P2P con un esempio concreto - 5 min
+  2. Purpose: riflessione individuale sul perche' dell'iniziativa - 15 min
+  3. Condivisione in coppie, poi in gruppi da quattro - 15 min
+  4. Ripeti il ciclo per Principles, Participants, Structure e Practices - 60 min
+  5. Ogni gruppo prepara una sintesi visiva su poster - 15 min
+  6. Plenaria: allineamento e decisioni sui prossimi passi - 20 min
 - **Domanda esempio:** "Perché questo lavoro è importante per te e per l’ecosistema che ti circonda?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [9 Whys](/structures/9-whys/) - chiarire il perche' profondo prima di definire pratiche | Dopo: [Min Specs](/structures/min-specs/) - ridurre le regole al minimo indispensabile | Simili: [Panarchy](/structures/panarchy/) - leggere il cambiamento su piu' livelli di sistema; [Integrated Autonomy](/structures/integrated-autonomy/) - bilanciare coordinamento e autonomia
 - **Scheda:** [/structures/purpose-to-practice-p2p/](/structures/purpose-to-practice-p2p/)
 
 ## Shift & Share
@@ -654,16 +642,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Orientamento di nuovi membri in un’organizzazione.
   - Condivisione di best practice tra team diversi.
 - **Passaggi essenziali:**
-  1. Fase iniziale spiegazione del processo. - 5 min
-  2. Identificazione dei presentatori.
-  3. Formazione dei gruppi.
-  4. [ 15 min/stazione ] Rotazione delle presentazioni [ 8 min ] i presentatori illustrano le proprie soluzioni.
-  5. Domande e feedback da parte dei partecipanti. - 6 min
-  6. Cambio di stazione. - 1 min
+  1. Spiega il formato: ogni stazione ha un presentatore, i gruppi ruotano a turni - 5 min
+  2. Identifica i presentatori (uno per innovazione o progetto da condividere) - 5 min
+  3. Forma gruppi di ascoltatori (circa 5-8 persone per stazione) - 5 min
+  4. Rotazione: 8 min di presentazione + 6 min di domande per stazione - 15 min/stazione
+  5. Segnala il cambio stazione con un minuto di buffer - 1 min
+  6. Debrief in plenaria: quali idee meritano follow-up? - 10 min
 - **Domanda esempio:** "Quali innovazioni o pratiche di successo potrebbero essere utili per altri team dell’organizzazione?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [25/10 Crowd Sourcing](/structures/25-10-crowd-sourcing/) - prioritizzare quali innovazioni presentare | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - decidere cosa fare delle idee emerse | Simili: [Impromptu Networking](/structures/impromptu-networking/) - scambi rapidi uno a uno; [Open Space Technology (OST)](/structures/open-space-technology-ost/) - sessioni parallele autogestite
 - **Scheda:** [/structures/shift-share/](/structures/shift-share/)
 
 ## Simple Ethnography
@@ -677,16 +665,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Quando è necessario comprendere comportamenti complessi.
   - Se si ha difficoltà nel comprendere il successo di alcune pratiche.
 - **Passaggi essenziali:**
-  1. Spiegazione del: problema alle osservatrici e agli osservatori - 5 min
-  2. Identificazione dei siti da osservare - 5 min
-  3. Osservazione silenziosa sul campo - 10 min
-  4. Interviste di approfondimento - 20 min
-  5. Condivisione in gruppo usando 1-2-4-all - 15 min
-  6. Redazione delle osservazioni - 20 min
+  1. Presenta il problema e le regole di osservazione (silenzio, curiosita', niente giudizi) - 5 min
+  2. Assegna i siti: 1-2 osservatori per luogo dove qualcuno ottiene risultati migliori - 5 min
+  3. Osservazione silenziosa sul campo: cosa fanno, come, con chi, in che sequenza - 15-30 min
+  4. Interviste brevi con chi osservate: "Cosa stai facendo? Perche' in questo modo?" - 15 min
+  5. Debrief con [1-2-4-All](/structures/1-2-4-all/): pattern e pratiche da diffondere - 15 min
+  6. Sintesi scritta delle osservazioni e prossimi passi - 10 min
 - **Domanda esempio:** "Cosa fanno concretamente le persone quando affrontano questa sfida?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Agreement & Certainty Matrix](/structures/agreement-certainty-matrix/) - capire la natura della sfida | Dopo: [Discovery & Action Dialogue (DAD)](/structures/discovery-action-dialogue-dad/) - diffondere le pratiche emerse | Simili: [Discovery & Action Dialogue (DAD)](/structures/discovery-action-dialogue-dad/) - dialogo sulle pratiche trovate; [User Experience Fishbowl](/structures/user-experience-fishbowl/) - chi ha vissuto il tema racconta al gruppo
 - **Scheda:** [/structures/simple-ethnography/](/structures/simple-ethnography/)
 
 ## Social Network Webbing
@@ -700,16 +688,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Per sviluppare leadership dal basso.
   - Per aiutare le persone ad auto-organizzarsi.
 - **Passaggi essenziali:**
-  1. Creazione legenda identificare i gruppi chiave della rete. - 5 min
-  2. Assegnare un colore/simbolo Post-it per ogni gruppo.
-  3. Mappatura core team: ogni membro scrive il proprio nome su un Post-it. - 5 min
-  4. Posizionare i Post-it al centro della parete.
-  5. Mappatura connessioni: attuali Identificare persone già attive nel lavoro. - 10 min
-  6. Organizzare i Post-it in base ai gradi di separazione.
+  1. Crea una legenda: fino a 10 gruppi o funzioni (es. vendite=blu, IT=verde, HR=giallo) - 5 min
+  2. Ogni partecipante scrive il proprio nome su un Post-it e lo posiziona al centro della mappa (core team) - 5 min
+  3. Mappa le connessioni attuali: aggiungi persone gia' attive e collega i Post-it per gradi di separazione - 10 min
+  4. Mappa le connessioni future: brainstorming su chi coinvolgere e crea la periferia della rete - 10 min
+  5. Analizza la rete: chi conosce chi, chi ha influenza, dove ci sono ostacoli o ponti utili - 15 min
+  6. Definisci le prossime mosse: come coinvolgere nuove persone e rafforzare i legami utili - 10 min
 - **Domanda esempio:** "Chi conosciamo che è attivamente coinvolto in questo lavoro e chi vorremmo coinvolgere in futuro per raggiungere il nostro scopo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Impromptu Networking](/structures/impromptu-networking/) - far emergere connessioni informali | Dopo: [Open Space Technology (OST)](/structures/open-space-technology-ost/) - auto-organizzazione sulla rete mappata | Simili: [Open Space Technology (OST)](/structures/open-space-technology-ost/) - workshop auto-organizzato su larga scala; [WINFY](/structures/what-i-need-from-you-winfy/) - chiarire richieste tra funzioni collegate
 - **Scheda:** [/structures/social-network-webbing/](/structures/social-network-webbing/)
 
 ## Spiral Journal
@@ -723,16 +711,14 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Sessioni di coaching individuali.
   - Workshop di sviluppo personale.
 - **Passaggi essenziali:**
-  1. Setup far sedere i partecipanti in piccoli gruppi. - 2 min
-  2. Distribuire fogli bianchi e far tracciare due linee perpendicolari, per creare quattro quadranti.
-  3. Creazione della: spirale invitare a posizionare la penna al centro. - 2 min
-  4. Disegnare in silenzio la spirale dall’interno verso l’esterno.
-  5. Riflessione guidata: presentare le domande una alla volta, indicando il quadrante di riferimento. - 6 min
-  6. Dare tempo per scrivere le risposte nei singoli quadranti.
+  1. Invita a tracciare una spirale dal centro verso l'esterno - 2 min
+  2. Presenta la prima domanda; scrivi lungo la spirale in silenzio - 3 min
+  3. Ripeti con le altre domande, una per segmento della spirale - 6 min
+  4. In coppie o terzine: condividi un insight emerso (senza leggere tutto il foglio) - 4 min
 - **Domanda esempio:** "Qual e' la sfida piu' urgente su cui lavorare adesso?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - se il clima emotivo e' teso | Dopo: [1-2-4-All](/structures/1-2-4-all/) - portare insight in plenaria | Simili: [Talking with Pixies](/structures/talking-with-pixies/) - altra riflessione su resistenze interne; [9 Whys](/structures/9-whys/) - scavare nel perche' con domande a coppie
 - **Scheda:** [/structures/spiral-journal/](/structures/spiral-journal/)
 
 ## Talking With Pixies
@@ -746,16 +732,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Sessioni di sviluppo personale.
   - Superamento dei blocchi decisionali.
 - **Passaggi essenziali:**
-  1. Preparazione invitare: i partecipanti ad identificare un obiettivo significativo ma difficile. - 5 min
-  2. Formare gruppi di tre, assegnando i ruoli: un Ascoltatore e due Folletti.
-  3. Spiegare la struttura con un esempio personale.
-  4. Condivisione dell’obiettivo: l’Ascoltatore condivide il proprio obiettivo. - 2 min
-  5. Domande di chiarimento: i Folletti possono fare domande di chiarimento. - 3 min
-  6. La disputa dei Folletti: il Folletto protettore si posiziona alla destra dell’Ascoltatore, il Folletto innovatore alla sinistra. - 5 min
+  1. Ognuno identifica un obiettivo significativo ma difficile - 3 min
+  2. Forma gruppi da tre: Ascoltatore, Folletto protettore (destra), Folletto innovatore (sinistra) - 2 min
+  3. L'Ascoltatore condivide l'obiettivo; i Folletti fanno domande di chiarimento - 3 min
+  4. I Folletti dialogano tra loro a voce bassa sull'obiettivo (l'Ascoltatore ascolta, non interviene) - 7 min
+  5. L'Ascoltatore condivide cosa l'ha colpito del dialogo - 3 min
+  6. Ruotate i ruoli se c'e' tempo - opzionale
 - **Domanda esempio:** "Se non intraprendo questo cambiamento ora, quali opportunità potrei rimpiangere tra 5 anni?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Tiny Demons](/structures/tiny-demons/) - esternare paure in modo giocoso | Dopo: [Pixies Reflection](/structures/pixies-reflection/) - portare resistenze in dialogo strutturato | Simili: [Pixies Reflection](/structures/pixies-reflection/) - adattamento locale con quattro domande; [TRIZ](/structures/triz/) - invertire comportamenti controproducenti
 - **Scheda:** [/structures/talking-with-pixies/](/structures/talking-with-pixies/)
 
 ## Tiny Demons
@@ -769,16 +755,12 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Durante processi di cambiamento organizzativo.
   - In fase di definizione di obiettivi ambiziosi.
 - **Passaggi essenziali:**
-  1. Creazione lista: ogni partecipante elenca individualmente almeno 4 tra paure e dubbi. - 3 min
-  2. Creazione del canvas dividere il foglio in 4 quadranti. - 2 min
-  3. Disegnare le forme base: alto sx: linea ondulata
-  4. Alto dx: forma chiusa
-  5. Basso sx: linea retta
-  6. Basso dx: forma libera
+  1. Ognuno elenca almeno 4 paure o dubbi legati all'obiettivo - 3 min
+  2. Dividi il foglio in 4 quadranti e disegna le forme base in ogni angolo - 2 min
 - **Domanda esempio:** "Quali sono le tue più grandi paure, dubbi o ansie rispetto al tuo obiettivo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - far emergere il contesto prima delle paure | Dopo: [Pixies Reflection](/structures/pixies-reflection/) - portare resistenze e ambizioni in dialogo strutturato | Simili: [Talking with Pixies](/structures/talking-with-pixies/) - voci interiori in dialogo; [Pixies Reflection](/structures/pixies-reflection/) - paure e ambizioni a quattro domande
 - **Scheda:** [/structures/tiny-demons/](/structures/tiny-demons/)
 
 ## TRIZ (Creative Destruction)
@@ -793,15 +775,15 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Affrontare in modo costruttivo argomenti “tabù” o difficili da discutere.
   - Identificare e interrompere comportamenti che ostacolano il progresso .
 - **Passaggi essenziali:**
-  1. Introduzione Presentare il concetto di TRIZ. - 5 min
-  2. Identificare il risultato indesiderato principale .
-  3. Emersione dei comportamenti: nefasti Utilizzare 1-2-4-All per creare la lista dei comportamenti che porterebbero al peggior risultato possibile. - 10 min
-  4. Riconoscimento dei: pattern Identificare quali comportamenti attuali assomigliano a quelli della prima lista. - 10 min
-  5. Emersione delle: soluzioni Definire i primi passi concreti per interrompere le attività controproducenti identificate. - 10 min
+  1. Presenta TRIZ: l'obiettivo e' ottenere il peggior risultato possibile, non il migliore - 5 min
+  2. Identifica il risultato indesiderato principale rispetto al vostro obiettivo - 2 min
+  3. Con 1-2-4-All, elenca i comportamenti che porterebbero al peggior risultato - 10 min
+  4. Confronta la lista con le pratiche attuali del team: cosa assomiglia? - 10 min
+  5. Definisci i primi passi concreti per interrompere le attivita' controproducenti - 10 min
 - **Domanda esempio:** "Come possiamo assicurarci di ottenere il peggior risultato possibile rispetto al nostro obiettivo principale?"
 - **Settori forti:** Innovazione, product, team creativi
 - **Nota mercato IT:** L'humor aiuta a superare il tabu del 'pensare al peggio'.
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [9 Whys](/structures/9-whys/) - aver chiarito il perche' profondo del problema | Dopo: [15% Solutions](/structures/15-solutions/) - tradurre le abitudini da cambiare in azioni | Simili: [Wicked Questions](/structures/wicked-questions/) - stessa fase Define, tensioni strategiche; [25/10 Crowd Sourcing](/structures/25-10-crowd-sourcing/) - prioritizza le soluzioni emerse
 - **Scheda:** [/structures/triz/](/structures/triz/)
 
 ## Troika Consulting
@@ -815,16 +797,16 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Dopo le presentazioni per elaborare i prossimi passi.
   - Per promuovere l’apprendimento tra pari.
 - **Passaggi essenziali:**
-  1. Riflessione individuale sulla domanda chiave. - 1 min
-  2. Il cliente condivide la propria soluzione alla domanda. - 2 min
-  3. I consulenti fanno domande di chiarimento. - 2 min
-  4. Il cliente si gira di spalle (online spegne microfono e videocamera)
-  5. I consulenti discutono: nel dettaglio la soluzione del cliente. - 3 min
-  6. Il cliente torna: presente e condivide come si è sentito e cosa l’ha colpito. - 2 min
+  1. Il cliente riflette da solo sulla domanda chiave - 1 min
+  2. Il cliente espone la sfida ai due consulenti - 2 min
+  3. I consulenti fanno solo domande di chiarimento - 2 min
+  4. Il cliente si gira di spalle (in remoto: muto e videocamera spenta); i consulenti discutono tra loro ad alta voce, non con il cliente - 3 min
+  5. Il cliente si rivolge al gruppo e condivide cosa l'ha colpito - 2 min
+  6. Ruotate i ruoli finche' ognuno ha fatto il giro da cliente - resto del tempo
 - **Domanda esempio:** "Qual è la tua sfida?"
 - **Settori forti:** Problem solving tra pari, coaching interno
 - **Nota mercato IT:** Il ruolo 'consulente che ascolta' riduce la pressione gerarchica.
-- **String:** Prima: 15% Solutions (avere un'azione in mente da sottoporre) | Simili: Helping Heuristics
+- **String:** Prima: [15% Solutions](/structures/15-solutions/) - avere un'azione in mente da sottoporre | Dopo: torna al [catalogo](/structures/) o ripeti il formato su un'altra sfida del team | Simili: [Helping Heuristics](/structures/helping-heuristics/) - altro formato di consulenza tra pari; [Wise Crowds](/structures/wise-crowds/) - feedback da piu' prospettive in plenaria
 - **Scheda:** [/structures/troika-consulting/](/structures/troika-consulting/)
 
 ## User Experience Fishbowl
@@ -838,16 +820,17 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Condivisione di esperienze pilota.
   - Comprendere il punto di vista degli early adopters.
 - **Passaggi essenziali:**
-  1. Introduzione spiegare: la configurazione e le regole del gioco. - 2 min
-  2. [ 10/25 min ] Conversazione del cerchio interno dialogo informale tra gli esperti, con condivisione di esperienze concrete.
-  3. Osservazione e domande: ogni gruppo esterno discute brevemente quanto osservato. - 5 min
-  4. Un membro per gruppo annota le domande su post-it.
-  5. Le domande vengono raccolte tutte insieme prima di riprendere il dialogo.
-  6. Il facilitatore raggruppa le domande per temi comuni.
+  1. Spiega configurazione e regola principale: il cerchio interno parla tra loro, non alla platea - 3 min
+  2. Conversazione del cerchio interno: dialogo informale tra esperti con esperienza diretta - 15-25 min
+  3. Gli osservatori in gruppi da 3-4 discutono brevemente quanto hanno sentito - 5 min
+  4. Ogni gruppo esterno scrive domande su post-it (un membro le consegna) - 5 min
+  5. Il facilitatore raggruppa le domande per tema e le pone al cerchio interno - 10 min
+  6. Secondo round di conversazione interna sulle domande raccolte - 15 min
+  7. Chiusura: cosa portate via? Pattern emersi? - 5 min
 - **Domanda esempio:** "Quali sono le vostre esperienze concrete , positive e negative , nell’implementazione di (tema specifico)?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Shift & Share](/structures/shift-share/) - condividere pratiche prima del fishbowl | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - cosa fare con quanto appreso | Simili: [Celebrity Interview](/structures/celebrity-interview/) - un ospite al centro con la platea; [Conversation Café](/structures/conversation-cafe/) - dialogo profondo a tavoli
 - **Scheda:** [/structures/user-experience-fishbowl/](/structures/user-experience-fishbowl/)
 
 ## What, So What, Now What? (W³)
@@ -861,16 +844,19 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Gestire gruppi con opinioni forti o persone dominanti.
   - Facilitare il feedback in contesti aziendali.
 - **Passaggi essenziali:**
-  1. WHAT? [ 1 min ] riflessione individuale. - 5/10 min
-  2. Discussione in piccoli gruppi. - 2/6 min
-  3. Condivisione con gruppo intero. - 2/3 min
-  4. SO WHAT? [ 1 min ] riflessione individuale. - 5/10 min
-  5. Discussione in piccoli gruppi. - 2/6 min
-  6. Condivisione pattern e ipotesi. - 2/3 min
+  1. WHAT: 1 minuto di riflessione individuale sui fatti osservati (solo cio' che e' successo, non interpretazioni) - 1 min
+  2. Discussione in piccoli gruppi su cosa e' successo - 5 min
+  3. Condivisione in plenaria: una risposta significativa alla volta, senza dibattito - 5 min
+  4. SO WHAT: 1 minuto di riflessione individuale sul significato per il gruppo - 1 min
+  5. Discussione in piccoli gruppi su pattern e implicazioni - 5 min
+  6. Condivisione in plenaria di ipotesi e conclusioni - 5 min
+  7. NOW WHAT: 1 minuto di riflessione individuale sulle azioni possibili - 1 min
+  8. Discussione in piccoli gruppi su cosa fare - 5 min
+  9. Condivisione in plenaria degli impegni concreti - 5 min
 - **Domanda esempio:** "Cosa è successo? Quali fatti o osservazioni sono emersi?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (raccogliere input prima di riflettere) | Dopo: 15% Solutions (tradurre le conclusioni in azioni) | Simili: Heard, Seen, Respected (HSR)
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - raccogliere input prima di riflettere | Dopo: [15% Solutions](/structures/15-solutions/) - tradurre le conclusioni in azioni | Simili: [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - debriefing empatico dopo un'esperienza; [Discovery & Action Dialogue (DAD)](/structures/discovery-action-dialogue-dad/) - analisi concreta sul campo
 - **Scheda:** [/structures/w3-what-so-what-now-what/](/structures/w3-what-so-what-now-what/)
 
 ## What I Need From You
@@ -884,16 +870,17 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Per migliorare la coordinazione tra silos organizzativi.
   - Per ristabilire connessioni interrotte.
 - **Passaggi essenziali:**
-  1. Introduzione spiegazione del processo. - 5 min
-  2. Chiarimento delle regole sulle risposte possibili: “sì”, “no”, “ci proverò”, “canguro”.
-  3. Contestualizzare con chiarezza il significato della risposta “canguro” (es. “al momento non abbiamo abbastanza elementi per rispondere”).
-  4. Lavoro nei cluster utilizzo della microstruttura 1-2-4-all. - 10 min
-  5. Identificazione delle due principali richieste.
-  6. Selezione del portavoce.
+  1. Presenta il processo e le quattro risposte possibili; spiega il "canguro" - 5 min
+  2. Ogni cluster usa [1-2-4-All](/structures/1-2-4-all/) per identificare le due richieste principali - 15 min
+  3. Ogni cluster elegge un portavoce e si sposta nel cerchio centrale - 5 min
+  4. A turno, ogni portavoce presenta le due richieste al gruppo - 3 min a cluster
+  5. Gli altri cluster rispondono con si', no, ci provero' o canguro (niente dibattito lungo) - 5 min a cluster
+  6. Ruota i cluster finche' tutti hanno presentato le proprie richieste - resto del tempo
+  7. Chiusura: registra impegni e canguri da approfondire - 10 min
 - **Domanda esempio:** "Di cosa hai bisogno dagli altri per raggiungere uno specifico obiettivo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Chiarisci le 4 risposte (si/no/ci provero'/canguro) in italiano.
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [Social Network Webbing](/structures/social-network-webbing/) - mappare chi deve parlare con chi | Dopo: [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - verificare gli impegni presi | Simili: [Troika Consulting](/structures/troika-consulting/) - consulenza tra pari su sfide individuali; [Wise Crowds](/structures/wise-crowds/) - feedback da molte prospettive
 - **Scheda:** [/structures/what-i-need-from-you-winfy/](/structures/what-i-need-from-you-winfy/)
 
 ## Wicked Questions
@@ -907,16 +894,14 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Nei processi di fusione o acquisizione.
   - Durante il rinnovamento della strategia aziendale.
 - **Passaggi essenziali:**
-  1. Introduzione Presentare il concetto di domande paradossali. - 5 min
-  2. Mostrare esempi pratici.
-  3. Spiegare il template da utilizzare.
-  4. Generazione individuale: e di gruppo Lavoro individuale iniziale. - 10 min
-  5. Condivisione in piccoli gruppi.
-  6. Creazione di coppie di opposti.
+  1. Introduci il concetto con 1-2 esempi di wicked questions - 5 min
+  2. Lavoro individuale: ogni persona abbozza coppie di opposti dal proprio contesto - 10 min
+  3. In gruppi da 4-6: trasformate gli opposti in una domanda "Come possiamo... e ... contemporaneamente?" - 10 min
+  4. Plenaria: ogni gruppo legge la propria domanda, il facilitatore raggruppa temi - 5 min
 - **Domanda esempio:** "Quali strategie opposte ma complementari dobbiamo perseguire simultaneamente per avere successo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - far emergere tensioni dal gruppo | Dopo: [9 Whys](/structures/9-whys/) - scavare nel perche' delle tensioni | Simili: [Critical Uncertainties](/structures/critical-uncertainties/) - scenari sotto incertezza; [TRIZ](/structures/triz/) - smettere comportamenti che peggiorano il problema
 - **Scheda:** [/structures/wicked-questions/](/structures/wicked-questions/)
 
 ## Wise Crowds
@@ -930,14 +915,14 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
   - Per migliorare progetti in corso che si sono arenati.
   - Per risolvere problemi relazionali nel team .
 - **Passaggi essenziali:**
-  1. Introduzione spiegazione del processo. - 5 min
-  2. Presentazione della: sfida il cliente espone la sua sfida e richiesta di aiuto. - 2 min
-  3. Domande di chiarimento: i consulenti fanno domande per comprendere meglio. - 3 min
-  4. Consultazione il cliente si gira di spalle e prende appunti. - 8 min
-  5. I consulenti offrono consigli e raccomandazioni.
-  6. Feedback il cliente condivide cosa ha trovato utile. - 2 min
+  1. Spiega il formato (simile a [Troika Consulting](/structures/troika-consulting/), ma con piu' consulenti) - 3 min
+  2. Il cliente espone la sfida e il tipo di aiuto che cerca - 2 min
+  3. I consulenti fanno solo domande di chiarimento - 3 min
+  4. Il cliente si gira di spalle e prende appunti; i consulenti discutono tra loro ad alta voce - 8 min
+  5. Il cliente si rivolge al gruppo e condivide cosa l'ha colpito - 2 min
+  6. Ruotate i ruoli finche' ognuno ha fatto almeno un giro da cliente - resto del tempo
 - **Domanda esempio:** "Qual è la sfida specifica su cui vorresti ricevere aiuto dal gruppo?"
 - **Settori forti:** Azienda, scuola, terzo settore (adatta domanda al contesto)
 - **Nota mercato IT:** Applica regole generali in settori-e-mercato.md
-- **String:** Prima: 1-2-4-all (formato base per coinvolgere tutti) | Dopo: What, So What, Now What? (W³) (capire cosa fare dopo) | Simili: Impromptu Networking
+- **String:** Prima: [1-2-4-All](/structures/1-2-4-all/) - raccogliere sfide condivise prima della consultazione | Dopo: [15% Solutions](/structures/15-solutions/) - tradurre insight in azioni nel proprio 15% | Simili: [Troika Consulting](/structures/troika-consulting/) - versione a 3 persone; [Helping Heuristics](/structures/helping-heuristics/) - pattern di aiuto strutturati
 - **Scheda:** [/structures/wise-crowds/](/structures/wise-crowds/)

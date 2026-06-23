@@ -3,7 +3,7 @@ slug: design-storyboards
 title: "Design StoryBoards: workshop efficaci"
 meta_description: "Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo. Passaggi chiari in 45 minuti per manager e facilitatori."
 registro: manuale-operativo
-durata: "45 minuti"
+durata: "45-90 minuti"
 difficolta: "Intermedia"
 partecipanti: "da 5 a 10 persone"
 fase: "Prototype"
@@ -15,73 +15,108 @@ url: "https://liberating.it/structures/design-storyboards/"
 
 [Home](/) > [Le strutture](/structures/) > Design StoryBoards
 
-**In breve** - Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.
+**In breve** - Design StoryBoards crea un piano visuale per un incontro o workshop: scopo, partecipanti, sequenza di microstrutture LS con tempi. Progetti prima di facilitare.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
-| 45 minuti | Intermedia | da 5 a 10 persone | Prototype |
+| 45-90 minuti | Intermedia | da 5 a 10 persone | Prototype |
 
 **Filtri:** [Per facilitazioni complesse](/complessita/facilitazioni-complesse/) · [Intermedia](/difficolta/intermedia/) · [Estesa (max 4 h)](/durata/estesa/) · [Prototype](/design-thinking/prototype/)
 
 ## Domanda da portare
 
-- "Come possiamo strutturare questo incontro/iniziativa per raggiungere il nostro scopo in modo efficace e coinvolgente?"
+- "Come possiamo strutturare questo incontro per raggiungere il nostro scopo in modo efficace e coinvolgente?"
 - "In che modo possiamo riprogettare le nostre riunioni settimanali per garantire che ogni voce venga ascoltata?"
 - "Come possiamo integrare momenti di riflessione strategica nelle nostre riunioni operative?"
 
 ## Cosa ti serve
 
 - Parete libera con carta da lavoro o fogli flip-chart.
-- Post-it 5×10 cm.
-- Template storyboard vuoto.
-- Lavagna digitale condivisa con template storyboard preimpostato.
-- Piattaforma di videoconferenza con possibilità di breakout rooms.
+- Post-it 5x10 cm e pennarelli.
+- Template storyboard: colonne per Scopo, Partecipanti, Struttura, Microstruttura LS, Tempo.
+- In remoto: lavagna digitale con template storyboard preimpostato.
 
 ## I passaggi
 
-1. Illustrare lo scopo del lavoro. - 5 min
-2. standard e valutarne efficacia/inefficacia. - 5 min
-3. Riesaminare e rafforzare la dichiarazione dello scopo. - 3 min
-4. Decidere chi deve partecipare. - 2 min
-5. sulle possibili microstrutture da utilizzare. - 5 min
-6. Scegliere le microstrutture più adatte. - 10 min
+1. Scrivi lo scopo dell'incontro in una frase chiara - 5 min
+2. Descrivi l'approccio attuale e valutatene efficacia e inefficacia - 5 min
+3. Rivedete e rafforzate la dichiarazione di scopo - 3 min
+4. Decidete chi deve partecipare e con quale ruolo - 5 min
+5. Brainstorming sulle microstrutture LS da usare (es. [1-2-4-All](/structures/1-2-4-all/), [Troika Consulting](/structures/troika-consulting/)) - 10 min
+6. Selezionate le microstrutture e costruite lo storyboard visuale con sequenza e tempi - 15 min
+7. Testate il flusso: "Ha senso? Manca qualcosa? I tempi sono realistici?" - 5 min
 
 ## Quando usarla
 
-- Devi creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.
-- Quando riunioni settimanali che hanno perso efficacia.
-- Quando meeting periodici che necessitano di una nuova energia.
+- Devi progettare un workshop o una riunione importante da zero.
+- Le riunioni settimanali hanno perso efficacia e vuoi ripensarle con strutture LS.
+- Hai un obiettivo chiaro ma non sai come strutturare il tempo e le interazioni.
 
 ## Il consiglio del facilitatore
 
-Lavorare almeno in coppia per avere più prospettive.
+Lavora almeno in coppia: due prospettive evitano storyboard lineari e noiosi. Non risparmiare tempo sul design: 45 minuti qui possono salvare ore di riunione improduttiva. Includi chi usera' il formato, non solo chi lo progetta.
 
 ## Errori da evitare
 
-- Non risparmiare sul tempo necessario per generare un buon design.
-- Non dimenticare di includere gli utenti finali.
+- Saltare la valutazione dell'approccio attuale: senza capire cosa non funziona, ripeti gli stessi errori.
+- Mettere troppe microstrutture: meno e' meglio, con tempi realistici.
+- Dimenticare transizioni e pause tra le fasi.
 
 ## Domande frequenti
 
 ### Cos'e' Design StoryBoards?
-Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.
+Una struttura per progettare visivamente un incontro: scopo, partecipanti, sequenza di Liberating Structures con tempi.
 
 ### Quanto dura Design StoryBoards?
-Di solito 45 minuti. I passaggi prevedono tempi fissi (5 min, 5 min, 3 min, 2 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 45-90 minuti per progettare un incontro di mezza giornata. Per workshop lunghi, prevedi piu' tempo.
 
 ### Quando conviene usare Design StoryBoards?
-Devi creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.
+Dopo [Critical Uncertainties](/structures/critical-uncertainties/) o quando devi preparare un evento con obiettivi chiari ma formato da definire.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [Critical Uncertainties](/structures/critical-uncertainties/) - chiarire scenari prima di progettare il workshop
+- **Dopo:** facilita l'incontro progettato, poi [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) per il debrief
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare scopo e pratiche su iniziative lunghe
+- [Open Space Technology (OST)](/structures/open-space-technology-ost/) - quando il formato e' auto-organizzato
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare scopo prima di progettare
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Design StoryBoards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una struttura per progettare visivamente un incontro: scopo, partecipanti, sequenza di Liberating Structures con tempi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Design StoryBoards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 45-90 minuti per progettare un incontro di mezza giornata. Per workshop lunghi, prevedi piu' tempo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Design StoryBoards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dopo [Critical Uncertainties](/structures/critical-uncertainties/) o quando devi preparare un evento con obiettivi chiari ma formato da definire."
+      }
+    }
+  ]
+}
+</script>
+-->

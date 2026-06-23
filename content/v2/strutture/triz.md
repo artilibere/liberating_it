@@ -28,6 +28,7 @@ url: "https://liberating.it/structures/triz/"
 - "Come possiamo assicurarci di ottenere il peggior risultato possibile rispetto al nostro obiettivo principale?"
 - "Come possiamo creare un software che nessuno vorrà utilizzare?"
 - "Come possiamo assicurarci di continuare a fare le stesse cose ottenendo sempre gli stessi risultati?"
+- "Come possiamo far si' che i genitori non partecipino mai alle riunioni della scuola?"
 
 ## Cosa ti serve
 
@@ -91,3 +92,45 @@ Nel brainstorming cerchi idee nuove. In TRIZ elenchi prima comportamenti che peg
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' TRIZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TRIZ (Teoria della Risoluzione Inventiva dei Problemi) inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura TRIZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 35 minuti. I passaggi prevedono tempi fissi (5 min, 2 min, 10 min, 10 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare TRIZ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il team e' bloccato su abitudini che non funzionano ma nessuno le nomina."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' TRIZ nelle Liberating Structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TRIZ chiede al gruppo come ottenere il peggior risultato possibile rispetto all'obiettivo. Confrontando quella lista con cio' che fate gia', emergono abitudini controproducenti da interrompere."
+      }
+    }
+  ]
+}
+</script>
+-->

@@ -33,12 +33,12 @@ url: "https://liberating.it/structures/improv-prototyping/"
 
 - Spazio centrale libero (il "palco") e sedie per gruppi di osservatori.
 - 3-5 volontari per la prima scena; ruoli assegnati in anticipo.
-- Oggetti di scena semplici (telefono, documenti) se servono al realismo.
+- Oggetti di scena semplici (telefono, documenti, tazza da caffe') se servono al realismo.
 - Timer visibile per rispettare i 3-5 minuti di scena.
 
 ## I passaggi
 
-1. Spiega le regole: scena breve, feedback strutturato, poi iterazione - 2 min
+1. Spiega le regole della scena: si' e... (accetta e costruisci), niente critiche durante la rappresentazione, resta nel personaggio - 2 min
 2. Descrivi lo scenario e assegna i ruoli agli attori - 3 min
 3. Prima rappresentazione (max 5 min), senza interruzioni - 5 min
 4. Debrief nei gruppi di osservatori con [1-2-4-All](/structures/1-2-4-all/) - 10 min
@@ -88,3 +88,45 @@ Quando devi affrontare resistenze al cambiamento o migliorare interazioni tra ru
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Improv Prototyping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Improv Prototyping e' una Liberating Structure che prototipa soluzioni recitando brevi scene di un problema reale. Il gruppo osserva, riflette con 1-2-4-All e prova una versione migliorata della scena."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Serve esperienza teatrale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Le scene durano pochi minuti e usano situazioni di lavoro quotidiane. L'obiettivo e' testare comportamenti, non fare spettacolo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Improv Prototyping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un ciclo completo (scena, debrief, iterazione) richiede circa 25 minuti. Puoi ripetere piu' scenari in un workshop da 90 minuti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Improv Prototyping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando devi affrontare resistenze al cambiamento o migliorare interazioni tra ruoli (manager-team, front office-back office, vendite-supporto). Funziona bene dopo [Drawing Together](/structures/drawing-together/) o brainstorming."
+      }
+    }
+  ]
+}
+</script>
+-->

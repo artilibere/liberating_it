@@ -25,52 +25,51 @@ url: "https://liberating.it/structures/15-solutions/"
 
 ## Domanda da portare
 
-- "Qual è il tuo 15%? Dove hai discrezionalità e libertà d'azione? Cosa puoi fare senza ulteriori risorse o autorizzazioni?"
+- "Qual e' il tuo 15%? Dove hai discrezionalita' e liberta' d'azione? Cosa puoi fare senza ulteriori risorse o autorizzazioni?"
 - "Quali piccoli miglioramenti puoi implementare nel tuo codice?"
 - "Quali azioni immediate puoi intraprendere per migliorare l'esperienza cliente?"
 
 ## Cosa ti serve
 
-- Spazio per riunione o workshop.
-- Disposizione: sedie per gruppi di 2-4 persone, tavoli non necessari .
+- Sedie per gruppi di 2-4 persone (tavoli non necessari).
 - Fogli per appunti individuali.
-- Timer per gestire le tempistiche.
-- Utilizzare una piattaforma di videoconferenza con possibilità di breakout rooms.
+- Timer per gestire i turni.
+- In remoto: breakout room da 2-4; una persona condivide lo schermo per la lista delle proprie azioni.
 
 ## I passaggi
 
-1. Ogni partecipante genera la propria lista di soluzioni da 15%. - 5 min
-2. [ 3 min/persona ] Condivisione Condivisione delle idee in piccoli gruppi.
-3. Un partecipante alla volta.
-4. [ 5/7 min/persona ] Consultazione I membri del gruppo pongono domande di chiarimento.
-5. Offrono suggerimenti e consigli.
+1. Spiega il concetto di 15%: la parte del problema che puoi influenzare con le risorse e l'autonomia che hai gia' - 2 min
+2. Ognuno scrive almeno una azione concreta nel proprio 15% - 5 min
+3. In gruppi da 2-4, un partecipante alla volta presenta la propria azione - 3 min a persona
+4. Il gruppo fa solo domande di chiarimento: niente consigli, niente "dovresti fare cosi'" - 5-7 min a persona
+5. Breve chiusura: ognuno conferma l'azione che fara' davvero entro una settimana - 3 min
 
 ## Quando usarla
 
-- Quando risoluzione di problemi che richiedono il coinvolgimento di più persone.
-- Quando pianificazione di iniziative dal basso.
-- Quando superamento di situazioni di stallo o negatività.
+- Risolvi problemi che richiedono il coinvolgimento di piu' persone, ma il gruppo resta bloccato su "serve l'ok dall'alto".
+- Pianifichi iniziative dal basso senza budget aggiuntivo.
+- Superi stallo o negativita' quando tutti aspettano che qualcun altro agisca.
 
 ## Il consiglio del facilitatore
 
-Verificare che ogni proposta sia effettivamente alla portata di chi la porta.
+Verifica che ogni proposta stia davvero nel 15% di chi la porta: risorse disponibili, nessun permesso extra. Nella fase di consultazione, se qualcuno inizia a dare consigli, ricorda la regola: solo domande di chiarimento.
 
 ## Errori da evitare
 
-- Non sottovalutare l'impatto di piccoli cambiamenti di comportamento.
-- Evitare il blocco "aspettiamo autorizzazioni" o "devo chiedere a".
-- Non limitare la creatività delle proposte.
+- Proporre azioni che richiedono budget, autorizzazioni o risorse che il gruppo non ha.
+- Saltare la fase di domande e passare subito ai consigli.
+- Sottovalutare piccoli cambiamenti di comportamento: spesso sono quelli che sbloccano il resto.
 
 ## Domande frequenti
 
 ### Cos'e' 15% Solutions?
-15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai gia', senza chiedere permessi?.
+15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai gia', senza chiedere permessi?
 
 ### Quanto dura 15% Solutions?
-Di solito 20 minuti. I passaggi prevedono tempi fissi (5 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 20 minuti: 5 minuti di scrittura individuale, poi 3-7 minuti a persona per presentazione e domande di chiarimento in gruppo.
 
 ### Quando conviene usare 15% Solutions?
-Quando risoluzione di problemi che richiedono il coinvolgimento di più persone.
+Quando il gruppo ha idee ma non passa all'azione perche' aspetta risorse o permessi che non arriveranno subito.
 
 ### Cosa sono le 15% Solutions?
 Sono azioni che ogni persona puo' fare subito con le risorse e l'autonomia che ha gia', senza chiedere permessi o budget aggiuntivo. Il nome indica la parte del problema che puoi influenzare direttamente.
@@ -92,3 +91,45 @@ Sono azioni che ogni persona puo' fare subito con le risorse e l'autonomia che h
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' 15% Solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai gia', senza chiedere permessi?"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura 15% Solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 20 minuti: 5 minuti di scrittura individuale, poi 3-7 minuti a persona per presentazione e domande di chiarimento in gruppo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare 15% Solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando il gruppo ha idee ma non passa all'azione perche' aspetta risorse o permessi che non arriveranno subito."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cosa sono le 15% Solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sono azioni che ogni persona puo' fare subito con le risorse e l'autonomia che ha gia', senza chiedere permessi o budget aggiuntivo. Il nome indica la parte del problema che puoi influenzare direttamente."
+      }
+    }
+  ]
+}
+</script>
+-->

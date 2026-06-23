@@ -29,6 +29,12 @@ url: "https://liberating.it/structures/mad-tea/"
 - "Quale piccola azione quotidiana potrebbe migliorare come lavoriamo insieme?"
 - "Quale talento del team non stiamo valorizzando abbastanza?"
 
+Altre domande utili per i round successivi:
+
+- "Cosa ti entusiasma di piu' in questo progetto?"
+- "Quale rischio vedi e come lo affronteresti?"
+- "Cosa vorresti che il team smettesse di fare?"
+
 ## Cosa ti serve
 
 - Spazio per due cerchi concentrici con passaggio comodo tra le file.
@@ -87,3 +93,45 @@ Con 10-30 persone quando vuoi molte voci in poco tempo senza aprire un dibattito
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Mad Tea?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mad Tea e' una Liberating Structure con due cerchi concentrici: domande rapide a turno tra coppie, rotazione del cerchio interno a ogni round. Attraversa un gruppo numeroso in 20-30 minuti di dialogo strutturato."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Mad Tea e Impromptu Networking: differenza?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Impromptu Networking](/structures/impromptu-networking/) usa domande a coppie con movimento libero. Mad Tea mantiene la struttura a cerchi e un ritmo piu' serrato con molte domande in sequenza."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Mad Tea?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il cuore dell'attivita' sono 15-25 minuti di round; con setup e debrief arrivi a 30-45 minuti totali."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Mad Tea?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con 10-30 persone quando vuoi molte voci in poco tempo senza aprire un dibattito in plenaria. Funziona bene su temi di team, cambiamento o retrospettiva."
+      }
+    }
+  ]
+}
+</script>
+-->

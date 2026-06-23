@@ -27,11 +27,11 @@ url: "https://liberating.it/structures/panarchy/"
 
 - "Quali fattori, dal piu' piccolo al piu' grande, influenzano il successo di questa innovazione?"
 - "Dove si blocca oggi il cambiamento che stiamo provando a diffondere?"
-- "Cosa cambieresti se avessi piu' autonomia su questo tema?"
+- "Quali vincoli esterni (mercato, normative) rallentano il nostro cambiamento?"
 
 ## Cosa ti serve
 
-- Grafico Panarchy (tre livelli) per ogni partecipante e una versione grande su poster.
+- Grafico Panarchy a tre livelli: micro (persone/team), meso (organizzazione), macro (mercato/cultura/policy).
 - Post-it e pennarelli per ogni fattore identificato.
 - Spazio per muoversi tra i livelli del grafico.
 - Conoscenza base di [Ecocycle Planning](/structures/ecocycle-planning/) se colleghi fasi di maturita'.
@@ -88,3 +88,45 @@ Di solito 120 minuti. Per gruppi numerosi o temi molto articolati prevedi una me
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Panarchy nelle Liberating Structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Panarchy e' una struttura visiva per analizzare cambiamenti su tre livelli (micro, meso, macro). Il gruppo identifica fattori e connessioni per capire dove agire per far diffondere un'innovazione."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' il modello panarchy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il modello panarchy descrive come sistemi adattativi evolvono tra livelli nested. Nelle LS si usa in workshop per rendere esplicite le dipendenze tra team, organizzazione e contesto esterno."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Panarchy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 120 minuti. Per gruppi numerosi o temi molto articolati prevedi una mezza giornata con pause."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Panarchy ed Ecocycle Planning: differenza?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Ecocycle Planning](/structures/ecocycle-planning/) guarda il ciclo di vita di iniziative (nascita, maturita', rinnovo). Panarchy mappa i livelli di sistema che influenzano il cambiamento. Spesso si usano in sequenza su trasformazioni lunghe."
+      }
+    }
+  ]
+}
+</script>
+-->

@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/critical-uncertainties/"
 
 [Home](/) > [Le strutture](/structures/) > Critical Uncertainties
 
-**In breve** - Esplora scenari futuri partendo dalle incertezze che non puoi controllare.
+**In breve** - Esplora scenari futuri partendo dalle incertezze che non puoi controllare. Il gruppo costruisce una matrice 2x2 e sviluppa quattro scenari alternativi.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -31,47 +31,47 @@ url: "https://liberating.it/structures/critical-uncertainties/"
 
 ## Cosa ti serve
 
-- Sala riunioni o workshop.
-- 4 tavoli con sedie disposte attorno.
-- Dividere i partecipanti in 4 gruppi equilibrati come competenze e prospettive.
-- Post-it, lavagne a fogli mobili, pennarelli .
-- Lavagna virtuale collaborativa.
+- 4 tavoli con sedie (un tavolo per scenario).
+- Post-it, lavagne a fogli mobili, pennarelli.
+- Template matrice 2x2 vuota su poster o lavagna grande.
+- In remoto: lavagna digitale collaborativa; 4 breakout room per i gruppi scenario.
 
 ## I passaggi
 
-1. Fase di apertura introduzione della microstruttura. - 10 min
-2. Spiegazione chiara degli obiettivi.
-3. Formazione dei 4 gruppi di lavoro.
-4. incertezze riflessione individuale sulle incertezze critiche. - 15 min
-5. Condivisione in coppia delle incertezze identificate.
-6. Selezione delle incertezze più significative in gruppo di quattro.
+1. Introduci obiettivo e formato: da incertezze a scenari - 10 min
+2. Individuale: ognuno elenca incertezze critiche (fattori fuori dal vostro controllo) - 15 min
+3. In coppia: condividete e selezionate le incertezze piu' rilevanti - 10 min
+4. In gruppi da quattro: scegliete le 2 incertezze piu' significative per gli assi della matrice - 15 min
+5. Plenaria: definite i due assi (es. "domanda del mercato" x "velocita' regolamentare") e i quattro quadranti - 15 min
+6. Quattro gruppi: ognuno sviluppa uno scenario nel proprio quadrante (cosa succede, implicazioni, segnali) - 30 min
+7. Plenaria: ogni gruppo presenta il proprio scenario; discutete implicazioni strategiche - 25 min
 
 ## Quando usarla
 
-- Quando pianificazione strategica di lungo periodo.
-- Quando lancio di nuovi prodotti o servizi.
-- Quando gestione di cambiamenti organizzativi complessi.
+- Pianificazione strategica di lungo periodo sotto alta incertezza.
+- Lancio di nuovi prodotti o servizi in mercati instabili.
+- Cambiamenti organizzativi complessi con molte variabili fuori controllo.
 
 ## Il consiglio del facilitatore
 
-Basare le decisioni su evidenze concrete e dati oggettivi .
+Scegli assi davvero incerti, non ovvii. Se il gruppo resta ancorato al presente, chiedi: "Cosa ci ha sorpreso negli ultimi 3 anni?". Ogni scenario deve essere plausibile, non solo ottimista o catastrofico.
 
 ## Errori da evitare
 
-- Non limitarsi a previsioni ovvie.
-- Evitare di rimanere troppo ancorati al presente.
-- Non trascurare eventi passati che hanno colto il gruppo di sorpresa.
+- Usare assi che il gruppo puo' controllare direttamente (non sono incertezze critiche).
+- Saltare la fase di sviluppo scenario: la matrice da sola non basta.
+- Chiudere senza implicazioni strategiche: a cosa serve ciascuno scenario per le decisioni di oggi?
 
 ## Domande frequenti
 
 ### Cos'e' Critical Uncertainties?
-Esplora scenari futuri partendo dalle incertezze che non puoi controllare.
+Una struttura per esplorare scenari futuri partendo da due incertezze critiche che non puoi controllare, costruendo quattro scenari alternativi.
 
 ### Quanto dura Critical Uncertainties?
-Di solito 120 minuti. I passaggi prevedono tempi fissi (10 min, 15 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 120 minuti. Per gruppi numerosi o scenari complessi, prevedi mezza giornata.
 
 ### Quando conviene usare Critical Uncertainties?
-Quando pianificazione strategica di lungo periodo.
+Quando la pianificazione strategica richiede di guardare piu' futuri possibili, non una sola previsione lineare.
 
 ## Prima e dopo
 
@@ -81,8 +81,42 @@ Quando pianificazione strategica di lungo periodo.
 ## Strutture simili
 
 - [Open Space Technology (OST)](/structures/open-space-technology-ost/) - workshop lungo per strategia
-- [Ecocycle Planning](/structures/ecocycle-planning/) - pianificazione organizzativa
+- [Ecocycle Planning](/structures/ecocycle-planning/) - pianificazione del portfolio
 
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Critical Uncertainties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una struttura per esplorare scenari futuri partendo da due incertezze critiche che non puoi controllare, costruendo quattro scenari alternativi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Critical Uncertainties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 120 minuti. Per gruppi numerosi o scenari complessi, prevedi mezza giornata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Critical Uncertainties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando la pianificazione strategica richiede di guardare piu' futuri possibili, non una sola previsione lineare."
+      }
+    }
+  ]
+}
+</script>
+-->

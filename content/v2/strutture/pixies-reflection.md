@@ -25,9 +25,12 @@ url: "https://liberating.it/structures/pixies-reflection/"
 
 ## Domanda da portare
 
+Le quattro domande guida (usa tutte e quattro):
+
 - "Qual e' il tuo obiettivo o ambizione piu' elevata su questo tema?"
 - "Cosa c'e' di positivo nel NON agire per raggiungerlo?"
 - "Quali paure ti frenano e quali alibi usi per non impegnarti al 100%?"
+- "Cosa ti servirebbe per fare il passo successivo concretamente?"
 
 ## Cosa ti serve
 
@@ -87,3 +90,45 @@ Quando serve allineare motivazioni profonde prima di definire obiettivi o piani 
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Pixie Reflection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pixie Reflection e' una Liberating Structure con quattro domande su ambizioni, resistenze e paure. Segue il ritmo 1-2-4-all: individuale, coppie, quartetti, plenaria."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Pixie Reflection e Talking with Pixies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Talking with Pixies](/structures/talking-with-pixies/) esplora voci interiori contrastanti. Pixie Reflection usa domande fisse per collegare obiettivi personali e resistenze al cambiamento in gruppo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Pixie Reflection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 30 minuti in cinque blocchi temporali. Per gruppi grandi o temi delicati prevedi 45 minuti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Pixie Reflection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando serve allineare motivazioni profonde prima di definire obiettivi o piani d'azione. Utile in programmi di leadership e trasformazione."
+      }
+    }
+  ]
+}
+</script>
+-->

@@ -34,13 +34,14 @@ url: "https://liberating.it/structures/troika-consulting/"
 - Tre sedie a triangolo, senza tavolo in mezzo.
 - Gruppi da tre con prospettive diverse se possibile.
 - Post-it per annotare insight (opzionale).
+- In remoto: breakout room da 3; il cliente si mette in muto e spegne la videocamera durante il round dei consulenti.
 
 ## I passaggi
 
 1. Il cliente riflette da solo sulla domanda chiave - 1 min
 2. Il cliente espone la sfida ai due consulenti - 2 min
 3. I consulenti fanno solo domande di chiarimento - 2 min
-4. Il cliente si gira di spalle (in remoto: muto e videocamera spenta); i consulenti discutono la situazione ad alta voce - 3 min
+4. Il cliente si gira di spalle (in remoto: muto e videocamera spenta); i consulenti discutono tra loro ad alta voce, non con il cliente - 3 min
 5. Il cliente si rivolge al gruppo e condivide cosa l'ha colpito - 2 min
 6. Ruotate i ruoli finche' ognuno ha fatto il giro da cliente - resto del tempo
 
@@ -52,7 +53,7 @@ url: "https://liberating.it/structures/troika-consulting/"
 
 ## Il consiglio del facilitatore
 
-Mescola ruoli e funzioni nei triangoli. Durante il round "consulenti parlano, cliente ascolta", interveni se i consulenti danno soluzioni invece di esplorare il problema.
+Mescola ruoli e funzioni nei triangoli. Durante il round "consulenti parlano, cliente ascolta", i consulenti si rivolgono l'uno all'altro, non al cliente. Intervieni se danno soluzioni pronte invece di esplorare il problema.
 
 ## Errori da evitare
 
@@ -91,3 +92,45 @@ Quando una persona ha una sfida concreta e il gruppo puo' offrire sguardi divers
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Troika Consulting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Troika Consulting e' una Liberating Structure in cui tre persone lavorano a turni: una espone una sfida, due la esplorano ad alta voce mentre la prima ascolta senza intervenire. Poi si ruotano i ruoli."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come funziona la consulenza in triade?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ogni round dura pochi minuti: riflessione individuale, condivisione, domande, discussione tra consulenti con il cliente che ascolta, debrief del cliente. Il formato obbliga ad ascoltare senza difendersi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Troika Consulting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 30 minuti per almeno un giro completo nei triangoli. Con piu' tempo puoi fare due round per persona."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Troika Consulting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando una persona ha una sfida concreta e il gruppo puo' offrire sguardi diversi senza trasformare la riunione in un braccio di ferro."
+      }
+    }
+  ]
+}
+</script>
+-->

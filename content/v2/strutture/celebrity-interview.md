@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/celebrity-interview/"
 
 [Home](/) > [Le strutture](/structures/) > Celebrity Interview
 
-**In breve** - Trasforma una presentazione frontale in una conversazione guidata con il gruppo.
+**In breve** - Celebrity Interview trasforma una presentazione frontale in conversazione: un intervistatore dialoga con un ospite, poi il gruppo genera domande con [1-2-4-All](/structures/1-2-4-all/) e l'ospite sceglie quali approfondire.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -25,62 +25,102 @@ url: "https://liberating.it/structures/celebrity-interview/"
 
 ## Domanda da portare
 
+Domande per l'intervistatore (preparate con l'ospite):
+
 - "Cosa ti ha ispirato in questo lavoro?"
-- "Quali sfide affronti?"
+- "Quali sfide affronti ogni giorno?"
 - "Cosa ti motiva a continuare?"
+
+Domanda per il gruppo (fase 1-2-4-All):
+
+- "Cosa vorresti sapere dall'ospite ma non oseresti chiedere?"
 
 ## Cosa ti serve
 
-- Disporre le sedie a teatro per garantire visibilità ottimale.
-- Posizionare due sedute comode (poltrone o sgabelli) in posizione frontale.
-- Assicurarsi che tutti possano vedere e sentire bene l'interazione.
-- Microfoni a clip per intervistatore e ospite.
-- Cartoncini 9×13 cm per raccogliere le domande.
+- Sedie a teatro con due poltrone o sgabelli al centro.
+- Microfoni per intervistatore e ospite se il gruppo e' numeroso.
+- Cartoncini 9x13 cm per raccogliere le domande del gruppo.
+- In remoto: ospite e intervistatore in evidenza; chat per le domande del gruppo.
 
 ## I passaggi
 
-1. Introduzione dell'ospite e del tema. - 5 min
-2. Intervista con domande significative. - 15 min
-3. Generazione delle domande usando 1-2-4-all. - 10 min
-4. Far selezionare le domande dall'ospite. - 10 min
-5. Chiusura e debriefing. - 5 min
+1. Presenta ospite e tema; l'intervistatore apre con 2-3 domande preparate - 15 min
+2. Il gruppo usa [1-2-4-All](/structures/1-2-4-all/) per generare domande per l'ospite - 10 min
+3. Raccogli le domande su cartoncini; l'ospite ne sceglie 3-5 da approfondire - 5 min
+4. Secondo round di intervista sulle domande scelte - 10 min
+5. Chiusura: cosa portate via? Un insight ciascuno - 5 min
 
 ## Quando usarla
 
-- Quando crea una connessione autentica tra leader/esperti e pubblico.
-- Quando trasforma presentazioni potenzialmente noiose in narrazioni coinvolgenti.
-- Quando stimola l'azione collettiva attraverso il coinvolgimento diretto.
+- Un leader o esperto deve parlare al gruppo senza monopolizzare con una slide deck.
+- Vuoi creare connessione autentica tra chi presenta e chi ascolta.
+- Dopo un annuncio importante, per dare voce alle domande del team.
 
 ## Il consiglio del facilitatore
 
-Preparare accuratamente le domande chiave con l'ospite in anticipo.
+Prepara le domande chiave con l'ospite in anticipo. Nella fase 1-2-4-All, incoraggia domande sincere, anche quelle "scomode". L'ospite puo' rifiutare domande, ma deve scegliere lui quali prendere.
 
 ## Errori da evitare
 
-- Raccogliere domande preliminari dal gruppo chiedendo: "Cosa vorreste sapere ma non osereste chiedere?"
-- Non dare spazio alle domande del pubblico.
+- Lasciare che l'ospite parli per tutto il tempo senza coinvolgere il gruppo.
+- Saltare la fase 1-2-4-All: e' li' che il gruppo diventa parte attiva.
+- Permettere dibattiti in plenaria invece di domande rivolte all'ospite.
 
 ## Domande frequenti
 
 ### Cos'e' Celebrity Interview?
-Trasforma una presentazione frontale in una conversazione guidata con il gruppo.
+Un formato in cui un intervistatore dialoga con un ospite al centro, poi il gruppo genera domande strutturate e l'ospite sceglie quali approfondire.
 
 ### Quanto dura Celebrity Interview?
-Di solito 45 minuti. I passaggi prevedono tempi fissi (5 min, 15 min, 10 min, 10 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 45 minuti: 15 minuti di intervista iniziale, 10 minuti di generazione domande, 15 minuti di secondo round.
 
 ### Quando conviene usare Celebrity Interview?
-Quando crea una connessione autentica tra leader/esperti e pubblico.
+Quando un CEO, esperto o leader deve incontrare il team in modo dialogico, non con una presentazione a senso unico.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [Impromptu Networking](/structures/impromptu-networking/) - creare energia prima dell'ospite
+- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - cosa fare con quanto emerso
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [User Experience Fishbowl](/structures/user-experience-fishbowl/) - piu' persone al centro con la platea
+- [Conversation Café](/structures/conversation-cafe/) - dialogo profondo senza ospite unico
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [User Experience Fishbowl](/structures/user-experience-fishbowl/) - piu' voci al centro
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Celebrity Interview?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un formato in cui un intervistatore dialoga con un ospite al centro, poi il gruppo genera domande strutturate e l'ospite sceglie quali approfondire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Celebrity Interview?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 45 minuti: 15 minuti di intervista iniziale, 10 minuti di generazione domande, 15 minuti di secondo round."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Celebrity Interview?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando un CEO, esperto o leader deve incontrare il team in modo dialogico, non con una presentazione a senso unico."
+      }
+    }
+  ]
+}
+</script>
+-->

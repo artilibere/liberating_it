@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/integrated-autonomy/"
 
 [Home](/) > [Le strutture](/structures/) > Integrated Autonomy
 
-**In breve** - Aiutare i gruppi a superare i conflitti "o questo o quello" per arrivare a soluzioni "sia questo che quello", favorendo un pensiero strategico più acuto e una maggiore comprensione reciproca.
+**In breve** - Integrated Autonomy aiuta i gruppi a superare i falsi dilemmi ("o integrazione o autonomia") e a trovare soluzioni "sia... sia" su attivita' concrete del lavoro quotidiano.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -26,63 +26,96 @@ url: "https://liberating.it/structures/integrated-autonomy/"
 ## Domanda da portare
 
 - "Come possiamo avere contemporaneamente maggiore integrazione e maggiore autonomia?"
-- "Quali sono i momenti in cui sentiamo maggiormente il conflitto tra controllo centrale e autonomia locale?"
-- "Come possiamo valorizzare sia l'identità comune che le specificità individuali?"
+- "Quali sono i momenti in cui sentiamo il conflitto tra controllo centrale e autonomia locale?"
+- "Come valorizziamo sia l'identita' comune che le specificita' individuali?"
 
 ## Cosa ti serve
 
-- Workshop o riunione strutturata.
-- Disposizione: sedie per gruppi di 4 persone.
-- Worksheet "Integrated Autonomy" per ogni partecipante.
-- Versione grande del worksheet da appendere al muro.
-- Fogli per registrare attività e piani d'azione.
+- Worksheet Integrated Autonomy per ogni partecipante (matrice attivita' x paradosso).
+- Versione grande del worksheet su poster.
+- Tavoli per gruppi da quattro.
+- Fogli per piani d'azione.
 
 ## I passaggi
 
-1. presentare il paradosso centrale (es. integrazione vs autonomia). - 10 min
-2. Distribuire i worksheet individuali.
-3. Formare gruppi di 4 persone.
-4. Spiegare il processo complessivo e gli obiettivi.
-5. chiedere ad ogni partecipante di identifica 3-4 attività chiave del proprio lavoro, analizzando gli aspetti dal punto di vista del paradosso scelto (integrazione/autonomia, standardizzazione/personalizzazione) - 15 min
-6. Condivisione in coppie condividere le proprie analisi. - 15 min
+1. Presenta il paradosso scelto (es. integrazione vs autonomia, standardizzazione vs personalizzazione) - 10 min
+2. Distribuisci i worksheet e forma gruppi da quattro - 5 min
+3. Individuale: ognuno elenca 3-4 attivita' chiave e le analizza sul paradosso (piu' A, piu' B, o entrambi?) - 15 min
+4. In coppie: condividete le analisi e cercate pattern - 15 min
+5. In gruppi da quattro: per ogni attivita' "bloccata", cercate soluzioni "sia... sia" - 25 min
+6. Plenaria: condividete le soluzioni piu' promettenti e definite 3-5 azioni - 20 min
 
 ## Quando usarla
 
-- Durante fusioni o acquisizioni aziendali, per bilanciare culture diverse.
-- Quando nella gestione di team distribuiti su più sedi.
-- Quando si devono armonizzare processi tra diverse divisioni.
+- Fusioni o acquisizioni con culture diverse da armonizzare.
+- Team distribuiti su piu' sedi con tensione tra centrale e locale.
+- Divisioni che devono coordinarsi senza perdere autonomia operativa.
 
 ## Il consiglio del facilitatore
 
-Formulare domande bilanciate che stimolino curiosità.
+Non svalutare nessun polo del paradosso: entrambi hanno ragione. Evita soluzioni rapide tipo "facciamo meta' e meta'". Chiedi: "Cosa possiamo fare che onora entrambi i bisogni su questa attivita' specifica?"
 
 ## Errori da evitare
 
-- Non svalutare un lato della questione.
-- Non cercare soluzioni rapide.
-- Non lasciare invisibile la tensione creativa tra centrale e locale.
+- Restare a livello astratto senza attivita' concrete.
+- Cercare un vincitore tra integrazione e autonomia.
+- Chiudere senza azioni: il paradosso si lavora nel tempo, ma servono primi passi.
 
 ## Domande frequenti
 
 ### Cos'e' Integrated Autonomy?
-Aiutare i gruppi a superare i conflitti "o questo o quello" per arrivare a soluzioni "sia questo che quello", favorendo un pensiero strategico più acuto e una maggiore comprensione reciproca.
+Una struttura per superare conflitti "o questo o quello" e trovare soluzioni "sia questo che quello" su attivita' di lavoro concrete.
 
 ### Quanto dura Integrated Autonomy?
-Di solito 90 minuti. I passaggi prevedono tempi fissi (10 min, 15 min, 15 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 90 minuti. Per paradossi complessi o gruppi numerosi, prevedi mezza giornata.
 
 ### Quando conviene usare Integrated Autonomy?
-Durante fusioni o acquisizioni aziendali, per bilanciare culture diverse.
+Quando il team e' bloccato in un falso dilemma tra controllo centralizzato e autonomia locale.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [Wicked Questions](/structures/wicked-questions/) - formulare il paradosso in una domanda
+- **Dopo:** [Min Specs](/structures/min-specs/) - regole minime che onorano entrambi i poli
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [Wicked Questions](/structures/wicked-questions/) - tenere insieme strategie opposte
+- [Generative Relationship STAR](/structures/generative-relationship-star/) - dinamiche relazionali del team
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [Wicked Questions](/structures/wicked-questions/) - formulare il paradosso prima di risolverlo
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Integrated Autonomy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una struttura per superare conflitti \"o questo o quello\" e trovare soluzioni \"sia questo che quello\" su attivita' di lavoro concrete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Integrated Autonomy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 90 minuti. Per paradossi complessi o gruppi numerosi, prevedi mezza giornata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Integrated Autonomy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando il team e' bloccato in un falso dilemma tra controllo centralizzato e autonomia locale."
+      }
+    }
+  ]
+}
+</script>
+-->

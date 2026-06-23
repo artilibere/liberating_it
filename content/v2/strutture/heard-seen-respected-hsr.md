@@ -15,73 +15,109 @@ url: "https://liberating.it/structures/heard-seen-respected-hsr/"
 
 [Home](/) > [Le strutture](/structures/) > Heard, Seen, Respected (HSR)
 
-**In breve** - HSR sviluppa l'ascolto empatico: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata, e il gruppo ascolta senza giudicare.
+**In breve** - HSR sviluppa l'ascolto empatico in tre round: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata. Il partner ascolta senza giudicare e senza consigli.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
 | 35 minuti | Intermedia | da 4 a 30 persone | Empathize |
 
-**Filtri:** [Per iniziare subito](/complessita/iniziare-subito/) · [Facile](/difficolta/facile/) · [Media (max 90 min)](/durata/media/) · [Empathize](/design-thinking/empathize/)
+**Filtri:** [Per iniziare subito](/complessita/iniziare-subito/) · [Intermedia](/difficolta/intermedia/) · [Media (max 90 min)](/durata/media/) · [Empathize](/design-thinking/empathize/)
 
 ## Domanda da portare
 
-- "Qual e' la sfida piu' urgente su cui lavorare adesso?"
-- "Cosa cambieresti se avessi piu' autonomia in questo tema?"
+Tre prompt, uno per round:
+
+- **Heard (ascoltato):** "Racconta un episodio in cui non ti sei sentito/a ascoltato/a."
+- **Seen (visto):** "Racconta un episodio in cui non ti sei sentito/a visto/a per quello che sei."
+- **Respected (rispettato):** "Racconta un episodio in cui non ti sei sentito/a rispettato/a."
 
 ## Cosa ti serve
 
-- Spazio per lavoro in coppia.
-- Sedie disposte una di fronte all'altra.
-- Nessun tavolo tra i partecipanti.
-- Spazio sufficiente per permettere privacy alle coppie.
-- Lavagna o flipchart per la fase di riflessione finale.
+- Sedie a coppie, una di fronte all'altra, senza tavolo in mezzo.
+- Spazio sufficiente per privacy tra le coppie.
+- Lavagna o flipchart per la riflessione finale in plenaria.
+- In remoto: breakout room da 2; muto durante l'ascolto.
 
 ## I passaggi
 
-1. Introduzione spiegare: lo scopo: praticare l'ascolto senza giudicare o cercare soluzioni. - 5 min
-2. storie 7 minuti a persona per raccontare la propria storia. - 15 min
-3. Il partner ascolta senza interruzioni.
-4. condivisione delle sensazioni provate come narratore e ascoltatore. - 5 min
-5. identificazione dei pattern emersi dalle storie e analisi del loro significato. - 5 min
-6. Conclusione riflessione finale in plenaria. - 5 min
+1. Spiega lo scopo: praticare l'ascolto senza giudicare, interrompere o dare consigli - 5 min
+2. **Round Heard:** a turno, 3 min a persona per raccontare; il partner ascolta in silenzio - 7 min
+3. **Round Seen:** stesso formato con il secondo prompt - 7 min
+4. **Round Respected:** stesso formato con il terzo prompt - 7 min
+5. In coppia: condividete come vi siete sentiti come narratore e come ascoltatore - 5 min
+6. Plenaria: pattern emersi e cosa significano per il gruppo - 5 min
 
 ## Quando usarla
 
-- Durante riunioni regolari per migliorare la qualità dell'ascolto.
-- Quando in periodi di transizione organizzativa.
-- Dopo situazioni di perdita o difficoltà nel team.
+- Riunioni regolari di team che vogliono migliorare la qualita' dell'ascolto.
+- Periodi di transizione organizzativa o tensioni sotto la superficie.
+- Dopo situazioni difficili nel team, quando serve ricostruire fiducia.
 
 ## Il consiglio del facilitatore
 
-Incoraggiare la condivisione della prima storia che viene in mente.
+Incoraggia la prima storia che viene in mente, non quella piu' drammatica. Se qualcuno inizia a dare consigli, ricorda: solo ascolto. Non forzare chi non vuole condividere.
 
 ## Errori da evitare
 
-- Non forzare la condivisione di storie troppo dolorose.
-- Evitare di interrompere o dare consigli.
-- Non cercare di risolvere i problemi emersi.
+- Cercare di risolvere i problemi emersi: HSR e' ascolto, non problem-solving.
+- Interrompere o commentare durante le storie.
+- Forzare condivisioni troppo dolorose o personali.
 
 ## Domande frequenti
 
 ### Cos'e' Heard, Seen, Respected?
-Seen, Respected Sviluppare la capacità di ascolto empatico e creare un ambiente di maggiore comprensione reciproca tra i partecipanti.
+Una struttura in tre round per praticare l'ascolto empatico su episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato.
 
 ### Quanto dura Heard, Seen, Respected?
-Di solito 35 minuti. I passaggi prevedono tempi fissi (5 min, 15 min, 5 min, 5 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 35 minuti: tre round da 7 minuti in coppia, piu' apertura e chiusura.
 
-### Quando conviene usare Heard, Seen, Respected?
-Durante riunioni regolari per migliorare la qualità dell'ascolto.
+### Quando conviene usare HSR?
+Quando il team ha bisogno di migliorare l'ascolto reciproco prima di affrontare decisioni o conflitti aperti.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [Conversation Café](/structures/conversation-cafe/) - dialogo profondo su un tema condiviso
+- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - cosa fare con quanto emerso
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [Appreciative Interviews](/structures/appreciative-interviews-ai/) - storie positive invece di episodi difficili
+- [Conversation Café](/structures/conversation-cafe/) - dialogo profondo su un tema condiviso
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [Conversation Café](/structures/conversation-cafe/) - dialogo strutturato sul team
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Heard, Seen, Respected?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una struttura in tre round per praticare l'ascolto empatico su episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Heard, Seen, Respected?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 35 minuti: tre round da 7 minuti in coppia, piu' apertura e chiusura."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare HSR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando il team ha bisogno di migliorare l'ascolto reciproco prima di affrontare decisioni o conflitti aperti."
+      }
+    }
+  ]
+}
+</script>
+-->

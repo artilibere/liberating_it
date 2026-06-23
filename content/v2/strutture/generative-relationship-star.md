@@ -1,9 +1,9 @@
 ---
 slug: generative-relationship-star
 title: "Generative STAR: relazioni che contano"
-meta_description: "Generative Relationship STAR analizza le dinamiche del team e migliora relazioni che contano. Passaggi chiari in 20 minuti."
+meta_description: "Generative Relationship STAR analizza le dinamiche del team e migliora relazioni che contano. Passaggi chiari in 25 minuti."
 registro: manuale-operativo
-durata: "25 minuti"
+durata: "25-45 minuti"
 difficolta: "Avanzata"
 partecipanti: "gruppi di 4 persone"
 fase: "Multi fase"
@@ -15,74 +15,114 @@ url: "https://liberating.it/structures/generative-relationship-star/"
 
 [Home](/) > [Le strutture](/structures/) > Generative Relationship STAR
 
-**In breve** - La Generative Relationships STAR permette ai gruppi di lavoro di analizzare e migliorare le proprie dinamiche relazionali, identificando pattern che creano valore o disfunzioni.
+**In breve** - Generative Relationship STAR analizza le dinamiche del team con quattro elementi (Separateness, Tuning, Action, Reason) e identifica azioni per migliorare relazioni che generano valore.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
-| 25 minuti | Avanzata | gruppi di 4 persone | Multi fase |
+| 25-45 minuti | Avanzata | gruppi di 4 persone | Multi fase |
 
 **Filtri:** [Per trasformazioni organizzative](/complessita/trasformazioni-organizzative/) · [Avanzata](/difficolta/avanzata/) · [Workshop (+1g)](/durata/workshop/) · [Multi fase](/design-thinking/multi-fase/)
 
 ## Domanda da portare
 
-- "Come lavoriamo insieme e quali cambiamenti possiamo implementare per migliorare le nostre performance di gruppo?"
+- "Come lavoriamo insieme e quali cambiamenti possiamo fare per migliorare le nostre performance di gruppo?"
 - "Quali pattern relazionali caratterizzano il nostro team?"
-- "Come vogliamo strutturare le nostre conversazioni?"
+- "Cosa ci impedisce di collaborare in modo piu' generativo?"
+
+## I quattro elementi STAR
+
+- **Separateness** - diversita' di prospettive portate nel gruppo.
+- **Tuning** - livello di ascolto reciproco e attenzione alle differenze.
+- **Action** - opportunita' di azione comune e coordinamento.
+- **Reason** - benefici concreti della collaborazione per ciascuno.
 
 ## Cosa ti serve
 
-- Tavoli per piccoli gruppi.
-- Una bussola STAR disegnata su flip-chart per ogni gruppo.
-- Una bussola STAR generale per tutto il gruppo .
-- Utilizzare una lavagna virtuale per la bussola STAR.
-- Creare breakout rooms per i piccoli gruppi.
+- Bussola STAR disegnata su flip-chart per ogni gruppo (4 assi).
+- Bussola STAR grande per la plenaria.
+- Pennarelli per segnare valutazioni su ogni asse.
+- In remoto: lavagna virtuale con template STAR; breakout room da 4.
 
 ## I passaggi
 
-1. dei 4 elementi STAR separateness = diversità di prospettive. - 5 min
-2. Tuning = livello di ascolto reciproco.
-3. Action = opportunità di azione comune.
-4. Reason = benefici della collaborazione.
-5. gruppi i partecipanti condividono le loro valutazioni usando il formato 1-2-4. - 5 min
-6. e azioni di miglioramento i gruppi identificano i risultati generati dai pattern di interazione emersi. - 10 min
+1. Presenta i quattro elementi STAR con un esempio concreto dal vostro team - 5 min
+2. Individuale: ognuno valuta il team su ogni asse (es. scala 1-5) sulla bussola - 5 min
+3. In gruppi da quattro: condividete le valutazioni con [1-2-4-All](/structures/1-2-4-all/) - 10 min
+4. Identificate pattern: quali combinazioni generano valore? Quali creano disfunzione? - 10 min
+5. Definite 2-3 azioni concrete per migliorare le relazioni generative - 10 min
+6. Plenaria: condividete azioni e pattern comuni - 5 min
 
 ## Quando usarla
 
-- Quando migliorare le performance del team.
-- Quando sviluppare l'autonomia del gruppo.
-- Quando definire meglio scopo e identità collettiva.
+- Il team vuole migliorare performance e dinamiche relazionali, non solo processi.
+- Serve sviluppare autonomia del gruppo e identita' collettiva.
+- Dopo un cambiamento organizzativo che ha alterato i rapporti.
 
 ## Il consiglio del facilitatore
 
-Utilizzare esempi concreti per illustrare i concetti.
+Usa esempi concreti per illustrare ogni asse. Non giudicare valutazioni alte o basse: l'obiettivo e' capire i pattern, non avere "voti buoni". Chiudi sempre con azioni misurabili.
 
 ## Errori da evitare
 
-- Evitare giudizi su "giusto" o "sbagliato".
-- Non dare abbastanza tempo per l'analisi dei pattern.
-- Non definire azioni concrete e misurabili.
+- Trasformare l'esercizio in una valutazione del capo o di singoli individui.
+- Saltare la fase di azioni: l'analisi senza cambiamento non serve.
+- Dare poco tempo al confronto in gruppo da quattro.
 
 ## Domande frequenti
 
 ### Cos'e' Generative Relationship STAR?
-La Generative Relationships STAR permette ai gruppi di lavoro di analizzare e migliorare le proprie dinamiche relazionali, identificando pattern che creano valore o disfunzioni.
+Una struttura per analizzare e migliorare le dinamiche relazionali del team con quattro dimensioni: Separateness, Tuning, Action, Reason.
 
 ### Quanto dura Generative Relationship STAR?
-Di solito 25 minuti. I passaggi prevedono tempi fissi (5 min, 5 min, 10 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 25-45 minuti. Per team complessi o prima volta con STAR, prevedi un'ora.
 
-### Quando conviene usare Generative Relationship STAR?
-Quando migliorare le performance del team.
+### Quando conviene usare Generative STAR?
+Quando le performance del team dipendono da come le persone collaborano, non solo da competenze tecniche.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - se c'e' tensione relazionale da nominare
+- **Dopo:** [Min Specs](/structures/min-specs/) - tradurre accordi relazionali in regole minime
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [Integrated Autonomy](/structures/integrated-autonomy/) - paradossi tra autonomia e coordinamento
+- [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare scopo e pratiche
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [Purpose to Practice (P2P)](/structures/purpose-to-practice-p2p/) - allineare il team su scopo e pratiche
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Generative Relationship STAR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una struttura per analizzare e migliorare le dinamiche relazionali del team con quattro dimensioni: Separateness, Tuning, Action, Reason."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Generative Relationship STAR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 25-45 minuti. Per team complessi o prima volta con STAR, prevedi un'ora."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Generative STAR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando le performance del team dipendono da come le persone collaborano, non solo da competenze tecniche."
+      }
+    }
+  ]
+}
+</script>
+-->

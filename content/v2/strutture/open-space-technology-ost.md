@@ -35,16 +35,21 @@ url: "https://liberating.it/structures/open-space-technology-ost/"
 - Pareti libere per appendere l'agenda.
 - Lavagne a fogli mobili, pennarelli e cartoncini per le proposte di sessione.
 - Agenda vuota con slot orari e stanze/spazi assegnati.
+- In remoto: marketplace su lavagna digitale; una breakout room per sessione; documentazione in documento condiviso.
 
 ## I passaggi
 
-1. Apri il cerchio: accoglienza, tema centrale e spiegazione dei quattro principi OST - 15 min
-2. Presenta la Legge dei due piedi: chi e' dove serve piu' l'energia, va li' - incluso nell'apertura
+1. Apri il cerchio: accoglienza, tema centrale e i quattro principi OST - 15 min
+   - Chi viene e' la persona giusta.
+   - Quello che succede e' l'unica cosa che poteva succedere.
+   - Quando inizia e' il momento giusto.
+   - Quando finisce, e' finita.
+2. Presenta la Legge dei due piedi: vai dove la tua energia e il tuo contributo servono di piu'; spostati quando non servono piu' - incluso nell'apertura
 3. Marketplace dell'agenda: ogni persona propone sessioni e le colloca su griglia tempo/spazio - 30 min
 4. Sessioni parallele: i gruppi si auto-organizzano, tu non intervieni sui contenuti - almeno 60-90 min
 5. Durante le sessioni i partecipanti si spostano liberamente tra i temi (due piedi)
-6. Documenta gli esiti di ogni sessione su lavagna o documento condiviso
-7. Chiusura in plenaria: ogni gruppo condivide sintesi e prossimi passi - 15 min
+6. Ogni sessione documenta esiti su lavagna o documento condiviso - durante le sessioni
+7. Chiusura in plenaria: ogni gruppo condivide sintesi e prossimi passi - 20 min
 
 ## Quando usarla
 
@@ -89,3 +94,45 @@ Di solito mezza giornata o piu'. Prevedi almeno 3-4 ore tra apertura, marketplac
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Open Space Technology?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open Space Technology e' un formato di workshop in cui i partecipanti creano l'agenda, scelgono i temi e si auto-organizzano in sessioni parallele. Il facilitatore prepara lo spazio e le regole, non i contenuti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' la metodologia open space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La metodologia open space (OST) si basa su quattro principi e sulla Legge dei due piedi: ognuno propone sessioni, partecipa dove serve e si sposta quando il proprio contributo e' piu' utile altrove. Funziona con gruppi da circa 10 persone in su."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Open Space Technology?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando la sfida e' complessa, le risposte non sono note in anticipo e serve l'intelligenza collettiva di un gruppo numeroso e vario."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura un Open Space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito mezza giornata o piu'. Prevedi almeno 3-4 ore tra apertura, marketplace, sessioni parallele e chiusura."
+      }
+    }
+  ]
+}
+</script>
+-->

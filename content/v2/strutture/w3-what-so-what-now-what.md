@@ -35,18 +35,19 @@ url: "https://liberating.it/structures/w3-what-so-what-now-what/"
 - Sedie per ogni partecipante.
 - Fogli per appunti individuali.
 - Lavagna a fogli mobili se siete in plenaria numerosa.
+- In remoto: breakout room da 5-7 per i tre round; plenaria con chat o mano alzata per il Now What.
 
 ## I passaggi
 
-1. WHAT: 1 minuto di riflessione individuale sui fatti osservati - 5/10 min
-2. Discussione in piccoli gruppi su cosa e' successo - 2/6 min
-3. Condivisione in plenaria, una risposta significativa alla volta - 2/3 min
-4. SO WHAT: 1 minuto di riflessione individuale sul significato per il gruppo - 5/10 min
-5. Discussione in piccoli gruppi su pattern e implicazioni - 2/6 min
-6. Condivisione in plenaria di ipotesi e conclusioni - 2/3 min
-7. NOW WHAT: 1 minuto di riflessione individuale sulle azioni possibili - 5/10 min
-8. Discussione in piccoli gruppi su cosa fare - 2/6 min
-9. Condivisione in plenaria degli impegni concreti - 2/3 min
+1. WHAT: 1 minuto di riflessione individuale sui fatti osservati (solo cio' che e' successo, non interpretazioni) - 1 min
+2. Discussione in piccoli gruppi su cosa e' successo - 5 min
+3. Condivisione in plenaria: una risposta significativa alla volta, senza dibattito - 5 min
+4. SO WHAT: 1 minuto di riflessione individuale sul significato per il gruppo - 1 min
+5. Discussione in piccoli gruppi su pattern e implicazioni - 5 min
+6. Condivisione in plenaria di ipotesi e conclusioni - 5 min
+7. NOW WHAT: 1 minuto di riflessione individuale sulle azioni possibili - 1 min
+8. Discussione in piccoli gruppi su cosa fare - 5 min
+9. Condivisione in plenaria degli impegni concreti - 5 min
 
 ## Quando usarla
 
@@ -56,7 +57,7 @@ url: "https://liberating.it/structures/w3-what-so-what-now-what/"
 
 ## Il consiglio del facilitatore
 
-Non saltare la fase So What. E' quella che separa i fatti dalle reazioni impulsive. Se il primo giro e' debole, ripeti un round breve prima di passare a Now What.
+Non saltare la fase So What. E' quella che separa i fatti dalle reazioni impulsive. Nel round What, se qualcuno mescola fatti e opinioni, chiedi: "Cosa hai visto o sentito di preciso?". Se il primo giro e' debole, ripeti un round breve prima di passare a Now What.
 
 ## Errori da evitare
 
@@ -95,3 +96,45 @@ Dopo riunioni, workshop o momenti critici in cui il gruppo deve allinearsi su co
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' What, So What, Now What?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "What, So What, Now What (W³) e' una Liberating Structure di debriefing in tre domande: cosa e' successo (What), cosa significa per noi (So What), cosa fare adesso (Now What)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What so what now what w3: come funziona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Funziona in tre cicli identici: un minuto da soli, pochi minuti in gruppo piccolo, poi condivisione in plenaria. Prima i fatti, poi il significato, infine le azioni. L'intero formato dura circa 30 minuti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura What, So What, Now What?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 30 minuti, con nove micro-passaggi da 2 a 10 minuti ciascuno. Puoi allungare le fasi What o So What se l'evento da analizzare e' complesso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare W³?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dopo riunioni, workshop o momenti critici in cui il gruppo deve allinearsi su cosa e' successo prima di decidere i prossimi passi."
+      }
+    }
+  ]
+}
+</script>
+-->

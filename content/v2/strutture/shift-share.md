@@ -35,6 +35,8 @@ url: "https://liberating.it/structures/shift-share/"
 - Percorso chiaro per la rotazione dei gruppi.
 - Timer o campanello per i cambi stazione.
 - Lavagna o slide leggibili a distanza per ogni presentatore.
+- Regola: circa 5-8 ascoltatori per stazione; numero stazioni = numero presentatori.
+- In remoto: una breakout room per stazione; timer condiviso per le rotazioni.
 
 ## I passaggi
 
@@ -88,3 +90,45 @@ Quando in sala ci sono pratiche utili da scambiare tra team diversi e un plenari
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Shift & Share nelle Liberating Structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shift & Share e' un formato a stazioni: ogni gruppo presenta un'innovazione mentre gli altri ruotano per ascoltare e fare domande brevi. E' pensato per far circolare best practice in organizzazioni con molti team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' shift and share?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shift and share e' il nome inglese della stessa struttura: shift (spostarsi) e share (condividere). Su liberating.it trovi i passaggi in italiano con tempi suggeriti per 15-50 partecipanti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Shift & Share?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 45-60 minuti con 4-6 stazioni. Ogni rotazione prevede circa 15 minuti (presentazione + domande). Scala il numero di postazioni al tempo che hai."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Shift & Share?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando in sala ci sono pratiche utili da scambiare tra team diversi e un plenario unico non basta. Funziona bene dopo workshop in cui ogni gruppo ha prodotto qualcosa di concreto da mostrare."
+      }
+    }
+  ]
+}
+</script>
+-->

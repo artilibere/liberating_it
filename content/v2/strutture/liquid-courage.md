@@ -86,3 +86,45 @@ Stesso movimento a coppie, ma Liquid Courage usa starter specifici sulle lamente
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Liquid Courage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Liquid Courage e' una Liberating Structure che struttura lamentele croniche in frasi brevi e conversazioni a coppie. Trasforma la negativita' diffusa in pattern visibili e possibili azioni."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Perche' si chiama Liquid Courage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il nome gioca sul \"coraggio liquido\": un contesto leggero che aiuta a dire ad alta voce cio' che di solito resta nel corridoio."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Liquid Courage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il formato base richiede 15 minuti. Puoi estendere la plenaria se vuoi collegare le lamentele a [15% Solutions](/structures/15-solutions/)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Liquid Courage e Impromptu Networking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stesso movimento a coppie, ma Liquid Courage usa starter specifici sulle lamentele e un debrief su pattern collettivi. Impromptu Networking e' piu' generico sulle domande."
+      }
+    }
+  ]
+}
+</script>
+-->

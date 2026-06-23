@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/agreement-certainty-matrix/"
 
 [Home](/) > [Le strutture](/structures/) > Agreement & Certainty Matrix
 
-**In breve** - La matrice Agreement & Certainty aiuta a scegliere il metodo giusto, classificando la sfida come semplice, complicata, complessa o caotica.
+**In breve** - La matrice Agreement & Certainty classifica le sfide su due assi (accordo e certezza) in quattro quadranti: semplice, complicata, complessa, caotica. Aiuta a scegliere il metodo giusto.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -25,62 +25,104 @@ url: "https://liberating.it/structures/agreement-certainty-matrix/"
 
 ## Domanda da portare
 
-- "Qual è il grado di accordo tra i partecipanti riguardo alla sfida e al modo migliore per affrontarla? Qual è il grado di certezza e prevedibilità sui risultati delle soluzioni proposte?"
-- "Quali sono le sfide principali che il nostro team sta affrontando in questo trimestre?"
-- "Su quali progetti spendiamo più tempo ed energie?"
+- "Su quali sfide abbiamo alto accordo e alta certezza? E quali sono caotiche?"
+- "Quali sono le sfide principali che il nostro team affronta in questo trimestre?"
+- "Su quali progetti spendiamo piu' tempo ed energie?"
+
+## I quattro quadranti
+
+| | Alta certezza | Bassa certezza |
+|---|---|---|
+| **Alto accordo** | Semplice (best practice) | Complicata (esperti) |
+| **Basso accordo** | Complessa (emergente) | Caotica (agire subito) |
 
 ## Cosa ti serve
 
-- Sala riunioni o workshop.
-- Disposizione: sedie per gruppi di 4-6 persone.
-- Parete libera per appendere la matrice.
-- Un foglio con matrice vuota per partecipante.
-- Flipchart con una grande matrice vuota.
+- Matrice vuota per ogni partecipante (assi: accordo verticale, certezza orizzontale).
+- Flipchart con matrice grande per la plenaria.
+- Post-it e pennarelli.
+- In remoto: lavagna digitale con template matrice.
 
 ## I passaggi
 
-1. ognuno scrive su post-it le sfide che ha in mente e le posiziona nella matrice personale. - 10 min
-2. prima ci si confronta in coppie e poi in gruppi di 4/6 persone. - 15 min
-3. si posizionano i post-it sulla matrice comune. - 20 min
-4. In piccoli gruppi si riflette sui pattern emersi.
-5. In plenaria si converge sui prossimi passi.
+1. Spiega i due assi e i quattro quadranti con un esempio concreto - 5 min
+2. Individuale: ognuno scrive le sfide su post-it e le posiziona sulla matrice personale - 10 min
+3. In coppie, poi in gruppi da 4-6: confrontate i posizionamenti - 15 min
+4. Collocate i post-it sulla matrice comune in plenaria - 10 min
+5. In piccoli gruppi: quali metodi servono per ogni quadrante? - 10 min
+6. Plenaria: prossimi passi per le sfide prioritarie - 5 min
 
 ## Quando usarla
 
-- Quando introduzione di manager all'analisi di sfide complesse.
-- Quando selezione di metodologie di cambiamento all'inizio di un progetto.
-- Quando superamento della "paralisi da analisi" in fase di pianificazione.
+- All'inizio di un progetto, per scegliere l'approccio giusto (analisi, esperti, emergenza, azione rapida).
+- Quando il team e' in paralisi da analisi e non sa da dove partire.
+- Per introdurre manager all'analisi di sfide complesse.
 
 ## Il consiglio del facilitatore
 
-Utilizzare esempi concreti per illustrare i concetti.
+Usa esempi concreti dal contesto del gruppo per illustrare i quadranti. Non giudicare dove qualcuno posiziona una sfida: l'obiettivo e' rendere visibili disallineamenti.
 
 ## Errori da evitare
 
-- Evitare giudizi sul posizionamento delle attività.
-- Non esplorare le sfide che ricadono in più settori.
+- Usare lo stesso metodo per tutte le sfide indipendentemente dal quadrante.
+- Ignorare sfide che cadono al confine tra quadranti.
+- Chiudere senza decidere come affrontare almeno una sfida prioritaria.
 
 ## Domande frequenti
 
 ### Cos'e' Agreement & Certainty Matrix?
-Matrix Aiutare gruppi e individui a evitare l'errore comune di affrontare problemi con metodi inadatti alla natura della sfida, classificando le sfide in quattro categorie: semplici, complicate, complesse e caotiche.
+Una matrice che classifica le sfide per livello di accordo e certezza, per evitare di usare metodi inadatti (es. analisi lunga su problemi caotici).
 
 ### Quanto dura Agreement & Certainty Matrix?
-Di solito 45 minuti. I passaggi prevedono tempi fissi (10 min, 15 min, 20 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 45 minuti: posizionamento individuale, confronto in gruppo, sintesi in plenaria.
 
-### Quando conviene usare Agreement & Certainty Matrix?
-Quando introduzione di manager all'analisi di sfide complesse.
+### Quando conviene usarla?
+Prima di [Critical Uncertainties](/structures/critical-uncertainties/) o [Ecocycle Planning](/structures/ecocycle-planning/), per capire la natura delle sfide.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - far emergere le sfide dal gruppo
+- **Dopo:** [Critical Uncertainties](/structures/critical-uncertainties/) - esplorare scenari per sfide complesse
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [Critical Uncertainties](/structures/critical-uncertainties/) - scenari sotto incertezza
+- [Ecocycle Planning](/structures/ecocycle-planning/) - portfolio di attivita'
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [Critical Uncertainties](/structures/critical-uncertainties/) - il passo successivo per sfide complesse
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Agreement & Certainty Matrix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una matrice che classifica le sfide per livello di accordo e certezza, per evitare di usare metodi inadatti (es. analisi lunga su problemi caotici)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Agreement & Certainty Matrix?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 45 minuti: posizionamento individuale, confronto in gruppo, sintesi in plenaria."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usarla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prima di [Critical Uncertainties](/structures/critical-uncertainties/) o [Ecocycle Planning](/structures/ecocycle-planning/), per capire la natura delle sfide."
+      }
+    }
+  ]
+}
+</script>
+-->

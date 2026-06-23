@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/talking-with-pixies/"
 
 [Home](/) > [Le strutture](/structures/) > Talking with Pixies
 
-**In breve** - Portare alla luce le voci interiori contrastanti che influenzano il nostro percorso verso gli obiettivi, permettendo di riconoscere sia le resistenze che le spinte al cambiamento.
+**In breve** - Talking with Pixies mette a dialogo due "voci interiori" (Folletto protettore e Folletto innovatore) mentre un Ascoltatore osserva. Fa emergere resistenze e spinte al cambiamento su un obiettivo difficile.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -25,64 +25,97 @@ url: "https://liberating.it/structures/talking-with-pixies/"
 
 ## Domanda da portare
 
-- "Se non intraprendo questo cambiamento ora, quali opportunità potrei rimpiangere tra 5 anni?"
-- "Quali risorse inaspettate potrei scoprire in me stesso affrontando questa sfida?"
-- "Come cambierebbe la mia prospettiva professionale se superassi questa resistenza?"
+- "Se non intraprendo questo cambiamento ora, quali opportunita' potrei rimpiangere tra 5 anni?"
+- "Quali risorse inaspettate potrei scoprire affrontando questa sfida?"
+- "Come cambierebbe la mia prospettiva se superassi questa resistenza?"
 
 ## Cosa ti serve
 
-- Ambiente tranquillo e riservato che permetta conversazioni intime.
-- Sedie disposte in modo che i gruppi di tre possano lavorare senza disturbarsi.
-- Spazio sufficiente per permettere ai folletti di muoversi da un lato all'altro dell'ascoltatore.
-- Timer o cronometro per gestire i tempi delle diverse fasi.
-- Cartellini colorati per distinguere i ruoli (opzionale).
+- Sedie per gruppi da tre, spazio per i Folletti ai lati dell'Ascoltatore.
+- Timer per ogni fase.
+- Cartellini opzionali per i ruoli (Ascoltatore, Folletto protettore, Folletto innovatore).
+- In remoto: breakout room da 3; Folletti in muto nella chat, voce solo tra loro.
 
 ## I passaggi
 
-1. i partecipanti ad identificare un obiettivo significativo ma difficile. - 5 min
-2. Formare gruppi di tre, assegnando i ruoli: un Ascoltatore e due Folletti.
-3. Spiegare la struttura con un esempio personale.
-4. Condivisione dell'obiettivo: l'Ascoltatore condivide il proprio obiettivo. - 2 min
-5. i Folletti possono fare domande di chiarimento. - 3 min
-6. il Folletto protettore si posiziona alla destra dell'Ascoltatore, il Folletto innovatore alla sinistra. - 5 min
+1. Ognuno identifica un obiettivo significativo ma difficile - 3 min
+2. Forma gruppi da tre: Ascoltatore, Folletto protettore (destra), Folletto innovatore (sinistra) - 2 min
+3. L'Ascoltatore condivide l'obiettivo; i Folletti fanno domande di chiarimento - 3 min
+4. I Folletti dialogano tra loro a voce bassa sull'obiettivo (l'Ascoltatore ascolta, non interviene) - 7 min
+5. L'Ascoltatore condivide cosa l'ha colpito del dialogo - 3 min
+6. Ruotate i ruoli se c'e' tempo - opzionale
 
 ## Quando usarla
 
-- Quando coaching individuale e di gruppo.
-- Quando sessioni di sviluppo personale.
-- Quando superamento dei blocchi decisionali.
+- Coaching individuale o di gruppo su obiettivi ambiziosi.
+- Superare blocchi decisionali quando resistenze e spinte non vengono nominate.
+- Prima di [Pixies Reflection](/structures/pixies-reflection/) per lavorare in profondita' in plenaria.
 
 ## Il consiglio del facilitatore
 
-Incoraggiare i Folletti a utilizzare il principio "Sì, e…" per costruire sulle idee altrui.
+I Folletti parlano tra loro, non all'Ascoltatore, e a voce bassa. Usa "Si', e..." per costruire sulle idee altrui. Bilancia le voci protettiva e innovativa: nessuna deve dominare.
 
 ## Errori da evitare
 
-- Assicurarsi che i Folletti parlino tra loro, non direttamente all'Ascoltatore, e invitare a farlo sottovoce.
-- Non mantenere i tempi stabiliti per ogni fase.
-- Non garantire un equilibrio tra le voci protettive e innovative.
+- Far parlare i Folletti direttamente all'Ascoltatore durante il dialogo.
+- Saltare la fase di condivisione finale dell'Ascoltatore.
+- Usare tono da psicoterapia: resta leggero e operativo.
 
 ## Domande frequenti
 
 ### Cos'e' Talking with Pixies?
-Portare alla luce le voci interiori contrastanti che influenzano il nostro percorso verso gli obiettivi, permettendo di riconoscere sia le resistenze che le spinte al cambiamento.
+Una struttura in triadi dove due persone incarnano voci interiori contrastanti (cautela e coraggio) mentre la terza ascolta il proprio obiettivo.
 
 ### Quanto dura Talking with Pixies?
-Di solito 20 minuti. I passaggi prevedono tempi fissi (5 min, 2 min, 3 min, 5 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 20 minuti per un giro completo. Con piu' tempo, ruotate i ruoli.
 
-### Quando conviene usare Talking with Pixies?
-Quando coaching individuale e di gruppo.
+### Talking with Pixies e Pixies Reflection?
+Talking with Pixies lavora in triadi con ruoli. [Pixies Reflection](/structures/pixies-reflection/) usa quattro domande fisse in formato 1-2-4-All con tutto il gruppo.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [Tiny Demons](/structures/tiny-demons/) - esternare paure in modo giocoso
+- **Dopo:** [Pixies Reflection](/structures/pixies-reflection/) - portare resistenze in dialogo strutturato
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [Pixies Reflection](/structures/pixies-reflection/) - adattamento locale con quattro domande
+- [TRIZ](/structures/triz/) - invertire comportamenti controproducenti
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [Pixies Reflection](/structures/pixies-reflection/) - dal dialogo alla riflessione di gruppo
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Talking with Pixies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una struttura in triadi dove due persone incarnano voci interiori contrastanti (cautela e coraggio) mentre la terza ascolta il proprio obiettivo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Talking with Pixies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 20 minuti per un giro completo. Con piu' tempo, ruotate i ruoli."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Talking with Pixies e Pixies Reflection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Talking with Pixies lavora in triadi con ruoli. [Pixies Reflection](/structures/pixies-reflection/) usa quattro domande fisse in formato 1-2-4-All con tutto il gruppo."
+      }
+    }
+  ]
+}
+</script>
+-->

@@ -21,66 +21,100 @@ url: "https://liberating.it/structures/appreciative-interviews-ai/"
 |--------|-------------|--------|------|
 | 60 minuti | Facile | illimitato | Empathize |
 
-**Filtri:** [Per team già rodati](/complessita/team-rodati/) · [Intermedia](/difficolta/intermedia/) · [Estesa (max 4 h)](/durata/estesa/) · [Empathize](/design-thinking/empathize/)
+**Filtri:** [Per team già rodati](/complessita/team-rodati/) · [Facile](/difficolta/facile/) · [Estesa (max 4 h)](/durata/estesa/) · [Empathize](/design-thinking/empathize/)
 
 ## Domanda da portare
 
-- "Raccontami una storia di quando hai lavorato su una sfida con altri e sei orgogliosa/o di ciò che avete realizzato. Qual è la storia e cosa ha reso possibile il successo?"
-- "racconta quando hai sperimentato un forte spirito di squadra: cosa lo ha reso possibile?"
+- "Raccontami una storia di quando hai lavorato su una sfida con altri e sei orgoglioso/a di cio' che avete realizzato. Qual e' la storia e cosa ha reso possibile il successo?"
+- "Racconta quando hai sperimentato un forte spirito di squadra: cosa lo ha reso possibile?"
+- "Descrivi un momento in cui il team ha superato un ostacolo insieme: cosa avete fatto di diverso?"
 
 ## Cosa ti serve
 
-- Riunione in presenza o workshop.
-- Spazio aperto per permettere il movimento.
-- Sedie disposte a coppie faccia a faccia.
-- Nessun tavolo necessario.
-- Fogli per prendere appunti.
+- Sedie a coppie, faccia a faccia, senza tavolo.
+- Fogli per appunti durante l'intervista.
+- Lavagna per registrare pattern in plenaria.
+- In remoto: breakout room da 2.
 
 ## I passaggi
 
-1. Introduzione Spiegazione del processo e del tema. - 3 min
-2. [ 15/20 min ] Interviste a coppia A turno, ogni persona intervista e racconta.
-3. 7-10 minuti per persona.
-4. pattern in gruppi da 4 Ogni persona racconta la storia del proprio partner. - 15 min
-5. Il gruppo identifica pattern nei fattori di successo.
-6. [ 10/15 min ] Raccolta collettiva Registrazione di intuizioni e pattern sulla lavagna.
+1. Presenta il tema e il formato: interviste apprezzative, non problem-solving - 3 min
+2. In coppie: a turno, ognuno intervista l'altro per 7-10 minuti con la domanda guida - 20 min
+3. Forma gruppi da quattro: ognuno racconta la storia del proprio partner (non la propria) - 15 min
+4. Ogni gruppo identifica pattern nei fattori di successo - 10 min
+5. Plenaria: raccogli pattern e intuizioni sulla lavagna - 12 min
 
 ## Quando usarla
 
-- Durante fasi di trasformazione organizzativa.
-- Quando all'inizio di nuovi progetti strategici.
-- Per rivitalizzare team demotivati o stanchi.
+- Fasi di trasformazione organizzativa: parti da cio' che funziona, non dai problemi.
+- Avvio di nuovi progetti strategici.
+- Team demotivati o stanchi: serve ricordare capacita' e successi passati.
 
 ## Il consiglio del facilitatore
 
-Iniziare sempre con "Raccontami una storia di quando…".
+Inizia sempre con "Raccontami una storia di quando...". Se il gruppo scivola sui problemi, riportalo alle storie di successo. Nell'intervista, ascolta e approfondisci, non commentare.
 
 ## Errori da evitare
 
-- Non lasciare che il gruppo si concentri sui problemi.
-- Evitare giudizi durante l'ascolto delle storie.
+- Lasciare che il gruppo si concentri su problemi e lamentele.
+- Far raccontare la propria storia invece di quella del partner nel gruppo da quattro.
+- Giudicare o minimizzare le storie condivise.
 
 ## Domande frequenti
 
 ### Cos'e' Appreciative Interviews?
-Interviews Questa struttura permette di scoprire e costruire sulle radici del successo attraverso la condivisione di storie positive.
+Una struttura per scoprire e costruire sulle radici del successo attraverso interviste a coppie su storie positive.
 
 ### Quanto dura Appreciative Interviews?
-Di solito 60 minuti. I passaggi prevedono tempi fissi (3 min, 15 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
+Di solito 60 minuti: 20 minuti di interviste a coppia, 15 minuti in gruppi da quattro, 12 minuti in plenaria.
 
 ### Quando conviene usare Appreciative Interviews?
-Durante fasi di trasformazione organizzativa.
+Quando un team ha bisogno di energia e fiducia prima di affrontare una sfida, partendo da cio' che gia' sa fare bene.
 
 ## Prima e dopo
 
-- **Prima:** [1-2-4-All](/structures/1-2-4-all/) - formato base per coinvolgere tutti
-- **Dopo:** [What, So What, Now What? (W³)](/structures/w3-what-so-what-now-what/) - W³) (capire cosa fare dopo
+- **Prima:** [Impromptu Networking](/structures/impromptu-networking/) - creare connessioni prima delle interviste
+- **Dopo:** [1-2-4-All](/structures/1-2-4-all/) - generare idee su come amplificare i pattern di successo
 
 ## Strutture simili
 
-- [Impromptu Networking](/structures/impromptu-networking/) - facile e veloce
-- [Troika Consulting](/structures/troika-consulting/) - facile, lavoro in piccolo gruppo
+- [Heard, Seen, Respected (HSR)](/structures/heard-seen-respected-hsr/) - ascolto empatico su episodi difficili
+- [Conversation Café](/structures/conversation-cafe/) - dialogo profondo su un tema
 
 ## Torna al catalogo
 
-[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - la struttura piu' semplice per iniziare
+[Esplora tutte le strutture](/structures/) · [1-2-4-All](/structures/1-2-4-all/) - dal successo passato alle idee future
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Appreciative Interviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una struttura per scoprire e costruire sulle radici del successo attraverso interviste a coppie su storie positive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Appreciative Interviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 60 minuti: 20 minuti di interviste a coppia, 15 minuti in gruppi da quattro, 12 minuti in plenaria."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare Appreciative Interviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quando un team ha bisogno di energia e fiducia prima di affrontare una sfida, partendo da cio' che gia' sa fare bene."
+      }
+    }
+  ]
+}
+</script>
+-->

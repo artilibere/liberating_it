@@ -27,6 +27,7 @@ url: "https://liberating.it/structures/9-whys/"
 
 - "Cosa fai quando lavori su questo progetto?"
 - "Perche' questo lavoro e' importante per te personalmente?"
+- "Cosa ti motiva a continuare anche quando e' difficile?"
 
 ## Cosa ti serve
 
@@ -36,7 +37,7 @@ url: "https://liberating.it/structures/9-whys/"
 
 ## I passaggi
 
-1. A coppie: intervista di 5 minuti a persona con "Perche' e' importante per te?" - 10 min
+1. A coppie: solo la domanda "Perche' e' importante per te?" (niente soluzioni, niente consigli) - 10 min
 2. Le coppie si uniscono in gruppi da quattro e condividono gli insight - 5 min
 3. Plenaria: pattern comuni e implicazioni per i prossimi passi - 5 min
 
@@ -83,3 +84,45 @@ All'inizio di un progetto, dopo un cambiamento organizzativo o quando percepisci
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' la tecnica dei 9 Whys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "9 Whys e' una sequenza di domande \"perche' e' importante per te?\" a coppie. Scava oltre le risposte superficiali fino al vero scopo del lavoro del gruppo. Il nome richiama i 5 Whys del lean, adattati alle Liberating Structures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' 9 Whys nelle Liberating Structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "E' una struttura facile da 20 minuti: interviste a coppie, sintesi in quartetti, riflessione in plenaria. Non servono materiali complessi ne' esperienza da facilitatore."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura 9 Whys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 20 minuti in tre fasi (10 + 5 + 5). Puoi accorciare le interviste se il gruppo e' molto numeroso, ma non saltare la condivisione finale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando conviene usare 9 Whys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All'inizio di un progetto, dopo un cambiamento organizzativo o quando percepisci disallineamento sul senso del lavoro. Si abbina bene prima di [Purpose to Practice](/structures/purpose-to-practice-p2p/) o [Min Specs](/structures/min-specs/)."
+      }
+    }
+  ]
+}
+</script>
+-->

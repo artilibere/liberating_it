@@ -29,6 +29,16 @@ url: "https://liberating.it/structures/purpose-to-practice-p2p/"
 - "Quali regole dobbiamo assolutamente seguire per avere successo?"
 - "Come dobbiamo organizzarci per raggiungere il nostro scopo?"
 
+## Le cinque domande P2P
+
+Per ogni elemento, rifletti individualmente poi condividi in coppie e quartetti:
+
+1. **Purpose (Scopo):** Perche' questo lavoro e' importante per te e per l'ecosistema che ti circonda?
+2. **Principles (Principi):** Quali regole dobbiamo assolutamente seguire per avere successo?
+3. **Participants (Persone):** Chi deve essere coinvolto e in che modo?
+4. **Structure (Struttura):** Come dobbiamo organizzarci per raggiungere il nostro scopo?
+5. **Practices (Pratiche):** Quali comportamenti quotidiani rendono reali principi e scopo?
+
 ## Cosa ti serve
 
 - Sala per lavoro in gruppi da quattro con pareti o lavagne.
@@ -83,8 +93,50 @@ Purpose to Practice conviene quando conosci gia' il tema e devi allineare scopo 
 ## Strutture simili
 
 - [Panarchy](/structures/panarchy/) - leggere il cambiamento su piu' livelli di sistema
-- [Integrated~Autonomy](/structures/integrated-autonomy/) - bilanciare coordinamento e autonomia
+- [Integrated Autonomy](/structures/integrated-autonomy/) - bilanciare coordinamento e autonomia
 
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' Purpose to Practice (P2P)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Purpose to Practice e' una Liberating Structure in cinque blocchi: scopo, principi, persone, struttura e pratiche. Il gruppo li definisce insieme per allineare una nuova iniziativa o una trasformazione organizzativa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "A cosa serve Purpose to Practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Serve a passare da valori dichiarati a comportamenti e regole operative condivise. E' utile quando piu' team devono collaborare su un cambiamento e rischiano di interpretare lo scopo in modo diverso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Purpose to Practice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 120 minuti. Ogni elemento richiede riflessione individuale, lavoro in quartetti e sintesi in plenaria. Per gruppi numerosi o temi delicati prevedi mezza giornata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Purpose to Practice o Open Space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Purpose to Practice conviene quando conosci gia' il tema e devi allineare scopo e pratiche. [Open Space](/structures/open-space-technology-ost/) e' meglio quando le domande devono emergere dal gruppo in autonomia."
+      }
+    }
+  ]
+}
+</script>
+-->

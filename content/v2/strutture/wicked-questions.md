@@ -32,7 +32,7 @@ url: "https://liberating.it/structures/wicked-questions/"
 ## Cosa ti serve
 
 - Gruppi da 4-6 con tavoli o spazio per lavorare insieme.
-- Template della wicked question (due poli in forma positiva).
+- Template wicked question: "Come possiamo essere [polo A in forma positiva] e [polo B in forma positiva] contemporaneamente?"
 - Fogli o post-it per le bozze di domanda.
 - Lavagna per la galleria finale in plenaria.
 
@@ -86,3 +86,45 @@ Si. Le domande emerse orientano dibattiti successivi senza collassare troppo pre
 ## Torna al catalogo
 
 [Esplora tutte le strutture](/structures/)
+<!--
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "### Cos'e' una wicked question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una wicked question e' una domanda che abbraccia due obiettivi in tensione senza chiedere di sceglierne uno solo. Nelle Liberating Structures si costruisce insieme al gruppo a partire da polarita' reali del lavoro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cos'e' Wicked Questions nelle Liberating Structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "E' un formato da 30 minuti: riflessione individuale, lavoro in piccoli gruppi, galleria in plenaria. Il output sono domande utilizzabili in strategic planning e workshop di allineamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura Wicked Questions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Di solito 30 minuti in quattro passaggi. Per contesti strategici complessi puoi dedicare un'ora includendo piu' round di raffinamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wicked Questions e strategic planning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si. Le domande emerse orientano dibattiti successivi senza collassare troppo presto su un compromesso debole. Si usano spesso prima di [9 Whys](/structures/9-whys/) o [TRIZ](/structures/triz/)."
+      }
+    }
+  ]
+}
+</script>
+-->
