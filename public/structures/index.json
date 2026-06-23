@@ -57,8 +57,8 @@
     },
     {
       "slug": "4-2-1-storming",
-      "title": "4-2-1-Storming: idee profonde in 10 minuti",
-      "brief": "Facilitare una generazione di idee strutturata che parte dal gruppo per arrivare a intuizioni individuali profonde, utilizzando la scrittura silenziosa come strumento di riflessione.",
+      "title": "4-2-1-Storming: idee profonde in 20 minuti",
+      "brief": "4-2-1-Storming e' un adattamento locale: partite in gruppi da quattro con brainwriting silenzioso, poi in coppia, e chiudete con un impegno individuale scritto.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
       "durata": "breve",
@@ -80,7 +80,7 @@
     {
       "slug": "heard-seen-respected-hsr",
       "title": "HSR: debriefing empatico in gruppo",
-      "brief": "HSR sviluppa l'ascolto empatico: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata, e il gruppo ascolta senza giudicare.",
+      "brief": "HSR sviluppa l'ascolto empatico in tre round: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata. Il partner ascolta senza giudicare e senza consigli.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
       "durata": "breve",
@@ -91,7 +91,7 @@
     {
       "slug": "helping-heuristics",
       "title": "Helping Heuristics: aiutarsi a vicenda",
-      "brief": "Le Helping Heuristics sono un metodo progressivo per migliorare il modo in cui diamo e riceviamo aiuto nelle organizzazioni, sperimentando diversi pattern di interazione e offrendo preziosi spunti per sviluppare relazioni di aiuto più efficaci.",
+      "brief": "Helping Heuristics migliora come diamo e riceviamo aiuto attraverso tre round in triadi: Presence, Discovery e Loving Provocation. Ogni round ha regole diverse per il coach.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
       "durata": "breve",
@@ -135,7 +135,7 @@
     {
       "slug": "celebrity-interview",
       "title": "Celebrity Interview: coinvolgere tutti",
-      "brief": "Trasforma una presentazione frontale in una conversazione guidata con il gruppo.",
+      "brief": "Celebrity Interview trasforma una presentazione frontale in conversazione: un intervistatore dialoga con un ospite, poi il gruppo genera domande con 1-2-4-All e l'ospite sceglie quali approfondire.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -146,10 +146,10 @@
     {
       "slug": "conversation-cafe",
       "title": "Conversation Cafe: dialoghi profondi",
-      "brief": "Il Conversation Café è una struttura che permette di facilitare conversazioni profonde e costruttive, riducendo il dibattito e favorendo l'ascolto attivo attraverso un formato strutturato di dialogo.",
+      "brief": "Il Conversation Café facilita conversazioni profonde in tavoli da quattro, con un host che tiene il tempo e quattro round strutturati. Riduce il dibattito e favorisce l'ascolto.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
-      "durata": "media",
+      "durata": "breve",
       "fase": "empathize",
       "url": "/structures/conversation-cafe/",
       "sort_order": 999
@@ -179,7 +179,7 @@
     {
       "slug": "min-specs",
       "title": "Min Specs: regole minime per agire",
-      "brief": "Min Specs definisce le regole minime indispensabili per agire. Tutto il resto e' libertà.",
+      "brief": "Min Specs definisce le regole minime indispensabili per agire. Tutto il resto e' liberta'.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -234,7 +234,7 @@
     {
       "slug": "tiny-demons",
       "title": "Tiny Demons: resistenze nascoste",
-      "brief": "Tiny Demons è una Liberating Structure creativa che aiuta i partecipanti a esternare e trasformare le proprie paure in modo giocoso e costruttivo.",
+      "brief": "Tiny Demons e' un adattamento locale che esternalizza paure e resistenze disegnandole come \"mostriciattoli\" su un canvas a quattro quadranti. Tono giocoso, non terapeutico.",
       "difficolta": "facile",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -245,7 +245,7 @@
     {
       "slug": "wise-crowds",
       "title": "Wise Crowds: feedback da molte prospettive",
-      "brief": "Wise Crowds permette di attivare rapidamente l'intelligenza collettiva di un gruppo per aiutare i singoli partecipanti a risolvere sfide concrete.",
+      "brief": "Wise Crowds attiva l'intelligenza collettiva: un cliente espone una sfida, 3-4 consulenti fanno domande e poi discutono tra loro mentre il cliente ascolta. Poi ruotate i ruoli.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -256,7 +256,7 @@
     {
       "slug": "agreement-certainty-matrix",
       "title": "Agreement & Certainty: metodo giusto",
-      "brief": "La matrice Agreement & Certainty aiuta a scegliere il metodo giusto, classificando la sfida come semplice, complicata, complessa o caotica.",
+      "brief": "La matrice Agreement & Certainty classifica le sfide su due assi (accordo e certezza) in quattro quadranti: semplice, complicata, complessa, caotica. Aiuta a scegliere il metodo giusto.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "breve",
@@ -267,7 +267,7 @@
     {
       "slug": "critical-uncertainties",
       "title": "Critical Uncertainties: scenari futuri",
-      "brief": "Esplora scenari futuri partendo dalle incertezze che non puoi controllare.",
+      "brief": "Esplora scenari futuri partendo dalle incertezze che non puoi controllare. Il gruppo costruisce una matrice 2x2 e sviluppa quattro scenari alternativi.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "estesa",
@@ -289,7 +289,7 @@
     {
       "slug": "design-storyboards",
       "title": "Design StoryBoards: workshop efficaci",
-      "brief": "Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.",
+      "brief": "Design StoryBoards crea un piano visuale per un incontro o workshop: scopo, partecipanti, sequenza di microstrutture LS con tempi. Progetti prima di facilitare.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "breve",
@@ -321,8 +321,8 @@
     },
     {
       "slug": "mad-love",
-      "title": "Mad Love: celebrare cio' che funziona",
-      "brief": "Mad Love è una variante potente e intima di Mad Tea, progettata per creare connessioni profonde tra i partecipanti attraverso domande personali.",
+      "title": "Mad Love: connessioni profonde",
+      "brief": "Mad Love e' un adattamento locale di Mad Tea: due cerchi concentrici, domande personali a turno, rotazione del cerchio interno. Crea connessioni profonde in un ambiente riservato.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "breve",
@@ -344,7 +344,7 @@
     {
       "slug": "talking-with-pixies",
       "title": "Talking with Pixies: prospettive interiori",
-      "brief": "Portare alla luce le voci interiori contrastanti che influenzano il nostro percorso verso gli obiettivi, permettendo di riconoscere sia le resistenze che le spinte al cambiamento.",
+      "brief": "Talking with Pixies mette a dialogo due \"voci interiori\" (Folletto protettore e Folletto innovatore) mentre un Ascoltatore osserva. Fa emergere resistenze e spinte al cambiamento su un obiettivo difficile.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "breve",
@@ -366,7 +366,7 @@
     {
       "slug": "generative-relationship-star",
       "title": "Generative STAR: relazioni che contano",
-      "brief": "La Generative Relationships STAR permette ai gruppi di lavoro di analizzare e migliorare le proprie dinamiche relazionali, identificando pattern che creano valore o disfunzioni.",
+      "brief": "Generative Relationship STAR analizza le dinamiche del team con quattro elementi (Separateness, Tuning, Action, Reason) e identifica azioni per migliorare relazioni che generano valore.",
       "difficolta": "avanzata",
       "complessita": "trasformazioni-organizzative",
       "durata": "breve",
@@ -377,7 +377,7 @@
     {
       "slug": "integrated-autonomy",
       "title": "Integrated Autonomy: autonomia coordinata",
-      "brief": "Aiutare i gruppi a superare i conflitti \"o questo o quello\" per arrivare a soluzioni \"sia questo che quello\", favorendo un pensiero strategico più acuto e una maggiore comprensione reciproca.",
+      "brief": "Integrated Autonomy aiuta i gruppi a superare i falsi dilemmi (\"o integrazione o autonomia\") e a trovare soluzioni \"sia... sia\" su attivita' concrete del lavoro quotidiano.",
       "difficolta": "avanzata",
       "complessita": "trasformazioni-organizzative",
       "durata": "media",
@@ -421,10 +421,10 @@
     {
       "slug": "simple-ethnography",
       "title": "Simple Ethnography: osservare sul campo",
-      "brief": "Permettere ai partecipanti di trovare soluzioni innovative immergendosi nelle attività delle persone con esperienza diretta sul campo, come colleghi in prima linea o utilizzatori dei servizi.",
+      "brief": "Simple Ethnography manda osservatori sul campo per capire cosa fanno di diverso chi ottiene risultati migliori, con le stesse risorse. Osservazione silenziosa, interviste brevi, sintesi con 1-2-4-All.",
       "difficolta": "intermedia",
       "complessita": "trasformazioni-organizzative",
-      "durata": "media",
+      "durata": "breve",
       "fase": "empathize",
       "url": "/structures/simple-ethnography/",
       "sort_order": 999
@@ -432,10 +432,10 @@
     {
       "slug": "user-experience-fishbowl",
       "title": "UX Fishbowl: feedback in plenaria",
-      "brief": "User Experience Fishbowl permette a un piccolo gruppo di persone con esperienza diretta sul campo di condividere le proprie conoscenze con una comunità più ampia, favorendo comprensione, creatività e adozione di nuove pratiche.",
+      "brief": "User Experience Fishbowl mette al centro 4-6 persone con esperienza diretta sul tema. Gli altri ascoltano, raccolgono domande e le pongono a turno. Chi parla al centro dialoga tra loro, non con la platea.",
       "difficolta": "intermedia",
       "complessita": "trasformazioni-organizzative",
-      "durata": "media",
+      "durata": "breve",
       "fase": "empathize",
       "url": "/structures/user-experience-fishbowl/",
       "sort_order": 999
@@ -443,10 +443,10 @@
     {
       "slug": "what-i-need-from-you-winfy",
       "title": "WINFY: chiedere supporto con chiarezza",
-      "brief": "WINFY chiarisce cosa serve da altre funzioni o team: ognuno esprime bisogni concreti in modo strutturato e costruttivo.",
+      "brief": "WINFY chiarisce cosa serve da altre funzioni o team: ogni cluster formula richieste concrete e riceve risposte strutturate (si', no, ci provero', canguro).",
       "difficolta": "intermedia",
       "complessita": "trasformazioni-organizzative",
-      "durata": "media",
+      "durata": "breve",
       "fase": "test",
       "url": "/structures/what-i-need-from-you-winfy/",
       "sort_order": 999
