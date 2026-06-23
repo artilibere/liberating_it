@@ -33,8 +33,13 @@ url: "https://liberating.it/structures/drawing-together/"
 
 - Spazio con parete libera o lavagne a fogli mobili.
 - Pennarelli o pastelli colorati per tutti.
-- Poster con i 5 simboli base: cerchio (unita'), rettangolo (struttura), triangolo (obiettivo), stella (visione), freccia (movimento).
+- Handout con i 5 simboli base: cerchio (totalita', completamento, se'), rettangolo (fondamenta, sostegno), triangolo (obiettivi, aspirazioni), spirale (cambiamento, trasformazione), stella a braccia uguali (relazioni, connessioni).
 
+## Materiali grafici
+
+![Handout Drawing Together - cinque simboli](/assets/worksheets/drawing-together/drawing-together-symbols.png)
+
+*Fonte: [Drawing Together](https://www.liberatingstructures.com/drawing-together/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Presenta i 5 simboli e il loro significato; fai provare a disegnarli - 5 min
@@ -65,7 +70,7 @@ Accetta qualsiasi disegno arrivi. Il valore e' nella metafora, non nella tecnica
 Drawing Together e' una Liberating Structure che usa cinque simboli visivi per raccontare situazioni complesse. Il gruppo interpreta i disegni senza parole dell'autore e ne trae insight condivisi.
 
 ### Serve saper disegnare per Drawing Together?
-No. I simboli sono elementari (cerchi, frecce, forme base). L'obiettivo e' comunicare un'idea, non produrre illustrazioni.
+No. I simboli sono elementari (cerchio, rettangolo, triangolo, spirale, stella). L'obiettivo e' comunicare un'idea, non produrre illustrazioni.
 
 ### Quanto dura Drawing Together?
 Di solito 40 minuti in cinque passaggi. Puoi accorciare le bozze individuali se il gruppo e' numeroso.
@@ -105,7 +110,7 @@ Quando il team e' bloccato nel linguaggio verbale o deve esplorare metafore su c
       "name": "Serve saper disegnare per Drawing Together?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. I simboli sono elementari (cerchi, frecce, forme base). L'obiettivo e' comunicare un'idea, non produrre illustrazioni."
+        "text": "No. I simboli sono elementari (cerchio, rettangolo, triangolo, spirale, stella). L'obiettivo e' comunicare un'idea, non produrre illustrazioni."
       }
     },
     {

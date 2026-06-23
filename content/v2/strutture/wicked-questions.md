@@ -36,6 +36,11 @@ url: "https://liberating.it/structures/wicked-questions/"
 - Fogli o post-it per le bozze di domanda.
 - Lavagna per la galleria finale in plenaria.
 
+## Materiali grafici
+
+![Card con la formula Wicked Question in italiano](/assets/worksheets/wicked-questions/wicked-questions-formula.svg)
+
+*Fonte: [Wicked Questions](https://www.liberatingstructures.com/wicked-questions/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless). Card adattata da liberating.it.*
 ## I passaggi
 
 1. Introduci il concetto con 1-2 esempi di wicked questions - 5 min

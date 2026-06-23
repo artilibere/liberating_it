@@ -36,6 +36,15 @@ url: "https://liberating.it/structures/design-storyboards/"
 - Template storyboard: colonne per Scopo, Partecipanti, Struttura, Microstruttura LS, Tempo.
 - In remoto: lavagna digitale con template storyboard preimpostato.
 
+## Materiali grafici
+
+![Esempio di design storyboard compilato](/assets/worksheets/design-storyboards/design-storyboard-example.png)
+
+*Fonte: [Design Storyboards](https://www.liberatingstructures.com/design-storyboards/) - Liberating Structures (Henri Lipmanowicz, Nancy White & Keith McCandless).*
+
+![Estratto LS Selection Matchmaker](/assets/worksheets/design-storyboards/ls-selection-matchmaker-excerpt.png)
+
+*Fonte: [Design Storyboards](https://www.liberatingstructures.com/design-storyboards/) - Liberating Structures (Henri Lipmanowicz, Nancy White & Keith McCandless).*
 ## I passaggi
 
 1. Scrivi lo scopo dell'incontro in una frase chiara - 5 min

@@ -46,6 +46,15 @@ Ogni cluster puo' rispondere solo in uno di questi modi:
 - Fogli per registrare richieste e risposte.
 - In remoto: breakout room per cluster; plenaria per le risposte del cerchio centrale.
 
+## Materiali grafici
+
+![Layout sala WINFY - cluster funzionali e cerchio portavoce](/assets/worksheets/what-i-need-from-you-winfy/winfy-room-layout.png)
+
+*Fonte: [What I Need from You (WINFY)](https://www.liberatingstructures.com/what-i-need-from-you/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
+
+![Le quattro risposte WINFY: Yes, No, Huh?, Whatever](/assets/worksheets/what-i-need-from-you-winfy/winfy-responses.png)
+
+*Fonte: [What I Need from You (WINFY)](https://www.liberatingstructures.com/what-i-need-from-you/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Presenta il processo e le quattro risposte possibili; spiega il "canguro" - 5 min

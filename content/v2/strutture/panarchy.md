@@ -36,6 +36,15 @@ url: "https://liberating.it/structures/panarchy/"
 - Spazio per muoversi tra i livelli del grafico.
 - Conoscenza base di [Ecocycle Planning](/structures/ecocycle-planning/) se colleghi fasi di maturita'.
 
+## Materiali grafici
+
+![Worksheet Panarchy vuoto a tre livelli](/assets/worksheets/panarchy/panarchy-worksheet.png)
+
+*Fonte: [Panarchy](https://www.liberatingstructures.com/panarchy/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
+
+![Esempio Panarchy compilato su progetto multisito](/assets/worksheets/panarchy/panarchy-example.png)
+
+*Fonte: [Panarchy](https://www.liberatingstructures.com/panarchy/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Introduci Panarchy con un esempio concreto sui tre livelli - 5 min

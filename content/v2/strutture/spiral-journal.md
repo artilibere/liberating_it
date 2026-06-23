@@ -39,6 +39,11 @@ url: "https://liberating.it/structures/spiral-journal/"
 - Ambiente silenzioso per la fase individuale.
 - Opzione: chi non vuole disegnare puo' usare linee ondulate al posto della spirale.
 
+## Materiali grafici
+
+![Esempio layout Spiral Journal - spirale e quattro quadranti](/assets/worksheets/spiral-journal/spiral-journal-example.png)
+
+*Fonte: [Spiral Journal](https://www.liberatingstructures.com/spiral-journal/) - Liberating Structures (Fisher Qua & Anna Jackson).*
 ## I passaggi
 
 1. Invita a tracciare una spirale dal centro verso l'esterno - 2 min

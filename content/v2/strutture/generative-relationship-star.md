@@ -43,6 +43,11 @@ url: "https://liberating.it/structures/generative-relationship-star/"
 - Pennarelli per segnare valutazioni su ogni asse.
 - In remoto: lavagna virtuale con template STAR; breakout room da 4.
 
+## Materiali grafici
+
+![Template Generative Relationships STAR - bussola a quattro assi](/assets/worksheets/generative-relationship-star/generative-star-template.png)
+
+*Fonte: [Generative Relationships STAR](https://www.liberatingstructures.com/generative-relationships-star/) - Liberating Structures (Brenda Zimmerman; adattato da Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Presenta i quattro elementi STAR con un esempio concreto dal vostro team - 5 min

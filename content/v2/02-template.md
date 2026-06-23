@@ -50,6 +50,12 @@ url: "https://liberating.it/structures/{slug}/"
 
 - {spazio / materiali / remoto, max 5 bullet}
 
+## Materiali grafici
+
+![{alt descrittivo in italiano}](/assets/worksheets/{slug}/{file}.png)
+
+*Fonte: [{Nome struttura}](https://www.liberatingstructures.com/{ls-slug}/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
+
 ## I passaggi
 
 1. {azione} - {tempo}

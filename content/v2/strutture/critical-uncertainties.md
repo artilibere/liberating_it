@@ -36,6 +36,15 @@ url: "https://liberating.it/structures/critical-uncertainties/"
 - Template matrice 2x2 vuota su poster o lavagna grande.
 - In remoto: lavagna digitale collaborativa; 4 breakout room per i gruppi scenario.
 
+## Materiali grafici
+
+![Template Critical Uncertainties - matrice 2x2 vuota](/assets/worksheets/critical-uncertainties/critical-uncertainties-template.png)
+
+*Fonte: [Critical Uncertainties](https://www.liberatingstructures.com/critical-uncertainties/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
+
+![Esempio Critical Uncertainties - trasporti durante il COVID-19](/assets/worksheets/critical-uncertainties/critical-uncertainties-example.png)
+
+*Fonte: [Critical Uncertainties](https://www.liberatingstructures.com/critical-uncertainties/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Introduci obiettivo e formato: da incertezze a scenari - 10 min

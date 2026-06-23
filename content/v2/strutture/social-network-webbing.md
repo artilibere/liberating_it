@@ -36,6 +36,11 @@ url: "https://liberating.it/structures/social-network-webbing/"
 - Pennarelli neri a punta grossa.
 - Per il remoto: lavagna digitale condivisa e breakout room per i sottogruppi.
 
+## Materiali grafici
+
+![Esempio Social Network Webbing in corso - core, rete immediata, periferia](/assets/worksheets/social-network-webbing/social-network-webbing-example.png)
+
+*Fonte: [Social Network Webbing](https://www.liberatingstructures.com/social-network-webbing/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Crea una legenda: fino a 10 gruppi o funzioni (es. vendite=blu, IT=verde, HR=giallo) - 5 min

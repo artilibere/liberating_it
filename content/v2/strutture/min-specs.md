@@ -36,6 +36,11 @@ url: "https://liberating.it/structures/min-specs/"
 - Obiettivo o scopo dell'iniziativa scritto in modo visibile a tutti.
 - In remoto: documento condiviso con due colonne (Max Specs / Min Specs); chat per la fase individuale, poi voce per il confronto.
 
+## Materiali grafici
+
+![Esempio riduzione da Max Specs a Min Specs](/assets/worksheets/min-specs/min-specs-example.png)
+
+*Fonte: [Min Specs](https://www.liberatingstructures.com/min-specs/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Scrivi lo scopo dell'iniziativa in modo chiaro e visibile a tutti - 2 min

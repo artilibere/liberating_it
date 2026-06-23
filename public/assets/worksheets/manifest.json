@@ -150,5 +150,14 @@
       "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/8539ef9f-4840-4c16-aa09-775a4e7c0c91/Max+Specs+to+Min+Specs.png",
       "rel_path": "assets/worksheets/min-specs/min-specs-example.png"
     }
+  ],
+  "wicked-questions": [
+    {
+      "site_slug": "wicked-questions",
+      "ls_slug": "wicked-questions",
+      "local": "wicked-questions-formula.svg",
+      "source_url": "local",
+      "rel_path": "assets/worksheets/wicked-questions/wicked-questions-formula.svg"
+    }
   ]
 }

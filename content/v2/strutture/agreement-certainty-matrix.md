@@ -43,6 +43,15 @@ url: "https://liberating.it/structures/agreement-certainty-matrix/"
 - Post-it e pennarelli.
 - In remoto: lavagna digitale con template matrice.
 
+## Materiali grafici
+
+![Template Agreement and Certainty Matrix vuoto](/assets/worksheets/agreement-certainty-matrix/agreement-certainty-template.png)
+
+*Fonte: [Agreement & Certainty Matrix](https://www.liberatingstructures.com/agreement-and-certainty/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
+
+![Esempio con i quattro tipi di sfida e post-it sul display](/assets/worksheets/agreement-certainty-matrix/agreement-certainty-display.png)
+
+*Fonte: [Agreement & Certainty Matrix](https://www.liberatingstructures.com/agreement-and-certainty/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Spiega i due assi e i quattro quadranti con un esempio concreto - 5 min

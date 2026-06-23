@@ -36,6 +36,11 @@ url: "https://liberating.it/structures/integrated-autonomy/"
 - Tavoli per gruppi da quattro.
 - Fogli per piani d'azione.
 
+## Materiali grafici
+
+![Template Integrated Autonomy - sezioni A, B e C](/assets/worksheets/integrated-autonomy/integrated-autonomy-template.png)
+
+*Fonte: [Integrated Autonomy](https://www.liberatingstructures.com/integrated-autonomy/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Presenta il paradosso scelto (es. integrazione vs autonomia, standardizzazione vs personalizzazione) - 10 min

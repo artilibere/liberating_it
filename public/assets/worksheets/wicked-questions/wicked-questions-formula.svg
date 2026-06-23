@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-label="Formula Wicked Question">
+  <rect width="800" height="200" fill="#f8fafb" stroke="#b8c5cf" stroke-width="2" rx="8"/>
+  <text x="400" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" font-weight="600" fill="#496275">Wicked Question</text>
+  <text x="400" y="118" text-anchor="middle" font-family="system-ui, sans-serif" font-size="21" fill="#1a2329">Come possiamo essere ________ e contemporaneamente ________?</text>
+  <text x="400" y="158" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#3f4f5c">Compila i due poli in forma positiva (es. integrati / autonomi)</text>
+</svg>

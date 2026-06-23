@@ -46,6 +46,11 @@ Per ogni elemento, rifletti individualmente poi condividi in coppie e quartetti:
 - Carta da poster e pennarelli per la sintesi in plenaria.
 - Tempo protetto: almeno due ore senza interruzioni.
 
+## Materiali grafici
+
+![Template Purpose to Practice - cinque elementi](/assets/worksheets/purpose-to-practice-p2p/purpose-to-practice-template.png)
+
+*Fonte: [Purpose-to-Practice (P2P)](https://www.liberatingstructures.com/purpose-to-practice/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
 ## I passaggi
 
 1. Presenta i cinque elementi P2P con un esempio concreto - 5 min

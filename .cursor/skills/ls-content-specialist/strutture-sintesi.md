@@ -115,6 +115,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Agreement & Certainty Matrix
 
 - **Slug:** `agreement-certainty-matrix` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Di Agreement/Certainty Matrix Aiutare gruppi e individui a evitare l’errore comune di affrontare problemi con metodi inadatti alla natura della sfida, classificando le sfide in quattro categorie: semplici, complicate, complesse e caotiche.
 - **Durata:** 45 minuti | **Difficolta':** Intermedia | **Fase:** Define
 - **Hub Per bisogno:** Multi-bisogno
@@ -205,6 +206,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Critical Uncertainties
 
 - **Slug:** `critical-uncertainties` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Esplora scenari futuri partendo dalle incertezze che non puoi controllare.
 - **Durata:** 120 minuti | **Difficolta':** Intermedia | **Fase:** Define
 - **Hub Per bisogno:** Fare strategia
@@ -229,6 +231,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Design StoryBoards
 
 - **Slug:** `design-storyboards` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Creare un piano dettagliato e visuale per far interagire i partecipanti in modo produttivo.
 - **Durata:** 45 minuti | **Difficolta':** Intermedia | **Fase:** Prototype
 - **Hub Per bisogno:** Multi-bisogno
@@ -275,6 +278,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Drawing Together
 
 - **Slug:** `drawing-together` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Rivelare intuizioni e comprensioni non accessibili con metodi verbali o lineari.
 - **Durata:** 40 minuti | **Difficolta':** Intermedia | **Fase:** Ideate
 - **Hub Per bisogno:** Multi-bisogno
@@ -297,6 +301,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Ecocycle Planning
 
 - **Slug:** `ecocycle-planning` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Mappa le attivita' del team sul ciclo di vita e decide cosa tagliare o potenziare.
 - **Durata:** 100 minuti | **Difficolta':** Intermedia | **Fase:** Multi fase
 - **Hub Per bisogno:** Multi-bisogno
@@ -320,6 +325,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Generative Relationships STAR
 
 - **Slug:** `generative-relationship-star` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** La Generative Relationships STAR permette ai gruppi di lavoro di analizzare e migliorare le proprie dinamiche relazionali, identificando pattern che creano valore o disfunzioni.
 - **Durata:** 25 minuti | **Difficolta':** Avanzata | **Fase:** Multi fase
 - **Hub Per bisogno:** Multi-bisogno
@@ -435,6 +441,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Integrated Autonomy
 
 - **Slug:** `integrated-autonomy` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Aiutare i gruppi a superare i conflitti “o questo o quello” per arrivare a soluzioni “sia questo che quello”, favorendo un pensiero strategico più acuto e una maggiore comprensione reciproca.
 - **Durata:** 90 minuti | **Difficolta':** Avanzata | **Fase:** Multi fase
 - **Hub Per bisogno:** Multi-bisogno
@@ -525,6 +532,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Min Specs
 
 - **Slug:** `min-specs` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Min Specs è una struttura ideale per identificare le regole essenziali e liberare l’innovazione.
 - **Durata:** 35 minuti | **Difficolta':** Intermedia | **Fase:** Ideate
 - **Hub Per bisogno:** Prendere decisioni
@@ -566,6 +574,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Panarchy
 
 - **Slug:** `panarchy` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Aiutare gruppi numerosi a identificare ostacoli e opportunità per diffondere idee o innovazioni a più livelli.
 - **Durata:** 120 minuti | **Difficolta':** Intermedia | **Fase:** Multi fase
 - **Hub Per bisogno:** Multi-bisogno
@@ -611,6 +620,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Purpose to Practice
 
 - **Slug:** `purpose-to-practice-p2p` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Di Purpose to Practice P2P permette a tutti gli stakeholder di progettare insieme gli elementi essenziali di una nuova iniziativa, partendo da uno scopo condiviso fino ad arrivare alle pratiche concrete.
 - **Durata:** 120 minuti | **Difficolta':** Intermedia | **Fase:** Prototype
 - **Hub Per bisogno:** Multi-bisogno
@@ -680,6 +690,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Social Network Webbing
 
 - **Slug:** `social-network-webbing` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Social Network Webbing permette di mappare e potenziare le connessioni informali all’interno di un gruppo per raggiungere uno scopo comune.
 - **Durata:** 55 minuti | **Difficolta':** Intermedia | **Fase:** Test
 - **Hub Per bisogno:** Multi-bisogno
@@ -703,6 +714,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Spiral Journal
 
 - **Slug:** `spiral-journal` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Spiral Journal è uno strumento potente per la riflessione individuale e collettiva, che permette di aprire nuove prospettive partendo dall’analisi del passato.
 - **Durata:** 15 minuti | **Difficolta':** Facile | **Fase:** Empathize
 - **Hub Per bisogno:** Multi-bisogno
@@ -862,6 +874,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## What I Need From You
 
 - **Slug:** `what-i-need-from-you-winfy` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Di What I Need From You WINFY è una struttura potente per far emergere e gestire le richieste di supporto tra diverse funzioni aziendali in modo chiaro e costruttivo.
 - **Durata:** variabile | **Difficolta':** Intermedia | **Fase:** Test
 - **Hub Per bisogno:** Multi-bisogno
@@ -886,6 +899,7 @@ Legenda stato: **nel repo** = scheda pubblicata; **adattamento locale** = presen
 ## Wicked Questions
 
 - **Slug:** `wicked-questions` | **Stato:** nel repo
+- **Worksheet:** sì
 - **Scopo:** Formula domande che tengono insieme due obiettivi in tensione, senza forzare una scelta.
 - **Durata:** 30 minuti | **Difficolta':** Intermedia | **Fase:** Define
 - **Hub Per bisogno:** Analizzare problemi
