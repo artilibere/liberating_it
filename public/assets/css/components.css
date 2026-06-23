@@ -499,6 +499,35 @@
   color: var(--md-sys-color-on-surface-variant);
 }
 
+.ls-graphics {
+  margin-top: var(--ls-spacing-4);
+}
+
+.ls-figure {
+  margin: var(--ls-spacing-3) 0 var(--ls-spacing-4);
+}
+
+.ls-figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--md-sys-shape-corner-medium);
+  background: var(--md-sys-color-surface);
+}
+
+.ls-figure__caption {
+  margin-top: var(--ls-spacing-2);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--md-sys-color-on-surface-variant);
+  font-style: italic;
+}
+
+.ls-figure__caption a {
+  color: var(--md-sys-color-primary);
+}
+
 /* FAQ */
 .ls-faq__item {
   border-bottom: 1px solid var(--md-sys-color-outline-variant);

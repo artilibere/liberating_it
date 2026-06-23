@@ -36,6 +36,12 @@ url: "https://liberating.it/structures/ecocycle-planning/"
 - Spazio per lavoro in quartetti e plenaria.
 - Esempi concreti di attivita' nel vostro contesto (prima del workshop).
 
+## Materiali grafici
+
+![Template Ecocycle vuoto con le quattro fasi e le trappole di rigidita' e scarsita'](/assets/worksheets/ecocycle-planning/ecocycle-template.png)
+
+*Fonte: [Ecocycle Planning](https://www.liberatingstructures.com/ecocycle-planning/) - Liberating Structures (Henri Lipmanowicz & Keith McCandless).*
+
 ## I passaggi
 
 1. Introduci le quattro fasi Ecocycle con esempi dal vostro settore - 10 min

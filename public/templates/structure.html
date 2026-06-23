@@ -76,6 +76,20 @@
     </ul>
     {% endif %}
 
+    {% if structure.graphics_items %}
+    <section class="ls-graphics" aria-label="Materiali grafici">
+      <h2>Materiali grafici</h2>
+      {% for fig in structure.graphics_items %}
+      <figure class="ls-figure">
+        <img src="{{ fig.src | asset }}" alt="{{ fig.alt }}" loading="lazy" decoding="async">
+        {% if fig.caption_html %}
+        <figcaption class="ls-figure__caption">{{ fig.caption_html | safe }}</figcaption>
+        {% endif %}
+      </figure>
+      {% endfor %}
+    </section>
+    {% endif %}
+
     {% if structure.steps %}
     <h2>I passaggi</h2>
     <ol class="ls-step-list">

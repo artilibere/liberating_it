@@ -1,0 +1,154 @@
+{
+  "ecocycle-planning": [
+    {
+      "site_slug": "ecocycle-planning",
+      "ls_slug": "ecocycle-planning",
+      "local": "ecocycle-template.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/ac01525d-8e93-44bc-a63b-e5779f3f6647/Ecocycle+Template.png",
+      "rel_path": "assets/worksheets/ecocycle-planning/ecocycle-template.png"
+    }
+  ],
+  "panarchy": [
+    {
+      "site_slug": "panarchy",
+      "ls_slug": "panarchy",
+      "local": "panarchy-worksheet.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/d8901a52-ef05-4b89-8351-ef458ea5ca92/Panarchy+Worksheet.png",
+      "rel_path": "assets/worksheets/panarchy/panarchy-worksheet.png"
+    },
+    {
+      "site_slug": "panarchy",
+      "ls_slug": "panarchy",
+      "local": "panarchy-example.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/13080234-a1d4-4bfb-92ee-47a87083379c/Panarchy+example.png",
+      "rel_path": "assets/worksheets/panarchy/panarchy-example.png"
+    }
+  ],
+  "critical-uncertainties": [
+    {
+      "site_slug": "critical-uncertainties",
+      "ls_slug": "critical-uncertainties",
+      "local": "critical-uncertainties-template.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/b3c6d1c7-33c0-42e6-914a-c3712d1b90d5/CU+Template.png",
+      "rel_path": "assets/worksheets/critical-uncertainties/critical-uncertainties-template.png"
+    },
+    {
+      "site_slug": "critical-uncertainties",
+      "ls_slug": "critical-uncertainties",
+      "local": "critical-uncertainties-example.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/c9e7eb5b-c8f7-4308-9203-13fd058318f3/CU+Example.png",
+      "rel_path": "assets/worksheets/critical-uncertainties/critical-uncertainties-example.png"
+    }
+  ],
+  "agreement-certainty-matrix": [
+    {
+      "site_slug": "agreement-certainty-matrix",
+      "ls_slug": "agreement-and-certainty",
+      "local": "agreement-certainty-template.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/29014984-22bc-4dee-bc92-15b89e1a8e2f/Agreement+Certainty+Template.png",
+      "rel_path": "assets/worksheets/agreement-certainty-matrix/agreement-certainty-template.png"
+    },
+    {
+      "site_slug": "agreement-certainty-matrix",
+      "ls_slug": "agreement-and-certainty",
+      "local": "agreement-certainty-display.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/170c5d0a-3fd7-457b-b08c-a3b88d000367/Agreement+and+Certainty+Display+with+4+Types.png",
+      "rel_path": "assets/worksheets/agreement-certainty-matrix/agreement-certainty-display.png"
+    }
+  ],
+  "drawing-together": [
+    {
+      "site_slug": "drawing-together",
+      "ls_slug": "drawing-together",
+      "local": "drawing-together-symbols.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/b23b902f-a796-4398-b88a-d7568fc8e617/DrawingTogetherSymbols.png",
+      "rel_path": "assets/worksheets/drawing-together/drawing-together-symbols.png"
+    }
+  ],
+  "integrated-autonomy": [
+    {
+      "site_slug": "integrated-autonomy",
+      "ls_slug": "integrated-autonomy",
+      "local": "integrated-autonomy-template.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/cc5eebef-c4ae-4827-948f-c4da9b1eb1c0/IA+Template.png",
+      "rel_path": "assets/worksheets/integrated-autonomy/integrated-autonomy-template.png"
+    }
+  ],
+  "generative-relationship-star": [
+    {
+      "site_slug": "generative-relationship-star",
+      "ls_slug": "generative-relationships-star",
+      "local": "generative-star-template.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/75ffabd8-a6ce-46a7-a198-7eb40c202e63/Gen+STAR+Template.png",
+      "rel_path": "assets/worksheets/generative-relationship-star/generative-star-template.png"
+    }
+  ],
+  "purpose-to-practice-p2p": [
+    {
+      "site_slug": "purpose-to-practice-p2p",
+      "ls_slug": "purpose-to-practice",
+      "local": "purpose-to-practice-template.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/f1566141-c2e0-4534-b7a4-e59a5357221b/P2P+Template.png",
+      "rel_path": "assets/worksheets/purpose-to-practice-p2p/purpose-to-practice-template.png"
+    }
+  ],
+  "design-storyboards": [
+    {
+      "site_slug": "design-storyboards",
+      "ls_slug": "design-storyboards",
+      "local": "design-storyboard-example.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/8339c38f-d743-465d-bf15-f2d88871720d/Design+Storyboard+Example.png",
+      "rel_path": "assets/worksheets/design-storyboards/design-storyboard-example.png"
+    },
+    {
+      "site_slug": "design-storyboards",
+      "ls_slug": "design-storyboards",
+      "local": "ls-selection-matchmaker-excerpt.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/d9992844-c4e2-4a3d-a389-fb0905ed5fb3/LS+Selection+Matchmaker+Excerpt.png",
+      "rel_path": "assets/worksheets/design-storyboards/ls-selection-matchmaker-excerpt.png"
+    }
+  ],
+  "what-i-need-from-you-winfy": [
+    {
+      "site_slug": "what-i-need-from-you-winfy",
+      "ls_slug": "what-i-need-from-you",
+      "local": "winfy-room-layout.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/3ab45963-b80d-4e75-8d98-211fb1555089/WINFY+Room+Layout.png",
+      "rel_path": "assets/worksheets/what-i-need-from-you-winfy/winfy-room-layout.png"
+    },
+    {
+      "site_slug": "what-i-need-from-you-winfy",
+      "ls_slug": "what-i-need-from-you",
+      "local": "winfy-responses.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/7c9f1ef3-c435-4e05-a4fe-bcb66b40c289/WINFY+Responses.png",
+      "rel_path": "assets/worksheets/what-i-need-from-you-winfy/winfy-responses.png"
+    }
+  ],
+  "social-network-webbing": [
+    {
+      "site_slug": "social-network-webbing",
+      "ls_slug": "social-network-webbing",
+      "local": "social-network-webbing-example.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/7afee1ec-afc3-4de1-a666-4724edb45c8f/Social+Network+Web+in+Progress.png",
+      "rel_path": "assets/worksheets/social-network-webbing/social-network-webbing-example.png"
+    }
+  ],
+  "spiral-journal": [
+    {
+      "site_slug": "spiral-journal",
+      "ls_slug": "spiral-journal",
+      "local": "spiral-journal-example.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/e430a5eb-4350-4a5c-93d6-e28a8576d35b/Spiral+Journal+Example.png",
+      "rel_path": "assets/worksheets/spiral-journal/spiral-journal-example.png"
+    }
+  ],
+  "min-specs": [
+    {
+      "site_slug": "min-specs",
+      "ls_slug": "min-specs",
+      "local": "min-specs-example.png",
+      "source_url": "https://images.squarespace-cdn.com/content/v1/6967d2f98b1c6e5b230dc99b/8539ef9f-4840-4c16-aa09-775a4e7c0c91/Max+Specs+to+Min+Specs.png",
+      "rel_path": "assets/worksheets/min-specs/min-specs-example.png"
+    }
+  ]
+}

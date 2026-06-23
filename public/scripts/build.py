@@ -1745,6 +1745,55 @@ def parse_editorial_page(path: Path, faq: list[dict[str, str]] | None = None) ->
     }
 
 
+def md_caption(text: str) -> str:
+    """Inline markdown for figure captions (links only, no bare-URL pass)."""
+    text = re.sub(
+        r"\[([^\]]+)\]\((https?://[^)]+)\)",
+        r'<a href="\2" rel="noopener noreferrer">\1</a>',
+        text,
+    )
+    text = re.sub(
+        r"\[([^\]]+)\]\((/[^)]+)\)",
+        lambda m: (
+            f'<a href="{normalize_internal_url(m.group(2).rstrip("/") + "/")}" '
+            f'rel="noopener noreferrer">{m.group(1)}</a>'
+        ),
+        text,
+    )
+    return text
+
+
+def parse_graphics(text: str) -> list[dict[str, str]]:
+    """Parse ## Materiali grafici: markdown images with optional *Fonte:* caption."""
+    if not text.strip():
+        return []
+    figures: list[dict[str, str]] = []
+    lines = text.strip().splitlines()
+    i = 0
+    while i < len(lines):
+        line = lines[i].strip()
+        match = re.match(r"!\[([^\]]*)\]\(([^)]+)\)", line)
+        if match:
+            alt = match.group(1).strip()
+            src = match.group(2).strip()
+            if src.startswith("/assets/"):
+                src = src[len("/assets/") :]
+            elif src.startswith("/"):
+                src = src.lstrip("/")
+            caption_html = ""
+            j = i + 1
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines):
+                cap_line = lines[j].strip()
+                if cap_line.startswith("*Fonte:") and cap_line.endswith("*"):
+                    caption_html = md_caption(cap_line[1:-1].strip())
+                    i = j
+            figures.append({"alt": alt, "src": src, "caption_html": caption_html})
+        i += 1
+    return figures
+
+
 def parse_structure(path: Path) -> dict:
     raw = path.read_text(encoding="utf-8")
     meta, body = parse_frontmatter(raw)
@@ -1795,6 +1844,7 @@ def parse_structure(path: Path) -> dict:
         "chips": parse_chips_line(chips_text),
         "domanda_items": parse_inline_bullet_list(sections.get("Domanda da portare", "")),
         "prep_items": parse_inline_bullet_list(sections.get("Cosa ti serve", "")),
+        "graphics_items": parse_graphics(sections.get("Materiali grafici", "")),
         "steps": parse_steps(sections.get("I passaggi", "")),
         "quando_items": parse_inline_bullet_list(sections.get("Quando usarla", "")),
         "consiglio": md_inline(sections.get("Il consiglio del facilitatore", "").strip()),
