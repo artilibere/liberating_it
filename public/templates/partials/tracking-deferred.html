@@ -39,9 +39,7 @@ window.lsLoadGTM=function(){
 (function(){
   var granted=false;
   try{granted=localStorage.getItem('ls_cookie_consent')==='granted';}catch(e){}
-  if(granted){window.lsLoadGTM();return;}
-  var schedule=window.requestIdleCallback||function(cb){setTimeout(cb,1);};
-  schedule(function(){window.lsLoadGTM();},{timeout:3500});
+  if(granted){window.lsLoadGTM();}
 })();
 </script>
 {% endif %}

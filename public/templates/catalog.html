@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block head_extra %}
+<link rel="preload" href="{{ 'structures/catalog.json' | site }}" as="fetch" crossorigin>
+{% endblock %}
+
 {% block content %}
 {% include 'partials/breadcrumb.html' %}
 
@@ -51,37 +55,27 @@
   </aside>
 
   <div class="ls-catalog">
-    <p class="ls-catalog__count" role="status" aria-live="polite">{{ structures | length }} strutture</p>
+    <p class="ls-catalog__count" role="status" aria-live="polite">{{ structure_count }} strutture</p>
     <section aria-labelledby="catalog-grid-heading">
       <h2 id="catalog-grid-heading" class="visually-hidden">Elenco strutture</h2>
-      <div class="ls-grid ls-grid--cards" id="structure-grid">
-      {% for s in structures %}
-      <article class="ls-card ls-card--interactive"
-        aria-labelledby="card-{{ s.slug }}"
-        data-slug="{{ s.slug }}"
-        data-difficolta="{{ s.difficolta_slug }}"
-        data-complessita="{{ s.complessita_slug }}"
-        data-durata="{{ s.durata_slug }}"
-        data-fase="{{ s.fase_slug }}">
-        <div class="ls-card__header">
-        <img class="ls-card__icon" src="{{ (s.icon or default_structure_icon) | asset }}" alt="" width="48" height="72" loading="lazy" decoding="async" fetchpriority="low" aria-hidden="true">
-        <h3 class="ls-card__title" id="card-{{ s.slug }}"><a href="{{ ('/structures/' ~ s.slug ~ '/') | site }}">{{ s.title }}</a></h3>
-        </div>
-        <p class="ls-card__brief">{{ s.brief }}</p>
-        <div class="ls-chips ls-card__chips">
-          <a href="{{ ('/difficolta/' ~ s.difficolta_slug ~ '/') | site }}" class="ls-chip">{{ s.difficolta }}</a>
-          <a href="{{ ('/durata/' ~ s.durata_slug ~ '/') | site }}" class="ls-chip">{{ s.durata }}</a>
-        </div>
-      </article>
-      {% endfor %}
+      <div class="ls-grid ls-grid--cards" id="structure-grid" data-src="{{ 'structures/catalog.json' | site }}">
+        <p class="ls-catalog__loading" aria-live="polite">Caricamento strutture…</p>
       </div>
     </section>
     <p class="ls-catalog__empty" hidden role="status">Nessuna struttura corrisponde ai filtri selezionati.</p>
   </div>
 </div>
 
+<noscript>
+  <ul class="ls-catalog-noscript">
+    {% for link in noscript_links %}
+    <li><a href="{{ ('/structures/' ~ link.slug ~ '/') | site }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</noscript>
+
 {% if catalog_faq %}
-<section class="ls-faq" aria-labelledby="catalog-faq-heading">
+<section class="ls-faq ls-zone--defer" aria-labelledby="catalog-faq-heading">
   <h2 id="catalog-faq-heading">Domande frequenti</h2>
   {% for item in catalog_faq %}
   <details class="ls-faq__item">
@@ -94,6 +88,5 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="{{ 'assets/js/filters-panel.js' | asset }}" defer></script>
-<script src="{{ 'assets/js/filters.js' | asset }}" defer></script>
+<script src="{{ 'assets/js/catalog.js' | asset }}" defer></script>
 {% endblock %}

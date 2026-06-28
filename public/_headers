@@ -28,6 +28,12 @@
 /structures/*
   Cache-Control: public, max-age=0, must-revalidate
 
+/structures/catalog.json
+  Cache-Control: public, max-age=86400
+
+/structures/index.json
+  Cache-Control: public, max-age=86400
+
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY

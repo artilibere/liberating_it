@@ -17,6 +17,7 @@ from build import (  # noqa: E402
     build_principles_faq,
     bundle_css,
     bundle_js,
+    bundle_page_js,
     clean_orphan_og_images,
     build_display_icons,
     ensure_icon_thumbs,
@@ -47,6 +48,7 @@ from build import (  # noqa: E402
     md_block_to_html,
     md_inline,
     parse_legal_page,
+    write_catalog_json,
     merge_jsonld,
     minify_css,
     minify_html,
@@ -128,8 +130,13 @@ class RenderTypographyTests(unittest.TestCase):
                 active_nav="structures",
                 has_path_nav=False,
                 breadcrumbs=[{"name": "Home", "url": "/"}, {"name": "Le strutture", "url": None}],
-                structures=[],
+                structure_count=2,
+                noscript_links=[
+                    {"slug": "1-2-4-all", "title": "1-2-4-All"},
+                    {"slug": "triz", "title": "TRIZ"},
+                ],
                 fase_filters=[],
+                catalog_faq=[],
                 jsonld=None,
             )
             html = out_path.read_text(encoding="utf-8")
@@ -137,6 +144,9 @@ class RenderTypographyTests(unittest.TestCase):
         self.assertNotRegex(html, r"Difficolta'|difficolta'")
         self.assertIn('rel="alternate"', html)
         self.assertIn("llms.txt", html)
+        self.assertIn('data-src=', html)
+        self.assertIn("catalog.json", html)
+        self.assertNotIn("ls-card--interactive", html)
 
 
 class ParseFaqTests(unittest.TestCase):
@@ -466,14 +476,47 @@ class SpeedTests(unittest.TestCase):
             for name in ("tokens.css", "base.css", "components.css"):
                 (css_dir / name).write_text(f"body{{margin:0 /* {name} */}}", encoding="utf-8")
             (js_dir / "nav.js").write_text("(function () { return 1; })();\n", encoding="utf-8")
+            (js_dir / "catalog-render.js").write_text("(function(){})();\n", encoding="utf-8")
+            (js_dir / "scroll-spy.js").write_text("(function () { return 2; })();\n", encoding="utf-8")
+            (js_dir / "share.js").write_text("(function () { return 3; })();\n", encoding="utf-8")
+            (js_dir / "filters-panel.js").write_text("(function () { return 4; })();\n", encoding="utf-8")
+            (js_dir / "filters.js").write_text("(function () { return 5; })();\n", encoding="utf-8")
             manifest, css_inline = bundle_css(root)
             bundle_js(root)
+            bundle_page_js(root)
             self.assertTrue(css_inline)
             self.assertTrue((css_dir / Path(manifest["css"]).name).exists())
-            self.assertTrue((root / "assets" / "build-manifest.json").exists())
             built = json.loads((root / "assets" / "build-manifest.json").read_text())
             self.assertIn("js", built)
             self.assertIn("nav", built["js"])
+            self.assertIn("page_js", built)
+            self.assertIn("structure", built["page_js"])
+            self.assertIn("catalog", built["page_js"])
+
+    def test_write_catalog_json_compact(self) -> None:
+        import tempfile
+
+        cards = [
+            {
+                "slug": "1-2-4-all",
+                "title": "1-2-4-All",
+                "brief": "Breve",
+                "difficolta": "Facile",
+                "durata": "15 min",
+                "difficolta_slug": "facile",
+                "complessita_slug": "iniziare-subito",
+                "durata_slug": "breve",
+                "fase_slug": "ideate",
+                "icon": "assets/images/structures/thumbs/1-2-4-all.png",
+                "url": "/structures/1-2-4-all/",
+            }
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_catalog_json(cards, "assets/images/structures/ls-menu.png", root)
+            raw = (root / "structures" / "catalog.json").read_text(encoding="utf-8")
+        self.assertNotIn("\n  ", raw)
+        self.assertIn('"slug":"1-2-4-all"', raw)
 
     def test_apply_structure_counts(self) -> None:
         editorial = {

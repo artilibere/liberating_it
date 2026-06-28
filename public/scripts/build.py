@@ -91,6 +91,10 @@ CSS_BUNDLE_SOURCES = (
 CSS_BUNDLE_VIRTUAL = "css/site.css"
 MANIFEST_NAME = "build-manifest.json"
 JS_SOURCES = ("filters-panel.js", "nav.js", "filters.js", "scroll-spy.js", "share.js", "consent.js")
+PAGE_JS_BUNDLES: dict[str, tuple[str, ...]] = {
+    "structure": ("scroll-spy.js", "share.js"),
+    "catalog": ("catalog-render.js", "filters-panel.js", "filters.js"),
+}
 ICON_MANIFEST_PATH = "assets/images/structures/manifest.json"
 ICON_THUMB_MAX_WIDTH = 160
 ICON_THUMB_DIR = "assets/images/structures/thumbs"
@@ -2008,6 +2012,34 @@ def bundle_css(out_root: Path) -> tuple[dict[str, str], str]:
     return manifest, content
 
 
+def bundle_page_js(out_root: Path) -> None:
+    """Combine page-specific scripts to cut HTTP requests on heavy templates."""
+    js_dir = out_root / "assets" / "js"
+    manifest_path = out_root / "assets" / MANIFEST_NAME
+    manifest: dict[str, object] = {}
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    page_js: dict[str, str] = {}
+    for bundle_name, sources in PAGE_JS_BUNDLES.items():
+        parts = []
+        for src_name in sources:
+            src = js_dir / src_name
+            if src.exists():
+                parts.append(src.read_text(encoding="utf-8"))
+        if not parts:
+            continue
+        content = minify_js("\n".join(parts))
+        digest = hashlib.sha256(content.encode("utf-8")).hexdigest()[:10]
+        out_name = f"{bundle_name}.{digest}.js"
+        (js_dir / out_name).write_text(content + "\n", encoding="utf-8")
+        for old in js_dir.glob(f"{bundle_name}.*.js"):
+            if old.name != out_name:
+                old.unlink(missing_ok=True)
+        page_js[bundle_name] = f"js/{out_name}"
+    manifest["page_js"] = page_js
+    write_build_manifest(out_root, manifest)
+
+
 def bundle_js(out_root: Path) -> None:
     js_dir = out_root / "assets" / "js"
     manifest_path = out_root / "assets" / MANIFEST_NAME
@@ -2043,7 +2075,11 @@ def resolve_asset_bundle(path: str, out_root: Path) -> str:
         return f"assets/{bundle}" if bundle else path
     js_match = re.match(r"assets/js/([\w-]+)\.js$", path)
     if js_match:
-        bundle = manifest.get("js", {}).get(js_match.group(1))
+        stem = js_match.group(1)
+        page_bundle = manifest.get("page_js", {}).get(stem)
+        if page_bundle:
+            return f"assets/{page_bundle}"
+        bundle = manifest.get("js", {}).get(stem)
         return f"assets/{bundle}" if bundle else path
     return path
 
@@ -2058,6 +2094,7 @@ def make_env(templates_dir: Path, out_root: Path) -> Environment:
         autoescape=select_autoescape(["html", "xml"]),
     )
     env.globals.setdefault("default_structure_icon", "")
+    env.globals.setdefault("css_href", "assets/css/site.css")
     env.globals.setdefault("tracking", load_tracking_config())
 
     @pass_context
@@ -2487,12 +2524,25 @@ def build_legal_pages(env: Environment, content_root: Path, out_root: Path) -> N
         render(env, "legal.html", out_root / slug / "index.html", out_root, **ctx)
 
 
+def write_catalog_json(cards: list[dict], default_icon: str, out_root: Path) -> None:
+    payload = {
+        "default_icon": default_icon,
+        "structures": cards,
+    }
+    out_path = out_root / "structures" / "catalog.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(
+        json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
 def build_catalog(env: Environment, structures: list[dict], out_root: Path, display_icons: dict[str, str], default_icon: str) -> None:
     cards = [
         {
             "slug": s["slug"],
             "title": s["title"],
-            "brief": truncate_text(s["brief_plain"], 160),
+            "brief": truncate_text(s["brief_plain"], 120),
             "difficolta": s["difficolta"],
             "durata": s["durata"],
             "difficolta_slug": s["difficolta_slug"],
@@ -2500,9 +2550,11 @@ def build_catalog(env: Environment, structures: list[dict], out_root: Path, disp
             "durata_slug": s["durata_slug"],
             "fase_slug": s["fase_slug"],
             "icon": display_icons.get(s["slug"], default_icon),
+            "url": f"/structures/{s['slug']}/",
         }
         for s in structures
     ]
+    write_catalog_json(cards, default_icon, out_root)
     breadcrumbs = [
         {"name": "Home", "url": "/"},
         {"name": "Le strutture", "url": None},
@@ -2517,7 +2569,8 @@ def build_catalog(env: Environment, structures: list[dict], out_root: Path, disp
         "active_nav": "structures",
         "has_path_nav": False,
         "breadcrumbs": breadcrumbs,
-        "structures": cards,
+        "structure_count": len(cards),
+        "noscript_links": [{"slug": c["slug"], "title": c["title"]} for c in cards],
         "fase_filters": FASE_FILTER_OPTIONS,
         "catalog_faq": catalog_faq,
         "jsonld": page_jsonld(
@@ -3019,8 +3072,10 @@ def main() -> None:
     clean_generated(out_root)
     sync_source_assets(out_root)
     css_manifest, css_inline = bundle_css(out_root)
+    env.globals["css_href"] = f"assets/{css_manifest['css']}"
     env.globals["css_inline"] = css_inline
     bundle_js(out_root)
+    bundle_page_js(out_root)
     ensure_og_png(out_root)
 
     from generate_adaptation_icons import ensure_adaptation_icons

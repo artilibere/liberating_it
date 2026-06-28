@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block head_extra %}
+{% if structure.icon %}
+<link rel="preload" as="image" href="{{ structure.icon | asset }}" fetchpriority="high">
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <article class="ls-article"
   data-slug="{{ structure.slug }}"
@@ -57,7 +63,7 @@
     {% endif %}
   </section>
 
-  <section id="fare" class="ls-zone" aria-label="Come fare">
+  <section id="fare" class="ls-zone ls-zone--defer" aria-label="Come fare">
     {% if structure.domanda_items %}
     <h2>Domanda da portare</h2>
     <ul>
@@ -106,7 +112,7 @@
     {% endif %}
   </section>
 
-  <section id="naviga" class="ls-zone" aria-label="Approfondisci">
+  <section id="naviga" class="ls-zone ls-zone--defer" aria-label="Approfondisci">
     {% if structure.quando_items %}
     <h2>Quando usarla</h2>
     <ul>
@@ -219,6 +225,5 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="{{ 'assets/js/scroll-spy.js' | asset }}" defer></script>
-<script src="{{ 'assets/js/share.js' | asset }}" defer></script>
+<script src="{{ 'assets/js/structure.js' | asset }}" defer></script>
 {% endblock %}

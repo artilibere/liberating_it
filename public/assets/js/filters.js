@@ -1,4 +1,5 @@
 (function () {
+  function initFilters() {
   const grid = document.getElementById('structure-grid');
   if (!grid) return;
 
@@ -128,4 +129,12 @@
       window.lsFiltersPanel.open(false);
     }
   }
+  }
+
+  const gridEl = document.getElementById('structure-grid');
+  if (gridEl && gridEl.getAttribute('data-src') && !gridEl.dataset.hydrated) {
+    document.addEventListener('ls-catalog-ready', initFilters, { once: true });
+    return;
+  }
+  initFilters();
 })();

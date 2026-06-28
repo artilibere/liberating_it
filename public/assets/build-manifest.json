@@ -1,11 +1,15 @@
 {
-  "css": "css/site.4ff612116a.css",
+  "css": "css/site.151d806d27.css",
   "js": {
     "filters-panel": "js/filters-panel.139b061cf7.js",
     "nav": "js/nav.d1efc0b43e.js",
-    "filters": "js/filters.c11de764ed.js",
+    "filters": "js/filters.f7d28bc1fb.js",
     "scroll-spy": "js/scroll-spy.1497054931.js",
     "share": "js/share.7dfec20351.js",
     "consent": "js/consent.7f7c32fbb9.js"
+  },
+  "page_js": {
+    "structure": "js/structure.16f7415060.js",
+    "catalog": "js/catalog.97a59e5b02.js"
   }
 }

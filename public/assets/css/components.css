@@ -3,10 +3,21 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: color-mix(in srgb, var(--md-sys-color-surface) 88%, var(--ls-color-blue-fusion));
-  backdrop-filter: blur(8px);
+  background: var(--md-sys-color-surface);
   border-bottom: 1px solid var(--md-sys-color-outline-variant);
   height: var(--ls-header-height);
+}
+
+@media (min-width: 900px) {
+  .ls-header {
+    background: color-mix(in srgb, var(--md-sys-color-surface) 92%, var(--ls-color-blue-fusion));
+  }
+
+  @supports (backdrop-filter: blur(1px)) {
+    .ls-header {
+      backdrop-filter: blur(8px);
+    }
+  }
 }
 
 .ls-header__inner {
@@ -362,6 +373,11 @@
 
 .ls-cap__brief {
   margin-bottom: var(--ls-spacing-4);
+}
+
+.ls-zone--defer {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 520px;
 }
 
 /* Quick info */
@@ -747,6 +763,25 @@
   margin: 0;
   flex: 1;
   min-width: 0;
+}
+
+.ls-page--catalog .ls-catalog__loading,
+.ls-page--catalog .ls-catalog__error {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.ls-catalog-noscript {
+  list-style: none;
+  margin: var(--ls-spacing-4) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--ls-spacing-2);
+}
+
+.ls-catalog-noscript a {
+  color: var(--md-sys-color-primary);
 }
 
 /* Cards */
