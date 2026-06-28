@@ -2,6 +2,10 @@
 /design-thinking/design-thinking-cycle/  /design-thinking/multi-fase/  301
 /design-thinking/design-thinking-cycle/*  /:splat  301
 
+# JSON data (must precede :slug rule — otherwise fetch gets HTML)
+/structures/catalog.json  /structures/catalog.json  200
+/structures/index.json  /structures/index.json  200
+
 # Trailing slash (no extension)
 /structures/:slug  /structures/:slug/  301
 /complessita/:slug  /complessita/:slug/  301

@@ -1012,5 +1012,16 @@ class TrackingTests(unittest.TestCase):
             self.assertIn("googletagmanager.com/ns.html?id=GTM-KN9M84W", html)
 
 
+class RedirectsTest(unittest.TestCase):
+    def test_structures_json_exempt_from_trailing_slash(self) -> None:
+        redirects = (Path(__file__).resolve().parent.parent / "_redirects").read_text(
+            encoding="utf-8"
+        )
+        catalog_line = "/structures/catalog.json  /structures/catalog.json  200"
+        slug_line = "/structures/:slug  /structures/:slug/  301"
+        self.assertIn(catalog_line, redirects)
+        self.assertLess(redirects.index(catalog_line), redirects.index(slug_line))
+
+
 if __name__ == "__main__":
     unittest.main()
