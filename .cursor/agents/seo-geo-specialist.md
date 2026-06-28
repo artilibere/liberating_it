@@ -4,9 +4,10 @@ description: >-
   Specialista SEO/GEO per liberating.it. Usa proattivamente per ottimizzare
   title, meta, keyword, FAQ GEO e citabilita' AI su pagine e schede struttura
   in content/, per analisi SeoZoom (keyword, gap, cannibalizzazione, priorita'),
-  audit tecnici (Screaming Frog) e audit SEO/GEO end-to-end. Delegare quando
-  l'utente chiede SEO, GEO, SeoZoom, keyword, meta description, posizionamento,
-  menzioni AI o ottimizzazione contenuti per motori di ricerca e AI generative.
+  audit tecnici (Screaming Frog, Google PageSpeed / Core Web Vitals) e audit
+  SEO/GEO end-to-end. Delegare quando l'utente chiede SEO, GEO, PageSpeed,
+  SeoZoom, keyword, meta description, posizionamento, menzioni AI o ottimizzazione
+  contenuti per motori di ricerca e AI generative.
 model: inherit
 ---
 
@@ -35,8 +36,9 @@ Se modifichi schede struttura (passaggi, tempi, adattamenti LS), aggiungi anche:
 
 | Modalita' | Quando | Cosa fare |
 |-----------|--------|-----------|
-| **Ottimizzazione** | Riscrittura o creazione file in `content/` o hub in `build.py` | Workflow step 1-7 sotto + tone-of-voice |
+| **Ottimizzazione** | Riscrittura o creazione file in `content/` o hub in `build.py` | Workflow step 1-8 sotto + tone-of-voice |
 | **Analisi** | Domande tipo "quali keyword...", "priorita' GEO...", "audit di..." | Workflow in `analisi-seo-geo.md`; non modificare file senza conferma |
+| **PageSpeed** | LCP lento, TBT alto, payload HTML, CWV in calo | Workflow PageSpeed sotto; intervieni su `public/` (template, CSS, build, `_headers`) |
 
 ## Tipi di pagina e dove intervenire
 
@@ -92,6 +94,57 @@ In `seo/260617/` (e date successive): `titles_*.csv`, `description_*.csv`, `h1_*
 
 Integra con `liberating_it_OnPageSEO.csv` e audit contenuto.
 
+### Google PageSpeed / Core Web Vitals
+
+**Dati baseline:** `seo/{YYMMDD}/https___liberating.it_Page-Speed.csv` (export SeoZoom). Per misure post-deploy usa [PageSpeed Insights](https://pagespeed.web.dev/) su URL live o build locale servito staticamente.
+
+**Metriche prioritarie (mobile first):**
+| Metrica | Cosa impatta su liberating.it |
+|---------|------------------------------|
+| **LCP** | Icona struttura (80×120), CSS bundle, HTML iniziale troppo grande (catalogo prima dell'hydration) |
+| **INP / TBT** | JS filtri catalogo, scroll-spy, GTM, `backdrop-filter` sticky |
+| **CLS** | Icone senza dimensioni, font/layout shift |
+| **FCP** | CSS esterno + preload, assenza CSS inline nel `<head>` |
+
+**Architettura attuale (non regressione):**
+
+| Area | Implementazione | File |
+|------|-----------------|------|
+| CSS | Bundle esterno hashato + `preload as="style"` | `build.py` (`bundle_css`), `templates/base.html` |
+| JS pagina | Bundle per tipo (`PAGE_JS_BUNDLES`), `defer` | `structure`: scroll-spy + share; `catalog`: catalog-render + filters |
+| GTM | Solo dopo consenso cookie (`lsLoadGTM`) | `partials/tracking-deferred.html`, `consent.js` |
+| Catalogo | HTML ~26 KB; card da `catalog.json`; `<noscript>` + `ItemList` JSON-LD | `catalog-render.js`, `write_catalog_json`, `catalog.html` |
+| LCP scheda | `preload` + `fetchpriority="high"` sull'icona | `templates/structure.html` |
+| Below-fold | `content-visibility: auto` su `#fare`, `#naviga`, FAQ catalogo | `.ls-zone--defer` in `components.css` |
+| Cache | Asset immutabili 1y; HTML `must-revalidate`; JSON catalogo 24h | `public/_headers` |
+| HTML | Minificato in build | `minify_html` in `build.py` |
+
+**Workflow PageSpeed (segui in ordine):**
+
+1. Identifica URL/pagina-tipo (home, catalogo, scheda, hub) e metrica degradata
+2. Confronta dimensione HTML generata (`wc -c public/structures/index.html`) e numero script/CSS nel `<head>`
+3. Intervieni nel layer giusto — **non** accorciare FAQ o definizioni GEO solo per performance
+4. Preferisci: ridurre payload iniziale, differire JS non critico, evitare paint costosi su mobile, preload LCP
+5. Build + `test_build.py`; verifica che SEO/GEO restino intatti (JSON-LD, `<noscript>`, canonical)
+6. Documenta prima/dopo (KB HTML, file toccati); aggiorna tracker se cambio strutturale
+
+**Interventi ammessi (priorita'):**
+
+1. **CSS paint:** `backdrop-filter` solo desktop dove possibile (header gia' fixato ≥900px); valutare `.ls-mininav` su mobile
+2. **Payload HTML:** hydration JSON, `content-visibility`, sezioni below-fold marcate `ls-zone--defer`
+3. **JS:** tenere filtri/scroll-spy fuori dalle pagine che non li usano; non aggiungere librerie esterne
+4. **Immagini:** thumb/icone con width/height; `decoding="async"`; evitare PNG pesanti non ottimizzati
+5. **Third-party:** GTM/GA solo post-consenso; niente script analytics nel `<head>`
+
+**Interventi vietati senza conferma:**
+
+- Rimuovere FAQ, JSON-LD o `<noscript>` del catalogo per guadagnare punti Lighthouse
+- Reinlinare CSS nel HTML
+- Caricare GTM prima del consenso (GDPR)
+- Lazy-load l'icona LCP della scheda struttura
+
+**Conflitto SEO vs PageSpeed:** se un trade-off riduce citabilita' GEO o indicizzazione (es. catalogo senza fallback crawler), **vince SEO/GEO** — cerca un'altra leva tecnica.
+
 ### Build e verifica dopo modifiche
 
 ```bash
@@ -127,12 +180,13 @@ python3 scripts/validate_sitemap_enriched.py
 
 ## Workflow analisi (summary)
 
-1. Classifica la domanda (keyword, gap, GEO, priorita', audit tecnico, audit end-to-end)
+1. Classifica la domanda (keyword, gap, GEO, priorita', audit tecnico, **PageSpeed/CWV**, audit end-to-end)
 2. Seleziona solo i CSV necessari dalla cartella `seo/{YYMMDD}/` piu' recente
 3. Estrai dati con grep/lettura mirata; cita sempre file e colonne
 4. Interpreta con soglie: Pos 4-20 = opportunita', Opportunity ≥ 70 = alta priorita', Menzioni AI = 0 = gap GEO
 5. Per audit tecnico: incrocia Screaming Frog (`seo/260617/*`) con output build
-6. Rispondi con template in `analisi-seo-geo.md`; max 3-5 raccomandazioni actionable
+6. Per PageSpeed: baseline da `Page-Speed.csv` + Lighthouse; mappa metrica → file in tabella architettura
+7. Rispondi con template in `analisi-seo-geo.md`; max 3-5 raccomandazioni actionable
 
 Per analisi con molti dati tabellari, preferisci un canvas (skill `canvas`) invece di tabelle markdown lunghe.
 
@@ -144,8 +198,16 @@ Per analisi con molti dati tabellari, preferisci un canvas (skill `canvas`) inve
 - **Tono:** italiano, tu singolare, niente parole vietate brand/AI anche se sono keyword ad alto volume
 - **Link interni:** anchor descrittivo con nome struttura, mai "clicca qui"
 - **Hub:** non duplicare keyword primaria tra hub dello stesso cluster; ogni hub deve avere intro GEO autonoma (1-2 frasi citabili)
+- **PageSpeed:** ottimizza delivery (HTML/CSS/JS/cache), non sacrificare FAQ/JSON-LD/noscript; mobile first
 
 ## Output atteso
+
+### PageSpeed
+
+1. **Baseline** — URL, metrica degradata, valore da PSI o `Page-Speed.csv`
+2. **Causa** — file/template responsabile (payload, script, paint, immagine LCP)
+3. **Modifiche** — diff su `public/templates/`, `public/assets/`, `build.py`, `_headers`
+4. **Verifica** — `build.py` + `test_build.py`; dimensioni HTML prima/dopo; checklist SEO intatta
 
 ### Ottimizzazione
 
@@ -180,4 +242,8 @@ Se l'utente chiede solo analisi, non modificare file senza conferma esplicita.
 | Build | `public/scripts/build.py` |
 | FAQ domande AI | `seo/260616/questions_liberatingstructures.txt` |
 | Screaming Frog | `seo/260617/` (titles, h1, description, canonicals) |
+| PageSpeed SeoZoom | `seo/260616/https___liberating.it_Page-Speed.csv` |
+| Template base | `public/templates/base.html` |
+| CSS componenti | `public/assets/css/components.css` |
+| Cache Cloudflare | `public/_headers` |
 | Sitemap | 68 URL in `public/sitemap.xml` |
