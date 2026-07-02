@@ -51,41 +51,58 @@ e.preventDefault();
 first.focus();
 }
 });
-const submenuBtn = document.querySelector('.ls-header__nav-item--has-submenu > button');
-const submenu = document.getElementById('ls-submenu-bisogno');
-if (submenuBtn && submenu) {
+const submenuItems = document.querySelectorAll('.ls-header__nav-item--has-submenu');
+const submenuControllers = [];
+function closeAllSubmenus() {
+submenuControllers.forEach(function (controller) {
+controller.close();
+});
+}
+submenuItems.forEach(function (item) {
+const submenuBtn = item.querySelector(':scope > button');
+const submenu = item.querySelector(':scope > .ls-header__submenu');
+if (!submenuBtn || !submenu) return;
 const submenuLinks = submenu.querySelectorAll('a');
-function closeSubmenu() {
+const controller = {
+close: function () {
 submenuBtn.setAttribute('aria-expanded', 'false');
 submenu.hidden = true;
-}
-function openSubmenu(focusLink) {
+},
+open: function (focusLink) {
 submenuBtn.setAttribute('aria-expanded', 'true');
 submenu.hidden = false;
 if (focusLink) submenuLinks[0]?.focus();
-}
+},
+contains: function (target) {
+return submenu.contains(target) || submenuBtn.contains(target);
+},
+};
 submenuBtn.addEventListener('click', function () {
 const open = submenuBtn.getAttribute('aria-expanded') === 'true';
-if (open) closeSubmenu();
-else openSubmenu(false);
+if (open) controller.close();
+else {
+closeAllSubmenus();
+controller.open(false);
+}
 });
 submenuBtn.addEventListener('keydown', function (e) {
 if (e.key === 'Escape' && !submenu.hidden) {
 e.preventDefault();
-closeSubmenu();
+controller.close();
 submenuBtn.focus();
 return;
 }
 if ((e.key === 'ArrowDown' || e.key === 'Enter' || e.key === ' ') && submenu.hidden) {
 e.preventDefault();
-openSubmenu(true);
+closeAllSubmenus();
+controller.open(true);
 }
 });
 submenuLinks.forEach(function (link, index) {
 link.addEventListener('keydown', function (e) {
 if (e.key === 'Escape') {
 e.preventDefault();
-closeSubmenu();
+controller.close();
 submenuBtn.focus();
 return;
 }
@@ -100,10 +117,14 @@ else submenuLinks[index - 1]?.focus();
 }
 });
 });
+submenuControllers.push(controller);
+});
+if (submenuControllers.length) {
 document.addEventListener('click', function (e) {
-if (submenu.hidden) return;
-if (submenu.contains(e.target) || submenuBtn.contains(e.target)) return;
-closeSubmenu();
+const inside = submenuControllers.some(function (controller) {
+return controller.contains(e.target);
+});
+if (!inside) closeAllSubmenus();
 });
 }
 })();
