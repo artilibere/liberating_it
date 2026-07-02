@@ -4,7 +4,7 @@
     "sitemap": "https://liberating.it/sitemap.xml",
     "site": "https://liberating.it",
     "generator": "liberating.it static build",
-    "generated_at": "2026-06-16T23:56:19.298676+00:00",
+    "generated_at": "2026-07-02T19:36:24.556838+00:00",
     "data_sources": [
       "public/sitemap.xml",
       "content/v2/strutture/*.md",
@@ -16,9 +16,9 @@
   },
   "statistics": {
     "sitemap_count": 1,
-    "url_count": 68,
+    "url_count": 84,
     "by_content_type": {
-      "page": 5,
+      "page": 21,
       "taxonomy": 22,
       "structure": 41
     },
@@ -68,7 +68,7 @@
       {
         "slug": "10-principi-fondamentali-liberating-structures",
         "url": "https://liberating.it/10-principi-fondamentali-liberating-structures/",
-        "lastmod": "2026-06-16",
+        "lastmod": "2026-07-02",
         "name": "10 principi per facilitare senza imporre"
       },
       {
@@ -88,7 +88,7 @@
       {
         "slug": "1-2-4-all",
         "url": "https://liberating.it/structures/1-2-4-all/",
-        "lastmod": "2026-06-16",
+        "lastmod": "2026-07-02",
         "name": "1-2-4-All",
         "post_id": 27,
         "taxonomies": {
@@ -236,8 +236,8 @@
       {
         "slug": "15-solutions",
         "url": "https://liberating.it/structures/15-solutions/",
-        "lastmod": "2026-06-16",
-        "name": "15% Solutions",
+        "lastmod": "2026-07-02",
+        "name": "15% Solutions (soluzioni al 15%)",
         "post_id": 149,
         "taxonomies": {
           "complessita": [
@@ -365,13 +365,13 @@
             ]
           }
         },
-        "title": "15% Solutions: agire subito senza permessi",
-        "meta_description": "15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai gia', senza chiedere permessi?. Passaggi chiari in 20 minuti."
+        "title": "15% Solutions: agire senza permessi",
+        "meta_description": "15% Solutions: soluzioni al 15% che puoi fare subito con le risorse che hai gia'. Problem solving collaborativo in 20 minuti."
       },
       {
         "slug": "25-10-crowd-sourcing",
         "url": "https://liberating.it/structures/25-10-crowd-sourcing/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "25/10 Crowd Sourcing",
         "post_id": 168,
         "taxonomies": {
@@ -531,7 +531,7 @@
       {
         "slug": "4-2-1-storming",
         "url": "https://liberating.it/structures/4-2-1-storming/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "4-2-1-Storming",
         "post_id": 326,
         "taxonomies": {
@@ -683,13 +683,13 @@
             ]
           }
         },
-        "title": "4-2-1-Storming: idee profonde in 10 minuti",
-        "meta_description": "4-2-1 Storming genera idee dal gruppo fino all'intuizione individuale, con scrittura silenziosa. Passaggi in 20 minuti."
+        "title": "4-2-1-Storming: idee profonde in 20 minuti",
+        "meta_description": "4-2-1 Storming genera idee dal gruppo fino all'intuizione individuale, con scrittura silenziosa. Adattamento locale."
       },
       {
         "slug": "9-whys",
         "url": "https://liberating.it/structures/9-whys/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "9 Whys",
         "post_id": 124,
         "taxonomies": {
@@ -844,7 +844,7 @@
       {
         "slug": "agreement-certainty-matrix",
         "url": "https://liberating.it/structures/agreement-certainty-matrix/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Agreement & Certainty Matrix",
         "post_id": 283,
         "taxonomies": {
@@ -1001,13 +1001,13 @@
             ]
           }
         },
-        "title": "Agreement & Certainty: metodo giusto",
-        "meta_description": "Classifica la sfida come semplice, complicata, complessa o caotica e scegli il metodo giusto. Passaggi chiari in 45 minuti."
+        "title": "Agreement & Certainty Matrix",
+        "meta_description": "Agreement & Certainty Matrix: classifica la sfida e scegli il metodo giusto. Passaggi in 45 minuti per decisioni di team."
       },
       {
         "slug": "appreciative-interviews-ai",
         "url": "https://liberating.it/structures/appreciative-interviews-ai/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Appreciative Interviews (AI)",
         "post_id": 137,
         "taxonomies": {
@@ -1167,7 +1167,7 @@
       {
         "slug": "celebrity-interview",
         "url": "https://liberating.it/structures/celebrity-interview/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Celebrity Interview",
         "post_id": 258,
         "taxonomies": {
@@ -1324,7 +1324,7 @@
       {
         "slug": "conversation-cafe",
         "url": "https://liberating.it/structures/conversation-cafe/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Conversation Café",
         "post_id": 189,
         "taxonomies": {
@@ -1344,9 +1344,9 @@
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/"
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
@@ -1481,7 +1481,7 @@
       {
         "slug": "critical-uncertainties",
         "url": "https://liberating.it/structures/critical-uncertainties/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Critical Uncertainties",
         "post_id": 297,
         "taxonomies": {
@@ -1685,7 +1685,7 @@
       {
         "slug": "design-storyboards",
         "url": "https://liberating.it/structures/design-storyboards/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Design StoryBoards",
         "post_id": 253,
         "taxonomies": {
@@ -1860,7 +1860,7 @@
       {
         "slug": "discovery-action-dialogue-dad",
         "url": "https://liberating.it/structures/discovery-action-dialogue-dad/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Discovery & Action Dialogue (DAD)",
         "post_id": 162,
         "taxonomies": {
@@ -2004,7 +2004,7 @@
       {
         "slug": "drawing-together",
         "url": "https://liberating.it/structures/drawing-together/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Drawing Together",
         "post_id": 250,
         "taxonomies": {
@@ -2175,13 +2175,13 @@
             ]
           }
         },
-        "title": "Drawing Together: pensare disegnando",
-        "meta_description": "Drawing Together usa il disegno per far emergere idee che le parole non esprimono. Passaggi chiari in 40 minuti, senza saper disegnare."
+        "title": "Drawing Together: disegnare insieme",
+        "meta_description": "Drawing Together (disegnare insieme): cinque simboli per far emergere idee che le parole non esprimono. Passaggi in 40 minuti, senza saper disegnare."
       },
       {
         "slug": "ecocycle-planning",
         "url": "https://liberating.it/structures/ecocycle-planning/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Ecocycle Planning",
         "post_id": 301,
         "taxonomies": {
@@ -2389,7 +2389,7 @@
       {
         "slug": "generative-relationship-star",
         "url": "https://liberating.it/structures/generative-relationship-star/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Generative Relationship STAR",
         "post_id": 280,
         "taxonomies": {
@@ -2548,12 +2548,12 @@
           }
         },
         "title": "Generative STAR: relazioni che contano",
-        "meta_description": "Generative Relationship STAR analizza le dinamiche del team e migliora relazioni che contano. Passaggi chiari in 20 minuti."
+        "meta_description": "Generative Relationship STAR analizza le dinamiche del team e migliora relazioni che contano. Passaggi chiari in 25 minuti."
       },
       {
         "slug": "heard-seen-respected-hsr",
         "url": "https://liberating.it/structures/heard-seen-respected-hsr/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Heard, Seen, Respected (HSR)",
         "post_id": 247,
         "taxonomies": {
@@ -2695,13 +2695,13 @@
             ]
           }
         },
-        "title": "HSR: debriefing empatico in gruppo",
-        "meta_description": "Tre round per ascoltare episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato. Passaggi chiari in 35 minuti."
+        "title": "HSR: Heard Seen Respected",
+        "meta_description": "HSR (Heard, Seen, Respected): tre round per ascoltare episodi in cui qualcuno non si e' sentito ascoltato. Passaggi in 35 minuti."
       },
       {
         "slug": "helping-heuristics",
         "url": "https://liberating.it/structures/helping-heuristics/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Helping Heuristics",
         "post_id": 186,
         "taxonomies": {
@@ -2869,7 +2869,7 @@
       {
         "slug": "impromptu-networking",
         "url": "https://liberating.it/structures/impromptu-networking/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Impromptu Networking",
         "post_id": 122,
         "taxonomies": {
@@ -3015,7 +3015,7 @@
       {
         "slug": "improv-prototyping",
         "url": "https://liberating.it/structures/improv-prototyping/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Improv Prototyping",
         "post_id": 182,
         "taxonomies": {
@@ -3180,7 +3180,7 @@
       {
         "slug": "integrated-autonomy",
         "url": "https://liberating.it/structures/integrated-autonomy/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Integrated Autonomy",
         "post_id": 293,
         "taxonomies": {
@@ -3369,7 +3369,7 @@
       {
         "slug": "liquid-courage",
         "url": "https://liberating.it/structures/liquid-courage/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Liquid Courage",
         "post_id": 330,
         "taxonomies": {
@@ -3523,7 +3523,7 @@
       {
         "slug": "mad-love",
         "url": "https://liberating.it/structures/mad-love/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Mad Love",
         "post_id": 708,
         "taxonomies": {
@@ -3730,13 +3730,13 @@
             ]
           }
         },
-        "title": "Mad Love: celebrare cio' che funziona",
-        "meta_description": "Mad Love e' una variante intima di Mad Tea: domande personali per connessioni profonde in 45 minuti. Passaggi chiari."
+        "title": "Mad Love: connessioni profonde",
+        "meta_description": "Mad Love e' una variante intima di Mad Tea: domande personali per connessioni profonde in 45 minuti. Adattamento locale."
       },
       {
         "slug": "mad-tea",
         "url": "https://liberating.it/structures/mad-tea/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Mad Tea",
         "post_id": 705,
         "taxonomies": {
@@ -3910,7 +3910,7 @@
       {
         "slug": "min-specs",
         "url": "https://liberating.it/structures/min-specs/",
-        "lastmod": "2026-06-16",
+        "lastmod": "2026-07-02",
         "name": "Min Specs",
         "post_id": 178,
         "taxonomies": {
@@ -4046,13 +4046,13 @@
             ]
           }
         },
-        "title": "Min Specs: regole minime per agire",
-        "meta_description": "Min Specs definisce le regole minime indispensabili per agire. Passaggi chiari in 35 minuti."
+        "title": "Min Specs: regole minime condivise",
+        "meta_description": "Min Specs nelle Liberating Structures: regole minime indispensabili per agire. Passaggi in 35 minuti per team e decisioni."
       },
       {
         "slug": "open-space-technology-ost",
         "url": "https://liberating.it/structures/open-space-technology-ost/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Open Space Technology (OST)",
         "post_id": 277,
         "taxonomies": {
@@ -4228,7 +4228,7 @@
       {
         "slug": "panarchy",
         "url": "https://liberating.it/structures/panarchy/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Panarchy",
         "post_id": 305,
         "taxonomies": {
@@ -4474,7 +4474,7 @@
       {
         "slug": "pixies-reflection",
         "url": "https://liberating.it/structures/pixies-reflection/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Pixie Reflection",
         "post_id": 704,
         "taxonomies": {
@@ -4635,7 +4635,7 @@
       {
         "slug": "purpose-to-practice-p2p",
         "url": "https://liberating.it/structures/purpose-to-practice-p2p/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Purpose to Practice (P2P)",
         "post_id": 309,
         "taxonomies": {
@@ -4798,7 +4798,7 @@
       {
         "slug": "shift-share",
         "url": "https://liberating.it/structures/shift-share/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Shift & Share",
         "post_id": 165,
         "taxonomies": {
@@ -4950,13 +4950,13 @@
             ]
           }
         },
-        "title": "Shift & Share: innovazioni in plenaria",
-        "meta_description": "Shift & Share fa ruotare i gruppi tra postazioni: ogni team presenta un'innovazione in pochi minuti. Passaggi chiari per 15-50 persone."
+        "title": "Shift & Share: shift and share in plenaria",
+        "meta_description": "Shift & Share (shift and share) fa ruotare i gruppi tra postazioni: ogni team presenta un'innovazione in pochi minuti. Passaggi per 15-50 persone."
       },
       {
         "slug": "simple-ethnography",
         "url": "https://liberating.it/structures/simple-ethnography/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Simple Ethnography",
         "post_id": 289,
         "taxonomies": {
@@ -4976,9 +4976,9 @@
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/"
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
@@ -5108,7 +5108,7 @@
       {
         "slug": "social-network-webbing",
         "url": "https://liberating.it/structures/social-network-webbing/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Social Network Webbing",
         "post_id": 261,
         "taxonomies": {
@@ -5286,7 +5286,7 @@
       {
         "slug": "spiral-journal",
         "url": "https://liberating.it/structures/spiral-journal/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Spiral Journal",
         "post_id": 706,
         "taxonomies": {
@@ -5460,7 +5460,7 @@
       {
         "slug": "talking-with-pixies",
         "url": "https://liberating.it/structures/talking-with-pixies/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Talking with Pixies",
         "post_id": 314,
         "taxonomies": {
@@ -5638,7 +5638,7 @@
       {
         "slug": "tiny-demons",
         "url": "https://liberating.it/structures/tiny-demons/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Tiny Demons",
         "post_id": 707,
         "taxonomies": {
@@ -5830,7 +5830,7 @@
       {
         "slug": "triz",
         "url": "https://liberating.it/structures/triz/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "TRIZ",
         "post_id": 130,
         "taxonomies": {
@@ -5981,7 +5981,7 @@
       {
         "slug": "troika-consulting",
         "url": "https://liberating.it/structures/troika-consulting/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "Troika Consulting",
         "post_id": 152,
         "taxonomies": {
@@ -6142,7 +6142,7 @@
       {
         "slug": "user-experience-fishbowl",
         "url": "https://liberating.it/structures/user-experience-fishbowl/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "User Experience Fishbowl",
         "post_id": 242,
         "taxonomies": {
@@ -6162,9 +6162,9 @@
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/"
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
@@ -6304,7 +6304,7 @@
       {
         "slug": "w3-what-so-what-now-what",
         "url": "https://liberating.it/structures/w3-what-so-what-now-what/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-07-02",
         "name": "What, So What, Now What? (W³)",
         "post_id": 158,
         "taxonomies": {
@@ -6429,13 +6429,13 @@
             ]
           }
         },
-        "title": "W³: debriefing in 3 domande",
-        "meta_description": "What So What Now What (W³): debriefing in tre domande su fatti, significato e azioni. Passaggi chiari in 30 minuti."
+        "title": "What, So What, Now What: debriefing",
+        "meta_description": "What, So What, Now What (W³): tre domande su fatti, significato e azioni. Debriefing Liberating Structures in 30 minuti, 9 passaggi."
       },
       {
         "slug": "what-i-need-from-you-winfy",
         "url": "https://liberating.it/structures/what-i-need-from-you-winfy/",
-        "lastmod": "2026-06-16",
+        "lastmod": "2026-06-23",
         "name": "What I Need From You (WINFY)",
         "post_id": 264,
         "taxonomies": {
@@ -6455,9 +6455,9 @@
           ],
           "durata": [
             {
-              "slug": "media",
-              "name": "Media (max 90 min)",
-              "url": "https://liberating.it/durata/media/"
+              "slug": "breve",
+              "name": "Breve (max 45 min)",
+              "url": "https://liberating.it/durata/breve/"
             }
           ],
           "design-thinking": [
@@ -6609,8 +6609,8 @@
       {
         "slug": "wicked-questions",
         "url": "https://liberating.it/structures/wicked-questions/",
-        "lastmod": "2026-06-17",
-        "name": "Wicked Questions",
+        "lastmod": "2026-07-02",
+        "name": "Wicked Questions (domande paradossali)",
         "post_id": 135,
         "taxonomies": {
           "complessita": [
@@ -6765,13 +6765,13 @@
             ]
           }
         },
-        "title": "Wicked Questions: tensioni utili",
-        "meta_description": "Wicked Questions formula domande che tengono insieme due obiettivi in tensione. Passaggi chiari in 30 minuti per team e strategia."
+        "title": "Wicked Questions: domande paradossali",
+        "meta_description": "Wicked Questions nelle Liberating Structures: domande che tengono insieme due obiettivi in tensione. Passaggi in 30 minuti per team e strategia."
       },
       {
         "slug": "wise-crowds",
         "url": "https://liberating.it/structures/wise-crowds/",
-        "lastmod": "2026-06-17",
+        "lastmod": "2026-06-23",
         "name": "Wise Crowds",
         "post_id": 171,
         "taxonomies": {
@@ -8189,6 +8189,7 @@
           "9-whys",
           "agreement-certainty-matrix",
           "celebrity-interview",
+          "conversation-cafe",
           "design-storyboards",
           "drawing-together",
           "generative-relationship-star",
@@ -8200,27 +8201,26 @@
           "mad-tea",
           "min-specs",
           "pixies-reflection",
+          "simple-ethnography",
           "spiral-journal",
           "talking-with-pixies",
           "tiny-demons",
           "triz",
           "troika-consulting",
+          "user-experience-fishbowl",
           "w3-what-so-what-now-what",
+          "what-i-need-from-you-winfy",
           "wicked-questions",
           "wise-crowds"
         ],
         "media": [
           "appreciative-interviews-ai",
-          "conversation-cafe",
           "discovery-action-dialogue-dad",
           "improv-prototyping",
           "integrated-autonomy",
           "open-space-technology-ost",
           "shift-share",
-          "simple-ethnography",
-          "social-network-webbing",
-          "user-experience-fishbowl",
-          "what-i-need-from-you-winfy"
+          "social-network-webbing"
         ],
         "estesa": [
           "critical-uncertainties",

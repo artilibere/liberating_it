@@ -46,10 +46,9 @@ jobs:
         run: python ../scripts/validate_sitemap_enriched.py --sitemap dist/sitemap.xml
 
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: liberating-it
-          directory: public/dist
+          command: pages deploy public/dist --project-name=liberating-it
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}

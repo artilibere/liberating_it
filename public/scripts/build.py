@@ -3149,6 +3149,27 @@ def build_guide_index(
     render(env, "guide-index.html", out_root / "guide" / "index.html", out_root, **ctx)
 
 
+def editorial_sitemap_entries(content_root: Path, build_date: str) -> dict[str, str]:
+    """URLs and lastmod for home, guide hub, 10 principi and all guide articles."""
+    entries: dict[str, str] = {}
+    home = resolve_editorial_path(content_root, "home.md")
+    entries[f"{SITE_ORIGIN}/"] = path_lastmod(home, build_date)
+    principles = resolve_editorial_path(content_root, "10-principi-fondamentali-liberating-structures.md")
+    entries[f"{SITE_ORIGIN}/10-principi-fondamentali-liberating-structures/"] = path_lastmod(
+        principles, build_date
+    )
+    guide_paths = list_guide_articles(content_root)
+    guide_lastmods: list[str] = []
+    for guide_path in guide_paths:
+        meta, _ = parse_frontmatter(guide_path.read_text(encoding="utf-8"))
+        slug = meta.get("slug", guide_path.stem)
+        lastmod = path_lastmod(guide_path, build_date)
+        guide_lastmods.append(lastmod)
+        entries[f"{SITE_ORIGIN}/{slug}/"] = lastmod
+    entries[f"{SITE_ORIGIN}/guide/"] = max(guide_lastmods) if guide_lastmods else build_date
+    return entries
+
+
 def write_sitemap(structures: list[dict], out_root: Path, *, content_root: Path | None = None) -> None:
     from datetime import date
 
@@ -3156,17 +3177,7 @@ def write_sitemap(structures: list[dict], out_root: Path, *, content_root: Path 
     url_lastmod: dict[str, str] = {}
 
     if content_root:
-        home = resolve_editorial_path(content_root, "home.md")
-        url_lastmod[f"{SITE_ORIGIN}/"] = path_lastmod(home, build_date)
-        principles = resolve_editorial_path(content_root, "10-principi-fondamentali-liberating-structures.md")
-        url_lastmod[f"{SITE_ORIGIN}/10-principi-fondamentali-liberating-structures/"] = path_lastmod(
-            principles, build_date
-        )
-        url_lastmod[f"{SITE_ORIGIN}/guide/"] = build_date
-        for guide_path in list_guide_articles(content_root):
-            meta, _ = parse_frontmatter(guide_path.read_text(encoding="utf-8"))
-            slug = meta.get("slug", guide_path.stem)
-            url_lastmod[f"{SITE_ORIGIN}/{slug}/"] = path_lastmod(guide_path, build_date)
+        url_lastmod.update(editorial_sitemap_entries(content_root, build_date))
     else:
         url_lastmod[f"{SITE_ORIGIN}/"] = build_date
         url_lastmod[f"{SITE_ORIGIN}/10-principi-fondamentali-liberating-structures/"] = build_date
@@ -3198,7 +3209,7 @@ def write_sitemap(structures: list[dict], out_root: Path, *, content_root: Path 
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ]
-    for url, lastmod in url_lastmod.items():
+    for url, lastmod in sorted(url_lastmod.items()):
         lines.append("  <url>")
         lines.append(f"    <loc>{url}</loc>")
         lines.append(f"    <lastmod>{lastmod}</lastmod>")

@@ -72,6 +72,7 @@ from build import (  # noqa: E402
     format_reading_time_label,
     truncate_text,
     write_llms_txt,
+    list_guide_articles,
     write_sitemap,
 )
 
@@ -458,6 +459,22 @@ class LegalPageTests(unittest.TestCase):
             text = (root / "sitemap.xml").read_text(encoding="utf-8")
         for slug in LEGAL_PAGES:
             self.assertIn(f"{slug}/", text)
+
+    def test_sitemap_includes_all_guide_articles(self) -> None:
+        import tempfile
+
+        content_root = Path(__file__).resolve().parents[2] / "content/v2"
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_sitemap([], root, content_root=content_root)
+            text = (root / "sitemap.xml").read_text(encoding="utf-8")
+        self.assertIn("https://liberating.it/guide/", text)
+        self.assertIn("https://liberating.it/10-principi-fondamentali-liberating-structures/", text)
+        for guide_path in list_guide_articles(content_root):
+            meta, _ = parse_frontmatter(guide_path.read_text(encoding="utf-8"))
+            slug = meta.get("slug", guide_path.stem)
+            self.assertIn(f"https://liberating.it/{slug}/", text)
+        self.assertEqual(len(list_guide_articles(content_root)), 15)
 
 
 class SpeedTests(unittest.TestCase):
