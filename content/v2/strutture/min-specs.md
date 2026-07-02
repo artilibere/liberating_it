@@ -1,7 +1,7 @@
 ---
 slug: min-specs
-title: "Min Specs: regole minime per agire"
-meta_description: "Min Specs definisce le regole minime indispensabili per agire. Passaggi chiari in 35 minuti."
+title: "Min Specs: regole minime condivise"
+meta_description: "Min Specs nelle Liberating Structures: regole minime indispensabili per agire. Passaggi in 35 minuti per team e decisioni."
 registro: manuale-operativo
 durata: "35 minuti"
 difficolta: "Intermedia"
@@ -74,8 +74,8 @@ Min Specs definisce le regole minime indispensabili per agire. Tutto il resto e'
 ### Quanto dura Min Specs?
 Di solito 35 minuti: 10 minuti individuali, 15 minuti di test in gruppo, 10 minuti di consolidamento.
 
-### Quando conviene usare Min Specs?
-Dopo [Ecocycle Planning](/structures/ecocycle-planning/) o quando un processo e' diventato troppo rigido e serve semplificare.
+### Min specs liberating structures: quando usarla?
+Quando un processo e' diventato troppo rigido o serve definire il minimo indispensabile prima di [prendere decisioni](/per-bisogno/prendere-decisioni/) in plenaria.
 
 ## Prima e dopo
 

@@ -45,8 +45,14 @@ LLMS_HIGH_TRAFFIC_SLUGS = (
 )
 
 PER_BISOGNO_INDEX_META = (
-    "Scegli la Liberating Structure giusta per il tuo obiettivo: idee, decisioni, "
-    "analisi o strategia. Percorsi guidati in italiano."
+    "Percorsi Liberating Structures per obiettivo: generare idee, decidere, analizzare o fare strategia. "
+    "Schede con passaggi pronti per riunioni e workshop."
+)
+
+PER_BISOGNO_INDEX_INTRO = (
+    "Per bisogno raggruppa le Liberating Structures per obiettivo concreto: generare idee, "
+    "prendere decisioni, analizzare problemi o fare strategia. "
+    "Ogni percorso elenca le schede con passaggi e tempi pronti da usare in riunione."
 )
 
 PER_BISOGNO_INDEX_FAQ = [
@@ -55,15 +61,37 @@ PER_BISOGNO_INDEX_FAQ = [
         "answer": (
             "Raggruppa le Liberating Structures per obiettivo concreto: generare idee, "
             "prendere decisioni, analizzare problemi o fare strategia. "
-            "Ogni percorso elenca le strutture piu' adatte con passaggi e tempi."
+            "Ogni sottopagina elenca le schede piu' adatte con link alle passaggi pronti."
+        ),
+    },
+    {
+        "question": "Dove trovo la panoramica sulle Liberating Structures?",
+        "answer": (
+            "La home presenta il sito; la pagina 10 principi spiega il metodo. "
+            "Questa pagina serve solo a scegliere il percorso per obiettivo."
         ),
     },
     {
         "question": "Come scelgo la struttura giusta per la mia riunione?",
         "answer": (
-            "Parti dall'obiettivo: se devi far emergere idee usa Generare idee, "
-            "se la riunione non conclude usa Prendere decisioni. "
-            "Apri la scheda della struttura scelta per i passaggi pronti da usare."
+            "Parti dall'obiettivo: se devi far emergere idee apri Generare idee, "
+            "se la riunione non conclude apri Prendere decisioni. "
+            "Poi apri la scheda della struttura scelta per i passaggi pronti."
+        ),
+    },
+    {
+        "question": "Posso usare piu' percorsi nello stesso workshop?",
+        "answer": (
+            "Si. Molti workshop concatenano strutture da percorsi diversi: "
+            "ad esempio 1-2-4-All da Generare idee e What So What Now What? "
+            "per il debriefing finale."
+        ),
+    },
+    {
+        "question": "Dove trovo una struttura per la pianificazione strategica?",
+        "answer": (
+            "Apri il percorso Fare strategia: Critical Uncertainties, Open Space Technology "
+            "e Purpose to Practice coprono scenari, workshop auto-organizzati e allineamento scopo-pratica."
         ),
     },
 ]
@@ -259,10 +287,14 @@ HUBS_COMPLESSITA = {
     "iniziare-subito": {
         "title": "Per iniziare subito",
         "page_title": "Liberating Structures per iniziare subito",
-        "intro": "Strutture facili per provare le Liberating Structures senza esperienza precedente.",
+        "intro": (
+            "Percorso guidato in cinque tappe per provare le Liberating Structures "
+            "senza esperienza da facilitatore. Ogni scheda ha passaggi e tempi pronti "
+            "per la prima riunione o workshop breve."
+        ),
         "meta_description": (
-            "Liberating Structures per riunioni efficaci, anche online: Impromptu Networking, "
-            "1-2-4-All, W³, 15% Solutions e Troika. Passaggi pronti per la prima riunione."
+            "Percorso Liberating Structures per chi parte da zero: Impromptu Networking, "
+            "1-2-4-All, 15% Solutions e Troika. Cinque schede con passaggi per la prima riunione."
         ),
         "filter": ("complessita", "iniziare-subito"),
         "path_list": True,
@@ -271,16 +303,16 @@ HUBS_COMPLESSITA = {
                 "question": "Cosa sono le Liberating Structures?",
                 "answer": (
                     "Sono formati di facilitazione con passaggi e tempi definiti per coinvolgere tutti "
-                    "in riunioni e workshop. Il percorso Per iniziare subito raccoglie le cinque "
-                    "piu' semplici da provare senza esperienza da facilitatore."
+                    "in riunioni e workshop. Per la definizione completa e i principi, "
+                    "vedi la pagina 10 principi fondamentali."
                 ),
             },
             {
                 "question": "Come iniziare con le Liberating Structures?",
                 "answer": (
-                    "Parti dal percorso guidato in cinque tappe: Impromptu Networking, 1-2-4-All, "
-                    "What So What Now What?, 15% Solutions e Troika Consulting. "
-                    "Ogni struttura ha passaggi e tempi pronti da usare."
+                    "Segui il percorso in cinque tappe qui sotto: ogni link porta alla scheda "
+                    "con passaggi e tempi. Parti da Impromptu Networking o 1-2-4-All "
+                    "se hai 15-20 minuti in agenda."
                 ),
             },
             {
@@ -300,9 +332,9 @@ HUBS_COMPLESSITA = {
             {
                 "question": "Quali Liberating Structures per riunioni online efficaci?",
                 "answer": (
-                    "1-2-4-All e Impromptu Networking funzionano bene anche in videochiamata: "
+                    "1-2-4-All e Impromptu Networking funzionano bene in videochiamata: "
                     "turni chiari, tempi brevi, tutti partecipano senza sovrapporsi. "
-                    "What So What Now What? chiude con azioni condivise."
+                    "Per il debriefing dopo l'incontro usa la scheda dedicata W³."
                 ),
             },
         ],
@@ -794,7 +826,10 @@ PER_BISOGNO = {
     "generare-idee": {
         "title": "Generare idee",
         "page_title": "Liberating Structures per generare idee",
-        "intro": "Per team bloccati e workshop creativi.",
+        "intro": (
+            "Liberating Structures per brainstorming e workshop creativi: formati con passaggi "
+            "e tempi definiti per far emergere idee da tutti, anche in gruppi numerosi."
+        ),
         "meta_description": (
             "Liberating Structures per generare idee: 1-2-4-All, TRIZ, 25/10 e altre. "
             "Format passo passo per workshop e riunioni."
@@ -817,31 +852,51 @@ PER_BISOGNO = {
                     "Passa a TRIZ se emergono posizioni rigide o il gruppo ripete le stesse soluzioni."
                 ),
             },
+            {
+                "question": "Brainstorming con Liberating Structures: da dove inizio?",
+                "answer": (
+                    "1-2-4-All e' il formato piu' rapido (15 minuti) per un brainstorming strutturato. "
+                    "4-2-1-Storming aggiunge una fase di tempesta creativa in piccoli gruppi. "
+                    "25/10 Crowd Sourcing serve quando devi votare e prioritizzare molte proposte."
+                ),
+            },
         ],
     },
     "prendere-decisioni": {
         "title": "Prendere decisioni",
         "page_title": "Liberating Structures: prendere decisioni",
-        "intro": "Per riunioni che non concludono.",
-        "meta_description": (
-            "Liberating Structures per prendere decisioni: Min Specs, WINFY e altre. "
-            "Per riunioni che devono concludere con un impegno chiaro."
+        "intro": (
+            "Per riunioni che non concludono: tre schede con passaggi pronti. "
+            "Per classificare la sfida e scegliere il metodo giusto, apri prima "
+            "la scheda Agreement & Certainty Matrix."
         ),
-        "slugs": ["min-specs", "agreement-certainty-matrix", "what-i-need-from-you-winfy"],
-        "examples": ["Min Specs", "Agreement/Certainty Matrix", "WINFY"],
+        "meta_description": (
+            "Liberating Structures per prendere decisioni: Min Specs, Agreement & Certainty Matrix, WINFY. "
+            "Schede con passaggi per chiudere la riunione con un impegno chiaro."
+        ),
+        "slugs": ["agreement-certainty-matrix", "min-specs", "what-i-need-from-you-winfy"],
+        "examples": ["Agreement/Certainty Matrix", "Min Specs", "WINFY"],
         "faq": [
             {
                 "question": "Quali Liberating Structures aiutano a prendere decisioni?",
                 "answer": (
-                    "Min Specs definisce il minimo indispensabile per agire. "
-                    "Agreement/Certainty Matrix ordina le decisioni per urgenza e chiarezza. "
+                    "Agreement & Certainty Matrix classifica la sfida e indica il metodo adatto. "
+                    "Min Specs definisce il minimo indispensabile per agire; "
                     "WINFY chiude con impegni espliciti tra le persone."
+                ),
+            },
+            {
+                "question": "Agreement & Certainty Matrix o Min Specs?",
+                "answer": (
+                    "Usa Agreement & Certainty Matrix all'inizio quando non e' chiaro "
+                    "se la sfida e' semplice, complicata o complessa. "
+                    "Passa a Min Specs quando devi stabilire regole minime condivise."
                 ),
             },
             {
                 "question": "Min Specs o WINFY per chiudere una riunione?",
                 "answer": (
-                    "Min Specs quando devi stabilire regole minime condivise. "
+                    "Min Specs quando servono regole minime condivise per procedere. "
                     "WINFY quando servono richieste chiare tra ruoli diversi "
                     "per sbloccare il lavoro."
                 ),
@@ -880,7 +935,10 @@ PER_BISOGNO = {
     "fare-strategia": {
         "title": "Fare strategia",
         "page_title": "Liberating Structures per fare strategia",
-        "intro": "Per trasformazioni e pianificazione.",
+        "intro": (
+            "Liberating Structures per pianificazione strategica e trasformazioni: "
+            "workshop auto-organizzati, scenari futuri e allineamento tra scopo e pratica."
+        ),
         "meta_description": (
             "Liberating Structures per fare strategia: Open Space, Critical Uncertainties, "
             "P2P e altre per trasformazioni e pianificazione."
@@ -902,6 +960,14 @@ PER_BISOGNO = {
                     "Si, quando hai un tema strategico ampio e persone motivate "
                     "a lavorarci insieme. "
                     "Serve almeno mezza giornata e un facilitatore esperto."
+                ),
+            },
+            {
+                "question": "Liberating Structures per la pianificazione strategica?",
+                "answer": (
+                    "Critical Uncertainties costruisce scenari futuri partendo da incertezze critiche. "
+                    "Open Space Technology coinvolge il gruppo su temi strategici con agenda auto-organizzata. "
+                    "Purpose to Practice collega scopo, principi e pratiche quotidiane dopo il workshop."
                 ),
             },
         ],
@@ -1615,6 +1681,14 @@ def build_principles_faq(structure_count: int) -> list[dict[str, str]]:
                 "Per ricostruire fiducia nel gruppo, prova Heard, Seen, Respected (HSR)."
             ),
         },
+        {
+            "question": "Cos'e' la facilitazione strutturata?",
+            "answer": (
+                "E' guidare riunioni e workshop con formati che hanno passaggi e tempi definiti, "
+                "cosi' tutti sanno quando tocca a loro. Le Liberating Structures sono un esempio: "
+                "non improvvisi, segui la scheda e adatti al contesto."
+            ),
+        },
     ]
 
 
@@ -1673,6 +1747,22 @@ def build_home_faq(structure_count: int) -> list[dict[str, str]]:
             "answer": (
                 "Quando una riunione ha bisogno di piu' partecipazione, idee da tutti o una decisione condivisa. "
                 "Funzionano in presenza e online. Parti da 1-2-4-All (15 min) o dal percorso Per iniziare subito."
+            ),
+        },
+        {
+            "question": "Cos'e' la facilitazione con le Liberating Structures?",
+            "answer": (
+                "Non e' un corso lungo ne' un metodo rigido. Scegli una struttura dal catalogo, "
+                "segui i passaggi nella scheda e adatta i tempi al tuo gruppo. "
+                "La piu' rapida, 1-2-4-All, si fa in 15 minuti."
+            ),
+        },
+        {
+            "question": "Cosa sono le microstrutture di facilitazione?",
+            "answer": (
+                f"Sono formati brevi e ripetibili (come 1-2-4-All o Troika Consulting) "
+                f"che combini in riunioni e workshop. Il menu ufficiale ne conta {OFFICIAL_LS_COUNT}; "
+                f"su liberating.it trovi {structure_count} schede in italiano."
             ),
         },
     ]
@@ -2413,7 +2503,7 @@ def build_home(env: Environment, content_root: Path, out_root: Path, structure_c
             "cta_url": "/structures/1-2-4-all/",
             "cta_label": "Prova 1-2-4-All domani",
             "definition": (
-                "Le Liberating Structures sono formati di facilitazione con passaggi e tempi definiti "
+                "Le Liberating Structures sono microstrutture di facilitazione con passaggi e tempi definiti "
                 "per far partecipare tutti in riunioni e workshop, anche senza esperienza come facilitatore."
             ),
         },
@@ -2802,6 +2892,7 @@ def build_per_bisogno(
         "page_type": "per-bisogno",
         "page_title": format_page_title("Liberating Structures per obiettivo"),
         "meta_description": PER_BISOGNO_INDEX_META,
+        "page_intro": PER_BISOGNO_INDEX_INTRO,
         "canonical": "https://liberating.it/per-bisogno/",
         "active_nav": "per-bisogno",
         "has_path_nav": False,
@@ -2917,7 +3008,15 @@ def write_sitemap(structures: list[dict], out_root: Path, *, content_root: Path 
 
 def write_robots(out_root: Path) -> None:
     (out_root / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n\n"
+        "User-agent: *\nAllow: /\n"
+        "Disallow: /structures/?\n"
+        "Disallow: /structures/catalog.json\n"
+        "Disallow: /structures/index.json\n"
+        "Disallow: /difficolta/*/page/\n"
+        "Disallow: /complessita/*/page/\n"
+        "Disallow: /durata/*/page/\n"
+        "Disallow: /per-bisogno/*/page/\n"
+        "Disallow: /structures/page/\n\n"
         f"# Panoramica per crawler AI: {SITE_ORIGIN}/llms.txt\n\n"
         f"Sitemap: {SITE_ORIGIN}/sitemap.xml\n",
         encoding="utf-8",

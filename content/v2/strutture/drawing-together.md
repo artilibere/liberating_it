@@ -1,7 +1,7 @@
 ---
 slug: drawing-together
-title: "Drawing Together: pensare disegnando"
-meta_description: "Drawing Together usa il disegno per far emergere idee che le parole non esprimono. Passaggi chiari in 40 minuti, senza saper disegnare."
+title: "Drawing Together: disegnare insieme"
+meta_description: "Drawing Together (disegnare insieme): cinque simboli per far emergere idee che le parole non esprimono. Passaggi in 40 minuti, senza saper disegnare."
 registro: manuale-operativo
 durata: "40 minuti"
 difficolta: "Intermedia"
@@ -15,7 +15,11 @@ url: "https://liberating.it/structures/drawing-together/"
 
 [Home](/) > [Le strutture](/structures/) > Drawing Together
 
-**In breve** - Drawing Together e' una Liberating Structure che usa cinque simboli base per far emergere idee e metafore che il linguaggio verbale fatica a catturare. Non serve saper disegnare: il gruppo legge le storie visive e ne trae insight condivisi.
+**In breve** - Drawing Together e' una Liberating Structure per disegnare insieme: cinque simboli base fanno emergere metafore e idee che il linguaggio verbale fatica a catturare. Non serve saper disegnare: il gruppo interpreta le storie visive e ne trae insight condivisi.
+
+## Disegnare insieme senza saper disegnare
+
+Il formato si chiama anche *together drawings* in inglese. L'obiettivo non e' l'illustrazione ma far emergere pattern condivisi attraverso cerchio, rettangolo, triangolo, spirale e stella.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -67,7 +71,7 @@ Accetta qualsiasi disegno arrivi. Il valore e' nella metafora, non nella tecnica
 ## Domande frequenti
 
 ### Cos'e' Drawing Together?
-Drawing Together e' una Liberating Structure che usa cinque simboli visivi per raccontare situazioni complesse. Il gruppo interpreta i disegni senza parole dell'autore e ne trae insight condivisi.
+Drawing Together (together drawings in inglese) e' una Liberating Structure che usa cinque simboli visivi per raccontare situazioni complesse. Il gruppo interpreta i disegni senza parole dell'autore e ne trae insight condivisi.
 
 ### Serve saper disegnare per Drawing Together?
 No. I simboli sono elementari (cerchio, rettangolo, triangolo, spirale, stella). L'obiettivo e' comunicare un'idea, non produrre illustrazioni.

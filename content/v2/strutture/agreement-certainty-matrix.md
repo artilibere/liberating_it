@@ -1,7 +1,7 @@
 ---
 slug: agreement-certainty-matrix
-title: "Agreement & Certainty: metodo giusto"
-meta_description: "Classifica la sfida come semplice, complicata, complessa o caotica e scegli il metodo giusto. Passaggi chiari in 45 minuti."
+title: "Agreement & Certainty Matrix"
+meta_description: "Agreement & Certainty Matrix: classifica la sfida e scegli il metodo giusto. Passaggi in 45 minuti per decisioni di team."
 registro: manuale-operativo
 durata: "45 minuti"
 difficolta: "Intermedia"
@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/agreement-certainty-matrix/"
 
 [Home](/) > [Le strutture](/structures/) > Agreement & Certainty Matrix
 
-**In breve** - La matrice Agreement & Certainty classifica le sfide su due assi (accordo e certezza) in quattro quadranti: semplice, complicata, complessa, caotica. Aiuta a scegliere il metodo giusto.
+**In breve** - Agreement & Certainty Matrix (matrice accordo-certezza) classifica le sfide su due assi: quanto il gruppo e' d'accordo e quanto conosce la situazione. I quattro quadranti indicano se serve best practice, esperti, approccio emergente o azione rapida.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|

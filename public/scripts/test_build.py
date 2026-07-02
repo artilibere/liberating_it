@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -1021,6 +1022,40 @@ class RedirectsTest(unittest.TestCase):
         slug_line = "/structures/:slug  /structures/:slug/  301"
         self.assertIn(catalog_line, redirects)
         self.assertLess(redirects.index(catalog_line), redirects.index(slug_line))
+
+    def test_legacy_root_and_pagination_redirects(self) -> None:
+        redirects = (Path(__file__).resolve().parent.parent / "_redirects").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn(
+            "/heard-seen-respected-hsr/  /structures/heard-seen-respected-hsr/  301",
+            redirects,
+        )
+        self.assertIn(
+            "/difficolta/:slug/page/:num/  /difficolta/:slug/  301",
+            redirects,
+        )
+        self.assertIn(
+            "/complessita/:slug/page/:num/  /complessita/:slug/  301",
+            redirects,
+        )
+        self.assertIn(
+            "/structures/page/:num/  /structures/  301",
+            redirects,
+        )
+
+
+class RobotsTest(unittest.TestCase):
+    def test_robots_disallows_catalog_filters_and_json(self) -> None:
+        from build import write_robots
+
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp)
+            write_robots(out)
+            text = (out / "robots.txt").read_text(encoding="utf-8")
+        self.assertIn("Disallow: /structures/?", text)
+        self.assertIn("Disallow: /structures/catalog.json", text)
+        self.assertIn("Disallow: /structures/index.json", text)
 
 
 if __name__ == "__main__":

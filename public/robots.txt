@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /structures/?
+Disallow: /structures/catalog.json
+Disallow: /structures/index.json
 
 # Panoramica per crawler AI: https://liberating.it/llms.txt
 

@@ -2,6 +2,22 @@
 /design-thinking/design-thinking-cycle/  /design-thinking/multi-fase/  301
 /design-thinking/design-thinking-cycle/*  /:splat  301
 
+# Legacy WordPress root slugs (structure pages without /structures/ prefix)
+/heard-seen-respected-hsr  /structures/heard-seen-respected-hsr/  301
+/heard-seen-respected-hsr/  /structures/heard-seen-respected-hsr/  301
+
+# Legacy WordPress pagination (wildcard)
+/difficolta/:slug/page/:num  /difficolta/:slug/  301
+/difficolta/:slug/page/:num/  /difficolta/:slug/  301
+/complessita/:slug/page/:num  /complessita/:slug/  301
+/complessita/:slug/page/:num/  /complessita/:slug/  301
+/durata/:slug/page/:num  /durata/:slug/  301
+/durata/:slug/page/:num/  /durata/:slug/  301
+/per-bisogno/:slug/page/:num  /per-bisogno/:slug/  301
+/per-bisogno/:slug/page/:num/  /per-bisogno/:slug/  301
+/structures/page/:num  /structures/  301
+/structures/page/:num/  /structures/  301
+
 # JSON data (must precede :slug rule — otherwise fetch gets HTML)
 /structures/catalog.json  /structures/catalog.json  200
 /structures/index.json  /structures/index.json  200
@@ -27,10 +43,6 @@
 /10-principi-fondamentali-liberating-structures/index.html  /10-principi-fondamentali-liberating-structures/  301
 /index.html  /  301
 /index.htm  /  301
-
-# Legacy WordPress pagination
-/difficolta/intermedia/page/2  /difficolta/intermedia/  301
-/difficolta/intermedia/page/2/  /difficolta/intermedia/  301
 
 # Legacy WordPress patterns
 /struttura/:slug  /structures/:slug/  301

@@ -162,7 +162,9 @@ if (!allowed[filter]) allowed[filter] = new Set();
 allowed[filter].add(value);
 });
 function parseUrl() {
-const params = new URLSearchParams(window.location.search);
+const hash = window.location.hash.replace(/^#/, '');
+if (!hash) return;
+const params = new URLSearchParams(hash);
 for (const key of Object.keys(active)) {
 const val = params.get(key);
 if (val && allowed[key] && allowed[key].has(val)) {
@@ -176,7 +178,7 @@ for (const [key, val] of Object.entries(active)) {
 if (val) params.set(key, val);
 }
 const qs = params.toString();
-const url = qs ? '?' + qs : window.location.pathname;
+const url = qs ? window.location.pathname + '#' + qs : window.location.pathname;
 history.replaceState(null, '', url);
 }
 function syncButtons() {

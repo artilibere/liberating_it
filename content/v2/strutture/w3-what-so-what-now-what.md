@@ -1,7 +1,7 @@
 ---
 slug: w3-what-so-what-now-what
-title: "W³: debriefing in 3 domande"
-meta_description: "What So What Now What (W³): debriefing in tre domande su fatti, significato e azioni. Passaggi chiari in 30 minuti."
+title: "What So What Now What: debriefing"
+meta_description: "What So What Now What (W³): tre domande su fatti, significato e azioni. Debriefing Liberating Structures in 30 minuti con passaggi chiari."
 registro: manuale-operativo
 durata: "30 minuti"
 difficolta: "Intermedia"
@@ -75,6 +75,9 @@ Funziona in tre cicli identici: un minuto da soli, pochi minuti in gruppo piccol
 
 ### Quanto dura What, So What, Now What?
 Di solito 30 minuti, con nove micro-passaggi da 2 a 10 minuti ciascuno. Puoi allungare le fasi What o So What se l'evento da analizzare e' complesso.
+
+### What so what now what liberating structures: dove trovarla?
+La scheda ufficiale e' What, So What, Now What? (W³) nel catalogo Liberating Structures. Qui trovi passaggi, tempi e consigli per facilitarla in italiano.
 
 ### Quando conviene usare W³?
 Dopo riunioni, workshop o momenti critici in cui il gruppo deve allinearsi su cosa e' successo prima di decidere i prossimi passi.

@@ -1,7 +1,7 @@
 ---
 slug: wicked-questions
-title: "Wicked Questions: tensioni utili"
-meta_description: "Wicked Questions formula domande che tengono insieme due obiettivi in tensione. Passaggi chiari in 30 minuti per team e strategia."
+title: "Wicked Questions: domande paradossali"
+meta_description: "Wicked Questions nelle Liberating Structures: domande che tengono insieme due obiettivi in tensione. Passaggi in 30 minuti per team e strategia."
 registro: manuale-operativo
 durata: "30 minuti"
 difficolta: "Intermedia"
@@ -74,6 +74,9 @@ E' un formato da 30 minuti: riflessione individuale, lavoro in piccoli gruppi, g
 
 ### Quanto dura Wicked Questions?
 Di solito 30 minuti in quattro passaggi. Per contesti strategici complessi puoi dedicare un'ora includendo piu' round di raffinamento.
+
+### Wicked questions liberating structures: cosa produce il formato?
+Una o piu' domande paradossali condivise dal gruppo, utilizzabili in workshop di strategic planning senza forzare un compromesso prematuro.
 
 ### Wicked Questions e strategic planning?
 Si. Le domande emerse orientano dibattiti successivi senza collassare troppo presto su un compromesso debole. Si usano spesso prima di [9 Whys](/structures/9-whys/) o [TRIZ](/structures/triz/).
