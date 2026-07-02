@@ -7,6 +7,17 @@
   <h1>{{ editorial.h1 }}</h1>
   <p class="ls-lead">{{ editorial.lead }}</p>
 
+  {% if editorial.toc %}
+  <aside class="ls-toc-inline" aria-label="Cosa trovi qui">
+    <p><strong>Cosa trovi qui</strong></p>
+    <ul>
+      {% for item in editorial.toc %}
+      <li>{{ item | safe }}</li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+
   {% for section in editorial.sections %}
   <section aria-labelledby="ed-{{ loop.index }}">
     <h2 id="ed-{{ loop.index }}">{{ section.title }}</h2>

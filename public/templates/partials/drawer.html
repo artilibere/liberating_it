@@ -16,7 +16,13 @@
           </ul>
         </li>
         <li><a href="{{ '/complessita/iniziare-subito/' | site }}">Per iniziare subito</a></li>
-        <li><a href="{{ '/10-principi-fondamentali-liberating-structures/' | site }}"{% if active_nav == 'principles' %} aria-current="page"{% endif %}>I 10 principi</a></li>
+        <li>
+          <a href="{{ '/guide/' | site }}"{% if active_nav == 'guide' and not active_guide %} aria-current="page"{% endif %}>Guide</a>
+          <ul class="ls-drawer__sub" aria-label="Guide">
+            <li><a href="{{ '/guide/' | site }}"{% if active_nav == 'guide' and not active_guide %} aria-current="page"{% endif %}>Tutte le guide</a></li>
+            <li><a href="{{ '/10-principi-fondamentali-liberating-structures/' | site }}"{% if active_nav == 'principles' %} aria-current="page"{% endif %}>I 10 principi</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>

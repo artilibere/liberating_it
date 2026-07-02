@@ -833,6 +833,11 @@
   border-color: var(--md-sys-color-primary);
 }
 
+.ls-card--featured {
+  border-color: var(--md-sys-color-primary);
+  background: var(--md-sys-color-surface-variant);
+}
+
 .ls-card--interactive {
   position: relative;
 }

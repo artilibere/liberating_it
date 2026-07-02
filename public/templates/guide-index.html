@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include 'partials/breadcrumb.html' %}
+
+<header class="ls-page-header">
+  <h1>Guide</h1>
+  <p class="ls-page-header__intro">{{ intro }}</p>
+</header>
+
+{% for category in categories %}
+<section class="ls-hub-grid" aria-labelledby="guide-cat-{{ loop.index }}">
+  <h2 id="guide-cat-{{ loop.index }}" class="ls-hub-grid__heading">{{ category.name }}</h2>
+  <div class="ls-grid ls-grid--2">
+  {% for guide in category.guides %}
+  <a href="{{ guide.url | site }}" class="ls-card ls-card--hub ls-card--outlined{% if guide.featured %} ls-card--featured{% endif %}">
+    <h3 class="ls-card__title">{{ guide.title }}</h3>
+    <p class="ls-card__brief">{{ guide.intro }}</p>
+  </a>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+{% if faq %}
+<section class="ls-faq" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">Domande frequenti</h2>
+  {% for item in faq %}
+  <details class="ls-faq__item">
+    <summary class="ls-faq__question">{{ item.question }}</summary>
+    <div class="ls-faq__answer"><p>{{ item.answer }}</p></div>
+  </details>
+  {% endfor %}
+</section>
+{% endif %}
+{% endblock %}

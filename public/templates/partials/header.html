@@ -20,7 +20,13 @@
             <li><a href="{{ '/per-bisogno/fare-strategia/' | site }}"{% if active_per_bisogno == 'fare-strategia' %} aria-current="page"{% endif %}>Fare strategia</a></li>
           </ul>
         </li>
-        <li><a href="{{ '/10-principi-fondamentali-liberating-structures/' | site }}"{% if active_nav == 'principles' %} aria-current="page"{% endif %}>I 10 principi</a></li>
+        <li class="ls-header__nav-item--has-submenu">
+          <button type="button" aria-expanded="false" aria-controls="ls-submenu-guide" aria-haspopup="true"{% if active_nav == 'guide' or active_nav == 'principles' %} aria-current="page"{% endif %}>Guide</button>
+          <ul id="ls-submenu-guide" class="ls-header__submenu" hidden>
+            <li><a href="{{ '/guide/' | site }}"{% if active_nav == 'guide' and not active_guide %} aria-current="page"{% endif %}>Tutte le guide</a></li>
+            <li><a href="{{ '/10-principi-fondamentali-liberating-structures/' | site }}"{% if active_nav == 'principles' %} aria-current="page"{% endif %}>I 10 principi</a></li>
+          </ul>
+        </li>
         <li><a href="{{ '/per-bisogno/' | site }}"{% if active_nav == 'per-bisogno' %} aria-current="page"{% endif %}>Percorsi</a></li>
       </ul>
     </nav>

@@ -101,9 +101,31 @@ GENERATED_DIRS = (
     "durata",
     "design-thinking",
     "per-bisogno",
+    "guide",
     "10-principi-fondamentali-liberating-structures",
     "privacy-policy",
     "termini-di-servizio",
+)
+
+EDITORIAL_EXCLUDE = frozenset(
+    {
+        "home.md",
+        "privacy-policy.md",
+        "termini-di-servizio.md",
+        "10-principi-fondamentali-liberating-structures.md",
+    }
+)
+
+GUIDE_INDEX_INTRO = (
+    "Guide pratiche su facilitazione, riunioni, team e metodi. "
+    "Stesso registro dei 10 principi: concetti chiari, strutture collegate, una CTA per iniziare."
+)
+
+GUIDE_CATEGORIES = (
+    "Fondamenti",
+    "Riunioni e team",
+    "Metodi e confronti",
+    "Organizzazione",
 )
 GENERATED_FILES = ("index.html",)
 
@@ -1800,6 +1822,11 @@ def parse_editorial_page(path: Path, faq: list[dict[str, str]] | None = None) ->
             lead_lines.append(stripped)
     lead = " ".join(lead_lines)
 
+    toc: list[str] = []
+    if "**Cosa trovi qui**" in preamble:
+        toc_part = preamble.split("**Cosa trovi qui**", 1)[1]
+        toc = [md_inline(item) for item in parse_bullet_list(toc_part)]
+
     editorial_sections = []
     for key, content in sections_map.items():
         m = re.match(r"(\d+)\.\s+(.+)", key)
@@ -1814,15 +1841,21 @@ def parse_editorial_page(path: Path, faq: list[dict[str, str]] | None = None) ->
         )
     editorial_sections.sort(key=lambda item: item["number"])
 
+    faq_items = faq if faq is not None else parse_faq(sections_map.get("Domande frequenti", ""))
+    cta_url = meta.get("cta_url", "/structures/1-2-4-all/")
+    if cta_url and not cta_url.endswith("/"):
+        cta_url = cta_url.rstrip("/") + "/"
+
     return {
         "h1": h1,
         "lead": lead,
+        "toc": toc,
         "sections": [{"title": s["title"], "body": s["body"]} for s in editorial_sections],
         "leggi_anche": parse_editorial_links(sections_map.get("Leggi anche", "")),
-        "faq": faq or [],
+        "faq": faq_items,
         "cta_text": sections_map.get("E adesso?", "").strip(),
-        "cta_url": "/structures/1-2-4-all/",
-        "cta_label": "Prova 1-2-4-All domani",
+        "cta_url": cta_url,
+        "cta_label": meta.get("cta_label", "Prova 1-2-4-All domani"),
     }
 
 
@@ -2408,11 +2441,18 @@ def render(env: Environment, template: str, out_path: Path, out_root: Path, **ct
     out_path.write_text(html, encoding="utf-8")
 
 
-def clean_generated(out_root: Path) -> None:
+def clean_generated(out_root: Path, content_root: Path | None = None) -> None:
     for name in GENERATED_DIRS:
         path = out_root / name
         if path.exists():
             shutil.rmtree(path)
+    if content_root:
+        for guide_path in list_guide_articles(content_root):
+            meta, _ = parse_frontmatter(guide_path.read_text(encoding="utf-8"))
+            slug = meta.get("slug", guide_path.stem)
+            guide_out = out_root / slug
+            if guide_out.exists():
+                shutil.rmtree(guide_out)
     for name in GENERATED_FILES:
         path = out_root / name
         if path.exists():
@@ -2558,12 +2598,14 @@ def build_principles(env: Environment, content_root: Path, out_root: Path, struc
         "has_path_nav": False,
         "breadcrumbs": [
             {"name": "Home", "url": "/"},
+            {"name": "Guide", "url": "/guide/"},
             {"name": "I 10 principi fondamentali", "url": None},
         ],
         "editorial": editorial,
         "jsonld": page_jsonld(
             [
                 {"name": "Home", "url": "/"},
+                {"name": "Guide", "url": "/guide/"},
                 {"name": "I 10 principi fondamentali", "url": None},
             ],
             "https://liberating.it/10-principi-fondamentali-liberating-structures/",
@@ -2942,6 +2984,171 @@ def resolve_editorial_path(content_root: Path, name: str) -> Path | None:
     return None
 
 
+def resolve_editorial_path(content_root: Path, name: str) -> Path | None:
+    for candidate in (
+        content_root.parent / "v1" / "pagine" / name,
+        content_root / "pagine" / name,
+    ):
+        if candidate.is_file():
+            return candidate
+    return None
+
+
+def editorial_pages_dir(content_root: Path) -> Path:
+    for candidate in (
+        content_root.parent / "v1" / "pagine",
+        content_root / "pagine",
+    ):
+        if candidate.is_dir():
+            return candidate
+    return content_root.parent / "v1" / "pagine"
+
+
+def list_guide_articles(content_root: Path) -> list[Path]:
+    pages_dir = editorial_pages_dir(content_root)
+    if not pages_dir.is_dir():
+        return []
+    return sorted(p for p in pages_dir.glob("*.md") if p.name not in EDITORIAL_EXCLUDE)
+
+
+def guide_card_from_path(path: Path) -> dict:
+    meta, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
+    slug = meta.get("slug", path.stem)
+    return {
+        "slug": slug,
+        "title": meta.get("title", slug),
+        "intro": meta.get("guide_intro", meta.get("meta_description", "")),
+        "category": meta.get("guide_category", "Guide"),
+        "order": int(meta.get("guide_order", 999)),
+        "url": f"/{slug}/",
+    }
+
+
+def build_guide_index_faq(structure_count: int) -> list[dict[str, str]]:
+    return [
+        {
+            "question": "Cosa trovo nella sezione Guide?",
+            "answer": (
+                "Articoli di approfondimento su facilitazione, riunioni, team e metodi, "
+                "con collegamenti alle schede struttura. "
+                f"Completano i {structure_count} formati del catalogo con contesto e casi d'uso."
+            ),
+        },
+        {
+            "question": "Guide e schede struttura: qual e' la differenza?",
+            "answer": (
+                "Le schede struttura spiegano passaggi e tempi di un singolo formato. "
+                "Le guide affrontano un tema trasversale (brainstorming, decisioni, retro agile) "
+                "e indicano quali strutture usare."
+            ),
+        },
+        {
+            "question": "Da quale guida inizio?",
+            "answer": (
+                "Se parti da zero, leggi i 10 principi fondamentali e la guida sulle microstrutture. "
+                "Poi scegli in base al tuo obiettivo nell'hub Per bisogno."
+            ),
+        },
+    ]
+
+
+def build_editorial_guides(
+    env: Environment, content_root: Path, out_root: Path, structure_count: int
+) -> list[dict]:
+    guides: list[dict] = []
+    for path in list_guide_articles(content_root):
+        meta, _ = parse_frontmatter(path.read_text(encoding="utf-8"))
+        slug = meta.get("slug", path.stem)
+        editorial = apply_structure_counts(parse_editorial_page(path), structure_count)
+        page_title = format_page_title(meta.get("title", editorial["h1"]))
+        meta_description = normalize_structure_count_text(
+            meta.get("meta_description", editorial["lead"]), structure_count
+        )
+        canonical = meta.get("url") or f"https://liberating.it/{slug}/"
+        breadcrumb_title = meta.get("title", editorial["h1"])
+        ctx = {
+            "page_type": "editorial",
+            "page_title": page_title,
+            "meta_description": meta_description,
+            "canonical": canonical,
+            "active_nav": "guide",
+            "active_guide": slug,
+            "has_path_nav": False,
+            "breadcrumbs": [
+                {"name": "Home", "url": "/"},
+                {"name": "Guide", "url": "/guide/"},
+                {"name": breadcrumb_title, "url": None},
+            ],
+            "editorial": editorial,
+            "jsonld": page_jsonld(
+                [
+                    {"name": "Home", "url": "/"},
+                    {"name": "Guide", "url": "/guide/"},
+                    {"name": breadcrumb_title, "url": None},
+                ],
+                canonical,
+                build_faq_jsonld(editorial.get("faq") or []),
+            ),
+        }
+        render(env, "editorial.html", out_root / slug / "index.html", out_root, **ctx)
+        guides.append(guide_card_from_path(path))
+    return guides
+
+
+def build_guide_index(
+    env: Environment,
+    content_root: Path,
+    out_root: Path,
+    guides: list[dict],
+    structure_count: int,
+) -> None:
+    principles = {
+        "slug": "10-principi-fondamentali-liberating-structures",
+        "title": "I 10 principi fondamentali",
+        "intro": "Le regole d'oro dietro ogni Liberating Structure: inclusione, fiducia, partecipazione.",
+        "category": "Fondamenti",
+        "order": 0,
+        "url": "/10-principi-fondamentali-liberating-structures/",
+        "featured": True,
+    }
+    all_guides = [principles] + sorted(guides, key=lambda g: (g["category"], g["order"], g["title"]))
+    categories: list[dict] = []
+    for cat in GUIDE_CATEGORIES:
+        items = [g for g in all_guides if g["category"] == cat]
+        if not items:
+            continue
+        categories.append({"name": cat, "guides": sorted(items, key=lambda g: g["order"])})
+    other = [g for g in all_guides if g["category"] not in GUIDE_CATEGORIES]
+    if other:
+        categories.append({"name": "Altro", "guides": other})
+
+    faq = build_guide_index_faq(structure_count)
+    ctx = {
+        "page_type": "guide-index",
+        "page_title": format_page_title("Guide alla facilitazione"),
+        "meta_description": (
+            "Guide pratiche su facilitazione strutturata, riunioni, team agile e metodi partecipativi. "
+            "Liberating Structures in italiano con esempi e strutture collegate."
+        ),
+        "canonical": "https://liberating.it/guide/",
+        "active_nav": "guide",
+        "has_path_nav": False,
+        "breadcrumbs": [
+            {"name": "Home", "url": "/"},
+            {"name": "Guide", "url": None},
+        ],
+        "intro": GUIDE_INDEX_INTRO,
+        "categories": categories,
+        "faq": faq,
+        "jsonld": page_jsonld(
+            [{"name": "Home", "url": "/"}, {"name": "Guide", "url": None}],
+            "https://liberating.it/guide/",
+            build_faq_jsonld(faq),
+        ),
+    }
+    render(env, "guide-index.html", out_root / "guide" / "index.html", out_root, **ctx)
+
+
 def write_sitemap(structures: list[dict], out_root: Path, *, content_root: Path | None = None) -> None:
     from datetime import date
 
@@ -2955,9 +3162,15 @@ def write_sitemap(structures: list[dict], out_root: Path, *, content_root: Path 
         url_lastmod[f"{SITE_ORIGIN}/10-principi-fondamentali-liberating-structures/"] = path_lastmod(
             principles, build_date
         )
+        url_lastmod[f"{SITE_ORIGIN}/guide/"] = build_date
+        for guide_path in list_guide_articles(content_root):
+            meta, _ = parse_frontmatter(guide_path.read_text(encoding="utf-8"))
+            slug = meta.get("slug", guide_path.stem)
+            url_lastmod[f"{SITE_ORIGIN}/{slug}/"] = path_lastmod(guide_path, build_date)
     else:
         url_lastmod[f"{SITE_ORIGIN}/"] = build_date
         url_lastmod[f"{SITE_ORIGIN}/10-principi-fondamentali-liberating-structures/"] = build_date
+        url_lastmod[f"{SITE_ORIGIN}/guide/"] = build_date
 
     url_lastmod[f"{SITE_ORIGIN}/structures/"] = build_date
     url_lastmod[f"{SITE_ORIGIN}/per-bisogno/"] = build_date
@@ -3058,6 +3271,7 @@ def write_llms_txt(structures: list[dict], out_root: Path) -> None:
             f"- [I 10 principi fondamentali]({SITE_ORIGIN}/10-principi-fondamentali-liberating-structures/): "
             "regole d'oro della facilitazione partecipativa"
         ),
+        f"- [Guide]({SITE_ORIGIN}/guide/): approfondimenti su facilitazione, riunioni e team",
         f"- [Per bisogno]({SITE_ORIGIN}/per-bisogno/): percorsi per obiettivo (idee, decisioni, strategia)",
         (
             f"- [Strutture intermedie]({SITE_ORIGIN}/difficolta/intermedia/): "
@@ -3151,7 +3365,7 @@ def main() -> None:
     structures = [parse_structure(p) for p in sorted(strutture_dir.glob("*.md"))]
     structures = sort_structures(structures)
 
-    clean_generated(out_root)
+    clean_generated(out_root, content_root=args.content)
     sync_source_assets(out_root)
     css_manifest, css_inline = bundle_css(out_root)
     env.globals["css_href"] = f"assets/{css_manifest['css']}"
@@ -3170,6 +3384,8 @@ def main() -> None:
 
     build_home(env, args.content, out_root, len(structures))
     build_principles(env, args.content, out_root, len(structures))
+    guide_cards = build_editorial_guides(env, args.content, out_root, len(structures))
+    build_guide_index(env, args.content, out_root, guide_cards, len(structures))
     build_legal_pages(env, args.content, out_root)
     build_catalog(env, structures, out_root, display_icons, default_icon)
     build_structures(env, structures, out_root, icons_full, display_icons, default_icon, default_icon_full)

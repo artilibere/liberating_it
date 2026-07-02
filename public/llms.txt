@@ -21,6 +21,7 @@ Ordine consigliato per chi prova per la prima volta ([hub completo](https://libe
 - [Home](https://liberating.it/): introduzione alle Liberating Structures in italiano
 - [Catalogo strutture](https://liberating.it/structures/): 41 strutture con passaggi, tempi e consigli pratici
 - [I 10 principi fondamentali](https://liberating.it/10-principi-fondamentali-liberating-structures/): regole d'oro della facilitazione partecipativa
+- [Guide](https://liberating.it/guide/): approfondimenti su facilitazione, riunioni e team
 - [Per bisogno](https://liberating.it/per-bisogno/): percorsi per obiettivo (idee, decisioni, strategia)
 - [Strutture intermedie](https://liberating.it/difficolta/intermedia/): TRIZ, Ecocycle Planning, Wicked Questions e altre Liberating Structures intermedie
 - [Shift & Share](https://liberating.it/structures/shift-share/): condividere innovazioni tra team con rotazione a stazioni
