@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/9-whys/"
 
 [Home](/) > [Le strutture](/structures/) > 9 Whys
 
-**In breve** - 9 Whys e' una Liberating Structure ispirata alla tecnica dei 5 Whys: a coppie, una persona chiede ripetutamente "Perche' e' importante per te?" fino a emergere lo scopo profondo del lavoro. In 20 minuti il gruppo passa da risposte superficiali a motivazioni condivise.
+**In breve** - 9 Whys e' una Liberating Structure ispirata alla tecnica dei 5 Whys e alla root cause analysis: a coppie, una persona chiede ripetutamente "Perche' e' importante per te?" fino a emergere lo scopo profondo del lavoro. In 20 minuti il gruppo passa da risposte superficiali a motivazioni condivise.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -60,7 +60,10 @@ Non trasformarlo in un interrogatorio. Tono curioso, non giudicante. In Italia a
 ## Domande frequenti
 
 ### Cos'e' la tecnica dei 9 Whys?
-9 Whys e' una sequenza di domande "perche' e' importante per te?" a coppie. Scava oltre le risposte superficiali fino al vero scopo del lavoro del gruppo. Il nome richiama i 5 Whys del lean, adattati alle Liberating Structures.
+9 Whys e' una sequenza di domande "perche' e' importante per te?" a coppie. Scava oltre le risposte superficiali fino al vero scopo del lavoro del gruppo. Il nome richiama i 5 Whys del lean e la root cause analysis, adattati alle Liberating Structures.
+
+### 9 Whys e 5 perche': qual e' la differenza?
+I 5 Whys del lean cercano la causa radice (root cause) di un problema operativo. 9 Whys usa la stessa logica a cascata ma sulla domanda "perche' e' importante per te?", per far emergere lo scopo profondo del lavoro, non solo la causa tecnica.
 
 ### Cos'e' 9 Whys nelle Liberating Structures?
 E' una struttura facile da 20 minuti: interviste a coppie, sintesi in quartetti, riflessione in plenaria. Non servono materiali complessi ne' esperienza da facilitatore.

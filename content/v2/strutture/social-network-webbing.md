@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/social-network-webbing/"
 
 [Home](/) > [Le strutture](/structures/) > Social Network Webbing
 
-**In breve** - Social Network Webbing e' una Liberating Structure che rende visibile la rete di relazioni informali dentro e fuori l'organizzazione. In circa 55 minuti mappi chi conosce chi, chi influenza il lavoro e quali connessioni mancano per raggiungere lo scopo comune.
+**In breve** - Il webbing (Social Network Webbing) e' una Liberating Structure che rende visibile la rete di relazioni informali dentro e fuori l'organizzazione. In circa 55 minuti mappi chi conosce chi, chi influenza il lavoro e quali connessioni mancano per raggiungere lo scopo comune.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|

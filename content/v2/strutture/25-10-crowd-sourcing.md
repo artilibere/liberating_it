@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/25-10-crowd-sourcing/"
 
 [Home](/) > [Le strutture](/structures/) > 25/10 Crowd Sourcing
 
-**In breve** - 25/10 Crowd Sourcing e' una Liberating Structure per raccogliere molte idee e farle valutare dal gruppo in circa 30 minuti. Ogni persona scrive una proposta su un cartoncino; i cartoncini girano e ricevono voti da 1 a 5 fino a emergere le migliori.
+**In breve** - 25/10 Crowd Sourcing (crowd sourcing) e' una Liberating Structure per raccogliere molte idee e farle valutare dal gruppo in circa 30 minuti. Ogni persona scrive una proposta su un cartoncino; i cartoncini girano e ricevono voti da 1 a 5 fino a emergere le migliori.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -62,7 +62,10 @@ Ricorda che si vota in silenzio, senza spiegazioni. Se qualcuno inizia a convinc
 ## Domande frequenti
 
 ### Cos'e' 25/10 Crowd Sourcing?
-25/10 Crowd Sourcing e' una Liberating Structure in cui ogni partecipante scrive un'idea, i cartoncini girano nel gruppo e ricevono voti da 1 a 5. In circa 30 minuti emergono le proposte con punteggio piu' alto.
+25/10 Crowd Sourcing e' una Liberating Structure in cui ogni partecipante scrive un'idea, i cartoncini girano nel gruppo e ricevono voti da 1 a 5. In circa 30 minuti emergono le proposte con punteggio piu' alto. Il nome in inglese e' crowd sourcing o crowdsourcing.
+
+### Crowd sourcing e 25/10: e' la stessa cosa?
+Si. Nelle Liberating Structures, 25/10 Crowd Sourcing e' il formato ufficiale per raccogliere e votare idee in gruppo. Le ricerche in inglese usano spesso "crowd sourcing" o "crowdsourcing" per lo stesso meccanismo di valutazione collettiva.
 
 ### Perche' si chiama 25/10?
 Il nome richiama il meccanismo di valutazione collettiva su molte idee in poco tempo (variante documentata nel menu Liberating Structures). L'importante e' il giro di voti anonimi sui cartoncini, non un numero fisso di idee.

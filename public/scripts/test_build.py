@@ -348,7 +348,7 @@ class HubSeoTests(unittest.TestCase):
         self.assertIsNotNone(faq_ld)
         assert faq_ld is not None
         self.assertEqual(faq_ld["@type"], "FAQPage")
-        self.assertEqual(len(faq_ld["mainEntity"]), 5)
+        self.assertEqual(len(faq_ld["mainEntity"]), 6)
 
 
 class AllHubsHaveFaqTests(unittest.TestCase):

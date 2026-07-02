@@ -334,7 +334,17 @@ HUBS_COMPLESSITA = {
                 "answer": (
                     "1-2-4-All e Impromptu Networking funzionano bene in videochiamata: "
                     "turni chiari, tempi brevi, tutti partecipano senza sovrapporsi. "
-                    "Per il debriefing dopo l'incontro usa la scheda dedicata W³."
+                    "Per il debriefing dopo l'incontro usa la scheda What So What Now What? (W³) "
+                    "nel percorso guidato qui sotto."
+                ),
+            },
+            {
+                "question": "Cos'e' What So What Now What nel percorso per iniziare?",
+                "answer": (
+                    "E' la terza tappa del percorso: una struttura di debriefing in tre domande "
+                    "(cosa e' successo, cosa significa, cosa fare). "
+                    "I passaggi completi sono nella scheda W³ collegata nel percorso guidato, "
+                    "non in questa pagina hub."
                 ),
             },
         ],
@@ -519,6 +529,14 @@ HUBS_DIFFICOLTA = {
                     "Non c'e' un unico foglio: ogni scheda struttura ha passaggi, tempi e cosa ti serve. "
                     "Per le prime volte usa il percorso Per iniziare subito; "
                     "per strutture con piu' passaggi, parti da TRIZ o What So What Now What? in questa sezione."
+                ),
+            },
+            {
+                "question": "Conversation Cafe e' una struttura intermedia?",
+                "answer": (
+                    "Si. Conversation Cafe facilita dialoghi profondi in tavoli da quattro con host e turni fissi. "
+                    "La scheda completa e' Conversation Cafe nel catalogo: non confonderla con il World Cafe, "
+                    "che ruota i partecipanti tra tavoli tematici."
                 ),
             },
         ],
@@ -711,6 +729,14 @@ HUBS_FASE = {
                     "e devi trovare una terza via."
                 ),
             },
+            {
+                "question": "Liberating Structures per decision making?",
+                "answer": (
+                    "Per definire il problema prima di decidere: 9 Whys e Wicked Questions. "
+                    "Per classificare la sfida e scegliere il metodo giusto: "
+                    "Agreement & Certainty Matrix. Per chiudere con impegni: Min Specs o WINFY."
+                ),
+            },
         ],
     },
     "ideate": {
@@ -736,6 +762,14 @@ HUBS_FASE = {
                     "Spesso si, soprattutto in 15 minuti. "
                     "Se emergono troppe idee simili, aggiungi 25/10 per votare. "
                     "Se il gruppo e' bloccato, passa a TRIZ."
+                ),
+            },
+            {
+                "question": "Liberating Structures per pensiero creativo?",
+                "answer": (
+                    "1-2-4-All e 25/10 Crowd Sourcing fanno emergere idee verbali in tempi brevi. "
+                    "Drawing Together aggiunge metafore visive quando le parole non bastano. "
+                    "Tutte e tre sono in questa sezione Ideare con passaggi pronti."
                 ),
             },
         ],
@@ -901,6 +935,14 @@ PER_BISOGNO = {
                     "per sbloccare il lavoro."
                 ),
             },
+            {
+                "question": "Agreement certainty matrix per decision making?",
+                "answer": (
+                    "Si. La matrice classifica la sfida (semplice, complicata, complessa, caotica) "
+                    "prima di scegliere il metodo. Apri la scheda Agreement & Certainty Matrix "
+                    "in questo percorso per i passaggi completi."
+                ),
+            },
         ],
     },
     "analizzare-problemi": {
@@ -928,6 +970,14 @@ PER_BISOGNO = {
                     "9 Whys per un problema specifico e recente. "
                     "Ecocycle quando devi decidere cosa potenziare, cosa tagliare "
                     "o lasciare in incubazione nel portfolio di attivita'."
+                ),
+            },
+            {
+                "question": "Root cause e 5 perche': quale struttura LS usare?",
+                "answer": (
+                    "9 Whys usa domande a cascata per far emergere lo scopo profondo del lavoro. "
+                    "Per la causa radice (root cause) di un problema operativo, "
+                    "la stessa logica si applica con 9 Whys o con Discovery & Action Dialogue sul campo."
                 ),
             },
         ],
@@ -2732,7 +2782,8 @@ def build_taxonomy_hubs(
         if slug == "iniziare-subito":
             intro = (
                 "Il percorso Per iniziare subito elenca cinque Liberating Structures facili in sequenza: "
-                "Impromptu Networking, 1-2-4-All, What So What Now What?, 15% Solutions e Troika Consulting. "
+                "Impromptu Networking, 1-2-4-All, What So What Now What? (W³), 15% Solutions e Troika Consulting. "
+                "Ogni voce del percorso guidato punta alla scheda struttura con passaggi e tempi. "
                 f"Qui trovi anche le altre {len(filtered)} strutture classificate per chi parte da zero."
             )
         if slug == "team-rodati":
@@ -2762,7 +2813,7 @@ def build_taxonomy_hubs(
             intro_override = (
                 f"Le Liberating Structures intermedie sono {len(filtered)} formati con piu' passaggi "
                 "delle versioni facili: servono quando il gruppo conosce gia' turni e plenaria. "
-                "TRIZ, Ecocycle Planning e Wicked Questions sono il punto di partenza piu' usato."
+                "TRIZ, Ecocycle Planning, Conversation Cafe e Wicked Questions sono il punto di partenza piu' usato."
             )
         _render_hub(
             env,

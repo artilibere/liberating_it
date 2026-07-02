@@ -1,7 +1,7 @@
 ---
 slug: heard-seen-respected-hsr
 title: "HSR: debriefing empatico in gruppo"
-meta_description: "Tre round per ascoltare episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato. Passaggi chiari in 35 minuti."
+meta_description: "HSR (Heard, Seen, Respected): tre round per ascoltare episodi in cui qualcuno non si e' sentito ascoltato. Passaggi in 35 minuti."
 registro: manuale-operativo
 durata: "35 minuti"
 difficolta: "Intermedia"
@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/heard-seen-respected-hsr/"
 
 [Home](/) > [Le strutture](/structures/) > Heard, Seen, Respected (HSR)
 
-**In breve** - HSR sviluppa l'ascolto empatico in tre round: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata. Il partner ascolta senza giudicare e senza consigli.
+**In breve** - HSR (Heard, Seen, Respected) e' una Liberating Structure per l'ascolto empatico in tre round: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata. Il partner ascolta senza giudicare e senza consigli.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -65,8 +65,14 @@ Incoraggia la prima storia che viene in mente, non quella piu' drammatica. Se qu
 
 ## Domande frequenti
 
+### Cos'e' HSR?
+HSR e' l'acronimo di Heard, Seen, Respected (ascoltato, visto, rispettato). Nelle Liberating Structures e' un formato di debriefing empatico in tre round a coppie: ognuno racconta un episodio in cui non si e' sentito ascoltato, visto o rispettato mentre il partner ascolta in silenzio.
+
 ### Cos'e' Heard, Seen, Respected?
-Una struttura in tre round per praticare l'ascolto empatico su episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato.
+Heard, Seen, Respected e' una Liberating Structure in tre round per praticare l'ascolto empatico su episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato. Si abbrevia spesso in HSR.
+
+### Heard Seen Respected nelle Liberating Structures: come funziona?
+Funziona a coppie con tre prompt fissi (Heard, Seen, Respected), pochi minuti a turno e un debrief finale in plenaria. Non serve problem-solving: l'obiettivo e' migliorare la qualita' dell'ascolto nel team.
 
 ### Quanto dura Heard, Seen, Respected?
 Di solito 35 minuti: tre round da 7 minuti in coppia, piu' apertura e chiusura.

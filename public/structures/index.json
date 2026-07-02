@@ -24,7 +24,7 @@
     },
     {
       "slug": "w3-what-so-what-now-what",
-      "title": "W³: debriefing in 3 domande",
+      "title": "What So What Now What: debriefing",
       "brief": "What, So What, Now What (W³) e' una struttura di debriefing in tre domande: What (cosa e' successo), So What (cosa significa per noi), Now What (cosa fare adesso). In circa 30 minuti il gruppo passa dai fatti alle azioni senza saltare la riflessione.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
@@ -35,8 +35,8 @@
     },
     {
       "slug": "15-solutions",
-      "title": "15% Solutions: agire subito senza permessi",
-      "brief": "15% Solutions chiede a ognuno: cosa puoi fare subito con le risorse e l'autonomia che hai gia', senza chiedere permessi?",
+      "title": "15% Solutions: agire senza permessi",
+      "brief": "15% Solutions e' una Liberating Structure di problem solving: chiede a ognuno cosa puo' fare subito con le risorse e l'autonomia che ha gia', senza chiedere permessi.",
       "difficolta": "facile",
       "complessita": "iniziare-subito",
       "durata": "breve",
@@ -69,7 +69,7 @@
     {
       "slug": "9-whys",
       "title": "9 Whys: scoprire il vero scopo del team",
-      "brief": "9 Whys e' una Liberating Structure ispirata alla tecnica dei 5 Whys: a coppie, una persona chiede ripetutamente \"Perche' e' importante per te?\" fino a emergere lo scopo profondo del lavoro. In 20 minuti il gruppo passa da risposte superficiali a motivazioni condivise.",
+      "brief": "9 Whys e' una Liberating Structure ispirata alla tecnica dei 5 Whys e alla root cause analysis: a coppie, una persona chiede ripetutamente \"Perche' e' importante per te?\" fino a emergere lo scopo profondo del lavoro. In 20 minuti il gruppo passa da risposte superficiali a motivazioni condivise.",
       "difficolta": "facile",
       "complessita": "iniziare-subito",
       "durata": "breve",
@@ -80,7 +80,7 @@
     {
       "slug": "heard-seen-respected-hsr",
       "title": "HSR: debriefing empatico in gruppo",
-      "brief": "HSR sviluppa l'ascolto empatico in tre round: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata. Il partner ascolta senza giudicare e senza consigli.",
+      "brief": "HSR (Heard, Seen, Respected) e' una Liberating Structure per l'ascolto empatico in tre round: ogni persona racconta un episodio in cui non si e' sentita ascoltata, vista o rispettata. Il partner ascolta senza giudicare e senza consigli.",
       "difficolta": "intermedia",
       "complessita": "iniziare-subito",
       "durata": "breve",
@@ -113,7 +113,7 @@
     {
       "slug": "25-10-crowd-sourcing",
       "title": "25/10 Crowd Sourcing: prioritizzare idee",
-      "brief": "25/10 Crowd Sourcing e' una Liberating Structure per raccogliere molte idee e farle valutare dal gruppo in circa 30 minuti. Ogni persona scrive una proposta su un cartoncino; i cartoncini girano e ricevono voti da 1 a 5 fino a emergere le migliori.",
+      "brief": "25/10 Crowd Sourcing (crowd sourcing) e' una Liberating Structure per raccogliere molte idee e farle valutare dal gruppo in circa 30 minuti. Ogni persona scrive una proposta su un cartoncino; i cartoncini girano e ricevono voti da 1 a 5 fino a emergere le migliori.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -146,7 +146,7 @@
     {
       "slug": "conversation-cafe",
       "title": "Conversation Cafe: dialoghi profondi",
-      "brief": "Il Conversation Café facilita conversazioni profonde in tavoli da quattro, con un host che tiene il tempo e quattro round strutturati. Riduce il dibattito e favorisce l'ascolto.",
+      "brief": "Il Conversation Café facilita conversazioni profonde in tavoli da quattro, con un host che tiene il tempo e quattro round strutturati. Riduce il dibattito e favorisce l'ascolto. E' diverso dal World Café: qui i turni sono fissi e c'e' un round di silenzio obbligatorio.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -156,8 +156,8 @@
     },
     {
       "slug": "drawing-together",
-      "title": "Drawing Together: pensare disegnando",
-      "brief": "Drawing Together e' una Liberating Structure che usa cinque simboli base per far emergere idee e metafore che il linguaggio verbale fatica a catturare. Non serve saper disegnare: il gruppo legge le storie visive e ne trae insight condivisi.",
+      "title": "Drawing Together: disegnare insieme",
+      "brief": "Drawing Together e' una Liberating Structure per disegnare insieme: cinque simboli base fanno emergere metafore e idee che il linguaggio verbale fatica a catturare. Non serve saper disegnare: il gruppo interpreta le storie visive e ne trae insight condivisi.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -178,7 +178,7 @@
     },
     {
       "slug": "min-specs",
-      "title": "Min Specs: regole minime per agire",
+      "title": "Min Specs: regole minime condivise",
       "brief": "Min Specs definisce le regole minime indispensabili per agire. Tutto il resto e' liberta'.",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
@@ -223,7 +223,7 @@
     {
       "slug": "triz",
       "title": "TRIZ: superare i compromessi nel team",
-      "brief": "TRIZ e' una Liberating Structure che inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere, non nuove idee da aggiungere.",
+      "brief": "TRIZ nelle Liberating Structures inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere, non nuove idee da aggiungere. Non va confusa con la TRIZ ingegneristica (matrice 9 finestre).",
       "difficolta": "intermedia",
       "complessita": "team-rodati",
       "durata": "breve",
@@ -255,8 +255,8 @@
     },
     {
       "slug": "agreement-certainty-matrix",
-      "title": "Agreement & Certainty: metodo giusto",
-      "brief": "La matrice Agreement & Certainty classifica le sfide su due assi (accordo e certezza) in quattro quadranti: semplice, complicata, complessa, caotica. Aiuta a scegliere il metodo giusto.",
+      "title": "Agreement & Certainty Matrix",
+      "brief": "Agreement & Certainty Matrix (matrice accordo-certezza) classifica le sfide su due assi: quanto il gruppo e' d'accordo e quanto conosce la situazione. I quattro quadranti indicano se serve best practice, esperti, approccio emergente o azione rapida.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "breve",
@@ -300,7 +300,7 @@
     {
       "slug": "ecocycle-planning",
       "title": "Ecocycle Planning: ciclo di vita attivita'",
-      "brief": "Ecocycle Planning e' una Liberating Structure che mappa progetti e attivita' sul ciclo di vita Ecocycle: nascita, maturita', distruzione creativa e rinnovamento. Il gruppo decide cosa potenziare, cosa tagliare e cosa liberare per uscire dalle trappole del successo o della poverta'.",
+      "brief": "Ecocycle Planning (eco cycle planning) e' una Liberating Structure che mappa progetti e attivita' sul ciclo di vita Ecocycle: nascita, maturita', distruzione creativa e rinnovamento. Il gruppo decide cosa potenziare, cosa tagliare e cosa liberare per uscire dalle trappole del successo o della poverta'.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "estesa",
@@ -333,7 +333,7 @@
     {
       "slug": "social-network-webbing",
       "title": "Social Network Webbing: mappare reti",
-      "brief": "Social Network Webbing e' una Liberating Structure che rende visibile la rete di relazioni informali dentro e fuori l'organizzazione. In circa 55 minuti mappi chi conosce chi, chi influenza il lavoro e quali connessioni mancano per raggiungere lo scopo comune.",
+      "brief": "Il webbing (Social Network Webbing) e' una Liberating Structure che rende visibile la rete di relazioni informali dentro e fuori l'organizzazione. In circa 55 minuti mappi chi conosce chi, chi influenza il lavoro e quali connessioni mancano per raggiungere lo scopo comune.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",
       "durata": "media",
@@ -354,7 +354,7 @@
     },
     {
       "slug": "wicked-questions",
-      "title": "Wicked Questions: tensioni utili",
+      "title": "Wicked Questions: domande paradossali",
       "brief": "Wicked Questions e' una Liberating Structure che formula domande paradossali: tengono insieme due obiettivi in tensione invece di forzare una scelta binaria. Esempio: \"Come possiamo essere globalmente coerenti e localmente adattati allo stesso tempo?\" Serve in strategia e trasformazioni quando entrambe le polarita' sono vere.",
       "difficolta": "intermedia",
       "complessita": "facilitazioni-complesse",

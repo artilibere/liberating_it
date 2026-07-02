@@ -80,7 +80,13 @@ Usa esempi concreti dal contesto del gruppo per illustrare i quadranti. Non giud
 ## Domande frequenti
 
 ### Cos'e' Agreement & Certainty Matrix?
-Una matrice che classifica le sfide per livello di accordo e certezza, per evitare di usare metodi inadatti (es. analisi lunga su problemi caotici).
+Agreement & Certainty Matrix (matrice accordo-certezza) classifica le sfide su due assi: quanto il gruppo e' d'accordo e quanto conosce la situazione. I quattro quadranti indicano se serve best practice, esperti, approccio emergente o azione rapida.
+
+### Agreement certainty matrix e decision making: come si collegano?
+Prima di decidere, la matrice chiarisce che tipo di sfida hai: semplice, complicata, complessa o caotica. Cosi' eviti analisi infinite su problemi che richiedono azione immediata, o il contrario.
+
+### Cos'e' agreement certainty matrix nelle Liberating Structures?
+E' una struttura Define da 45 minuti: ognuno posiziona le sfide su post-it, il gruppo confronta i quadranti e sceglie il metodo adatto. Si usa spesso prima di [Critical Uncertainties](/structures/critical-uncertainties/) o [Ecocycle Planning](/structures/ecocycle-planning/).
 
 ### Quanto dura Agreement & Certainty Matrix?
 Di solito 45 minuti: posizionamento individuale, confronto in gruppo, sintesi in plenaria.

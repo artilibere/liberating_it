@@ -72,8 +72,14 @@ La regola d'oro: chi viene e' la persona giusta, quello che succede e' l'unica c
 ### Cos'e' Open Space Technology?
 Open Space Technology e' un formato di workshop in cui i partecipanti creano l'agenda, scelgono i temi e si auto-organizzano in sessioni parallele. Il facilitatore prepara lo spazio e le regole, non i contenuti.
 
+### Cos'e' l'OST?
+OST e' l'acronimo di Open Space Technology. Nelle Liberating Structures indica lo stesso formato: agenda creata dal gruppo, sessioni parallele e Legge dei due piedi. Si usa quando la sfida e' complessa e le risposte non sono note in anticipo.
+
 ### Cos'e' la metodologia open space?
 La metodologia open space (OST) si basa su quattro principi e sulla Legge dei due piedi: ognuno propone sessioni, partecipa dove serve e si sposta quando il proprio contributo e' piu' utile altrove. Funziona con gruppi da circa 10 persone in su.
+
+### Open space technology cos'e' in pratica?
+In pratica e' un workshop in cui il gruppo crea l'agenda sul momento (marketplace), si divide in sessioni parallele e si sposta liberamente seguendo la Legge dei due piedi. Tu prepari tema, spazio e regole, non i contenuti delle sessioni.
 
 ### Quando conviene usare Open Space Technology?
 Quando la sfida e' complessa, le risposte non sono note in anticipo e serve l'intelligenza collettiva di un gruppo numeroso e vario.

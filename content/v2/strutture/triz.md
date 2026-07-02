@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/triz/"
 
 [Home](/) > [Le strutture](/structures/) > TRIZ
 
-**In breve** - TRIZ e' una Liberating Structure che inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere, non nuove idee da aggiungere.
+**In breve** - TRIZ nelle Liberating Structures inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere, non nuove idee da aggiungere. Non va confusa con la TRIZ ingegneristica (matrice 9 finestre).
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -65,7 +65,7 @@ Mantieni un tono leggero ma serio. L'obiettivo e' far emergere tabu' e abitudini
 ## Domande frequenti
 
 ### Cos'e' TRIZ?
-TRIZ (Teoria della Risoluzione Inventiva dei Problemi) inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere.
+TRIZ nelle Liberating Structures inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere. E' un adattamento del metodo, non la TRIZ ingegneristica con matrice 9 finestre.
 
 ### Quanto dura TRIZ?
 Di solito 35 minuti. I passaggi prevedono tempi fissi (5 min, 2 min, 10 min, 10 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
@@ -78,6 +78,9 @@ TRIZ chiede al gruppo come ottenere il peggior risultato possibile rispetto all'
 
 ### TRIZ e brainstorming: qual e' la differenza?
 Nel brainstorming cerchi idee nuove. In TRIZ elenchi prima comportamenti che peggiorerebbero la situazione, poi li confronti con cio' che il team fa gia'. Il focus e' smettere, non aggiungere.
+
+### TRIZ ingegneristica e TRIZ Liberating Structures: differenza?
+La TRIZ ingegneristica (Teoria della Risoluzione Inventiva dei Problemi) usa matrici e 9 finestre per innovazione tecnica. TRIZ nelle Liberating Structures e' un adattamento facilitativo: chiedi al gruppo come peggiorare la situazione per far emergere abitudini da interrompere.
 
 ## Prima e dopo
 

@@ -3,6 +3,11 @@ Allow: /
 Disallow: /structures/?
 Disallow: /structures/catalog.json
 Disallow: /structures/index.json
+Disallow: /difficolta/*/page/
+Disallow: /complessita/*/page/
+Disallow: /durata/*/page/
+Disallow: /per-bisogno/*/page/
+Disallow: /structures/page/
 
 # Panoramica per crawler AI: https://liberating.it/llms.txt
 

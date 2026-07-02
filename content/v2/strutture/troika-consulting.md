@@ -66,6 +66,12 @@ Mescola ruoli e funzioni nei triangoli. Durante il round "consulenti parlano, cl
 ### Cos'e' Troika Consulting?
 Troika Consulting e' una Liberating Structure in cui tre persone lavorano a turni: una espone una sfida, due la esplorano ad alta voce mentre la prima ascolta senza intervenire. Poi si ruotano i ruoli.
 
+### Cos'e' Troika Consulting nelle Liberating Structures?
+E' il metodo ufficiale di consulenza tra pari in triadi: cliente, due consulenti, rotazione dei ruoli. Il cliente si gira di spalle (o resta in muto online) mentre i consulenti riflettono ad alta voce, senza dare soluzioni pronte.
+
+### Troika consulting method: quanto dura un round?
+Ogni round dura pochi minuti: 1 minuto di riflessione, 2 per esporre la sfida, 2 per domande, 3 per la discussione tra consulenti, 2 per il debrief del cliente. In 30 minuti ogni persona prova almeno una volta il ruolo di cliente.
+
 ### Come funziona la consulenza in triade?
 Ogni round dura pochi minuti: riflessione individuale, condivisione, domande, discussione tra consulenti con il cliente che ascolta, debrief del cliente. Il formato obbliga ad ascoltare senza difendersi.
 

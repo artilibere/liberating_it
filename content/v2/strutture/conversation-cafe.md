@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/conversation-cafe/"
 
 [Home](/) > [Le strutture](/structures/) > Conversation Café
 
-**In breve** - Il Conversation Café facilita conversazioni profonde in tavoli da quattro, con un host che tiene il tempo e quattro round strutturati. Riduce il dibattito e favorisce l'ascolto.
+**In breve** - Il Conversation Café facilita conversazioni profonde in tavoli da quattro, con un host che tiene il tempo e quattro round strutturati. Riduce il dibattito e favorisce l'ascolto. E' diverso dal World Café: qui i turni sono fissi e c'e' un round di silenzio obbligatorio.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -80,6 +80,9 @@ Conversation Cafe facilita conversazioni profonde in tavoli da quattro, con turn
 
 ### Cos'e' conversation cafe nelle Liberating Structures?
 E' la versione italiana del Conversation Cafe ufficiale: dialoghi profondi senza dibattito, con host al tavolo e turni di ascolto. Fa parte del menu LS in fase Empathize.
+
+### Conversation Café e World Café: differenza?
+Il World Café ruota i partecipanti tra tavoli tematici. Il Conversation Café tiene lo stesso gruppo al tavolo per quattro round fissi, incluso un minuto di silenzio. Entrambi favoriscono dialoghi profondi, ma il Conversation Café e' una Liberating Structure con host e accordi espliciti.
 
 ### Quando conviene usare Conversation Cafe?
 Quando serve dare senso a un tema complesso senza finire in dibattito polarizzato.

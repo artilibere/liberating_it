@@ -79,6 +79,9 @@ Di solito 30 minuti, con nove micro-passaggi da 2 a 10 minuti ciascuno. Puoi all
 ### What so what now what liberating structures: dove trovarla?
 La scheda ufficiale e' What, So What, Now What? (W³) nel catalogo Liberating Structures. Qui trovi passaggi, tempi e consigli per facilitarla in italiano.
 
+### Liberating structures what so what now what: quando usarla?
+Dopo un workshop, una riunione difficile o un test di prototipo, quando il gruppo deve allinearsi su fatti, significato e azioni. Non sostituisce la scheda struttura: e' il formato completo con nove passaggi e tempi.
+
 ### Quando conviene usare W³?
 Dopo riunioni, workshop o momenti critici in cui il gruppo deve allinearsi su cosa e' successo prima di decidere i prossimi passi.
 
