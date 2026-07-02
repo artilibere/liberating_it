@@ -15,8 +15,6 @@
 /durata/:slug/page/:num/  /durata/:slug/  301
 /per-bisogno/:slug/page/:num  /per-bisogno/:slug/  301
 /per-bisogno/:slug/page/:num/  /per-bisogno/:slug/  301
-/structures/page/:num  /structures/  301
-/structures/page/:num/  /structures/  301
 
 # JSON data (must precede :slug rule — otherwise fetch gets HTML)
 /structures/catalog.json  /structures/catalog.json  200

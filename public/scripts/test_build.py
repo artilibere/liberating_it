@@ -1039,10 +1039,6 @@ class RedirectsTest(unittest.TestCase):
             "/complessita/:slug/page/:num/  /complessita/:slug/  301",
             redirects,
         )
-        self.assertIn(
-            "/structures/page/:num/  /structures/  301",
-            redirects,
-        )
 
 
 class RobotsTest(unittest.TestCase):
