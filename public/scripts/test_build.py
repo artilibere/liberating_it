@@ -545,9 +545,9 @@ class SpeedTests(unittest.TestCase):
 
     def test_home_faq_uses_structure_count(self) -> None:
         faq = build_home_faq(41)
-        self.assertIn("41 schede", faq[2]["answer"])
+        self.assertIn("41 schede", faq[3]["answer"])
         faq39 = build_home_faq(39)
-        self.assertIn("39 schede", faq39[2]["answer"])
+        self.assertIn("39 schede", faq39[3]["answer"])
 
     def test_principles_faq_mentions_counts(self) -> None:
         faq = build_principles_faq(41)

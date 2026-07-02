@@ -15,7 +15,11 @@ url: "https://liberating.it/structures/triz/"
 
 [Home](/) > [Le strutture](/structures/) > TRIZ
 
-**In breve** - TRIZ nelle Liberating Structures inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere, non nuove idee da aggiungere. Non va confusa con la TRIZ ingegneristica (matrice 9 finestre).
+**In breve** - TRIZ nelle Liberating Structures e' un formato che inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere, non nuove idee da aggiungere. Non va confuso con la TRIZ ingegneristica russa: qui il focus e' sul comportamento del team.
+
+## TRIZ nelle Liberating Structures
+
+Il metodo TRIZ di Lipmanowicz e McCandless dura circa 35 minuti e funziona in gruppi da 4 a 7 persone. Parte da una domanda paradossale ("come possiamo ottenere il peggior risultato possibile?") e confronta le risposte con cio' che il team fa gia' oggi.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -65,7 +69,7 @@ Mantieni un tono leggero ma serio. L'obiettivo e' far emergere tabu' e abitudini
 ## Domande frequenti
 
 ### Cos'e' TRIZ?
-TRIZ nelle Liberating Structures inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere. E' un adattamento del metodo, non la TRIZ ingegneristica con matrice 9 finestre.
+TRIZ (Teoria della Risoluzione Inventiva dei Problemi) inverte l'obiettivo: chiedi al gruppo come peggiorare la situazione. Da li' emergono le abitudini da interrompere.
 
 ### Quanto dura TRIZ?
 Di solito 35 minuti. I passaggi prevedono tempi fissi (5 min, 2 min, 10 min, 10 min). Adatta i tempi al tuo gruppo, ma rispetta le transizioni.
@@ -76,11 +80,11 @@ Il team e' bloccato su abitudini che non funzionano ma nessuno le nomina.
 ### Cos'e' TRIZ nelle Liberating Structures?
 TRIZ chiede al gruppo come ottenere il peggior risultato possibile rispetto all'obiettivo. Confrontando quella lista con cio' che fate gia', emergono abitudini controproducenti da interrompere.
 
+### Metodo TRIZ: cos'e' in pratica?
+In pratica elenchi comportamenti che peggiorerebbero la situazione, poi li confronti con le pratiche attuali del team. Il output sono azioni per smettere di fare cio' che ostacola, non una lista di progetti nuovi.
+
 ### TRIZ e brainstorming: qual e' la differenza?
 Nel brainstorming cerchi idee nuove. In TRIZ elenchi prima comportamenti che peggiorerebbero la situazione, poi li confronti con cio' che il team fa gia'. Il focus e' smettere, non aggiungere.
-
-### TRIZ ingegneristica e TRIZ Liberating Structures: differenza?
-La TRIZ ingegneristica (Teoria della Risoluzione Inventiva dei Problemi) usa matrici e 9 finestre per innovazione tecnica. TRIZ nelle Liberating Structures e' un adattamento facilitativo: chiedi al gruppo come peggiorare la situazione per far emergere abitudini da interrompere.
 
 ## Prima e dopo
 

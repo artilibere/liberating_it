@@ -1,6 +1,6 @@
 ---
 slug: heard-seen-respected-hsr
-title: "HSR: debriefing empatico in gruppo"
+title: "HSR: Heard Seen Respected"
 meta_description: "HSR (Heard, Seen, Respected): tre round per ascoltare episodi in cui qualcuno non si e' sentito ascoltato. Passaggi in 35 minuti."
 registro: manuale-operativo
 durata: "35 minuti"
@@ -67,6 +67,9 @@ Incoraggia la prima storia che viene in mente, non quella piu' drammatica. Se qu
 
 ### Cos'e' HSR?
 HSR e' l'acronimo di Heard, Seen, Respected (ascoltato, visto, rispettato). Nelle Liberating Structures e' un formato di debriefing empatico in tre round a coppie: ognuno racconta un episodio in cui non si e' sentito ascoltato, visto o rispettato mentre il partner ascolta in silenzio.
+
+### HSR e heard seen respected: sono la stessa struttura?
+Si. HSR, heard seen respected e Heard, Seen, Respected indicano lo stesso formato a tre round. La scheda completa con passaggi e tempi e' qui nel catalogo Liberating Structures.
 
 ### Cos'e' Heard, Seen, Respected?
 Heard, Seen, Respected e' una Liberating Structure in tre round per praticare l'ascolto empatico su episodi in cui qualcuno non si e' sentito ascoltato, visto o rispettato. Si abbrevia spesso in HSR.

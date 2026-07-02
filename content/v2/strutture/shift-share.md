@@ -1,7 +1,7 @@
 ---
 slug: shift-share
-title: "Shift & Share: innovazioni in plenaria"
-meta_description: "Shift & Share fa ruotare i gruppi tra postazioni: ogni team presenta un'innovazione in pochi minuti. Passaggi chiari per 15-50 persone."
+title: "Shift & Share: shift and share in plenaria"
+meta_description: "Shift & Share (shift and share) fa ruotare i gruppi tra postazioni: ogni team presenta un'innovazione in pochi minuti. Passaggi per 15-50 persone."
 registro: manuale-operativo
 durata: "variabile"
 difficolta: "Intermedia"
@@ -37,6 +37,10 @@ url: "https://liberating.it/structures/shift-share/"
 - Lavagna o slide leggibili a distanza per ogni presentatore.
 - Regola: circa 5-8 ascoltatori per stazione; numero stazioni = numero presentatori.
 - In remoto: una breakout room per stazione; timer condiviso per le rotazioni.
+
+## Come funziona Shift & Share (shift and share)
+
+Shift and share significa spostarsi (shift) tra le postazioni e condividere (share) un'innovazione in pochi minuti. Ogni stazione ha un presentatore fisso; i gruppi di ascoltatori ruotano a turni con tempi rigidi.
 
 ## I passaggi
 

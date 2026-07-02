@@ -105,30 +105,53 @@ Legenda: **OK** pronto | **PARZ** revisione minore | **TODO** da riscrivere
 | Title SERP (41 schede) | OK | `title` <= 43 char, no ellissi in build |
 | Title SERP (hub) | OK | Tutti gli hub <= 60 char nel build |
 
-## Batch 6 - Fix SEO SeoZoom 260702
+## Batch 6 - Regressioni SeoZoom 260702
 
 | Slug / URL | Stato | Note |
 |------------|-------|------|
-| triz | OK | GEO: distinzione TRIZ ingegneristica, FAQ citabili |
-| 25-10-crowd-sourcing | OK | crowd sourcing / crowdsourcing |
-| 9-whys | OK | root cause, 5 perche' |
-| open-space-technology-ost | OK | OST, metodologia open space, cos'e' |
-| social-network-webbing | OK | webbing keyword |
-| ecocycle-planning | OK | eco cycle planning, ecocycle, template |
-| w3-what-so-what-now-what | OK | What So What Now What, anti-cannibalizzazione hub |
-| heard-seen-respected-hsr | OK | HSR acronimo, 4 FAQ GEO |
-| troika-consulting | OK | troika consulting method, GEO |
-| 1-2-4-all | OK | 2 4 1 variant |
-| conversation-cafe | OK | vs World Cafe |
-| agreement-certainty-matrix | OK | decision making, agreement certainty |
+| 15-solutions | OK | Recupero pos. 1: soluzioni al 15%, problem solving FAQ |
+| shift-share | OK | shift and share in title, H2 passaggi, FAQ |
+| wicked-questions | OK | H1 bilingue, strategic planning FAQ |
+| conversation-cafe | OK | vs World Cafe, anti-cannibalizzazione catalogo |
+| per-bisogno/prendere-decisioni | OK | Agreement matrix guida su scheda struttura |
 | complessita/iniziare-subito | OK | FAQ W³ punta a scheda struttura |
-| difficolta/intermedia | OK | Conversation Cafe in intro + FAQ |
-| design-thinking/define | OK | decision making FAQ |
-| design-thinking/ideate | OK | pensiero creativo FAQ |
-| per-bisogno/prendere-decisioni | OK | agreement certainty matrix |
-| per-bisogno/analizzare-problemi | OK | root cause / 5 perche' |
+| difficolta/intermedia | OK | FAQ Conversation Cafe |
 
-Aggiornato: 2026-07-02.
+## Batch 7 - Quick win keyword generiche
+
+| Slug | Stato | Note |
+|------|-------|------|
+| w3-what-so-what-now-what | OK | What So What Now What, 9 passaggi FAQ |
+| 25-10-crowd-sourcing | OK | crowd sourcing nel corpo e FAQ |
+| open-space-technology-ost | OK | glossario OST/ost in FAQ |
+| ecocycle-planning | OK | ecocycle, eco cycle planning, template FAQ |
+
+## Batch 8 - GEO zero menzioni AI
+
+| Slug | Stato | Note |
+|------|-------|------|
+| triz | OK | TRIZ nelle LS, metodo TRIZ, vs brainstorming |
+| troika-consulting | OK | troika consulting method, facilitazione FAQ |
+| 9-whys | OK | root cause, 5 perche' FAQ |
+| heard-seen-respected-hsr | OK | HSR acronimo, heard seen respected |
+
+## Batch 9 - Hub editoriali
+
+| URL | Stato | Note |
+|-----|-------|------|
+| `/per-bisogno/` | OK | 5 FAQ answer-first, meta GEO |
+| `/per-bisogno/generare-idee/` | OK | brainstorming vs LS |
+| `/` home | OK | microstrutture liberanti in definition + FAQ |
+| `/10-principi-fondamentali-liberating-structures/` | OK | microstrutture nel lead |
+
+## Export SeoZoom successivo
+
+Richiedere in `seo/2607xx/`:
+- `*__all_keywords.csv` per-URL (41 schede + hub)
+- `liberating_it_PagesWithPotential.csv`
+- `liberating_it_PagesWithTrafficDown.csv`
+
+Aggiornato: 2026-07-02 (implementazione piano seo/260702).
 
 ## Comandi utili
 

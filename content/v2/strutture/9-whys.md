@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/9-whys/"
 
 [Home](/) > [Le strutture](/structures/) > 9 Whys
 
-**In breve** - 9 Whys e' una Liberating Structure ispirata alla tecnica dei 5 Whys e alla root cause analysis: a coppie, una persona chiede ripetutamente "Perche' e' importante per te?" fino a emergere lo scopo profondo del lavoro. In 20 minuti il gruppo passa da risposte superficiali a motivazioni condivise.
+**In breve** - 9 Whys e' una Liberating Structure ispirata alla tecnica dei 5 perche' e al root cause analysis leggero: a coppie, una persona chiede ripetutamente "Perche' e' importante per te?" fino a emergere lo scopo profondo del lavoro. In 20 minuti il gruppo passa da risposte superficiali a motivazioni condivise.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -60,16 +60,19 @@ Non trasformarlo in un interrogatorio. Tono curioso, non giudicante. In Italia a
 ## Domande frequenti
 
 ### Cos'e' la tecnica dei 9 Whys?
-9 Whys e' una sequenza di domande "perche' e' importante per te?" a coppie. Scava oltre le risposte superficiali fino al vero scopo del lavoro del gruppo. Il nome richiama i 5 Whys del lean e la root cause analysis, adattati alle Liberating Structures.
-
-### 9 Whys e 5 perche': qual e' la differenza?
-I 5 Whys del lean cercano la causa radice (root cause) di un problema operativo. 9 Whys usa la stessa logica a cascata ma sulla domanda "perche' e' importante per te?", per far emergere lo scopo profondo del lavoro, non solo la causa tecnica.
+9 Whys e' una sequenza di domande "perche' e' importante per te?" a coppie. Scava oltre le risposte superficiali fino al vero scopo del lavoro del gruppo. Il nome richiama i 5 Whys del lean, adattati alle Liberating Structures.
 
 ### Cos'e' 9 Whys nelle Liberating Structures?
 E' una struttura facile da 20 minuti: interviste a coppie, sintesi in quartetti, riflessione in plenaria. Non servono materiali complessi ne' esperienza da facilitatore.
 
 ### Quanto dura 9 Whys?
 Di solito 20 minuti in tre fasi (10 + 5 + 5). Puoi accorciare le interviste se il gruppo e' molto numeroso, ma non saltare la condivisione finale.
+
+### 9 Whys e root cause: qual e' la differenza?
+9 Whys cerca il perche' profondo del lavoro per le persone, non la catena tecnica di cause di un incidente. Per analisi operative su un problema specifico abbina dopo [Discovery & Action Dialogue (DAD)](/structures/discovery-action-dialogue-dad/) o [TRIZ](/structures/triz/).
+
+### 9 whys e 5 perche': sono la stessa cosa?
+Il nome richiama i 5 perche' del lean, ma qui le domande sono "perche' e' importante per te?" e il formato e' a coppie con sintesi in plenaria. Non serve una catena di cinque o nove risposte fisse: servono risposte sincere fino allo scopo condiviso.
 
 ### Quando conviene usare 9 Whys?
 All'inizio di un progetto, dopo un cambiamento organizzativo o quando percepisci disallineamento sul senso del lavoro. Si abbina bene prima di [Purpose to Practice](/structures/purpose-to-practice-p2p/) o [Min Specs](/structures/min-specs/).

@@ -11,11 +11,11 @@ complessita: "Per facilitazioni complesse"
 url: "https://liberating.it/structures/wicked-questions/"
 ---
 
-# Wicked Questions
+# Wicked Questions (domande paradossali)
 
 [Home](/) > [Le strutture](/structures/) > Wicked Questions
 
-**In breve** - Wicked Questions e' una Liberating Structure che formula domande paradossali: tengono insieme due obiettivi in tensione invece di forzare una scelta binaria. Esempio: "Come possiamo essere globalmente coerenti e localmente adattati allo stesso tempo?" Serve in strategia e trasformazioni quando entrambe le polarita' sono vere.
+**In breve** - Wicked Questions e' una Liberating Structure che formula domande paradossali (wicked questions): tengono insieme due obiettivi in tensione invece di forzare una scelta binaria. Esempio: "Come possiamo essere globalmente coerenti e localmente adattati allo stesso tempo?" Serve in strategic planning e trasformazioni quando entrambe le polarita' sono vere.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -80,6 +80,9 @@ Una o piu' domande paradossali condivise dal gruppo, utilizzabili in workshop di
 
 ### Wicked Questions e strategic planning?
 Si. Le domande emerse orientano dibattiti successivi senza collassare troppo presto su un compromesso debole. Si usano spesso prima di [9 Whys](/structures/9-whys/) o [TRIZ](/structures/triz/).
+
+### Come usare wicked questions per strategic planning?
+Formulate prima le polarita' reali del contesto (velocita' e qualita', globale e locale), poi costruite la domanda con la formula "Come possiamo essere X e Y contemporaneamente?". Usate l'output per aprire workshop di allineamento senza forzare un compromesso debole.
 
 ## Prima e dopo
 

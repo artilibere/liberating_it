@@ -10,7 +10,7 @@ url: "https://liberating.it/10-principi-fondamentali-liberating-structures/"
 
 Hai provato una struttura e non ha funzionato? Spesso il problema non e' la scheda, ma il contesto: chi non rispetta i tempi, chi monopolizza la parola, chi non si sente autorizzato a parlare.
 
-Questi dieci principi stanno dietro a tutte le strutture del catalogo. Non sono regole da memorizzare. Sono cose che noti quando una riunione va bene.
+Le Liberating Structures sono microstrutture liberanti: formati brevi con passaggi e tempi che strutturano la facilitazione senza imporre contenuti dall'alto. Questi dieci principi stanno dietro a tutte le schede del catalogo. Non sono regole da memorizzare. Sono cose che noti quando una riunione va bene.
 
 **Cosa trovi qui**
 

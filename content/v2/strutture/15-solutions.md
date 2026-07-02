@@ -1,7 +1,7 @@
 ---
 slug: 15-solutions
 title: "15% Solutions: agire senza permessi"
-meta_description: "15% Solutions: cosa puoi fare subito con le risorse che hai gia', senza chiedere permessi. Problem solving in 20 minuti."
+meta_description: "15% Solutions: soluzioni al 15% che puoi fare subito con le risorse che hai gia'. Problem solving collaborativo in 20 minuti."
 registro: manuale-operativo
 durata: "20 minuti"
 difficolta: "Facile"
@@ -11,11 +11,15 @@ complessita: "Per iniziare subito"
 url: "https://liberating.it/structures/15-solutions/"
 ---
 
-# 15% Solutions
+# 15% Solutions (soluzioni al 15%)
 
 [Home](/) > [Le strutture](/structures/) > 15% Solutions
 
-**In breve** - 15% Solutions e' una Liberating Structure di problem solving: chiede a ognuno cosa puo' fare subito con le risorse e l'autonomia che ha gia', senza chiedere permessi.
+**In breve** - 15% Solutions e' una Liberating Structure di problem solving collaborativo: chiede a ognuno quali soluzioni al 15% puo' attuare subito con le risorse e l'autonomia che ha gia', senza chiedere permessi.
+
+## Soluzioni al 15% e problem solving collaborativo
+
+Il nome indica la parte del problema che puoi influenzare da solo: non serve un budget nuovo ne' l'ok dalla direzione. Ogni persona elenca azioni nel proprio 15%, le presenta al gruppo e riceve solo domande di chiarimento. Chiude con un impegno concreto entro una settimana.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|

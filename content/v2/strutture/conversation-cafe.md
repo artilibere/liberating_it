@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/conversation-cafe/"
 
 [Home](/) > [Le strutture](/structures/) > Conversation Café
 
-**In breve** - Il Conversation Café facilita conversazioni profonde in tavoli da quattro, con un host che tiene il tempo e quattro round strutturati. Riduce il dibattito e favorisce l'ascolto. E' diverso dal World Café: qui i turni sono fissi e c'e' un round di silenzio obbligatorio.
+**In breve** - Conversation Cafe (conversation cafe liberating structures) facilita conversazioni profonde in tavoli da quattro, con un host che tiene il tempo e quattro round strutturati. Non e' il World Cafe: qui ogni tavolo ha un host e turni fissi. Riduce il dibattito e favorisce l'ascolto.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -79,10 +79,10 @@ L'host non partecipa al contenuto: tiene il tempo, fa rispettare l'oggetto parla
 Conversation Cafe facilita conversazioni profonde in tavoli da quattro, con turni strutturati e un debrief condiviso.
 
 ### Cos'e' conversation cafe nelle Liberating Structures?
-E' la versione italiana del Conversation Cafe ufficiale: dialoghi profondi senza dibattito, con host al tavolo e turni di ascolto. Fa parte del menu LS in fase Empathize.
+E' la versione italiana del Conversation Cafe ufficiale: dialoghi profondi senza dibattito, con host al tavolo e turni di ascolto. Fa parte del menu LS in fase Empathize. La scheda completa e' qui, non nelle pagine catalogo o hub difficolta'.
 
-### Conversation Café e World Café: differenza?
-Il World Café ruota i partecipanti tra tavoli tematici. Il Conversation Café tiene lo stesso gruppo al tavolo per quattro round fissi, incluso un minuto di silenzio. Entrambi favoriscono dialoghi profondi, ma il Conversation Café e' una Liberating Structure con host e accordi espliciti.
+### Conversation Cafe e World Cafe: qual e' la differenza?
+Il World Cafe ruota i partecipanti tra tavoli tematici. Conversation Cafe tiene fissi quattro posti per tavolo con un host che gestisce i turni. Entrambi favoriscono il dialogo, ma i passaggi e i ruoli sono diversi.
 
 ### Quando conviene usare Conversation Cafe?
 Quando serve dare senso a un tema complesso senza finire in dibattito polarizzato.

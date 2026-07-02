@@ -45,14 +45,8 @@ LLMS_HIGH_TRAFFIC_SLUGS = (
 )
 
 PER_BISOGNO_INDEX_META = (
-    "Percorsi Liberating Structures per obiettivo: generare idee, decidere, analizzare o fare strategia. "
-    "Schede con passaggi pronti per riunioni e workshop."
-)
-
-PER_BISOGNO_INDEX_INTRO = (
-    "Per bisogno raggruppa le Liberating Structures per obiettivo concreto: generare idee, "
-    "prendere decisioni, analizzare problemi o fare strategia. "
-    "Ogni percorso elenca le schede con passaggi e tempi pronti da usare in riunione."
+    "Scegli la Liberating Structure per obiettivo: generare idee, prendere decisioni, "
+    "analizzare problemi o fare strategia. Schede con passaggi pronti in italiano."
 )
 
 PER_BISOGNO_INDEX_FAQ = [
@@ -65,33 +59,37 @@ PER_BISOGNO_INDEX_FAQ = [
         ),
     },
     {
-        "question": "Dove trovo la panoramica sulle Liberating Structures?",
-        "answer": (
-            "La home presenta il sito; la pagina 10 principi spiega il metodo. "
-            "Questa pagina serve solo a scegliere il percorso per obiettivo."
-        ),
-    },
-    {
         "question": "Come scelgo la struttura giusta per la mia riunione?",
         "answer": (
             "Parti dall'obiettivo: se devi far emergere idee apri Generare idee, "
-            "se la riunione non conclude apri Prendere decisioni. "
+            "se la riunione non conclude apri Prendere decisioni, "
+            "se serve capire le cause apri Analizzare problemi, "
+            "se stai allineando direzione apri Fare strategia. "
             "Poi apri la scheda della struttura scelta per i passaggi pronti."
         ),
     },
     {
-        "question": "Posso usare piu' percorsi nello stesso workshop?",
+        "question": "Quali Liberating Structures per generare idee in riunione?",
         "answer": (
-            "Si. Molti workshop concatenano strutture da percorsi diversi: "
-            "ad esempio 1-2-4-All da Generare idee e What So What Now What? "
-            "per il debriefing finale."
+            "1-2-4-All e' la piu' rapida (15 minuti). TRIZ aiuta quando il gruppo e' bloccato "
+            "su un compromesso. 25/10 Crowd Sourcing prioritizza molte proposte in mezz'ora. "
+            "Vedi il percorso Generare idee per l'elenco completo."
         ),
     },
     {
-        "question": "Dove trovo una struttura per la pianificazione strategica?",
+        "question": "Quali Liberating Structures per prendere decisioni?",
         "answer": (
-            "Apri il percorso Fare strategia: Critical Uncertainties, Open Space Technology "
-            "e Purpose to Practice coprono scenari, workshop auto-organizzati e allineamento scopo-pratica."
+            "Agreement & Certainty Matrix classifica la sfida e indica il metodo adatto. "
+            "Min Specs definisce regole minime condivise. WINFY chiude con impegni espliciti tra ruoli. "
+            "Vedi il percorso Prendere decisioni per le schede collegate."
+        ),
+    },
+    {
+        "question": "Dove trovo la panoramica sulle Liberating Structures?",
+        "answer": (
+            "La home presenta il sito e le microstrutture liberanti; "
+            "la pagina 10 principi spiega il metodo. "
+            "Questa pagina serve solo a scegliere il percorso per obiettivo."
         ),
     },
 ]
@@ -289,8 +287,7 @@ HUBS_COMPLESSITA = {
         "page_title": "Liberating Structures per iniziare subito",
         "intro": (
             "Percorso guidato in cinque tappe per provare le Liberating Structures "
-            "senza esperienza da facilitatore. Ogni scheda ha passaggi e tempi pronti "
-            "per la prima riunione o workshop breve."
+            "senza esperienza da facilitatore. Ogni scheda ha passaggi e tempi pronti."
         ),
         "meta_description": (
             "Percorso Liberating Structures per chi parte da zero: Impromptu Networking, "
@@ -334,17 +331,8 @@ HUBS_COMPLESSITA = {
                 "answer": (
                     "1-2-4-All e Impromptu Networking funzionano bene in videochiamata: "
                     "turni chiari, tempi brevi, tutti partecipano senza sovrapporsi. "
-                    "Per il debriefing dopo l'incontro usa la scheda What So What Now What? (W³) "
-                    "nel percorso guidato qui sotto."
-                ),
-            },
-            {
-                "question": "Cos'e' What So What Now What nel percorso per iniziare?",
-                "answer": (
-                    "E' la terza tappa del percorso: una struttura di debriefing in tre domande "
-                    "(cosa e' successo, cosa significa, cosa fare). "
-                    "I passaggi completi sono nella scheda W³ collegata nel percorso guidato, "
-                    "non in questa pagina hub."
+                    "Per il debriefing dopo l'incontro apri la scheda What, So What, Now What? (W³) "
+                    "nel catalogo strutture, non questo percorso."
                 ),
             },
         ],
@@ -532,11 +520,11 @@ HUBS_DIFFICOLTA = {
                 ),
             },
             {
-                "question": "Conversation Cafe e' una struttura intermedia?",
+                "question": "Conversation Cafe liberating structures: dove trovarla?",
                 "answer": (
-                    "Si. Conversation Cafe facilita dialoghi profondi in tavoli da quattro con host e turni fissi. "
-                    "La scheda completa e' Conversation Cafe nel catalogo: non confonderla con il World Cafe, "
-                    "che ruota i partecipanti tra tavoli tematici."
+                    "Conversation Cafe e' una scheda dedicata nel catalogo: dialoghi profondi a tavoli da quattro, "
+                    "distinta da TRIZ o Ecocycle Planning. Cerca Conversation Cafe tra le strutture intermedie "
+                    "e apri quella pagina per passaggi e tempi."
                 ),
             },
         ],
@@ -729,14 +717,6 @@ HUBS_FASE = {
                     "e devi trovare una terza via."
                 ),
             },
-            {
-                "question": "Liberating Structures per decision making?",
-                "answer": (
-                    "Per definire il problema prima di decidere: 9 Whys e Wicked Questions. "
-                    "Per classificare la sfida e scegliere il metodo giusto: "
-                    "Agreement & Certainty Matrix. Per chiudere con impegni: Min Specs o WINFY."
-                ),
-            },
         ],
     },
     "ideate": {
@@ -762,14 +742,6 @@ HUBS_FASE = {
                     "Spesso si, soprattutto in 15 minuti. "
                     "Se emergono troppe idee simili, aggiungi 25/10 per votare. "
                     "Se il gruppo e' bloccato, passa a TRIZ."
-                ),
-            },
-            {
-                "question": "Liberating Structures per pensiero creativo?",
-                "answer": (
-                    "1-2-4-All e 25/10 Crowd Sourcing fanno emergere idee verbali in tempi brevi. "
-                    "Drawing Together aggiunge metafore visive quando le parole non bastano. "
-                    "Tutte e tre sono in questa sezione Ideare con passaggi pronti."
                 ),
             },
         ],
@@ -861,12 +833,12 @@ PER_BISOGNO = {
         "title": "Generare idee",
         "page_title": "Liberating Structures per generare idee",
         "intro": (
-            "Liberating Structures per brainstorming e workshop creativi: formati con passaggi "
-            "e tempi definiti per far emergere idee da tutti, anche in gruppi numerosi."
+            "Alternative strutturate al brainstorming classico: formati con turni e tempi "
+            "per far emergere idee da tutti, anche in gruppi numerosi."
         ),
         "meta_description": (
             "Liberating Structures per generare idee: 1-2-4-All, TRIZ, 25/10 e altre. "
-            "Format passo passo per workshop e riunioni."
+            "Alternative al brainstorming con passaggi per workshop e riunioni."
         ),
         "slugs": ["1-2-4-all", "25-10-crowd-sourcing", "triz", "4-2-1-storming"],
         "examples": ["1-2-4-All", "25/10", "TRIZ"],
@@ -880,18 +852,18 @@ PER_BISOGNO = {
                 ),
             },
             {
+                "question": "Liberating Structures o brainstorming: cosa conviene?",
+                "answer": (
+                    "Il brainstorming libero favorisce chi parla piu' forte. "
+                    "1-2-4-All parte da un minuto di riflessione individuale, poi coppia e gruppo da quattro. "
+                    "TRIZ e 25/10 aggiungono criteri quando le idee sono tante o il gruppo e' bloccato."
+                ),
+            },
+            {
                 "question": "1-2-4-All o TRIZ per un workshop creativo?",
                 "answer": (
                     "Usa 1-2-4-All all'inizio per raccogliere molte idee in poco tempo. "
                     "Passa a TRIZ se emergono posizioni rigide o il gruppo ripete le stesse soluzioni."
-                ),
-            },
-            {
-                "question": "Brainstorming con Liberating Structures: da dove inizio?",
-                "answer": (
-                    "1-2-4-All e' il formato piu' rapido (15 minuti) per un brainstorming strutturato. "
-                    "4-2-1-Storming aggiunge una fase di tempesta creativa in piccoli gruppi. "
-                    "25/10 Crowd Sourcing serve quando devi votare e prioritizzare molte proposte."
                 ),
             },
         ],
@@ -901,8 +873,8 @@ PER_BISOGNO = {
         "page_title": "Liberating Structures: prendere decisioni",
         "intro": (
             "Per riunioni che non concludono: tre schede con passaggi pronti. "
-            "Per classificare la sfida e scegliere il metodo giusto, apri prima "
-            "la scheda Agreement & Certainty Matrix."
+            "Per classificare la sfida apri prima la scheda Agreement & Certainty Matrix "
+            "nel catalogo strutture; qui trovi Min Specs e WINFY per chiudere con un impegno chiaro."
         ),
         "meta_description": (
             "Liberating Structures per prendere decisioni: Min Specs, Agreement & Certainty Matrix, WINFY. "
@@ -928,19 +900,19 @@ PER_BISOGNO = {
                 ),
             },
             {
+                "question": "Dove trovo la guida Agreement & Certainty Matrix?",
+                "answer": (
+                    "La scheda completa con passaggi e matrice e' Agreement & Certainty Matrix "
+                    "nel catalogo strutture. Questa pagina Per bisogno elenca solo le tre strutture "
+                    "piu' usate per chiudere una riunione con un impegno."
+                ),
+            },
+            {
                 "question": "Min Specs o WINFY per chiudere una riunione?",
                 "answer": (
                     "Min Specs quando servono regole minime condivise per procedere. "
                     "WINFY quando servono richieste chiare tra ruoli diversi "
                     "per sbloccare il lavoro."
-                ),
-            },
-            {
-                "question": "Agreement certainty matrix per decision making?",
-                "answer": (
-                    "Si. La matrice classifica la sfida (semplice, complicata, complessa, caotica) "
-                    "prima di scegliere il metodo. Apri la scheda Agreement & Certainty Matrix "
-                    "in questo percorso per i passaggi completi."
                 ),
             },
         ],
@@ -972,23 +944,12 @@ PER_BISOGNO = {
                     "o lasciare in incubazione nel portfolio di attivita'."
                 ),
             },
-            {
-                "question": "Root cause e 5 perche': quale struttura LS usare?",
-                "answer": (
-                    "9 Whys usa domande a cascata per far emergere lo scopo profondo del lavoro. "
-                    "Per la causa radice (root cause) di un problema operativo, "
-                    "la stessa logica si applica con 9 Whys o con Discovery & Action Dialogue sul campo."
-                ),
-            },
         ],
     },
     "fare-strategia": {
         "title": "Fare strategia",
         "page_title": "Liberating Structures per fare strategia",
-        "intro": (
-            "Liberating Structures per pianificazione strategica e trasformazioni: "
-            "workshop auto-organizzati, scenari futuri e allineamento tra scopo e pratica."
-        ),
+        "intro": "Per trasformazioni e pianificazione.",
         "meta_description": (
             "Liberating Structures per fare strategia: Open Space, Critical Uncertainties, "
             "P2P e altre per trasformazioni e pianificazione."
@@ -1010,14 +971,6 @@ PER_BISOGNO = {
                     "Si, quando hai un tema strategico ampio e persone motivate "
                     "a lavorarci insieme. "
                     "Serve almeno mezza giornata e un facilitatore esperto."
-                ),
-            },
-            {
-                "question": "Liberating Structures per la pianificazione strategica?",
-                "answer": (
-                    "Critical Uncertainties costruisce scenari futuri partendo da incertezze critiche. "
-                    "Open Space Technology coinvolge il gruppo su temi strategici con agenda auto-organizzata. "
-                    "Purpose to Practice collega scopo, principi e pratiche quotidiane dopo il workshop."
                 ),
             },
         ],
@@ -1731,14 +1684,6 @@ def build_principles_faq(structure_count: int) -> list[dict[str, str]]:
                 "Per ricostruire fiducia nel gruppo, prova Heard, Seen, Respected (HSR)."
             ),
         },
-        {
-            "question": "Cos'e' la facilitazione strutturata?",
-            "answer": (
-                "E' guidare riunioni e workshop con formati che hanno passaggi e tempi definiti, "
-                "cosi' tutti sanno quando tocca a loro. Le Liberating Structures sono un esempio: "
-                "non improvvisi, segui la scheda e adatti al contesto."
-            ),
-        },
     ]
 
 
@@ -1772,9 +1717,17 @@ def build_home_faq(structure_count: int) -> list[dict[str, str]]:
         {
             "question": "Cosa sono le Liberating Structures?",
             "answer": (
-                "Sono formati di facilitazione con passaggi e tempi definiti "
+                "Sono microstrutture liberanti: formati di facilitazione con passaggi e tempi definiti "
                 "per far partecipare tutti in riunioni e workshop. "
                 "Non servono anni di formazione: la piu' usata, 1-2-4-All, si fa in 15 minuti."
+            ),
+        },
+        {
+            "question": "Cosa sono le microstrutture di facilitazione?",
+            "answer": (
+                "Sono formati brevi e ripetibili che strutturano chi parla, per quanto e in che ordine. "
+                "Le Liberating Structures ne offrono 41 in italiano, con passaggi pronti per riunioni "
+                "e workshop in presenza o online."
             ),
         },
         {
@@ -1797,22 +1750,6 @@ def build_home_faq(structure_count: int) -> list[dict[str, str]]:
             "answer": (
                 "Quando una riunione ha bisogno di piu' partecipazione, idee da tutti o una decisione condivisa. "
                 "Funzionano in presenza e online. Parti da 1-2-4-All (15 min) o dal percorso Per iniziare subito."
-            ),
-        },
-        {
-            "question": "Cos'e' la facilitazione con le Liberating Structures?",
-            "answer": (
-                "Non e' un corso lungo ne' un metodo rigido. Scegli una struttura dal catalogo, "
-                "segui i passaggi nella scheda e adatta i tempi al tuo gruppo. "
-                "La piu' rapida, 1-2-4-All, si fa in 15 minuti."
-            ),
-        },
-        {
-            "question": "Cosa sono le microstrutture di facilitazione?",
-            "answer": (
-                f"Sono formati brevi e ripetibili (come 1-2-4-All o Troika Consulting) "
-                f"che combini in riunioni e workshop. Il menu ufficiale ne conta {OFFICIAL_LS_COUNT}; "
-                f"su liberating.it trovi {structure_count} schede in italiano."
             ),
         },
     ]
@@ -2553,8 +2490,9 @@ def build_home(env: Environment, content_root: Path, out_root: Path, structure_c
             "cta_url": "/structures/1-2-4-all/",
             "cta_label": "Prova 1-2-4-All domani",
             "definition": (
-                "Le Liberating Structures sono microstrutture di facilitazione con passaggi e tempi definiti "
-                "per far partecipare tutti in riunioni e workshop, anche senza esperienza come facilitatore."
+                "Le Liberating Structures sono microstrutture liberanti: formati di facilitazione con passaggi "
+                "e tempi definiti per far partecipare tutti in riunioni e workshop, "
+                "anche senza esperienza come facilitatore."
             ),
         },
         "jsonld": merge_jsonld(
@@ -2782,9 +2720,9 @@ def build_taxonomy_hubs(
         if slug == "iniziare-subito":
             intro = (
                 "Il percorso Per iniziare subito elenca cinque Liberating Structures facili in sequenza: "
-                "Impromptu Networking, 1-2-4-All, What So What Now What? (W³), 15% Solutions e Troika Consulting. "
-                "Ogni voce del percorso guidato punta alla scheda struttura con passaggi e tempi. "
-                f"Qui trovi anche le altre {len(filtered)} strutture classificate per chi parte da zero."
+                "Impromptu Networking, 1-2-4-All, What So What Now What?, 15% Solutions e Troika Consulting. "
+                f"Per ogni struttura apri la scheda dedicata nel catalogo; qui trovi anche le altre {len(filtered)} "
+                "classificate per chi parte da zero."
             )
         if slug == "team-rodati":
             intro = (
@@ -2813,7 +2751,7 @@ def build_taxonomy_hubs(
             intro_override = (
                 f"Le Liberating Structures intermedie sono {len(filtered)} formati con piu' passaggi "
                 "delle versioni facili: servono quando il gruppo conosce gia' turni e plenaria. "
-                "TRIZ, Ecocycle Planning, Conversation Cafe e Wicked Questions sono il punto di partenza piu' usato."
+                "TRIZ, Ecocycle Planning e Wicked Questions sono il punto di partenza piu' usato."
             )
         _render_hub(
             env,
@@ -2943,7 +2881,6 @@ def build_per_bisogno(
         "page_type": "per-bisogno",
         "page_title": format_page_title("Liberating Structures per obiettivo"),
         "meta_description": PER_BISOGNO_INDEX_META,
-        "page_intro": PER_BISOGNO_INDEX_INTRO,
         "canonical": "https://liberating.it/per-bisogno/",
         "active_nav": "per-bisogno",
         "has_path_nav": False,
@@ -3062,12 +2999,7 @@ def write_robots(out_root: Path) -> None:
         "User-agent: *\nAllow: /\n"
         "Disallow: /structures/?\n"
         "Disallow: /structures/catalog.json\n"
-        "Disallow: /structures/index.json\n"
-        "Disallow: /difficolta/*/page/\n"
-        "Disallow: /complessita/*/page/\n"
-        "Disallow: /durata/*/page/\n"
-        "Disallow: /per-bisogno/*/page/\n"
-        "Disallow: /structures/page/\n\n"
+        "Disallow: /structures/index.json\n\n"
         f"# Panoramica per crawler AI: {SITE_ORIGIN}/llms.txt\n\n"
         f"Sitemap: {SITE_ORIGIN}/sitemap.xml\n",
         encoding="utf-8",

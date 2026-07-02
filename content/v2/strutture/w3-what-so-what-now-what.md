@@ -1,7 +1,7 @@
 ---
 slug: w3-what-so-what-now-what
-title: "What So What Now What: debriefing"
-meta_description: "What So What Now What (W³): tre domande su fatti, significato e azioni. Debriefing Liberating Structures in 30 minuti con passaggi chiari."
+title: "What, So What, Now What: debriefing"
+meta_description: "What, So What, Now What (W³): tre domande su fatti, significato e azioni. Debriefing Liberating Structures in 30 minuti, 9 passaggi."
 registro: manuale-operativo
 durata: "30 minuti"
 difficolta: "Intermedia"
@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/w3-what-so-what-now-what/"
 
 [Home](/) > [Le strutture](/structures/) > What, So What, Now What? (W³)
 
-**In breve** - What, So What, Now What (W³) e' una struttura di debriefing in tre domande: What (cosa e' successo), So What (cosa significa per noi), Now What (cosa fare adesso). In circa 30 minuti il gruppo passa dai fatti alle azioni senza saltare la riflessione.
+**In breve** - What, So What, Now What? (What So What Now What, W³) e' una struttura di debriefing in tre domande: What (cosa e' successo), So What (cosa significa per noi), Now What (cosa fare adesso). In circa 30 minuti il gruppo passa dai fatti alle azioni con nove passaggi senza saltare la riflessione.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -79,8 +79,11 @@ Di solito 30 minuti, con nove micro-passaggi da 2 a 10 minuti ciascuno. Puoi all
 ### What so what now what liberating structures: dove trovarla?
 La scheda ufficiale e' What, So What, Now What? (W³) nel catalogo Liberating Structures. Qui trovi passaggi, tempi e consigli per facilitarla in italiano.
 
+### What So What Now What: quanti passaggi ha?
+Nove micro-passaggi in tre cicli (What, So What, Now What): riflessione individuale, discussione in gruppo piccolo, condivisione in plenaria. Ogni ciclo dura circa 10 minuti.
+
 ### Liberating structures what so what now what: quando usarla?
-Dopo un workshop, una riunione difficile o un test di prototipo, quando il gruppo deve allinearsi su fatti, significato e azioni. Non sostituisce la scheda struttura: e' il formato completo con nove passaggi e tempi.
+Dopo un workshop, una riunione difficile o un test di prototipo, quando il gruppo deve allinearsi su fatti, significato e azioni. Apri questa scheda per i nove passaggi completi, non il hub Per iniziare subito.
 
 ### Quando conviene usare W³?
 Dopo riunioni, workshop o momenti critici in cui il gruppo deve allinearsi su cosa e' successo prima di decidere i prossimi passi.

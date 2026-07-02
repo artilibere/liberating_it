@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/ecocycle-planning/"
 
 [Home](/) > [Le strutture](/structures/) > Ecocycle Planning
 
-**In breve** - Ecocycle Planning (eco cycle planning) e' una Liberating Structure che mappa progetti e attivita' sul ciclo di vita Ecocycle: nascita, maturita', distruzione creativa e rinnovamento. Il gruppo decide cosa potenziare, cosa tagliare e cosa liberare per uscire dalle trappole del successo o della poverta'.
+**In breve** - Ecocycle Planning (ecocycle, eco cycle planning) e' una Liberating Structure che mappa progetti e attivita' sul ciclo di vita Ecocycle: nascita, maturita', distruzione creativa e rinnovamento. Il gruppo decide cosa potenziare, cosa tagliare e cosa liberare per uscire dalle trappole del successo o della poverta'.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -70,19 +70,16 @@ Parti da attivita' concrete e recenti, non dall'intera strategia aziendale. Nomi
 ## Domande frequenti
 
 ### Cos'e' Ecocycle Planning?
-Ecocycle Planning (eco cycle planning) e' una Liberating Structure che posiziona attivita' e progetti sul ciclo Ecocycle (nascita, maturita', release, rinnovamento). Il team decide insieme cosa coltivare e cosa lasciare andare.
+Ecocycle Planning e' una Liberating Structure che posiziona attivita' e progetti sul ciclo Ecocycle (nascita, maturita', release, rinnovamento). Il team decide insieme cosa coltivare e cosa lasciare andare.
 
 ### Cos'e' il modello Ecocycle?
 Il modello Ecocycle descrive come sistemi e iniziative evolvono tra crescita, stabilita', crisi creativa e rinnovamento. Nelle LS si usa per rendere visibili le fasi e sbloccare decisioni di portfolio.
 
-### Cos'e' ecocycle nelle Liberating Structures?
-Ecocycle e' il modello di ciclo di vita su cui si basa Ecocycle Planning: nascita, maturita', release creativa, rinnovamento. La struttura LS traduce il modello in una mappa condivisa per decidere cosa potenziare o tagliare nel portfolio del team.
-
-### Ecocycle planning template: serve un foglio pronto?
-Si. In questa scheda trovi il template Ecocycle con le quattro fasi e le trappole di rigidita' e scarsita'. Stampalo o proiettalo: ogni partecipante posiziona le proprie attivita' prima del confronto in quartetti.
-
 ### Quanto dura Ecocycle Planning?
 Di solito 100 minuti con lavoro individuale, quartetti e plenaria. Per portfolio ampi o gruppi numerosi prevedi due ore.
+
+### Ecocycle template: dove scaricarlo?
+In questa scheda trovi il template Ecocycle vuoto con le quattro fasi e le trappole di rigidita' e scarsita'. Stampalo o proiettalo prima del workshop: ogni partecipante posiziona 10-15 attivita' sulla mappa personale.
 
 ### Ecocycle Planning e Panarchy: differenza?
 Ecocycle Planning guarda il ciclo di vita delle singole attivita'. [Panarchy](/structures/panarchy/) mappa fattori su livelli micro, meso e macro di sistema. Si complementano su trasformazioni lunghe.

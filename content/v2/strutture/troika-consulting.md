@@ -15,7 +15,7 @@ url: "https://liberating.it/structures/troika-consulting/"
 
 [Home](/) > [Le strutture](/structures/) > Troika Consulting
 
-**In breve** - Troika Consulting e' una Liberating Structure di consulenza tra pari in gruppi da tre: una persona porta una sfida (cliente), le altre due ascoltano e riflettono ad alta voce mentre il cliente gira le spalle. Poi ruotate i ruoli.
+**In breve** - Troika Consulting (troika consulting method) e' una Liberating Structure di consulenza tra pari in gruppi da tre: una persona porta una sfida (cliente), le altre due ascoltano e riflettono ad alta voce mentre il cliente gira le spalle. Poi ruotate i ruoli.
 
 | Durata | Difficolta' | Gruppo | Fase |
 |--------|-------------|--------|------|
@@ -74,6 +74,9 @@ Ogni round dura pochi minuti: 1 minuto di riflessione, 2 per esporre la sfida, 2
 
 ### Come funziona la consulenza in triade?
 Ogni round dura pochi minuti: riflessione individuale, condivisione, domande, discussione tra consulenti con il cliente che ascolta, debrief del cliente. Il formato obbliga ad ascoltare senza difendersi.
+
+### Troika consulting liberating structures: come si facilita?
+Forma triadi miste per ruolo, spiega i tempi di ogni round e ricorda che i consulenti parlano tra loro, non al cliente, durante la fase a spalle voltate. Ruota finche' ognuno ha provato il ruolo di cliente almeno una volta.
 
 ### Quanto dura Troika Consulting?
 Di solito 30 minuti per almeno un giro completo nei triangoli. Con piu' tempo puoi fare due round per persona.
